@@ -12,7 +12,7 @@ read -p "Git Commit and Sync? " user_input
 
 # Check if the user input is 'y' or 'n'
 
-currentDate=$(date +"%Y-%m-%d")
+currentDate=$(date +"System: %Y-%m-%d %H:%M:%S")
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git commit -m "$currentDate"
