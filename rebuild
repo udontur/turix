@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+sudo echo "NixOS Rebuilding..."
+
+# Rebuild, output simplified errors, log trackebacks
+sudo nixos-rebuild switch --flake ~/nixos &>nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+
+echo "NixOS rebuilt successfully!" 
+
+# 1. Enable sudo 
+# 2. Delete the enable sudo line
+# 3. Early exit if not git change is detected
+# 4. Auto format all nix code 
+# 5. Output Rebuilding NixOS... (preferably with a loading)
+# 6. Run the rebuild command with stripped error message
+# 7. Output the Rebuild error and the error message if detected (ask the user to check the log file)
+# 8. Remove nixos-switch.log if build successfully
+# 8. git commit with the time and date if successful build
+# 9. Output rebuild successfully!!!
+
+# https://gist.github.com/0atman/1a5133b842f929ba4c1e195ee67599d5
