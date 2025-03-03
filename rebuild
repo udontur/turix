@@ -1,10 +1,24 @@
 #!/usr/bin/env bash
 sudo echo "NixOS Rebuilding..."
 
+git add .
+
 # Rebuild, output simplified errors, log trackebacks
-sudo nixos-rebuild switch --flake ~/nixos &>nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+sudo nixos-rebuild switch --flake ~/nixos #&>nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 
 echo "NixOS rebuilt successfully!" 
+
+read -p "Git Commit and Sync? " user_input
+
+# Check if the user input is 'y' or 'n'
+if [[ $user_input =~ ^[Yy]$ ]]; then
+    git commit -m "date '+%Y-%m-%d %H:%M:%S'"
+    git push remote origin
+elif [[ $user_input =~ ^[Nn]$ ]]; then
+    echo "Configuration NOT backedup"
+else
+    echo "Invalid input. Please enter y or n."
+fi
 
 # 1. Enable sudo 
 # 2. Delete the enable sudo line

@@ -5,4 +5,5 @@ nixos-switch.log
 flake.lock
 
 # NixOS Hardware Configuration
-hardware-configuration.nix
+# Flakes does not recognise anything that is not tracked
+# hardware-configuration.nix

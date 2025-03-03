@@ -38,7 +38,7 @@
     dconf-editor #delete when migrate to home-manager
     nwg-look #delete when migrate to home-manager
     rhythmbox
-    easytag
+    # easytag
     qdirstat #removable
     pdfarranger #removable (maybe make an online tool set)
     # Flatpak for Zen browser (do not use it first, wait for real release)
