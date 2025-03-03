@@ -1,1 +1,4 @@
 # Move hardware-configeration to here
+# SSH key
+# Data files
+# Chmod the setup and rebuild file
