@@ -10,7 +10,7 @@
     zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: 
+  outputs = { self, nixpkgs, home-manager, zen-browser, ... }@inputs: 
   let
     system="x86_64-linux";
     pkgs=nixpkgs.legacyPackages.${system};

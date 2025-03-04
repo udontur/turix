@@ -7,4 +7,6 @@
 -[ ] Make modules
 -[ ] Rice home.nix
 
-The username is "udontur" and the hostname is "nixos"
+# Notes
+The username is "udontur" and the hostname is "nixos" (yes, used in some absolute paths)
+the hardware-configuration.nix is quoted in absolute paths

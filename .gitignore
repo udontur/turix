@@ -3,9 +3,3 @@ nixos-switch.log
 
 # NixOS Flakes Generated
 flake.lock
-
-# NixOS Hardware Configuration
-# Flakes does not recognise anything that is not tracked
-# CANNOT move hardware configuration to here
-# Find a way to seperate multiple machines
-# hardware-configuration.nix
