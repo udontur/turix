@@ -1,5 +1,7 @@
 # Udontur's NixOS Configuration
 
+home manager is not working :c
+
 -[ ] Do zen flakes
 -[ ] Move hyprland config here
 -[ ] Rice flake.nix 
