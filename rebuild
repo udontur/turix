@@ -4,7 +4,7 @@ sudo echo "NixOS Rebuilding..."
 git add .
 
 # Rebuild, output simplified errors, log trackebacks
-sudo nixos-rebuild switch --flake ~/nixos > nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+sudo nixos-rebuild switch --flake ~/nixos &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 
 echo "NixOS rebuilt successfully!" 
 
@@ -27,7 +27,15 @@ fi
 # 2. Delete the enable sudo line
 # 3. Early exit if not git change is detected
 # 4. Auto format all nix code 
-# 5. Output Rebuilding NixOS... (preferably with a loading)
+# 5. Output Rebuilding NixOS... (preferably with a loading)Economy:
+The Bloc Québécois are French so they want to create a more prosperous and a successful economy for Québec. In order to do this, they are going to provide energy efficient machinery to companies along with promoting environmentally friendly procedures such as promoting electric cars, and support development of biofuels created from agricultural and forestry waste.
+Environment:
+The Bloc Québécois want to focus on sustaining the environment so they plan on providing tax incentives to be able to help families use their home heating system to convert it to electricity which is a renewable energy. They also will focus on vehicles such as re-establishing and improving the ecoAUTO Rebate Program.
+Healthcare:
+The Bloc Québécois want a fair healthcare system and advocate for a unique approach for Quebec, clearly stating the need for the federal government to be able to acknowledge Quebec’s ability to be able to manage its healthcare system efficiently and effectively.
+
+
+
 # 6. Run the rebuild command with stripped error message
 # 7. Output the Rebuild error and the error message if detected (ask the user to check the log file)
 # 8. Remove nixos-switch.log if build successfully

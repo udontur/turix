@@ -1,1 +1,1 @@
-# nixos
+# Udontur's NixOS Configuration

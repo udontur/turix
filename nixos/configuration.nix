@@ -71,7 +71,7 @@
     swayosd
     swaynotificationcenter
     hyprpicker
-    hyprnome
+    hyprnome #may remove?
     hyprland
     hyprcursor
     hyprshot
