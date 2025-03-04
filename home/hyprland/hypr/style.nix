@@ -74,18 +74,6 @@ xwayland {
   force_zero_scaling = true
 }
 
-plugin {
-    hyprbars {
-        # example config
-        bar_height = 10
-
-        # example buttons (R -> L)
-        # hyprbars-button = color, size, on-click
-        hyprbars-button = rgb(ff4040), 10, 󰖭, hyprctl dispatch killactive
-        hyprbars-button = rgb(eeee11), 10, , hyprctl dispatch fullscreen 1
-    }
-}
-
   '';
 }
 

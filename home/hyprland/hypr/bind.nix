@@ -25,10 +25,15 @@ bind = SUPER, V, exec, code
 bind = SUPER, M, exec, gnome-music
 
 # Windows and Workspace
-bind = SUPER_Control, right, exec, hyprnome
-bind = SUPER_Control, left, exec, hyprnome --previous
-bind = SUPER_Control_SHIFT, right, exec, hyprnome --move
-bind = SUPER_Control_SHIFT, left, exec, hyprnome --previous --move
+bind = SUPER_Control, right, workspace, +1
+bind = SUPER_Control, left, workspace, -1 
+bind = SUPER_Control_SHIFT, right, movetoworkspace, +1
+bind = SUPER_Control_SHIFT, left,  movetoworkspace, -1 
+bind = SUPER, 1, workspace 1
+bind = SUPER, 2, workspace 2
+bind = SUPER, 3, workspace 3
+bind = SUPER, 4, workspace 4
+bind = SUPER, 5, workspace 5
 bind = SUPER, left, movefocus, l
 bind = SUPER, right, movefocus, r
 bind = SUPER, up, movefocus, u
