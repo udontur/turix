@@ -22,7 +22,7 @@
       
     specialArgs={inherit inputs;};
       modules = [
-        ./nixos/configuration.nix
+        ./nixos/config.nix
         # make home-manager as a module of nixos
         # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
         home-manager.nixosModules.home-manager
