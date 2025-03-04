@@ -7,6 +7,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    zen-browser.url = "github:MarceColl/zen-browser-flake";
   };
 
   outputs = { self, nixpkgs, home-manager, ... }@inputs: 
@@ -21,7 +22,7 @@
       
     specialArgs={inherit inputs;};
       modules = [
-        ./configuration.nix
+        ./nixos/configuration.nix
         # make home-manager as a module of nixos
         # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
         home-manager.nixosModules.home-manager
@@ -29,7 +30,7 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.extraSpecialArgs={inherit inputs;};
-          home-manager.users.udontur = import ./home.nix;
+          home-manager.users.udontur = import ./home/home.nix;
           # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
         }
       ];

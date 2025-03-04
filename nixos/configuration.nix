@@ -6,7 +6,7 @@
 
 {
   imports = [
-    ./hardware-configuration.nix
+    /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
   ];
 
@@ -38,7 +38,6 @@
     nwg-look #delete when migrate to home-manager
     rhythmbox
     easytag
-    qdirstat #removable
     pdfarranger #removable (maybe make an online tool set)
     # Flatpak for Zen browser (do not use it first, wait for real release)
     # Flatpak version for the zen browser has bugs
@@ -89,7 +88,7 @@
   home-manager={
     extraSpecialArgs={inherit inputs;};
     users={
-      "udontur"=import ./home.nix;
+      "udontur"=import "/home/udontur/nixos/home/home.nix";
     };
   };
 
