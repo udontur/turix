@@ -29,7 +29,7 @@
     kitty
     vscode
     firefox
-    inputs.zen-browser.packages."${system}".generic
+    inputs.zen-browser.packages."${system}".default
     nautilus  
     wofi  
     obsidian
