@@ -8,6 +8,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
+    hyprland.url="github:hyprwm/Hyprland"; 
   };
 
   outputs = { self, nixpkgs, home-manager, zen-browser, ... }@inputs: 
@@ -16,22 +17,18 @@
     pkgs=nixpkgs.legacyPackages.${system};
   in
   {
-    # use "nixos", or your hostname as the name of the configuration
-    # it's a better practice than "default" shown in the video
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
       
     specialArgs={inherit inputs;};
       modules = [
         ./nixos/config.nix
-        # make home-manager as a module of nixos
-        # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
         home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.extraSpecialArgs={inherit inputs;};
+          home-manager.backupFileExtension="backup";
           home-manager.users.udontur = import ./home/home.nix;
-          # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
         }
       ];
     };

@@ -4,13 +4,11 @@ sudo echo "NixOS Rebuilding..."
 git add .
 
 # Rebuild, output simplified errors, log trackebacks
-sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+sudo nixos-rebuild switch --flake ~/nixos --impure #&> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 
 echo "NixOS rebuilt successfully!" 
 
 read -p "Git Commit and Sync? " user_input
-
-# Check if the user input is 'y' or 'n'
 
 currentDate=$(date +"System: %Y-%m-%d %H:%M:%S")
 

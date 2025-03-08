@@ -5,5 +5,3 @@
 # Chmod the setup and rebuild file
 
 sudo echo "Setting up the system..."
-
-cp /etc/nixos/hardware-configuration.nix ./nixos/hardware-configuration.nix

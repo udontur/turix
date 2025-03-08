@@ -33,10 +33,10 @@
     nautilus  
     wofi  
     obsidian
-    chromium
+    #chromium
     easyeffects
-    dconf-editor #delete when migrate to home-manager
-    nwg-look #delete when migrate to home-manager
+    #dconf-editor #delete when migrate to home-manager
+    #nwg-look #delete when migrate to home-manager
     rhythmbox
     easytag
     pdfarranger #removable (maybe make an online tool set)
@@ -71,7 +71,6 @@
     swayosd
     swaynotificationcenter
     hyprpicker
-    hyprnome #may remove?
     hyprland
     hyprcursor
     hyprshot
@@ -184,7 +183,7 @@
 
   # NixOS system configuration
   nixpkgs.config.allowUnfree = true; #off?
-  system.stateVersion = "24.11"; #unstable please
+  system.stateVersion = "24.11"; 
 
   # Printer
   services.printing.enable = true;
