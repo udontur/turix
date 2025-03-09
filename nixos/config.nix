@@ -9,18 +9,11 @@
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
   ];
-
-  # sudo nixos-rebuild switch --flake ~/nixos
-  
+    
   # ******NOTES******
-  # Unstable for desktop (ZEN BROWSER WHEN)
   # Stable for Laptop (cuz I do not want to break it)
-  # For laptop, use brave as the chromium core (fix the instant pop)
   # setup auto clear in NIxos
   # make a rebuid script
-  # Need to add /usr/local/bin to the path variable (non conventional)
-  # echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bashrc
-  # source ~/.bashrc
   
   # Search package: $ nix search <PACKAGE NAME> or https://search.nixos.org/packages?channel=24.11&size=50&sort=relevance&type=packages&
   # Make sure to check the options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
@@ -35,8 +28,6 @@
     obsidian
     #chromium
     easyeffects
-    #dconf-editor #delete when migrate to home-manager
-    #nwg-look #delete when migrate to home-manager
     rhythmbox
     easytag
     pdfarranger #removable (maybe make an online tool set)
