@@ -70,6 +70,7 @@
     hyprland
     hyprcursor
     hyprshot
+    hyprnome
     xdg-desktop-portal-hyprland
     
     # NixOS
@@ -79,6 +80,7 @@
     noto-fonts-cjk-sans
     bibata-cursors
     adwaita-icon-theme
+    gnome-themes-extra
   ];
 
   programs.zsh = {

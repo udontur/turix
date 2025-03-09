@@ -9,6 +9,7 @@
     ./hyprland.nix
     ./git.nix
     ./kitty.nix
+    ./wofi.nix
   ];
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -39,6 +40,39 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];
+
+  dconf.settings = {
+    "org/gnome/desktop/interface" = {
+      color-scheme = "prefer-dark";
+    };
+  };
+  gtk = {
+    enable = true;
+    theme = {
+      name = "Adwaita-dark";
+      # package = pkgs.gnome.gnome-themes-extra;
+    };
+    gtk3.extraConfig = {
+      Settings = ''
+        gtk-application-prefer-dark-theme=1
+      '';
+    };
+
+    gtk4.extraConfig = {
+      Settings = ''
+        gtk-application-prefer-dark-theme=1
+      '';
+    };
+
+  };
+  # Wayland, X, etc. support for session vars
+  # systemd.user.sessionVariables = config.home-manager.users.udontur.home.sessionVariables;
+
+  # qt = {
+  #   enable = true;
+  #   platformTheme = "gnome";
+  #   style = "adwaita-dark";
+  # };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.

@@ -5,3 +5,4 @@
 # Chmod the setup and rebuild file
 
 sudo echo "Setting up the system..."
+# setup ssh key
