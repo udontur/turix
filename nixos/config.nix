@@ -85,13 +85,6 @@
     adwaita-icon-theme
   ];
 
-  home-manager={
-    extraSpecialArgs={inherit inputs;};
-    users={
-      "udontur"=import "/home/udontur/nixos/home/home.nix";
-    };
-  };
-
   programs.zsh = {
     enable = true;
     enableCompletion = true;

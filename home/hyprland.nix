@@ -1,4 +1,4 @@
-{ pkgs, lib, inputs, config, ... }: 
+{ pkgs, config, ... }: 
                                                                           
 {
   wayland.windowManager.hyprland={
@@ -26,15 +26,10 @@
         bind = SUPER, M, exec, rhythm-box
 
         # Windows and Workspace
-        bind = SUPER_Control, right, workspace, +1
-        bind = SUPER_Control, left, workspace, -1 
-        bind = SUPER_Control_SHIFT, right, movetoworkspace, +1
-        bind = SUPER_Control_SHIFT, left,  movetoworkspace, -1 
-        bind = SUPER, 1, workspace, 1
-        bind = SUPER, 2, workspace, 2
-        bind = SUPER, 3, workspace, 3
-        bind = SUPER, 4, workspace, 4
-        bind = SUPER, 5, workspace, 5
+        bind = SUPER_Control, right, exec, hyprnome
+        bind = SUPER_Control, left, exec, hyprnome --previous
+        bind = SUPER_Control_SHIFT, right, exec, hyprnome --move
+        bind = SUPER_Control_SHIFT, left, exec, hyprnome --previous --move
         bind = SUPER, left, movefocus, l
         bind = SUPER, right, movefocus, r
         bind = SUPER, up, movefocus, u
@@ -76,7 +71,7 @@
 
         # Monitors
         monitor=DP-2, 1920x1080@144, 0x0, 1
-        monitor=DP-1, 2560x1440@165, 1920x0, 1
+        monitor=DP-1, 2560x1440@165, 1920x0, 1.25
 
         # Window Rule
         windowrulev2 = size 1300 750, title:btop
