@@ -29,7 +29,7 @@
     kitty
     vscode
     firefox
-    inputs.zen-browser.packages."${system}".default
+    inputs.zen-browser.packages."${system}".default #zen
     nautilus  
     wofi  
     obsidian
@@ -40,10 +40,6 @@
     rhythmbox
     easytag
     pdfarranger #removable (maybe make an online tool set)
-    # Flatpak for Zen browser (do not use it first, wait for real release)
-    # Flatpak version for the zen browser has bugs
-    # Flake.nix (for now)
-    # Need to wait for offical zen browser nixos release
 
     # CLI apps and tools
     neofetch
