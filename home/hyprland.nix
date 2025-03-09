@@ -14,8 +14,7 @@
         bind = SUPER, Q, exec, kitty
         bind = SUPER, E, exec, nautilus
         bind = SUPER_Shift, E, exec, easyeffects
-        bind = SUPER, F, exec, firefox
-        bind = SUPER_Shift, F, exec, zen
+        bind = SUPER, F, exec, zen
         bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
         bind = SUPER, L, exec, hyprlock
         bind = SUPER, S, exec, hyprshot -m region output -z --clipboard-only
@@ -53,7 +52,7 @@
         # Launch
         exec-once = hyprpaper
         exec-once = swayosd-server
-        exec-once = firefox
+        exec-once = zen
         exec-once = swaync
         exec-once = nohup easyeffects --gapplication-service
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25

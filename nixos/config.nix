@@ -21,7 +21,7 @@
     # GUI apps
     kitty
     vscode
-    firefox
+    # firefox
     inputs.zen-browser.packages."${system}".default #zen
     nautilus  
     wofi  
@@ -90,13 +90,13 @@
   ];
 
   # Enable firefox
-  programs.firefox = {
-    enable = true;
-    preferences = {
-    "widget.use-xdg-desktop-portal.file-picker" = 1;
-    "widget.use-xdg-desktop-portal.mime-handler" = 1;
-    };
-  };
+  # programs.firefox = {
+  #   enable = true;
+  #   preferences = {
+  #   "widget.use-xdg-desktop-portal.file-picker" = 1;
+  #   "widget.use-xdg-desktop-portal.mime-handler" = 1;
+  #   };
+  # };
 
   # https://github.com/NixOS/nixpkgs/issues/207339
   programs.dconf.enable = true;
