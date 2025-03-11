@@ -7,3 +7,5 @@
         userEmail="h@hadrian.com";
     };
 }
+
+# git clone git@github.com:udontur/SOMETHING.git

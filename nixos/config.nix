@@ -53,7 +53,7 @@
 	  hyprpolkitagent
 
     # Hyprland apps and tools
-    hyprlock
+    # hyprlock
     hyprpaper
     swayosd
     swaynotificationcenter
