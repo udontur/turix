@@ -1,29 +1,49 @@
 { pkgs, config, ... }: 
-                                                                          
+# VERY BUGGY!!!                                                                 
 {
     programs.vscode={
         enable=true;
         enableExtensionUpdateCheck=false;
         enableUpdateCheck=false;
-        extensions=;
         userSettings={
-            explorer.confirmDragAndDrop=false;
-            explorer.confirmDelete=false;
-            liveServer.settings.donotShowInfoMsg=true;
-            files.autoSave=0;
-            git.confirmSync=false;
-            git.autofetch=true;
-            git.enableSmartCommit=true;
-            window.titleBarStyle="custom";
-            terminal.integrated.enableMultiLinePasteWarning=false;
-            liveServer.settings.donotVerifyTags=true;
-            editor.cursorStyle="block-outline";
-            editor.cursorBlinking="expand";
-            editor.cursorSmoothCaretAnimation="on";
-            workbench.iconTheme="material-icon-theme"
+            editor.fontFamily= "'JetBrains Mono', Monoscape";
+            explorer.confirmDelete= false;
+            explorer.confirmPasteNative= false;
+            git.autofetch= true;
+            explorer.confirmDragAndDrop= false;
+            workbench.iconTheme= "material-icon-theme";
+            git.confirmSync= false;
+            extensions.ignoreRecommendations= true;
+            files.autoSave= "afterDelay";
+            files.autoSaveDelay= 0;
+            workbench.preferredLightColorTheme= "Default Dark Modern";
+            workbench.preferredHighContrastLightColorTheme= "Default Dark Modern";
+            window.titleBarStyle= "custom";
+            explorer.compactFolders= false;
+            scm.compactFolders= false;
+            wakatime.apiKey= "https://waka.hackclub.com/api271b2820-2527-4b10-8a0b-8a02dac37f64";
+            wakatime.apiUrl= "https://waka.hackclub.com/api";
+            editor.minimap.enabled= false;
+            update.mode= "none";
+            user.colorTheme="One Dark Pro Monokai Darker";
+            workbench.colorTheme= "One Dark Pro Monokai Darker";
+            workbench.statusBar.visible= false;
+            powermode.combo.location= "off";
+            powermode.combo.counterEnabled= "hide";
+            editor.cursorBlinking= "expand";
+            editor.cursorStyle= "block-outline";
+            editor.cursorSmoothCaretAnimation= "on";
+            git.enableSmartCommit= true;
         };
-        extensions=with pkgs.vscode-extension; [
-
+        extensions=with pkgs.vscode-extensions; [
+            bbenoist.nix
+            ms-vscode.cpptools
+            ritwickdey.liveserver
+            wakatime.vscode-wakatime
+            formulahendry.code-runner
+            ms-vscode.makefile-tools
+            pkief.material-icon-theme
+            zhuangtongfa.material-theme
         ];
         keybindings=[
             {

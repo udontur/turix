@@ -9,6 +9,8 @@
     ./git.nix
     ./kitty.nix
     ./wofi.nix
+    ./vscode.nix # quite troublsome
+    ./default.nix
   ];
 
   # The home.packages option allows you to install Nix packages into your
@@ -40,6 +42,10 @@
   };
   gtk = {
     enable = true;
+    cursorTheme={
+      name="Bibata-Modern-Ice";
+      size=25;
+    };
     theme = {
       name = "Adwaita-dark";
       # package = pkgs.gnome.gnome-themes-extra;
@@ -53,6 +59,7 @@
     gtk4.extraConfig = {
       Settings = ''
         gtk-application-prefer-dark-theme=1
+        gtk-cursor-theme-name = "Bibata Modern Ice"
       '';
     };
 

@@ -27,10 +27,10 @@
     wofi  
     obsidian
     #chromium
-    easyeffects
-    rhythmbox
-    easytag
-    pdfarranger #removable (maybe make an online tool set)
+    easyeffects #eliminate?
+    rhythmbox #eliminate?
+    #easytag
+    #pdfarranger #removable (maybe make an online tool set)
 
     # CLI apps and tools
     neofetch
@@ -80,9 +80,7 @@
     autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
   };
-
-  services.flatpak.enable = true; #change to flakes later
-
+  
   fonts.packages = with pkgs; [
     noto-fonts
     noto-fonts-cjk-sans
