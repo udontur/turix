@@ -44,6 +44,7 @@
             ms-vscode.makefile-tools
             pkief.material-icon-theme
             zhuangtongfa.material-theme
+            jnoortheen.nix-ide
         ];
         keybindings=[
             {

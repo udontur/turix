@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 sudo echo "NixOS Rebuilding..."
 
-
+git add .
 
 # Rebuild, output simplified errors, log trackebacks
 sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
@@ -19,7 +19,6 @@ read -p "Git Commit and Sync? " user_input
 currentDate=$(date +"System: %Y-%m-%d %H:%M:%S")
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
-    git add .
     git commit -m "$currentDate"
     git push origin main
 elif [[ $user_input =~ ^[Nn]$ ]]; then

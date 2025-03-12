@@ -5,12 +5,12 @@
   home.username = "udontur";
   home.homeDirectory = "/home/udontur";
   imports=[
-    ./hyprland.nix
-    ./git.nix
-    ./kitty.nix
-    ./wofi.nix
-    ./vscode.nix # quite troublsome
-    ./default.nix
+    ./env/hyprland.nix
+    ./cmd/git.nix
+    ./apps/kitty.nix
+    ./apps/wofi.nix
+    ./apps/vscode.nix # quite troublsome
+    ./env/sys-default.nix
   ];
 
   # The home.packages option allows you to install Nix packages into your
