@@ -11,7 +11,7 @@
     ./apps/wofi.nix
     ./apps/vscode.nix # quite troublsome
     ./env/sys-default.nix
-    ./apps/btop.nix
+    ./apps/btop.nix #does not work 
   ];
 
   # The home.packages option allows you to install Nix packages into your
