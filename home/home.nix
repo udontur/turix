@@ -11,11 +11,12 @@
     ./apps/wofi.nix
     ./apps/vscode.nix # quite troublsome
     ./env/sys-default.nix
+    ./apps/btop.nix
   ];
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
+  home.packages = [ #declare by apps
     
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.

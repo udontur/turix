@@ -44,6 +44,7 @@
     zsh-autocomplete
     hyprpolkitagent
     nixfmt-rfc-style
+    btop-rocm
 
     # Hyprland apps and tools
     # hyprlock
