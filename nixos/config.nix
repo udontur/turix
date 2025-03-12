@@ -74,12 +74,7 @@
     gnome-themes-extra
   ];
 
-  programs.zsh = {
-    enable = true;
-    enableCompletion = true;
-    autosuggestions.enable = true;
-    syntaxHighlighting.enable = true;
-  };
+  
   
   fonts.packages = with pkgs; [
     noto-fonts
@@ -132,6 +127,7 @@
   # Networking
   networking.networkmanager.enable = true;
   networking.hostName = "nixos"; # Define your hostname.
+  networking.firewall.enable = true;
 
   # Time and Language
   time.timeZone = "Asia/Hong_Kong";
@@ -179,7 +175,7 @@
   };
   
   # Builtin Firewall
-  networking.firewall.enable = true;
+  
 
   # MISC???
   # Some programs need SUID wrappers, can be configured further or are
