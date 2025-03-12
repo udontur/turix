@@ -1,5 +1,3 @@
-# UdonTur's NixOS (Hyprland) Configuration File 
-# Exact system reproduction guide: https://github.com/udontur/nixos/README.md
 # NixOS manual: https://nixos.org/manual/nixos/stable/
 
 { inputs, config, pkgs, libs, ... }:
@@ -8,6 +6,8 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
+    ./modules/apps-enable.nix
+
   ];
     
   # ******NOTES******
