@@ -17,7 +17,16 @@
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [ #declare by apps
-    
+    hyprpaper
+    swayosd
+    swaynotificationcenter
+    hyprpicker
+    hyprland
+    hyprcursor
+    hyprshot
+    hyprnome
+    xdg-desktop-portal-hyprland
+    hyprpolkitagent
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello

@@ -13,59 +13,38 @@
     # GUI apps
     kitty
     vscode
-    # firefox
     inputs.zen-browser.packages."${system}".default # zen
     nautilus
     wofi
     obsidian
+    btop
     #chromium
-    easyeffects # eliminate?
-    rhythmbox # eliminate?
+    #easyeffects # eliminate?
+    #rhythmbox # eliminate?
     #easytag
     #pdfarranger #removable (maybe make an online tool set)
 
-    # CLI apps and tools
-    neofetch
-    btop
-    yt-dlp
+    # zsh
     zsh
+    zsh-powerlevel10k
+    zsh-syntax-highlighting
+    zsh-autocomplete
 
     # Utility apps and tools
     git
+    neofetch
+    yt-dlp
     gcc
     gnumake
     gtk3
     brightnessctl
-    lshw
-    dig
-    dhcpcd
-    zsh-powerlevel10k
-    zsh-syntax-highlighting
-    zsh-autocomplete
-    hyprpolkitagent
+    #lshw
+    #dig
+    #dhcpcd
+
+    #By apps
     nixfmt-rfc-style
     btop-rocm
-
-    # Hyprland apps and tools
-    # hyprlock
-    hyprpaper
-    swayosd
-    swaynotificationcenter
-    hyprpicker
-    hyprland
-    hyprcursor
-    hyprshot
-    hyprnome
-    xdg-desktop-portal-hyprland
-
-    # NixOS
-    home-manager
-
-    # Resource packs
-    noto-fonts-cjk-sans
-    bibata-cursors
-    adwaita-icon-theme
-    gnome-themes-extra
 
   ];
 }

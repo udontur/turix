@@ -15,4 +15,10 @@ The username is "udontur" and the hostname is "nixos" (yes, used in some absolut
 the hardware-configuration.nix is quoted in absolute paths
 
 # Setting Up
-NOT YET DONE!!!
+1. Add git to the config
+2. git clone the repo
+3. cd nixos
+4. rebuild
+5. setup ssh key
+6. delete nixos
+7. git ssh clone 
