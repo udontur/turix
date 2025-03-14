@@ -1,4 +1,4 @@
-# Udontur's NixOS Configuration
+# Udontur's NixOS Configuration (WIP since 3rd March 2025)
 
 - [ ] Rice flake.nix 
 - [ ] Rice home.nix
