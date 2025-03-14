@@ -4,7 +4,7 @@
     programs.git={
         enable=true;
         userName="udontur";
-        userEmail="h@hadrian.com";
+        userEmail="h@hadrianlau.com";
     };
 }
 
