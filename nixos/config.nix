@@ -13,7 +13,7 @@
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
     ./modules/apps-enable.nix
-    ./modules/fonts.nix
+    ./modules/resource.nix
     ./modules/system.nix
     ./modules/env.nix
     ./modules/desktop-apps.nix

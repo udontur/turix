@@ -1,7 +1,7 @@
 { pkgs, config, ... }: 
                                                                           
 {
-    home.packages = [ #declare by apps
+    home.packages = with pkgs; [ #declare by apps
     hyprpaper
     swayosd
     swaynotificationcenter
