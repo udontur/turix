@@ -12,6 +12,7 @@
     hyprnome
     xdg-desktop-portal-hyprland
     hyprpolkitagent
+    easyeffects
   ];
   wayland.windowManager.hyprland={
     enable=true;

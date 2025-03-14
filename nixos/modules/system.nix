@@ -16,7 +16,13 @@
     graphics.enable = true;
   };
 
-  
+  # Garbage Collection NixOS Generations
+  # INTETIONAL CONFIG BREAKER BECAUASE THE GARTBAGE COLLECTION CODE IS NOT FISHED
+  # nix.gc={ 
+  #   automatic=true;
+  #   dates="weekly";
+  #   options="--max-freed ";
+  # };
 
   # Bootloader
   boot.loader.grub = {

@@ -12,6 +12,7 @@
     ./apps/vscode.nix # quite troublsome
     ./env/sys-default.nix
     ./apps/btop.nix #does not work 
+    ./apps/easyeffects.nix
   ];
 
   dconf.settings = {

@@ -19,7 +19,7 @@
     obsidian
     btop
     #chromium
-    #easyeffects # eliminate?
+    # easyeffects # eliminate?
     #rhythmbox # eliminate?
     #easytag
     #pdfarranger #removable (maybe make an online tool set)

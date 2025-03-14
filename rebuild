@@ -16,7 +16,7 @@ echo "NixOS Rebuilt Successfully!"
 
 read -p "Git Commit and Sync? " user_input
 
-currentDate=$(date +"System: %Y-%m-%d %H:%M:%S")
+currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git commit -m "$currentDate"
