@@ -1,24 +1,24 @@
 # Udontur's NixOS Configuration
 
-- [x] Do zen flakes
-- [x] Move hyprland config here
 - [ ] Rice flake.nix 
-- [x] DO wofi home-manager
-- [x] Make modules
 - [ ] Rice home.nix
-- [x] Modularize NixOs
-- [x] Modularize home-manager
 - [ ] vscode
-- [ ] btop
+- [ ] zen home manager
+- [ ] dat folder generation
+- [ ] make laptop configuration
+
 # Notes
-The username is "udontur" and the hostname is "nixos" (yes, used in some absolute paths)
-the hardware-configuration.nix is quoted in absolute paths
+The username is "udontur" and the hostname is "nixos" (yes, used in some absolute paths).
+
+The hardware-configuration.nix is quoted in absolute paths
 
 # Setting Up
-1. Add git to the config
-2. git clone the repo
-3. cd nixos
-4. rebuild
-5. setup ssh key
-6. delete nixos
-7. git ssh clone 
+1. Add git to the default config
+2. Rebuild
+3. Setup SSh key
+4. git clone the repo using ssh
+5. cd nixos
+7. chmod the setup and reuild script
+8. run the setup script
+9. run the rebuild script
+10. Setup udontur folder
