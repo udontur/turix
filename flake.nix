@@ -11,7 +11,7 @@
     hyprland.url="github:hyprwm/Hyprland"; 
   };
 
-  outputs = { self, nixpkgs, home-manager, zen-browser, ... }@inputs: 
+  outputs = { self, nixpkgs, home-manager, zen-browser, hyprland, ... }@inputs: 
   let
     system="x86_64-linux";
     pkgs=nixpkgs.legacyPackages.${system};
