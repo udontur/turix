@@ -13,35 +13,34 @@ The hardware-configuration.nix is quoted in absolute paths
 
 # Setting Up
 1. Add git temporarily to the config file
-```sh
+```bash
 sudo nix-shell -p git & sudo nixos-rebuild switch
 ```
 2. Git clone the repo over https
-```sh
+```bash
 git clone https://github.com/udontur/nixos
 ```
 3. Run and follow the SSH setup script
-```sh
+```bash
 sudo chmod +x ./script/ssh-gen.sh & ./script/ssh-gen.sh
 ```
 4. Remove the current nixos folder
-```sh
-rm -rf ~/nixos & cd ~
+```bash
+cd ~ & rm -rf ~/nixos
 ```
 6. Git clone the repo via ssh
-```sh
-git clone git@github.com:udontur/SOMETHING.git
+```bash
+git clone git@github.com:udontur/nixos.git
 ```
 7. Run the setup script
-```sh
+```bash
 sudo chmod +x ./script/setup.sh & ./script/setup.sh
 ```
 8. Rebuild the nixos configuration
-```sh
+```bash
 sudo chmod +x ./rebuild & ./rebuild
 ```
 
 # Stuff that are NOT reproducable (for now)
-1. If this isn't obvious enough, passwords are not reproducable
-2. Zen configuration (extensions, extensions settings, settings, etc)
-3. VScode (IDK why it does not work)
+1. Zen configuration (extensions, extensions settings, settings, etc)
+2. VScode (Working on it) (IDK why it does not work)
