@@ -82,8 +82,8 @@
         env = QT_QPA_PLATFORMTHEME,qt5ct
 
         # Monitors
-        monitor=DP-2, 1920x1080@144, 0x0, 1
-        monitor=DP-1, 2560x1440@165, 1920x0, 1.25
+        monitor=DP-1, 2560x1440@165, 0x0, 1.25
+        monitor=DP-2, 1920x1080@144, 2560x0, 1
 
         # Window Rule
         windowrulev2 = size 1300 750, title:btop
