@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 sudo echo "Setting up the system..."
-# setup ssh key
+
+# Make the udontur folder
+mkdir -p ~/udontur
+mkdir -p ~/udontur/code
 
 # Add the bass preset for easyeffects
 mkdir -p ~/.config/easyeffects/output/
