@@ -12,7 +12,7 @@
   environment.systemPackages = with pkgs; [
     # GUI apps
     kitty
-    vscode
+    # vscode MUST BE DECLARED IN HOME MANAGER
     inputs.zen-browser.packages."${system}".default # zen
     nautilus
     wofi

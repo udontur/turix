@@ -1,17 +1,20 @@
-{inputs,
+{
+  inputs,
   config,
   pkgs,
-  libs, ... }:
+  libs,
+  ...
+}:
 {
   programs.btop = {
     enable = true;
-    settings={
-      color_theme="tommorow-night";
-      theme_background=true;
-      truecolor=true;
-      force_tty=false;
+    settings = {
+      color_theme = "tommorow-night";
+      theme_background = true;
+      truecolor = true;
+      force_tty = false;
       presets = "cpu:1:default, proc:0:default cpu:0:default,mem:0:default,net:0:default cpu:0:block,net:0:tty";
-      vim_keys=false;
+      vim_keys = false;
       rounded_corners = true;
       graph_symbol = "block";
       graph_symbol_cpu = "default";
@@ -19,7 +22,7 @@
       graph_symbol_mem = "default";
       graph_symbol_net = "default";
       graph_symbol_proc = "default";
-      shown_boxes = "cpu proc mem net"; #gpu does not work!!!
+      shown_boxes = "cpu proc mem net"; # gpu does not work!!!
       update_ms = 500;
       proc_sorting = "cpu lazy";
       proc_reversed = false;

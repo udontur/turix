@@ -1,10 +1,13 @@
-{inputs,
+{
+  inputs,
   config,
   pkgs,
-  libs, ...}:
+  libs,
+  ...
+}:
 {
-    services.easyeffects={
-        enable=true;
-        preset="bass"; #uhh, need to manually load it???
-    };
+  services.easyeffects = {
+    enable = true;
+    preset = "bass"; # uhh, need to manually load it???
+  };
 }

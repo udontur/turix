@@ -1,6 +1,8 @@
 { pkgs, config, ... }:
-# VERY BUGGY!!!
 {
+  home.packages = with pkgs; [
+    vscode
+  ];
   programs.vscode = {
     enable = true;
     enableExtensionUpdateCheck = false;
@@ -25,8 +27,8 @@
       wakatime.apiUrl = "https://waka.hackclub.com/api";
       editor.minimap.enabled = false;
       update.mode = "none";
-      user.colorTheme = "One Dark Pro Monokai Darker";
-      workbench.colorTheme = "One Dark Pro Monokai Darker";
+      user.colorTheme = "One Dark Pro Darker";
+      workbench.colorTheme = "One Dark Pro Darker";
       workbench.statusBar.visible = false;
       powermode.combo.location = "off";
       powermode.combo.counterEnabled = "hide";
@@ -34,6 +36,9 @@
       editor.cursorStyle = "block-outline";
       editor.cursorSmoothCaretAnimation = "on";
       git.enableSmartCommit = true;
+      editor.detectIndentation = false;
+      editor.tabSize = 4;
+      editor.insertSpaces = true;
     };
     extensions = with pkgs.vscode-extensions; [
       bbenoist.nix

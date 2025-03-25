@@ -4,14 +4,14 @@
   # home-manager options: https://mynixos.com/options
   home.username = "udontur";
   home.homeDirectory = "/home/udontur";
-  imports=[
+  imports = [
     ./env/hyprland.nix
     ./cmd/git.nix
     ./apps/kitty.nix
     ./apps/wofi.nix
     ./apps/vscode.nix # quite troublsome
     ./env/sys-default.nix
-    ./apps/btop.nix #does not work 
+    ./apps/btop.nix # does not work
     ./apps/easyeffects.nix
   ];
 
@@ -22,9 +22,9 @@
   };
   gtk = {
     enable = true;
-    cursorTheme={
-      name="Bibata-Modern-Ice";
-      size=25;
+    cursorTheme = {
+      name = "Bibata-Modern-Ice";
+      size = 25;
     };
     theme = {
       name = "Adwaita-dark";
@@ -90,6 +90,6 @@
 
   # The forbidden corner
   programs.home-manager.enable = true;
-  home.stateVersion = "24.11"; 
+  home.stateVersion = "24.11";
 
 }

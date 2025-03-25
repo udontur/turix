@@ -23,8 +23,6 @@ if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin main
 elif [[ $user_input =~ ^[Nn]$ ]]; then
     echo "Configuration NOT backedup"
-else
-    echo "Invalid input. Please enter y or n."
 fi
 
 # 1. Enable sudo 
