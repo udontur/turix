@@ -7,8 +7,8 @@
 }:
 
 {
-  # Search package: $ nix search <PACKAGE NAME> or https://search.nixos.org/packages?channel=24.11&size=50&sort=relevance&type=packages&
-  # Make sure to check the options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
+  # Search for packages: https://search.nixos.org/
+  # Search for options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
   environment.systemPackages = with pkgs; [
     # GUI apps
     kitty
@@ -18,13 +18,11 @@
     wofi
     obsidian
     btop
-    #chromium
-    # easyeffects # eliminate?
-    #rhythmbox # eliminate?
-    #easytag
-    #pdfarranger #removable (maybe make an online tool set)
+    #chromium # For backup
+    easyeffects # Shortcut for 
+    rhythmbox # eliminate? yes
 
-    # zsh
+    # zsh rice it asap please
     zsh
     zsh-powerlevel10k
     zsh-syntax-highlighting
@@ -33,18 +31,7 @@
     # Utility apps and tools
     git
     neofetch
-    yt-dlp
     gcc
     gnumake
-    gtk3
-    brightnessctl
-    #lshw
-    #dig
-    #dhcpcd
-
-    #By apps
-    nixfmt-rfc-style
-    btop-rocm
-
   ];
 }

@@ -6,6 +6,9 @@
   ...
 }:
 {
+  home.packages = with pkgs; [
+    btop-rocm
+  ];
   programs.btop = {
     enable = true;
     settings = {

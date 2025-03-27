@@ -12,6 +12,7 @@
     bibata-cursors
     adwaita-icon-theme
     gnome-themes-extra
+    gtk3
   ];
   fonts.packages = with pkgs; [
     noto-fonts

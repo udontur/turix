@@ -12,7 +12,7 @@
     hyprnome
     xdg-desktop-portal-hyprland
     hyprpolkitagent
-    easyeffects
+    brightnessctl
   ];
   wayland.windowManager.hyprland = {
     enable = true;

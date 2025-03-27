@@ -2,6 +2,7 @@
 {
   home.packages = with pkgs; [
     vscode
+    nixfmt-rfc-style
   ];
   programs.vscode = {
     enable = true;
