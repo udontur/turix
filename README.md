@@ -6,6 +6,7 @@
 -[ ] Make the assest use the home file thing
 -[ ] make laptop configuration
 -[ ] Setup garbage collectin
+-[ ] rice p10k
 
 # Notes
 The emails and usernames are NOT universal. 
