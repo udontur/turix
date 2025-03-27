@@ -1,6 +1,6 @@
 # Udontur's NixOS Configuration (WIP since 3rd March 2025)
--[ ] Rice flake.nix 
--[ ] Rice home.nix
+- [] Rice flake.nix 
+- [] Rice home.nix
 -[ ] zen home manager
 -[ ] dat folder generation
 -[ ] Make the assest use the home file thing
