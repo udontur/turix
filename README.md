@@ -42,5 +42,7 @@ sudo chmod +x ./script/setup.sh & ./script/setup.sh
 sudo chmod +x ./rebuild & ./rebuild
 ```
 
+# Usage
+
 # Stuff that are NOT reproducable (for now)
 1. Zen configuration (extensions, extensions settings, settings, etc)
