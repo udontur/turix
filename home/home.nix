@@ -9,10 +9,11 @@
     ./cmd/git.nix
     ./apps/kitty.nix
     ./apps/wofi.nix
-    ./apps/vscode.nix # quite troublsome
+    ./apps/vscode.nix
     ./env/sys-default.nix
-    ./apps/btop.nix # does not work
+    ./apps/btop.nix
     ./apps/easyeffects.nix
+    ./cmd/zsh.nix
   ];
 
   dconf.settings = {

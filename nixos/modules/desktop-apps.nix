@@ -17,20 +17,17 @@
     nautilus
     wofi
     obsidian
-    btop
     #chromium # For backup
     easyeffects # Shortcut for 
     rhythmbox # eliminate? yes
 
     # zsh rice it asap please
     zsh
-    zsh-powerlevel10k
-    zsh-syntax-highlighting
-    zsh-autocomplete
-
+    
     # Utility apps and tools
     git
     neofetch
+    btop
     gcc
     gnumake
   ];

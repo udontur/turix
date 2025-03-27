@@ -6,9 +6,9 @@
   ...
 }:
 {
-  home.packages = with pkgs; [
-    btop-rocm
-  ];
+  # home.packages = with pkgs; [ # Cause collision between 2 btop packages
+  #   btop-rocm
+  # ];
   programs.btop = {
     enable = true;
     settings = {

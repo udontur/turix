@@ -7,12 +7,6 @@
 }:
 
 {
-  programs.zsh = {
-    enable = true;
-    enableCompletion = true;
-    autosuggestions.enable = true;
-    syntaxHighlighting.enable = true;
-  };
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
@@ -26,4 +20,6 @@
   environment.systemPackages = with pkgs; [
     home-manager
   ];
+  programs.zsh.enable = true;
+  users.defaultUserShell = pkgs.zsh;
 }
