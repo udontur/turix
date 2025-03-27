@@ -4,6 +4,7 @@
   
   home.packages = with pkgs; [
     zsh-powerlevel10k
+    meslo-lgs-nf
     zsh-syntax-highlighting
     zsh-autocomplete
   ];
