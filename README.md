@@ -1,12 +1,12 @@
 # Udontur's NixOS Configuration (WIP since 3rd March 2025)
-- [] Rice flake.nix 
-- [] Rice home.nix
--[ ] zen home manager
--[ ] dat folder generation
--[ ] Make the assest use the home file thing
--[ ] make laptop configuration
--[ ] Setup garbage collectin
--[ ] rice p10k
+- [ ] Rice flake.nix 
+- [ ] Rice home.nix
+- [ ] zen home manager
+- [ ] dat folder generation
+- [ ] Make the assest use the home file thing
+- [ ] make laptop configuration
+- [ ] Setup garbage collectin
+- [ ] rice p10k
 
 # Notes
 The emails and usernames are NOT universal. 
