@@ -18,8 +18,7 @@
       reb="./rebuild";
       youbetter="sudo";
       mkdir="mkdir -p";
-      sync="push origin main";
-
+      gsync="push origin main";
     };
     history.size=10000;
   };
