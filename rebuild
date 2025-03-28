@@ -1,10 +1,19 @@
 #!/usr/bin/env bash
-sudo echo "NixOS Rebuilding..."
+# Load in the functions and animations
+source bla/bla.sh
+# Run BLA::stop_loading_animation if the script is interrupted
+trap BLA::stop_loading_animation SIGINT
 
+sudo printf "NixOS Rebuilding"
+
+BLA::start_loading_animation "${BLA_passing_dots[@]}"
 git add .
 
 # Rebuild, output simplified errors, log trackebacks
 sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+BLA::stop_loading_animation
+
+
 
 if [ $? -eq 1 ]; then
     echo "NixOS Failed to Rebuild."

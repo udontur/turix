@@ -14,7 +14,7 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
-    shellAliases={
+    shellAliases={ #not working
       reb="./rebuild";
       youbetter="sudo";
       mkdir="mkdir -p";
