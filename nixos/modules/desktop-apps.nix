@@ -30,5 +30,7 @@
     btop
     gcc
     gnumake
+    bun
+    nodejs_23
   ];
 }
