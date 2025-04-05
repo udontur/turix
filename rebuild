@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Load in the functions and animations
+
 source assets/bla/bla.sh
 trap BLA::stop_loading_animation SIGINT
 
@@ -25,7 +25,7 @@ if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin main &> git-sync.log
     if [ $? -eq 1 ]; then
         echo "Git failed to Commit and Sync."
-        echo "Please check git-commit.log git-sync.log for more details"
+        echo "Please check git-commit.log and git-sync.log for more details"
         exit 1
     else
         echo "Git Commit and Sync Successfully!"
@@ -34,13 +34,6 @@ elif [[ $user_input =~ ^[Nn]$ ]]; then
     echo "Configuration not backed up."
 fi
 
-# 1. Enable sudo 
-# 3. Early exit if not git change is detected
-# 4. Auto format all nix code 
-# 5. Output Rebuilding NixOS... (preferably with a loading)
-# 6. Run the rebuild command with stripped error message
-# 7. Output the Rebuild error and the error message if detected (ask the user to check the log file)
-# 8. git commit with the time and date if successful build
-# 9. Output rebuild successfully!!!
-
-# https://gist.github.com/0atman/1a5133b842f929ba4c1e195ee67599d5
+### Features to Add ###
+# 1. Auto format all code
+# Insipiration https://gist.github.com/0atman/1a5133b842f929ba4c1e195ee67599d5
