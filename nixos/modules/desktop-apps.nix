@@ -19,7 +19,6 @@
     obsidian
     #chromium # For backup
     easyeffects # Shortcut for 
-    rhythmbox # eliminate? yes
 
     # zsh rice it asap please
     zsh
@@ -28,8 +27,12 @@
     git
     neofetch
     btop
+
+    # CPP
     gcc
     gnumake
+
+    # Web dev
     bun
     nodejs_23
   ];

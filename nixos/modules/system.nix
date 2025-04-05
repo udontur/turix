@@ -8,9 +8,7 @@
 
 {
   programs.dconf.enable = true;
-
-  # Enable hyprland
-
+  
   # OpenGL
   hardware = {
     graphics.enable = true;
@@ -70,7 +68,7 @@
   };
 
   # NixOS system configuration
-  nixpkgs.config.allowUnfree = true; # off?
+  nixpkgs.config.allowUnfree = true;
   system.stateVersion = "24.11";
 
   # Printer
