@@ -7,6 +7,7 @@
 - [ ] make laptop configuration
 - [ ] Setup garbage collectin
 - [ ] rice p10k
+- [ ] Fix hyprpicker
 
 # Notes
 The emails and usernames are NOT universal. 
@@ -14,14 +15,16 @@ The emails and usernames are NOT universal.
 The hardware-configuration.nix is quoted in absolute paths
 
 # Setting Up
+make sure to connect to wifi usin nmtui
 1. Add git temporarily to the config file
 ```bash
 sudo nix-shell -p git & sudo nixos-rebuild switch
 ```
 2. Git clone the repo over https
 ```bash
-git clone https://github.com/udontur/nixos
+git clone https://github.com/udontur/nixos.git
 ```
+cd dir
 3. Run and follow the SSH setup script
 ```bash
 sudo chmod +x ./script/ssh-gen.sh & ./script/ssh-gen.sh

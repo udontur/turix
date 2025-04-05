@@ -5,7 +5,7 @@ sudo echo "Generate SSH Key for GitHub"
 echo "Press Enter when prompted to enter a file: "
 
 # Generate the SSH Key
-sudo ssh-keygen -t ed25519 -C "h@hadrianlau.com"
+sudo ssh-keygen -t ed25519 -C "h@hadrian.cc"
 
 # WAKE UP SSH AGENT
 sudo eval "$(ssh-agent -s)"

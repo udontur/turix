@@ -1,13 +1,12 @@
 #!/usr/bin/env bash
 # Load in the functions and animations
-source bla/bla.sh
+source assets/bla/bla.sh
 # Run BLA::stop_loading_animation if the script is interrupted
 trap BLA::stop_loading_animation SIGINT
 
-sudo printf "NixOS Rebuilding"
+sudo git add .
 
 BLA::start_loading_animation "${BLA_passing_dots[@]}"
-git add .
 
 # Rebuild, output simplified errors, log trackebacks
 sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
