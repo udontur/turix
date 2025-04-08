@@ -1,7 +1,5 @@
 { pkgs, config, ... }:
-
 {
-  
   home.packages = with pkgs; [
     zsh-powerlevel10k
     meslo-lgs-nf
@@ -14,7 +12,7 @@
     enableCompletion = true;
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
-    shellAliases={ #not working
+    shellAliases={
       reb="./rebuild";
       youbetter="sudo";
       mkdir="mkdir -p";

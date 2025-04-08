@@ -24,8 +24,8 @@
       window.titleBarStyle = "custom";
       explorer.compactFolders = false;
       scm.compactFolders = false;
-      wakatime.apiKey = "https://waka.hackclub.com/api271b2820-2527-4b10-8a0b-8a02dac37f64";
-      wakatime.apiUrl = "https://waka.hackclub.com/api";
+      wakatime.apiKey = "waka_31ada677-32d8-4f3d-9966-e7b12b7a6468";
+      wakatime.apiUrl = "https://api.wakatime.com/api/v1/";
       editor.minimap.enabled = false;
       update.mode = "none";
       user.colorTheme = "One Dark Pro Darker";
@@ -53,15 +53,6 @@
       jnoortheen.nix-ide
     ];
     keybindings = [
-      {
-        key = "ctrl+shift+b";
-        command = "workbench.action.toggleActivityBarVisibility";
-      }
-      {
-        key = "ctrl+shift+b";
-        command = "-workbench.action.tasks.build";
-        when = "taskCommandsRegistered";
-      }
       {
         key = "ctrl+shift+w";
         command = "editor.emmet.action.wrapWithAbbreviation";

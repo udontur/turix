@@ -10,6 +10,7 @@
   # Search for packages: https://search.nixos.org/
   # Search for options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
   environment.systemPackages = with pkgs; [
+    
     # GUI apps
     kitty
     # vscode MUST BE DECLARED IN HOME MANAGER
@@ -20,7 +21,7 @@
     #chromium # For backup
     easyeffects # Shortcut for 
 
-    # zsh rice it asap please
+    # zsh
     zsh
     
     # Utility apps and tools

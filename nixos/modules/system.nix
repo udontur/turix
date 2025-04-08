@@ -7,6 +7,7 @@
 }:
 
 {
+  # Dconf
   programs.dconf.enable = true;
   
   # OpenGL
@@ -15,7 +16,6 @@
   };
 
   # Garbage Collection NixOS Generations
-  # INTETIONAL CONFIG BREAKER BECAUASE THE GARTBAGE COLLECTION CODE IS NOT FISHED
   # nix.gc={ 
   #   automatic=true;
   #   dates="weekly";
@@ -52,9 +52,6 @@
   services.displayManager.sddm.wayland.enable = true;
   # services.displayManager.sddm.theme="apple-sddm"; # Does not seem to work
 
-  # Touchpad
-  # services.libinput.enable = true;
-
   # User setup
   users.users.udontur = {
     isNormalUser = true;
@@ -83,32 +80,4 @@
     alsa.support32Bit = true;
     pulse.enable = true;
   };
-
-  # Builtin Firewall
-
-  # MISC???
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  #programs.mtr.enable = true;
-  #programs.gnupg.agent = {
-  #  enable = true;
-  #  enableSSHSupport = true;
-  #};
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  #services.openssh.enable = true;
-
-  # Open ports in the firewall.
-  #networking.firewall.allowedTCPPorts = [ ... ];
-  #networking.firewall.allowedUDPPorts = [ ... ];
-
-  # Or disable the firewall altogether.
-  #networking.firewall.enable = false;
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
-
 }

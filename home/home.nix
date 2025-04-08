@@ -14,44 +14,10 @@
     ./apps/btop.nix
     ./apps/easyeffects.nix
     ./cmd/zsh.nix
+    ./env/theme.nix
   ];
-  dconf.settings = {
-    "org/gnome/desktop/interface" = {
-      color-scheme = "prefer-dark";
-    };
-  };
-  gtk = {
-    enable = true;
-    cursorTheme = {
-      name = "Bibata-Modern-Ice";
-      size = 25;
-    };
-    theme = {
-      name = "Adwaita-dark";
-      # package = pkgs.gnome.gnome-themes-extra;
-    };
-    gtk3.extraConfig = {
-      Settings = ''
-        gtk-application-prefer-dark-theme=1
-      '';
-    };
-
-    gtk4.extraConfig = {
-      Settings = ''
-        gtk-application-prefer-dark-theme=1
-        gtk-cursor-theme-name = "Bibata Modern Ice"
-      '';
-    };
-
-  };
   # Wayland, X, etc. support for session vars
   # systemd.user.sessionVariables = config.home-manager.users.udontur.home.sessionVariables;
-
-  # qt = {
-  #   enable = true;
-  #   platformTheme = "gnome";
-  #   style = "adwaita-dark";
-  # };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
