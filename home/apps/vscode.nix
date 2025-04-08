@@ -25,7 +25,6 @@
       explorer.compactFolders = false;
       scm.compactFolders = false;
       wakatime.apiKey = builtins.readFile /home/udontur/nixos/waka.txt; # Require manual setup
-      wakatime.apiUrl = "https://api.wakatime.com/api/v1/";
       editor.minimap.enabled = false;
       update.mode = "none";
       user.colorTheme = "One Dark Pro Darker";

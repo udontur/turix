@@ -8,7 +8,7 @@ echo "Press Enter when prompted to enter a file: "
 sudo ssh-keygen -t ed25519 -C "h@hadrian.cc"
 
 # WAKE UP SSH AGENT
-sudo eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)"
 
 # Add the SSH key to the SSH agent
 sudo ssh-add ~/.ssh/id_ed25519
