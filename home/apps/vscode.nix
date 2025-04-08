@@ -24,7 +24,7 @@
       window.titleBarStyle = "custom";
       explorer.compactFolders = false;
       scm.compactFolders = false;
-      wakatime.apiKey = "waka_31ada677-32d8-4f3d-9966-e7b12b7a6468"; # Don't, please
+      wakatime.apiKey = builtins.readFile /home/udontur/nixos/waka.txt; # Require manual setup
       wakatime.apiUrl = "https://api.wakatime.com/api/v1/";
       editor.minimap.enabled = false;
       update.mode = "none";

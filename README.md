@@ -6,6 +6,7 @@
 - [ ] Setup garbage collectin
 - [ ] rice p10k
 - [ ] Fix hyprpicker
+- [ ] make sure to setup your own waka.txt file
 
 # Notes
 The emails and usernames are NOT universal. 
