@@ -9,14 +9,12 @@
 {
   # Dconf
   programs.dconf.enable = true;
-  
+
   # OpenGL
-  hardware = {
-    graphics.enable = true;
-  };
+  hardware.opengl.enable=true;
 
   # Garbage Collection NixOS Generations
-  # nix.gc={ 
+  # nix.gc={
   #   automatic=true;
   #   dates="weekly";
   #   options="--max-freed ";

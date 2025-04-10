@@ -20,7 +20,6 @@
     obsidian
     #chromium # For backup
     easyeffects # Shortcut for 
-    steam # Factorio! Thank you Hack Club
 
     # zsh
     zsh
