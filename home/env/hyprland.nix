@@ -150,7 +150,7 @@
           sensitivity = 0
       }
       device{
-          name=razer-razer-viper-1
+          name=razer-razer-viper
           sensitivity=-0.7
       }
       xwayland {
