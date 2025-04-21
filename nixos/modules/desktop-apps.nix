@@ -36,5 +36,11 @@
     # Web dev
     bun
     nodejs_23
+
+    # Nix
+    nix-init
+    nixpkgs-hammering
+    nixpkgs-fmt
+
   ];
 }
