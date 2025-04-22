@@ -39,7 +39,7 @@
       editor.detectIndentation = false;
       editor.tabSize = 4;
       editor.insertSpaces = true;
-      C_Cpp.formatting = "vcFormat";
+      C_Cpp.clang_format_fallbackStyle = "Google";
     };
     extensions = with pkgs.vscode-extensions; [
       bbenoist.nix
