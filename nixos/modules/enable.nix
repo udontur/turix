@@ -30,4 +30,7 @@
   # zsh
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
+  
+  # Garbage
+  services.gvfs.enable = true;
 }
