@@ -13,6 +13,12 @@ The emails and usernames are NOT universal.
 
 The hardware-configuration.nix is quoted in absolute paths
 
+# Weird stuff
+If some how the permission changed:
+```sh
+sudo chown -R udontur:777 ./nixos
+```
+
 # Setting Up
 make sure to connect to wifi usin nmtui
 1. Add git temporarily to the config file
