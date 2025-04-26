@@ -19,8 +19,8 @@
     wofi
     obsidian
     #chromium # For backup
-    easyeffects # Shortcut for 
-
+    easyeffects
+    
     # zsh
     zsh
     
@@ -28,6 +28,8 @@
     git
     neofetch
     btop
+    inputs.ossdmk.packages."${system}".default
+    inputs.judgel.packages."${system}".default
 
     # CPP
     gcc
