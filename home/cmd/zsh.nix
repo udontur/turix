@@ -6,7 +6,7 @@
     zsh-syntax-highlighting
     zsh-autocomplete
   ];
-  home.file."p10k/.p10k.zsh".text = builtins.readFile ./.p10k.zsh;
+  # home.file."p10k/.p10k.zsh".text = builtins.readFile ./.p10k.zsh;
   programs.zsh = {
     enable = true;
     enableCompletion = true;

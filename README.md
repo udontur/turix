@@ -1,24 +1,24 @@
 # Udontur's NixOS Configuration (WIP since 3rd March 2025)
-- [ ] Rice flake.nix 
 - [ ] zen home manager
 - [ ] dat folder generation
 - [ ] Make the assest use the home file thing
 - [ ] Setup garbage collectin
 - [ ] rice p10k
 - [ ] Fix hyprpicker
-- [ ] make sure to setup your own waka.txt file
 
 # Notes
 The emails and usernames are NOT universal. 
 
-The hardware-configuration.nix is quoted in absolute paths
+The hardware-configuration.nix is quoted in absolute paths.
+
+You need to create your own ```waka.txt```, holding your api key in the root directory. 
 
 # Weird stuff
-If some how the permission changed:
-```sh
+Some how the permission changes:
+```bash
 sudo chown -R udontur:777 ./nixos
 ```
-
+<!-- 
 # Setting Up
 make sure to connect to wifi usin nmtui
 1. Add git temporarily to the config file
@@ -49,9 +49,9 @@ sudo chmod +x ./script/setup.sh & ./script/setup.sh
 8. Rebuild the nixos configuration
 ```bash
 sudo chmod +x ./rebuild & ./rebuild
-```
-
-# Usage
+``` -->
+<!-- 
+# Usage -->
 
 # Stuff that are NOT reproducable (for now)
 1. Zen configuration (extensions, extensions settings, settings, etc)
