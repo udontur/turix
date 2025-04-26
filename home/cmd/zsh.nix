@@ -16,6 +16,8 @@
       reb="./rebuild";
       youbetter="sudo";
       mkdir="mkdir -p";
+      gadd="git add .";
+      gcom="git commit -m ";
       gsync="git push origin main";
     };
     history.size=10000;
