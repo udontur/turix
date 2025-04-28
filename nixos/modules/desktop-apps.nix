@@ -18,7 +18,6 @@
     nautilus
     wofi
     obsidian
-    #chromium # For backup
     easyeffects
     
     # zsh
@@ -38,6 +37,7 @@
     # Web dev
     bun
     nodejs_23
+    gem
 
     # Nix
     nix-init
