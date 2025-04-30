@@ -14,11 +14,13 @@
     # GUI apps
     kitty
     # vscode MUST BE DECLARED IN HOME MANAGER
-    inputs.zen-browser.packages."${system}".default # zen
-    nautilus
+    inputs.zen-browser.packages."${system}".beta # zen
+    nautilus # Bye Bye
+    yazi
     wofi
     obsidian
     easyeffects
+    chromium
     
     # zsh
     zsh
@@ -27,6 +29,7 @@
     git
     neofetch
     btop
+    
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
 

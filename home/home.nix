@@ -10,7 +10,6 @@
     ./apps/kitty.nix
     ./apps/wofi.nix
     ./apps/vscode.nix
-    ./env/sys-default.nix
     ./apps/btop.nix
     ./apps/easyeffects.nix
     ./cmd/zsh.nix
