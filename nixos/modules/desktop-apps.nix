@@ -15,7 +15,7 @@
     kitty
     # vscode MUST BE DECLARED IN HOME MANAGER
     inputs.zen-browser.packages."${system}".beta # zen
-    nautilus # Bye Bye
+    # nautilus # Bye Bye
     yazi
     wofi
     obsidian
