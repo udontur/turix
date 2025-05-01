@@ -21,7 +21,7 @@
     obsidian
     easyeffects
     chromium
-    
+    logseq
     # zsh
     zsh
     
