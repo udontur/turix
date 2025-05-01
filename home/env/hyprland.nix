@@ -150,7 +150,7 @@
           sensitivity = 0
       }
       device{
-          name=razer-razer-viper
+          name=rapoo-rapoo-composite-device
           sensitivity=-0.7
       }
       xwayland {

@@ -21,7 +21,6 @@
     obsidian
     easyeffects
     chromium
-    logseq
     # zsh
     zsh
     
@@ -29,7 +28,7 @@
     git
     neofetch
     btop
-    
+    unzip
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
 
