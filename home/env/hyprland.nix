@@ -26,6 +26,7 @@
       # Apps
       bind = SUPER, Q, exec, kitty
       bind = SUPER, E, exec, kitty --title yazi -e yazi
+      bind = SUPER, D, exec, nautilus
       bind = SUPER_Shift, E, exec, easyeffects
       bind = SUPER, F, exec, zen
       bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
