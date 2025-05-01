@@ -24,7 +24,6 @@
       window.titleBarStyle = "custom";
       explorer.compactFolders = false;
       scm.compactFolders = false;
-      wakatime.apiKey = builtins.readFile /home/udontur/nixos/waka.txt; # Require manual setup
       editor.minimap.enabled = false;
       update.mode = "none";
       user.colorTheme = "One Dark Pro Darker";
@@ -46,7 +45,6 @@
       bbenoist.nix
       ms-vscode.cpptools
       ritwickdey.liveserver
-      wakatime.vscode-wakatime
       formulahendry.code-runner
       ms-vscode.makefile-tools
       pkief.material-icon-theme

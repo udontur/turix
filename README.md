@@ -11,8 +11,6 @@ The emails and usernames are NOT universal.
 
 The hardware-configuration.nix is quoted in absolute paths.
 
-You need to create your own ```waka.txt```, holding your api key in the root directory. 
-
 # Weird stuff
 Some how the permission changes:
 ```bash
