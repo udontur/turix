@@ -35,6 +35,8 @@
     # CPP
     gcc
     gnumake
+    boost
+    cmake
 
     # Web dev
     bun
