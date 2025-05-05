@@ -20,7 +20,8 @@
     wofi
     obsidian
     easyeffects
-    chromium
+    #chromium
+    
     # zsh
     zsh
     
@@ -35,8 +36,13 @@
     # CPP
     gcc
     gnumake
-    boost
+    boost186
     cmake
+    fmt
+    
+    # Rust
+    rustc
+    cargo
 
     # Web dev
     bun

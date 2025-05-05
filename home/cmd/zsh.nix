@@ -19,6 +19,7 @@
       gadd="git add .";
       gcom="git commit -m ";
       gsync="git push origin main";
+      reb-fix="sudo chown -R udontur:777 .";
     };
     history.size=10000;
   };

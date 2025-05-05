@@ -50,6 +50,8 @@
       pkief.material-icon-theme
       zhuangtongfa.material-theme
       jnoortheen.nix-ide
+      ms-vscode.cmake-tools
+      rust-lang.rust-analyzer
     ];
     keybindings = [
       {
