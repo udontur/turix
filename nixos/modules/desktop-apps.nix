@@ -30,6 +30,7 @@
     neofetch
     btop
     unzip
+    zip
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
 
