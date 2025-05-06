@@ -18,7 +18,7 @@
     nautilus
     yazi
     wofi
-    obsidian
+    #obsidian
     easyeffects
     #chromium
     
