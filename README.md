@@ -1,4 +1,3 @@
-<br />
 <div align="center">
   <h1 align="center">nixos</h3>
   <p align="center">
@@ -17,7 +16,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **Distro**: NixOS
 - **WM/DE**: Hyprland
 - **Addons**: home-manager, nix-flakes
-- **GPU**: AMD (RX 7000 series)
+- **GPU**: AMD (RX 7000 serie)
 
 > [!WARNING]  
 > This is **NOT** a general purpose configuration

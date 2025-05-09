@@ -2,5 +2,4 @@
 nixos-switch.log
 git-commit.log
 git-sync.log
-waka.txt
 home/cmd/.p10k.zsh
