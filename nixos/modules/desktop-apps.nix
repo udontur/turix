@@ -28,7 +28,7 @@
     # Utility apps and tools
     git
     neofetch
-    btop
+    btop-rocm
     unzip
     zip
     inputs.ossdmk.packages."${system}".default

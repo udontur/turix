@@ -20,6 +20,9 @@
       gcom="git commit -m ";
       gsync="git push origin main";
       reb-fix="sudo chown -R udontur:777 .";
+      ai-start="ollama serve";
+      ai="ollama run deepseek-r1:14b";
+      ai-jailbreak="ollama run dolphin-mistral";
     };
     history.size=10000;
   };
