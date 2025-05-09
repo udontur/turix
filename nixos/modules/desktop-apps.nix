@@ -13,48 +13,26 @@
     
     # GUI apps
     kitty
-    # vscode MUST BE DECLARED IN HOME MANAGER
-    inputs.zen-browser.packages."${system}".beta # zen
+    inputs.zen-browser.packages."${system}".beta
     nautilus
     yazi
     wofi
-    #obsidian
+    # vscode (moved to home manager)
     easyeffects
     #chromium
-    
-    # zsh
-    zsh
-    
+
     # Utility apps and tools
     git
     neofetch
     btop-rocm
-    unzip
-    zip
+    zsh
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
     ollama-rocm
 
-    # CPP
-    gcc
-    gnumake
-    boost186
-    cmake
-    fmt
-    
-    # Rust
-    rustc
-    cargo
-
-    # Web dev
-    bun
-    nodejs_23
-    gem
-
-    # Nix
-    nix-init
-    nixpkgs-hammering
-    nixpkgs-fmt
+    # Move to nautilus later
+    unzip
+    zip
 
   ];
 }

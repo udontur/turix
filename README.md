@@ -1,23 +1,54 @@
 # Udontur's NixOS Configuration (WIP since 3rd March 2025)
-- [ ] zen home manager
-- [ ] dat folder generation
-- [ ] Make the assest use the home file thing
-- [ ] Setup garbage collectin
-- [ ] rice p10k
-- [ ] Fix hyprpicker
 
-# Notes
-The emails and usernames are NOT universal. 
+<br />
+<div align="center">
+  <h1 align="center">nixos</h3>
+  <p align="center">
+    ❄️ Welcome to my NixOS Linux Configuration! 
+    <br />
+    <br />
+    <a href="https://hadrian.cc">Work in Progress since 3rd March 2025</a>
+    ·
+    <a href="https://hadrian.cc">Made with passion by Hadrian</a>
+  </p>
+</div>
 
-The hardware-configuration.nix is quoted in absolute paths.
+# ⭐ About
+This repository contains all the dotfiles that reproduce my daily driver OS!
+- OS: Linux
+- Distro: NixOS
+- WM/DE: Hyprland
+- Addons: home-manager, nix-flakes
+- GPU: AMD
 
-# Weird stuff
+> [!WARNING]  
+> This is **NOT** a general purpose configuration
+
+[nixos-laptop](https://github.com/udontur/nixos-laptop) is the minimal version that is tailored to a laptop. 
+
+# 🗒️ Note
+1. This is **NOT** a general purpose configuration
+2. Emails and usernames are **TAILORED** 
+3. The configuration will **BREAK** if the user is not ```udontur``` 
+
+# ❌ NON-Reproducable applications
+1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
+2. GTK theme is a buggy (primarily in ```nautilus```)
+
+# ✅ To Do List
+- [ ] NixOS generation garbage collector
+- [ ] p10k configuration
+- [ ] Fix: hyprpicker (clipboard is broken)
+
+# 🤨 Weird Things
 Some how the permission changes:
 ```bash
 sudo chown -R udontur:777 ./nixos
 ```
+
 <!-- 
 # Setting Up
+Please setup a hardware config
 make sure to connect to wifi usin nmtui
 1. Add git temporarily to the config file
 ```bash
@@ -50,6 +81,3 @@ sudo chmod +x ./rebuild & ./rebuild
 ``` -->
 <!-- 
 # Usage -->
-
-# Stuff that are NOT reproducable (for now)
-1. Zen configuration (extensions, extensions settings, settings, etc)

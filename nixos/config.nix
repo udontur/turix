@@ -17,6 +17,7 @@
     ./modules/system.nix
     ./modules/env.nix
     ./modules/desktop-apps.nix
+    ./modules/code.nix
   ];
 
   # ******NOTES******
