@@ -11,7 +11,7 @@ BLA::stop_loading_animation
 
 if [ $? -eq 1 ]; then
     echo "NixOS Failed to Rebuild."
-    echo "Please check nixos-switch.log and the error message"
+    echo "Please check nixos-switch.log for more details"
     exit 1
 else
     echo "NixOS Rebuilt Successfully!" 
@@ -23,15 +23,17 @@ if [[ $user_input =~ ^[Yy]$ ]]; then
     currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
     git commit -m "$currentDate" &> git-commit.log
     git push origin main &> git-sync.log
-    if [ $? -eq 1 ]; then
-        echo "Git failed to Commit and Sync."
+
+    if [ $? -eq 1 ]; then # DOES NOT WORK :c
+        echo "Git failed to Commit and Sync"
         echo "Please check git-commit.log and git-sync.log for more details"
         exit 1
     else
         echo "Git Commit and Sync Successfully!"
     fi
+
 elif [[ $user_input =~ ^[Nn]$ ]]; then
-    echo "Configuration not backed up."
+    echo "Configuration NOT backed up"
 fi
 
 ### Features to Add ###
