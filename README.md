@@ -4,7 +4,7 @@
     ❄️ Welcome to my NixOS Linux Configuration! 
     <br />
     <br />
-    <a href="https://hadrian.cc">Work in Progress since 3rd March 2025</a>
+    <a href="https://hadrian.cc">❤️ my daily driver OS and Setup!</a>
     ·
     <a href="https://hadrian.cc">Made with passion by Hadrian</a>
   </p>
@@ -17,6 +17,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **WM/DE**: Hyprland
 - **Addons**: home-manager, nix-flakes
 - **GPU**: AMD (RX 7000 serie)
+- **Since**: 3rd March, 2025
 
 > [!WARNING]  
 > This is **NOT** a general purpose configuration
