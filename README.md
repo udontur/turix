@@ -16,7 +16,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **Distro**: NixOS
 - **WM/DE**: Hyprland
 - **Addons**: home-manager, nix-flakes
-- **GPU**: AMD (RX 7000 serie)
+- **GPU**: AMD (RX 7000 series)
 - **Since**: 3rd March, 2025
 
 > [!WARNING]  
