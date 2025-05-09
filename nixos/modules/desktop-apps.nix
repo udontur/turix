@@ -33,6 +33,7 @@
     zip
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
+    ollama-rocm
 
     # CPP
     gcc
