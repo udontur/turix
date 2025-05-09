@@ -23,6 +23,7 @@
       ai-start="ollama serve";
       ai="ollama run deepseek-r1:14b";
       ai-jailbreak="ollama run dolphin-mistral";
+      ai-fast="ollama run deepseek-r1:8b";
     };
     history.size=10000;
   };
