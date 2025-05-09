@@ -1,5 +1,3 @@
-# Udontur's NixOS Configuration (WIP since 3rd March 2025)
-
 <br />
 <div align="center">
   <h1 align="center">nixos</h3>
@@ -15,11 +13,11 @@
 
 # ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- OS: Linux
-- Distro: NixOS
-- WM/DE: Hyprland
-- Addons: home-manager, nix-flakes
-- GPU: AMD
+- **OS**: Linux x86_64
+- **Distro**: NixOS
+- **WM/DE**: Hyprland
+- **Addons**: home-manager, nix-flakes
+- **GPU**: AMD (RX 7000 series)
 
 > [!WARNING]  
 > This is **NOT** a general purpose configuration
