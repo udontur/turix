@@ -14,6 +14,7 @@
     ./apps/easyeffects.nix
     ./cmd/zsh.nix
     ./env/theme.nix
+    #./apps/yazi.nix
   ];
   # Wayland, X, etc. support for session vars
   # systemd.user.sessionVariables = config.home-manager.users.udontur.home.sessionVariables;
@@ -31,26 +32,6 @@
     #   org.gradle.console=verbose
     #   org.gradle.daemon.idletimeout=3600000
     # '';
-  };
-
-  # Home Manager can also manage your environment variables through
-  # 'home.sessionVariables'. These will be explicitly sourced when using a
-  # shell provided by Home Manager. If you don't want to manage your shell
-  # through Home Manager then you have to manually source 'hm-session-vars.sh'
-  # located at either
-  #
-  #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
-  #
-  # or
-  #
-  #  ~/.local/state/nix/profiles/profile/etc/profile.d/hm-session-vars.sh
-  #
-  # or
-  #
-  #  /etc/profiles/per-user/udontur/etc/profile.d/hm-session-vars.sh
-  #
-  home.sessionVariables = {
-    # EDITOR = "emacs";
   };
 
   # The forbidden corner
