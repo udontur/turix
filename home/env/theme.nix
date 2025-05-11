@@ -19,6 +19,7 @@
     };
     theme = {
       name = "Adwaita-dark";
+      package=pkgs.gnome-themes-extra;
     };
     gtk3.extraConfig = {
       Settings = ''

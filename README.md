@@ -37,6 +37,8 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [ ] NixOS generation garbage collector
 - [ ] p10k configuration
 - [ ] Fix: hyprpicker (clipboard is broken)
+- [ ] SDDM theme
+- [ ]
 
 # 🤨 Weird Things
 Some how the permission changes:
