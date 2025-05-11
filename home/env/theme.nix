@@ -32,7 +32,7 @@
         gtk-cursor-theme-name = "Bibata Modern Ice"
       '';
     };
-
   };
+  home.sessionVariables.GTK_THEME = "Adwaita-dark";
 
 }
