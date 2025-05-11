@@ -18,8 +18,11 @@
       size = 25;
     };
     theme = {
-      name = "Adwaita-dark";
-      package=pkgs.gnome-themes-extra;
+      name = "Tokyonight-Dark-B";
+      package = pkgs.tokyo-night-gtk;
+    };
+    iconTheme = {
+        name = "Tokyonight-Dark";
     };
     gtk3.extraConfig = {
       Settings = ''
@@ -33,6 +36,6 @@
       '';
     };
   };
-  home.sessionVariables.GTK_THEME = "Adwaita-dark";
+  home.sessionVariables.GTK_THEME = "Tokyonight-Dark-B";
 
 }
