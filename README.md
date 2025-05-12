@@ -4,7 +4,7 @@
     ❄️ Welcome to my NixOS Linux Configuration! 
     <br />
     <br />
-    <a href="https://hadrian.cc">❤️ my daily driver OS and Setup!</a>
+    <a href="https://hadrian.cc">I ❤️ my daily driver OS and PC Setup!</a>
     ·
     <a href="https://hadrian.cc">Made with passion by Hadrian</a>
   </p>
@@ -12,11 +12,11 @@
 
 # ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux x86_64
-- **Distro**: NixOS
-- **WM/DE**: Hyprland
+- **OS**: Linux x86_64 (AMD Ryzen 5000 series chip)
+- **Distro**: NixOS Unstable
+- **WM/DE**: Hyprland 
 - **Addons**: home-manager, nix-flakes
-- **GPU**: AMD (RX 7000 series)
+- **GPU**: AMD on Wayland (RX 7000 series)
 - **Since**: 3rd March, 2025
 
 > [!WARNING]  
@@ -36,9 +36,14 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 # ✅ To Do List
 - [ ] NixOS generation garbage collector
 - [ ] p10k configuration
-- [ ] Fix: hyprpicker (clipboard is broken)
+- [ ] Fix: hyprpicker
 - [ ] SDDM theme
-- [ ]
+- [ ] Fix: Hyprshot smooth animation
+- [ ] Emoji, Text, and Image clipboard
+- [ ] Setup script
+- [ ] SSH script
+- [ ] Better rebuild script
+- [ ] Find a way to update individual packages (Yes, I did not rtfm)
 
 # 🤨 Weird Things
 Some how the permission changes:
