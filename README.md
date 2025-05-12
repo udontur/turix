@@ -34,15 +34,16 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 2. GTK theme is a buggy (primarily in ```nautilus```)
 
 # ✅ To Do List
-- [ ] NixOS generation garbage collector
-- [ ] p10k configuration
+### 🚧 Fixes
 - [ ] Fix: hyprpicker
-- [ ] SDDM theme
+- [ ] Fix: SDDM theme
 - [ ] Fix: Hyprshot smooth animation
+- [ ] Fix: p10k configuration
+- [ ] Fix: Rebuild script git bug
+
+### ✨ Features
+- [ ] NixOS generation garbage collector
 - [ ] Emoji, Text, and Image clipboard
-- [ ] Setup script
-- [ ] SSH script
-- [ ] Better rebuild script
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
 
 # 🤨 Weird Things
@@ -50,39 +51,3 @@ Some how the permission changes:
 ```bash
 sudo chown -R udontur:777 ./nixos
 ```
-
-<!-- 
-# Setting Up
-Please setup a hardware config
-make sure to connect to wifi usin nmtui
-1. Add git temporarily to the config file
-```bash
-sudo nix-shell -p git & sudo nixos-rebuild switch
-```
-2. Git clone the repo over https
-```bash
-git clone https://github.com/udontur/nixos.git
-```
-cd dir
-3. Run and follow the SSH setup script
-```bash
-sudo chmod +x ./script/ssh-gen.sh & ./script/ssh-gen.sh
-```
-4. Remove the current nixos folder
-```bash
-cd ~ & rm -rf ~/nixos
-```
-6. Git clone the repo via ssh
-```bash
-git clone git@github.com:udontur/nixos.git
-```
-7. Run the setup script
-```bash
-sudo chmod +x ./script/setup.sh & ./script/setup.sh
-```
-8. Rebuild the nixos configuration
-```bash
-sudo chmod +x ./rebuild & ./rebuild
-``` -->
-<!-- 
-# Usage -->
