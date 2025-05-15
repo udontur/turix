@@ -19,7 +19,11 @@
     wofi
     # vscode (moved to home manager)
     easyeffects
-    #chromium
+
+    # Code Editor
+    jetbrains.webstorm
+    jetbrains.rust-rover
+    jetbrains.clion
 
     # Utility apps and tools
     git
@@ -33,6 +37,5 @@
     # Move to nautilus later
     unzip
     zip
-
   ];
 }

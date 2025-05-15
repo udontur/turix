@@ -124,7 +124,7 @@
       animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
-          animation = windows, 1, 6, bcur, popin 80%
+          animation = windows, 1, 4, bcur, popin 80%
           animation = layers, 1, 6, bcur, fade
           animation = fade, 1, 6, bcur
           animation = border, 1, 6, default

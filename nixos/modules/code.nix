@@ -23,7 +23,7 @@
 
     # Web dev
     bun
-    nodejs_23
+    nodePackages_latest.nodejs
 
     # Nix
     nix-init
