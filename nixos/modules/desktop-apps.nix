@@ -15,15 +15,10 @@
     kitty
     inputs.zen-browser.packages."${system}".beta
     nautilus
-    yazi
-    wofi
     # vscode (moved to home manager)
+    wofi
     easyeffects
-
-    # Code Editor
-    jetbrains.webstorm
-    jetbrains.rust-rover
-    jetbrains.clion
+    
 
     # Utility apps and tools
     git
@@ -33,9 +28,5 @@
     inputs.ossdmk.packages."${system}".default
     inputs.judgel.packages."${system}".default
     ollama-rocm
-
-    # Move to nautilus later
-    unzip
-    zip
   ];
 }
