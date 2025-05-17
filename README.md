@@ -31,7 +31,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 # ❌ NON-Reproducable applications
 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
-2. GTK theme is a buggy (primarily in ```nautilus```)
+2. GTK theme is buggy (primarily in ```nautilus```)
 
 # ✅ To Do List
 ### 🚧 Fixes
@@ -45,6 +45,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [ ] NixOS generation garbage collector
 - [ ] Emoji, Text, and Image clipboard
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
+- [ ] Set default applications 
 
 # 🤨 Weird Things
 Some how the permission changes:
