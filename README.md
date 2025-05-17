@@ -12,11 +12,11 @@
 
 # ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux x86_64 (AMD Ryzen 5000 series chip)
+- **OS**: Linux x86_64 (AMD Ryzen 5000s)
 - **Distro**: NixOS Unstable
-- **WM/DE**: Hyprland 
+- **WM/DE**: Hyprland (Wayland)
 - **Addons**: home-manager, nix-flakes
-- **GPU**: AMD on Wayland (RX 7000 series)
+- **GPU**: AMD RX 7000s
 - **Since**: 3rd March, 2025
 
 > [!WARNING]  
