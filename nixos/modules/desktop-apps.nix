@@ -18,6 +18,7 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
+    chromium
     
 
     # Utility apps and tools

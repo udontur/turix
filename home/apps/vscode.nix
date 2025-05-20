@@ -39,6 +39,7 @@
       editor.tabSize = 4;
       editor.insertSpaces = true;
       C_Cpp.clang_format_fallbackStyle = "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4}";
+      editor.lineNumbers= "relative";
       
     };
     extensions = with pkgs.vscode-extensions; [
