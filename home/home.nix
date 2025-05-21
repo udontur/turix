@@ -15,6 +15,7 @@
     ./cmd/zsh.nix
     ./env/theme.nix
     #./apps/yazi.nix
+    #./apps/waybar.nix
   ];
 
   # The forbidden corner

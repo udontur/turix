@@ -19,7 +19,7 @@
     wofi
     easyeffects
     chromium
-    
+    #waybar
 
     # Utility apps and tools
     git

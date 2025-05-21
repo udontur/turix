@@ -67,6 +67,7 @@
       exec-once = zen
       exec-once = swaync
       # exec-once = nohup easyeffects --gapplication-service
+      exec-once = waybar
       exec-once = hyprctl setcursor Bibata-Modern-Ice 25
       exec-once = systemctl --user start hyprpolkitagent
 
