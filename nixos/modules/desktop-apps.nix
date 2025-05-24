@@ -20,7 +20,8 @@
     easyeffects
     chromium
     #waybar
-
+qdirstat
+gnome-system-monitor
     # Utility apps and tools
     git
     neofetch
