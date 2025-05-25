@@ -11,6 +11,7 @@
     hyprland.url = "github:hyprwm/Hyprland";
     ossdmk.url = "github:udontur/ossdmk";
     judgel.url = "github:udontur/judgel";
+    wretch.url = "github:thesillyboi/wretch";
   };
 
   outputs =
@@ -21,6 +22,7 @@
       zen-browser,
       hyprland,
       ossdmk,
+      wretch,
       ...
     }@inputs:
     let

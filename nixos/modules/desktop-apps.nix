@@ -18,17 +18,25 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
-    chromium
-    #waybar
-qdirstat
-gnome-system-monitor
+    # chromium
+    osu-lazer
+
     # Utility apps and tools
     git
     neofetch
     btop-rocm
     zsh
     inputs.ossdmk.packages."${system}".default
-    inputs.judgel.packages."${system}".default
     ollama-rocm
+    zsh-powerlevel10k
+
+    # Developer
+    inputs.wretch.packages."${system}".default
+    inputs.judgel.packages."${system}".default
+
+    # Temporary
+    qdirstat
+    gnome-system-monitor
+
   ];
 }

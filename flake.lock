@@ -455,6 +455,22 @@
     },
     "nixpkgs_5": {
       "locked": {
+        "lastModified": 1747744144,
+        "narHash": "sha256-W7lqHp0qZiENCDwUZ5EX/lNhxjMdNapFnbErcbnP11Q=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "2795c506fe8fb7b03c36ccb51f75b6df0ab2553f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
         "lastModified": 1743448293,
         "narHash": "sha256-bmEPmSjJakAp/JojZRrUvNcDX2R5/nuX6bm+seVaGhs=",
         "owner": "nixos",
@@ -517,6 +533,7 @@
         "judgel": "judgel",
         "nixpkgs": "nixpkgs_3",
         "ossdmk": "ossdmk",
+        "wretch": "wretch",
         "zen-browser": "zen-browser"
       }
     },
@@ -532,6 +549,24 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default-linux",
+        "type": "github"
+      }
+    },
+    "wretch": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5"
+      },
+      "locked": {
+        "lastModified": 1748143623,
+        "narHash": "sha256-OBi7IXsTYmRCEydov631o8s0WhFcBIVYK3B/Mpeq7FA=",
+        "owner": "thesillyboi",
+        "repo": "wretch",
+        "rev": "cbb89775a6cae3d2e5d5d41c8ad86e74c7c8aaf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thesillyboi",
+        "repo": "wretch",
         "type": "github"
       }
     },
@@ -579,7 +614,7 @@
     "zen-browser": {
       "inputs": {
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_5"
+        "nixpkgs": "nixpkgs_6"
       },
       "locked": {
         "lastModified": 1746933269,
