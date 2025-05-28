@@ -20,7 +20,9 @@
     easyeffects
     # chromium
     osu-lazer
-
+    obs-studio
+    pdfarranger
+    
     # Utility apps and tools
     git
     neofetch

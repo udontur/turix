@@ -12,16 +12,14 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
-    ./modules/enable.nix
-    ./modules/resource.nix
-    ./modules/system.nix
-    ./modules/env.nix
-    ./modules/desktop-apps.nix
-    ./modules/code.nix
-  ];
+    
+    ./pkgs/desktop.nix
+    ./pkgs/code.nix
+    ./pkgs/resource.nix
 
-  # ******NOTES******
-  # Stable for Laptop (cuz I do not want to break it)
-  # setup auto clear in NIxos
-  # make a rebuid script
+    ./env/enable.nix
+    ./env/system.nix
+    ./env/env.nix
+    
+  ];
 }
