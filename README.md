@@ -36,9 +36,9 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 # ✅ To Do List
 ### 🚧 Fixes
 - [ ] Fix: hyprpicker
-- [ ] Fix: SDDM theme
+- [x] Fix: SDDM theme (changed to GDM)
 - [ ] Fix: Hyprshot smooth animation
-- [ ] Fix: p10k configuration
+- [x] Fix: p10k configuration
 - [ ] Fix: Rebuild script git bug
 
 ### ✨ Features
