@@ -35,11 +35,10 @@
 
 #clock,
 #pulseaudio,
-#custom-notification,
 #cpu,
 #memory,
 #window,
-#battery {
+#network {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
@@ -83,11 +82,11 @@
       cpu = {
         format = " {usage}%";
         tooltip = true;
-        interval = 3;
+        interval = 1;
       };
       memory = {
         format = "{used:0.1f}GB";
-        interval = 3;
+        interval = 1;
       };
       pulseaudio = {
         format = "{icon} {volume}%";
@@ -102,22 +101,9 @@
         };
       };
       "network"={
-        rotete="0";
-        format=" {bandwidthDownBytes}";
-        interval="2";
-      };
-      "custom/notification" = {
-        escape = true;
-        exec = "swaync-client -swb";
-        exec-if = "which swaync-client";
-        format = "{icon}";
-        format-icons = {
-          none = "✔";
-          notification = "!";
-        };
-        on-click = "sleep 0.1 && swaync-client -t -sw";
-        return-type = "json";
-        tooltip = false;
+        rotete=0;
+        format="󰇚 {bandwidthDownBytes}";
+        interval=1;
       };
     }];
   };
