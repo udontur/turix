@@ -31,24 +31,23 @@
 
   # Networking
   networking.networkmanager.enable = true;
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "earth"; # Define your hostname.
   networking.firewall.enable = true;
 
   # Time and Language
   time.timeZone = "Asia/Hong_Kong";
   i18n.defaultLocale = "en_HK.UTF-8";
 
-  # X11 (for SDDM)
+  # X11 (for GDM)
   services.xserver.enable = true;
   services.xserver.xkb = {
     layout = "us";
     variant = "";
   };
 
-  # SDDM
-  services.displayManager.sddm.enable = true;
-  services.displayManager.sddm.wayland.enable = true;
-  # services.displayManager.sddm.theme="apple-sddm"; # Does not seem to work
+  # GDM
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.displayManager.gdm.wayland = true;
 
   # User setup
   users.users.udontur = {

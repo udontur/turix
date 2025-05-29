@@ -30,5 +30,6 @@
     recursive
     jetbrains-mono
     nerdfix
+    font-awesome
   ];
 }

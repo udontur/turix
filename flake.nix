@@ -30,7 +30,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.earth = nixpkgs.lib.nixosSystem {
 
         specialArgs = { inherit inputs; };
         modules = [

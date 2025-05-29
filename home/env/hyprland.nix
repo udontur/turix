@@ -12,6 +12,7 @@
     xdg-desktop-portal-hyprland
     hyprpolkitagent
     brightnessctl
+    waybar
   ];
   wayland.windowManager.hyprland = {
     enable = true;
@@ -66,7 +67,7 @@
       exec-once = swayosd-server
       exec-once = zen
       exec-once = swaync
-      # exec-once = nohup easyeffects --gapplication-service
+      exec-once = nohup easyeffects --gapplication-service
       exec-once = waybar
       exec-once = hyprctl setcursor Bibata-Modern-Ice 25
       exec-once = systemctl --user start hyprpolkitagent
