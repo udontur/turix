@@ -19,10 +19,6 @@
       self,
       nixpkgs,
       home-manager,
-      zen-browser,
-      hyprland,
-      ossdmk,
-      wretch,
       ...
     }@inputs:
     let
