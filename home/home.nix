@@ -14,8 +14,8 @@
     ./apps/easyeffects.nix
     ./cmd/zsh.nix
     ./env/theme.nix
-    #./apps/yazi.nix
     ./apps/waybar.nix
+    ./env/hyprpaper.nix
   ];
 
   # The forbidden corner

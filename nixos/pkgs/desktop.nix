@@ -27,6 +27,7 @@
     git
     neofetch
     btop-rocm
+    yazi
     zsh
     inputs.ossdmk.packages."${system}".default
     ollama-rocm

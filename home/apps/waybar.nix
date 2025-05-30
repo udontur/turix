@@ -14,7 +14,7 @@
       #waybar {
         transition-property: background-color;
         transition-duration: 0.5s;
-        background-color: #000000;
+        background-color: transparent;
       }
 
       #workspaces button {
@@ -22,7 +22,7 @@
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color: #222222;
+        background-color: rgba(34, 34, 34, 0.7);
       }
 
       #workspaces button.active {
@@ -30,7 +30,7 @@
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color:#3c3c3c;
+        background-color:rgba(60, 60, 60, 0.7);
       }
 
       #clock,
@@ -43,7 +43,7 @@
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color: #222222;
+        background-color: rgba(34, 34, 34, 0.7);
       }
 
     '';

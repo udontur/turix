@@ -114,7 +114,7 @@
       decoration {
           rounding = 8
           active_opacity = 1
-          inactive_opacity = 1
+          inactive_opacity = 0.95
           blur {
               enabled = false
           }
@@ -126,10 +126,10 @@
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
           animation = windows, 1, 4, bcur, popin 80%
-          animation = layers, 1, 6, bcur, fade
-          animation = fade, 1, 6, bcur
-          animation = border, 1, 6, default
-          animation = borderangle, 1, 6, bcur, loop
+          animation = layers, 1, 4, bcur, fade
+          animation = fade, 1, 4, bcur
+          animation = border, 1, 4, default
+          animation = borderangle, 1, 4, bcur, loop
           animation = workspaces, 1, 6, bcur, slidefade 20%
       }
       dwindle {
