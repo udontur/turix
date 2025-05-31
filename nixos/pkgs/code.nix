@@ -16,7 +16,7 @@
     boost186
     cmake
     fmt
-    
+
     # Rust
     rustc
     cargo
@@ -30,5 +30,11 @@
     nixpkgs-hammering
     nixpkgs-fmt
 
+    # Umpire
+    gcc # C++
+    python314
+    go
+    zulu8 # Java
+    rustc
   ];
 }

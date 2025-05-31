@@ -557,11 +557,11 @@
         "nixpkgs": "nixpkgs_5"
       },
       "locked": {
-        "lastModified": 1748143623,
-        "narHash": "sha256-OBi7IXsTYmRCEydov631o8s0WhFcBIVYK3B/Mpeq7FA=",
+        "lastModified": 1748670824,
+        "narHash": "sha256-HvREkwTa1AzTLwvyU8kd6cTZIwTvdhUnWnlWRbX2gdU=",
         "owner": "thesillyboi",
         "repo": "wretch",
-        "rev": "cbb89775a6cae3d2e5d5d41c8ad86e74c7c8aaf3",
+        "rev": "2137871e1749d8715dd26b348b83269530c2db7b",
         "type": "github"
       },
       "original": {
