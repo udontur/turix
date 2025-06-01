@@ -32,6 +32,7 @@
     inputs.ossdmk.packages."${system}".default
     inputs.hyprshot.packages."${system}".default
     ollama-rocm
+    gdu
     
     # Zsh
     zsh
