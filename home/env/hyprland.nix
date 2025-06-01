@@ -7,7 +7,7 @@
     hyprpicker
     hyprland
     hyprcursor
-    # hyprshot
+    # hyprshot my own flake
     hyprnome
     xdg-desktop-portal-hyprland
     hyprpolkitagent

@@ -42,7 +42,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [x] Fix: Rebuild script git bug
 
 ### ✨ Features
-- [ ] ~~NixOS generation garbage collector~~ (It broke some of my stuff :c)
+- [x] NixOS generation garbage collector
 - [x] Emoji, Text, and Image clipboard
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
 - [ ] Set default applications without crashing home manager (mime apps does crash it)
