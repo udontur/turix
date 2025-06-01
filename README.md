@@ -39,7 +39,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [x] Fix: SDDM theme (changed to GDM)
 - [ ] Fix: Hyprshot smooth animation
 - [x] Fix: p10k configuration
-- [ ] Fix: Rebuild script git bug
+- [x] Fix: Rebuild script git bug
 
 ### ✨ Features
 - [ ] NixOS generation garbage collector

@@ -22,7 +22,7 @@
     osu-lazer
     obs-studio
     pdfarranger
-    
+    wofi-emoji
     # Utility apps and tools
     git
     neofetch

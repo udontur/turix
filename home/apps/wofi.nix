@@ -38,12 +38,11 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: transparent;
+          border-color: #A1E754;
           background-color: transparent;
           background: transparent; 
           color: white;
           border-style: solid;
-          border-color: transparent;
           margin-left: 5px;
           margin-right: 5px;
           margin-bottom: 5px;
@@ -64,7 +63,7 @@
           outline-color: transparent; 
           border-radius: 10px;
           border-width: 2px;
-          border-color: rgba(74, 222, 128, 1);
+          border-color: #A1E754;
       }
     '';
   };
