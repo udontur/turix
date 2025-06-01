@@ -36,5 +36,6 @@
     go
     zulu8 # Java
     rustc
+
   ];
 }

@@ -35,7 +35,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 ## ✅ To Do List
 ### 🚧 Fixes
-- [ ] Fix: hyprpicker
+- [x] Fix: hyprpicker
 - [x] Fix: SDDM theme (changed to GDM)
 - [ ] Fix: Hyprshot smooth animation
 - [x] Fix: p10k configuration
@@ -46,6 +46,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [ ] Emoji, Text, and Image clipboard
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
 - [ ] Set default applications 
+wofi
 
 ## 🤨 Weird Things
 Some how the permission changes:

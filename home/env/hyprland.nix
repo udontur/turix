@@ -7,7 +7,7 @@
     hyprpicker
     hyprland
     hyprcursor
-    hyprshot
+    # hyprshot
     hyprnome
     xdg-desktop-portal-hyprland
     hyprpolkitagent
@@ -31,8 +31,8 @@
       bind = SUPER, F, exec, zen
       bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
       bind = SUPER, L, exec, hyprlock
-      bind = SUPER, S, exec, hyprshot -m region output -z --clipboard-only
-      bind = SUPER_Shift, S, exec, hyprshot -m -z region
+      bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
+      bind = SUPER_Shift, S, exec, hyprshot -m region -z 
       bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
       bind = SUPER, C, exec, hyprpicker -a -f hex
       bind = SUPER, V, exec, code
@@ -97,7 +97,7 @@
       windowrulev2 = rounding 16, floating:1
 
       # layerrule = noanim, hyprpicker
-      layerrule = noanim, selection 
+      # layerrule = noanim, selection 
 
       workspace = w[tv1], gapsout:0, gapsin:0
       workspace = f[1], gapsout:0, gapsin:0

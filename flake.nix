@@ -12,6 +12,7 @@
     ossdmk.url = "github:udontur/ossdmk";
     judgel.url = "github:udontur/judgel";
     wretch.url = "github:thesillyboi/wretch";
+    hyprshot.url = "github:udontur/hyprshot";
   };
 
   outputs =
