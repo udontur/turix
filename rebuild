@@ -9,8 +9,8 @@ BLA::start_loading_animation "${BLA_passing_dots[@]}"
     sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 BLA::stop_loading_animation
 
-if [ $? -eq 1 ]; then
-    echo "NixOS Failed to Rebuild."
+if [ $? -ne 0 ]; then
+    echo "FAIL: NixOS Failed to Rebuild!"
     echo "Please check nixos-switch.log for more details"
     exit 1
 else
@@ -22,11 +22,18 @@ read -p "Git Commit and Sync? " user_input
 if [[ $user_input =~ ^[Yy]$ ]]; then
     currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
     git commit -m "$currentDate" &> git-commit.log
+    
+    if [ $? -ne 0 ]; then # DOES NOT WORK :c
+        echo "FAIL: Git failed to Commit!"
+        echo "Please check git-commit.log for more details"
+        exit 1
+    fi
+
     git push origin main &> git-sync.log
 
-    if [ $? -eq 1 ]; then # DOES NOT WORK :c
-        echo "Git failed to Commit and Sync"
-        echo "Please check git-commit.log and git-sync.log for more details"
+    if [ $? -ne 0 ]; then # DOES NOT WORK :c
+        echo "FAIL Git failed to Sync!"
+        echo "Please check git-sync.log for more details"
         exit 1
     else
         echo "Git Commit and Sync Successfully!"

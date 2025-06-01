@@ -10,7 +10,7 @@
   </p>
 </div>
 
-# ⭐ About
+## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
 - **OS**: Linux x86_64 (AMD Ryzen 5000s)
 - **Distro**: NixOS Unstable
@@ -24,16 +24,16 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 [nixos-laptop](https://github.com/udontur/nixos-laptop) is the minimal version that is tailored to a laptop. 
 
-# 🗒️ Note
+## 🗒️ Note
 1. This is **NOT** a general purpose configuration
 2. Emails and usernames are **TAILORED** 
 3. The configuration will **BREAK** if the user is not ```udontur``` 
 
-# ❌ NON-Reproducable applications
+## ❌ NON-Reproducable applications
 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
 2. GTK theme is buggy (primarily in ```nautilus```)
 
-# ✅ To Do List
+## ✅ To Do List
 ### 🚧 Fixes
 - [ ] Fix: hyprpicker
 - [x] Fix: SDDM theme (changed to GDM)
@@ -47,7 +47,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
 - [ ] Set default applications 
 
-# 🤨 Weird Things
+## 🤨 Weird Things
 Some how the permission changes:
 ```bash
 sudo chown -R udontur:777 ./nixos
