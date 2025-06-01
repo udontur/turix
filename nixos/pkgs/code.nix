@@ -37,5 +37,9 @@
     zulu8 # Java
     rustc
 
+    # Others
+    slurp
+    grim
+    libnotify
   ];
 }

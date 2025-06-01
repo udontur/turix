@@ -37,16 +37,16 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 ### 🚧 Fixes
 - [x] Fix: hyprpicker
 - [x] Fix: SDDM theme (changed to GDM)
-- [ ] Fix: Hyprshot smooth animation
+- [x] Fix: Hyprshot smooth animation
 - [x] Fix: p10k configuration
 - [x] Fix: Rebuild script git bug
 
 ### ✨ Features
-- [ ] NixOS generation garbage collector
-- [ ] Emoji, Text, and Image clipboard
+- [ ] ~~NixOS generation garbage collector~~ (It broke some of my stuff :c)
+- [x] Emoji, Text, and Image clipboard
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
-- [ ] Set default applications 
-wofi
+- [ ] Set default applications without crashing home manager (mime apps does crash it)
+- [ ] Integrate emoji picker with wofi (or use rofi)
 
 ## 🤨 Weird Things
 Some how the permission changes:

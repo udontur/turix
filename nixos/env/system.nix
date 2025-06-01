@@ -11,14 +11,14 @@
   programs.dconf.enable = true;
 
   # OpenGL
-  hardware.opengl.enable=true;
+  hardware.opengl.enable = true;
 
   # Garbage Collection NixOS Generations
-  # nix.gc={
-  #   automatic=true;
-  #   dates="weekly";
-  #   options="--max-freed ";
-  # };
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+    options = "--delete-older-than 30d";
+  };
 
   # Bootloader
   boot.loader.grub = {
