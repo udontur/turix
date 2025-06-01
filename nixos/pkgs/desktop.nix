@@ -18,7 +18,7 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
-    # chromium
+    chromium #Rm
     osu-lazer
     obs-studio
     pdfarranger
