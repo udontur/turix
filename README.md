@@ -31,7 +31,10 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 ## ❌ NON-Reproducable applications
 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
-2. GTK theme is buggy (primarily in ```nautilus```)
+  - Extensions
+  - Settings
+  - Essential Tabs, Pinned Tabs, Workspaces
+  - Non-sensitive extension settings
 
 ## ✅ To Do List
 ### 🚧 Fixes
