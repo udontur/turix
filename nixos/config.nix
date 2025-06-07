@@ -17,9 +17,8 @@
     ./pkgs/code.nix
     ./pkgs/resource.nix
 
-    ./env/enable.nix
-    ./env/system.nix
     ./env/env.nix
-    
+    ./env/system.nix
+    ./env/nono-zone.nix
   ];
 }

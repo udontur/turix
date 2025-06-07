@@ -18,34 +18,30 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
-    
-    osu-lazer
     obs-studio
-    pdfarranger
-    wofi-emoji
 
-    # Utility apps and tools
-    git
+    # Terminal apps
     neofetch
     btop-rocm
     yazi
-    inputs.ossdmk.packages."${system}".default
-    inputs.hyprshot.packages."${system}".default
     ollama-rocm
     gdu
-    
+    inputs.ossdmk.packages."${system}".default
+
+    # Utility apps
+    git
+    inputs.hyprshot.packages."${system}".default
+    wofi-emoji
+
+
     # Zsh
     zsh
     zsh-powerlevel10k
-    
-    # Developer
-    inputs.wretch.packages."${system}".default
-    inputs.judgel.packages."${system}".default
 
     # Temporary
     # qdirstat
     gnome-system-monitor
     chromium
-
+    pdfarranger
   ];
 }
