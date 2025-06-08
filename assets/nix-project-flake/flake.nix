@@ -30,14 +30,16 @@
                 # Packages used by the program
               ];
 
-              # Buildoio
+              # Build
               buildPhase = ''
                 cmake ..
                 cmake --build .
               '';
               installPhase = ''
+              runHook preInstall
                 mkdir -p $out/bin
-                install -D ./EXEC $out/bin/EXEC
+                install -Dm755 ./EXEC $out/bin/EXEC
+                runHook postInstall
               '';
             };
         }
