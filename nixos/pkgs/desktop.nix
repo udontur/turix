@@ -33,7 +33,6 @@
     inputs.hyprshot.packages."${system}".default
     wofi-emoji
 
-
     # Zsh
     zsh
     zsh-powerlevel10k
@@ -41,7 +40,7 @@
     # Temporary
     # qdirstat
     gnome-system-monitor
-    chromium
+    # chromium
     pdfarranger
   ];
 }

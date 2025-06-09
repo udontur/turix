@@ -14,7 +14,9 @@
   };
 
   # Remove default pacakges
-  services.xserver.excludePackages = [ pkgs.xterm ];
+  services.xserver.excludePackages = with pkgs; [ 
+    xterm 
+  ];
 
   # Enable Nix Flakes
   nix.settings.experimental-features = [
@@ -35,7 +37,7 @@
   # Environment Variables
   environment.sessionVariables = {
     WLR_NO_HARDWARE_CURSORS = "1";
-    NIXOS_OZONE_WL = "1"; # Hint electron apps to use wayland
+    NIXOS_OZONE_WL = "1"; 
   };
 
 }

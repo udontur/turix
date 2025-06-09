@@ -7,7 +7,6 @@
 }:
 
 {
-  
 
   # Garbage Collection NixOS Generations
   nix.gc = {
@@ -15,11 +14,9 @@
     dates = "weekly";
     options = "--delete-older-than 30d";
   };
-  # nix-collect-garbage --delete-older-than 30d
-
+  
   # Store optimization on every build
   nix.settings.auto-optimise-store = true;
-  # nix-store --optimise
   
 
   # User setup
@@ -31,23 +28,30 @@
       "networkmanager"
       "wheel"
     ];
-    packages = with pkgs; [ ];
   };
 
   networking.hostName = "earth"; # Define your hostname.
 
-  
+  # XServer
+  services.xserver = {
+    enable = true;
+    xkb = {
+      layout = "us";
+      variant = "";
+    };
 
-  # X11 (for GDM)
-  services.xserver.enable = true;
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
+    # GDM
+    displayManager.gdm = {
+      enable = true;
+      wayland = true;
+      # [IMPORTANT] DESKTOP SPECIFIC
+      settings = {
+        autoLogin={
+            enable = true;
+            user = "udontur";
+        };
+      };
+      # END
+    };
   };
-
-  # GDM
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.displayManager.gdm.wayland = true;
-
-  
 }

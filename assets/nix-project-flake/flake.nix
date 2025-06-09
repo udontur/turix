@@ -25,6 +25,8 @@
 
               nativeBuildInputs = with pkgs;[
                 # Packages used by the builder
+                cmake
+                pkg-config
               ];
               buildInputs = with pkgs;[
                 # Packages used by the program
@@ -36,7 +38,7 @@
                 cmake --build .
               '';
               installPhase = ''
-              runHook preInstall
+                runHook preInstall
                 mkdir -p $out/bin
                 install -Dm755 ./EXEC $out/bin/EXEC
                 runHook postInstall

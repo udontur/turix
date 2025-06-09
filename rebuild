@@ -9,40 +9,18 @@ BLA::start_loading_animation "${BLA_passing_dots[@]}"
     sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 BLA::stop_loading_animation
 
-if [ $? -ne 0 ]; then
-    echo "FAIL: NixOS Failed to Rebuild!"
-    echo "Please check nixos-switch.log for more details"
-    exit 1
-else
-    echo "NixOS Rebuilt Successfully!" 
-fi
+notify-send "NixOS finished rebuilding!"
+echo "NixOS finished rebuilding!"
 
-read -p "Git Commit and Sync? " user_input
+sudo chown -R udontur:777 ./.git
+currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
+git commit -m "$currentDate"
+
+read -p "Back it up? " user_input
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
-    currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
-    git commit -m "$currentDate" &> git-commit.log
-    
-    if [ $? -ne 0 ]; then # DOES NOT WORK :c
-        echo "FAIL: Git failed to Commit!"
-        echo "Please check git-commit.log for more details"
-        exit 1
-    fi
-
-    git push origin main &> git-sync.log
-
-    if [ $? -ne 0 ]; then # DOES NOT WORK :c
-        echo "FAIL Git failed to Sync!"
-        echo "Please check git-sync.log for more details"
-        exit 1
-    else
-        echo "Git Commit and Sync Successfully!"
-    fi
-
-elif [[ $user_input =~ ^[Nn]$ ]]; then
-    echo "Configuration NOT backed up"
+    git push origin main
+    echo "Configuration backed up :D"
+else
+    echo "Configuration NOT backed up :c"
 fi
-
-### Features to Add ###
-# 1. Auto format all code
-# Insipiration https://gist.github.com/0atman/1a5133b842f929ba4c1e195ee67599d5

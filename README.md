@@ -35,6 +35,8 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
   - Settings
   - Essential Tabs, Pinned Tabs, Workspaces
   - Non-sensitive extension settings
+2. p10k configuration
+p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
 
 ## ✅ To Do List
 ### 🚧 Fixes
@@ -43,6 +45,13 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [x] Fix: Hyprshot smooth animation
 - [x] Fix: p10k configuration
 - [x] Fix: Rebuild script git bug
+- [ ] btop: GPU does not work
+- [ ] easyeffects: presets does not load declaratively
+- [ ] vscode: waybar characters are not rendering in vscode only
+- [ ] hyprshot: packages are not includeded by the flake
+- [ ] flake: I dont really understand what is going in the `flake.nix`
+- [ ] reb: The error checking for the rebuild script does not work
+
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
@@ -50,9 +59,33 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - [ ] Find a way to update individual packages (Yes, I did not rtfm)
 - [ ] Set default applications without crashing home manager (mime apps does crash it)
 - [ ] Integrate emoji picker with wofi (or use rofi)
+- [ ] Merge the laptop config with host specific config files
+- [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
 
-## 🤨 Weird Things
-Some how the permission changes:
+## 🤨 Tips and Tricks
+### Fail to git commit
+IDK why but sometimes the `.git` folder will change permission by itself:
 ```bash
-sudo chown -R udontur:777 ./nixos
+sudo chown -R udontur:777 ./.git
+```
+
+### MIME apps
+Even when Linux and Windows merges, **PLEEEASE DO NOT** put MIME apps list in home manager, it will break:
+> [!WARNING]  
+> **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
+
+### Clear up the storage
+Nix garbage collector
+```bash
+nix-collect-garbage --delete-older-than 30d
+```
+Nix store optimization
+```bash
+nix-store --optimise
+```
+
+### NixOS build error?
+If it starts outputting weird errors, make sure all used files are tracked by `git`
+```bash
+git add .
 ```
