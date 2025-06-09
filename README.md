@@ -40,11 +40,9 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 
 ## ✅ To Do List
 ### 🚧 Fixes
-- [x] Fix: hyprpicker
-- [x] Fix: SDDM theme (changed to GDM)
-- [x] Fix: Hyprshot smooth animation
-- [x] Fix: p10k configuration
-- [x] Fix: Rebuild script git bug
+- [x] hyprshot: smooth animation
+- [x] p10k: p10k configuration
+- [x] reb: rebuild script git bug
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
 - [ ] vscode: waybar characters are not rendering in vscode only
