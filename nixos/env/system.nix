@@ -45,11 +45,9 @@
       enable = true;
       wayland = true;
       # [IMPORTANT] DESKTOP SPECIFIC
-      settings = {
-        autoLogin={
-            enable = true;
-            user = "udontur";
-        };
+      autoLogin={
+        enable = true;
+        user = "udontur";
       };
       # END
     };
