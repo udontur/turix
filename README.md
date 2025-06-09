@@ -61,18 +61,18 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
 
 ## 🤨 Tips and Tricks
-### Fail to git commit
+### 1. Failed to git commit
 IDK why but sometimes the `.git` folder will change permission by itself:
 ```bash
 sudo chown -R udontur:777 ./.git
 ```
 
-### MIME apps
+### 2. DO NOT declare MIME apps
 Even when Linux and Windows merges, **PLEEEASE DO NOT** put MIME apps list in home manager, it will break:
 > [!WARNING]  
 > **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
 
-### Clear up the storage
+### 3. Clear up the storage
 Nix garbage collector
 ```bash
 nix-collect-garbage --delete-older-than 30d
@@ -82,7 +82,7 @@ Nix store optimization
 nix-store --optimise
 ```
 
-### NixOS build error?
+### 4. NixOS build error?
 If it starts outputting weird errors, make sure all used files are tracked by `git`
 ```bash
 git add .
