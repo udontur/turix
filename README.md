@@ -46,9 +46,9 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
 - [ ] vscode: waybar characters are not rendering in vscode only
-- [ ] hyprshot: packages are not includeded by the flake
+- [ ] hyprshot: hyprshot packages are not includeded by the flake
 - [ ] flake: I dont really understand what is going in the `flake.nix`
-- [ ] reb: Git sync error handling
+- [x] reb: Git sync error handling
 
 
 ### ✨ Features
