@@ -50,7 +50,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] vscode: waybar characters are not rendering in vscode only
 - [ ] hyprshot: packages are not includeded by the flake
 - [ ] flake: I dont really understand what is going in the `flake.nix`
-- [ ] reb: The error checking for the rebuild script does not work
+- [ ] reb: Git sync error handling
 
 
 ### ✨ Features

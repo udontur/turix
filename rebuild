@@ -14,12 +14,13 @@ echo "NixOS finished rebuilding!"
 
 sudo chown -R udontur:777 ./.git
 currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
-git commit -m "$currentDate"
+git commit -m "$currentDate" &> git-commit.log
 
 read -p "Back it up? " user_input
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
-    git push origin main
+    git push origin main &> git-sync.log || 
+        (git push origin main && exit 1)
     echo "Configuration backed up :D"
 else
     echo "Configuration NOT backed up :c"
