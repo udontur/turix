@@ -30,12 +30,12 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 3. The configuration will **BREAK** if the user is not ```udontur``` 
 
 ## ❌ NON-Reproducable applications
-1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
+### 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
   - Extensions
   - Settings
   - Essential Tabs, Pinned Tabs, Workspaces
   - Non-sensitive extension settings
-2. p10k configuration
+### 2. p10k configuration
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
 
 ## ✅ To Do List
