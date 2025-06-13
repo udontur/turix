@@ -49,7 +49,7 @@
           active_opacity = 1
           inactive_opacity = 0.95
           blur {
-            enabled = enable
+            enabled = true
             size = 2
             passes =1
           }
