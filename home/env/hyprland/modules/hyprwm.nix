@@ -9,12 +9,16 @@
   home.file = {
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text=''
-        # Window Rule
+        
+        # btop float
         windowrulev2 = float, title:btop
         windowrulev2 = size 1300 750, title:btop
         
+        # Smile emoji picker float
         windowrulev2 = float, title:Smile
-        # windowrulev2 = rounding 16, title:wofi-emoji
+        windowrulev2 = size 1300 900, title:btop
+
+        # Window Rule
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
         windowrulev2 = rounding 16, floating:1
@@ -34,6 +38,10 @@
           resize_on_border = true
           allow_tearing = false
           layout = dwindle
+        }
+        dwindle {
+          pseudotile = true
+          preserve_split = true
         }
         decoration {
           rounding = 8
@@ -56,13 +64,7 @@
           animation = borderangle, 1, 4, bcur, loop
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
-        dwindle {
-          pseudotile = true
-          preserve_split = true
-        }
-        master {
-          new_status = master
-        }
+        
         misc {
           force_default_wallpaper = 0     
           disable_hyprland_logo = true
