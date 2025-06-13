@@ -31,8 +31,8 @@
     # Utility apps
     git
     inputs.hyprshot.packages."${system}".default
-    wofi-emoji
     smile
+    copq
 
     # Zsh
     zsh
