@@ -15,10 +15,11 @@
         windowrulev2 = size 1300 750, title:btop
         
         # Smile emoji picker float
-        windowrulev2 = float, class:Smile
+        windowrulev2 = float, title:Smile
 
         # Terminal
-        windowrulev2 = opacity 0.2, title:kitty
+        windowrulev2 = opacity 0.2, class:kitty
+        
         # IDK what are these
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
