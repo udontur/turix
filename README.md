@@ -51,6 +51,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
 - [x] Emoji emoji picker not working on vscode
 - [ ] flake: I dont really understand what is going in the `flake.nix`
+- [ ] CopyQ: QT dark theme does not apply
 
 
 ### ✨ Features
