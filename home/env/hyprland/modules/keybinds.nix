@@ -27,7 +27,7 @@
         bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
         bind = SUPER, C, exec, hyprpicker -a -f hex
         bind = SUPER, V, exec, code
-        bindr = SUPER, M, exec, pkill wofi-emoji || wofi-emoji
+        bindr = SUPER, M, exec, smile
 
         # Windows and Workspace
         bind = SUPER_Control, right, exec, hyprnome

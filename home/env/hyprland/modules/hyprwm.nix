@@ -10,10 +10,11 @@
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text=''
         # Window Rule
-        windowrulev2 = size 1300 750, title:btop
         windowrulev2 = float, title:btop
-        windowrulev2 = float, title:wofi-emoji
-        windowrulev2 = rounding 16, title:wofi-emoji
+        windowrulev2 = size 1300 750, title:btop
+        
+        windowrulev2 = float, title:smile
+        # windowrulev2 = rounding 16, title:wofi-emoji
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
         windowrulev2 = rounding 16, floating:1
