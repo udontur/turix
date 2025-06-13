@@ -16,7 +16,7 @@
         
         # Smile emoji picker float
         windowrulev2 = float, title:Smile
-        windowrulev2 = size 1300 900, title:btop
+        windowrulev2 = size 1300 800, title:btop
 
         # Window Rule
         windowrulev2 = suppressevent maximize, class:.*
@@ -43,6 +43,7 @@
           pseudotile = true
           preserve_split = true
         }
+        
         decoration {
           rounding = 8
           active_opacity = 1
