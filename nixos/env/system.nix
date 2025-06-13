@@ -54,7 +54,7 @@
   };
 
   services.logind={
-    powerkey="ignore";
+    powerKey="ignore";
     powerKeyLongPress="ignore";
     suspendKey="ignore";
     suspendKeyLongPress="ignore";
