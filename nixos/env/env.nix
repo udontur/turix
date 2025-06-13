@@ -29,6 +29,9 @@
     home-manager
   ];
 
+  #GPaste
+  programs.gpaste.enable=true;
+
   # ZSH
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;

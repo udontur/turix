@@ -47,16 +47,16 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] easyeffects: presets does not load declaratively
 - [ ] vscode: waybar characters are not rendering in vscode only
 - [ ] hyprshot: hyprshot packages are not includeded by the flake
-- [ ] flake: I dont really understand what is going in the `flake.nix`
 - [x] reb: Git sync error handling
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
 - [x] Emoji emoji picker not working on vscode
+- [ ] flake: I dont really understand what is going in the `flake.nix`
 
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
 - [ ] Emoji, Text, and Image clipboard
-- [ ] Make hyprland use flake
+- [ ] Make hyprland use flake (in progress)
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)
 - [ ] Merge the laptop config with host specific config files
