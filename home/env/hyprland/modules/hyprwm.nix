@@ -18,7 +18,7 @@
         windowrulev2 = float, title:Smile
 
         # CopyQ float
-        windowrulev2 = float, title:CopyQ
+        windowrulev2 = float, class:com.github.hluk.copyq
 
         # Terminal
         windowrulev2 = opacity 0.7 override 0.7 override 0.7 override 0.7, class:kitty
