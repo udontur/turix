@@ -17,6 +17,9 @@
         # Smile emoji picker float
         windowrulev2 = float, title:Smile
 
+        # CopyQ float
+        windowrulev2 = float, title:CopyQ
+
         # Terminal
         windowrulev2 = opacity 0.7 override 0.7 override 0.7 override 0.7, class:kitty
         
