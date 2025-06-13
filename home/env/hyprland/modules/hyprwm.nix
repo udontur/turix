@@ -18,7 +18,7 @@
         windowrulev2 = float, title:Smile
 
         # Terminal
-        windowrulev2 = opacity 0.2, class:kitty
+        windowrulev2 = opacity 0.5, class:kitty
         
         # IDK what are these
         windowrulev2 = suppressevent maximize, class:.*
@@ -49,10 +49,10 @@
         decoration {
           rounding = 8
           active_opacity = 1
-          inactive_opacity = 0.95
+          inactive_opacity = 0.9
           blur {
             enabled = true
-            size = 3
+            size = 2
             passes = 2
           }
           shadow{
