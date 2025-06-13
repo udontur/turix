@@ -55,7 +55,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
-- [x] Emoji, Text, and Image clipboard
+- [ ] Emoji, Text, and Image clipboard
 - [ ] Make hyprland use flake
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)
