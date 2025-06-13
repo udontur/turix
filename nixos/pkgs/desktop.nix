@@ -32,6 +32,7 @@
     git
     inputs.hyprshot.packages."${system}".default
     wofi-emoji
+    smile
 
     # Zsh
     zsh

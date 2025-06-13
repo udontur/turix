@@ -49,15 +49,19 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] hyprshot: hyprshot packages are not includeded by the flake
 - [ ] flake: I dont really understand what is going in the `flake.nix`
 - [x] reb: Git sync error handling
+- [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
+- [ ] Emoji emoji picker not working on vscode
 
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
 - [x] Emoji, Text, and Image clipboard
-- [ ] Find a way to update individual packages (Yes, I did not rtfm)
-- [ ] Set default applications without crashing home manager (mime apps does crash it)
-- [ ] Integrate emoji picker with wofi (or use rofi)
+- [ ] Make hyprland use flake
+- [ ] Use a better emoji picker that acutally works
 - [ ] Merge the laptop config with host specific config files
+
+### 🎇 Features that I have no idea how to add
+- [ ] Set default applications without crashing home manager (mime apps does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
 
 ## 🤨 Tips and Tricks
