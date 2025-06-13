@@ -53,11 +53,13 @@
     };
   };
 
-  services.logind.extraConfig = ''
-    # don’t shutdown when power button is short-pressed
-    HandlePowerKey=ignore
-    HandleSuspendKey=ignore
-    HandleHibernateKey=ignore
-  '';
+  services.logind={
+    powerkey="ignore";
+    powerKeyLongPress="ignore";
+    suspendKey="ignore";
+    suspendKeyLongPress="ignore";
+    hibernateKey="ignore";
+    hibernateKeyLongPress="ignore";
+  };
 
 }
