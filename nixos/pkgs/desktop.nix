@@ -32,7 +32,7 @@
     git
     inputs.hyprshot.packages."${system}".default
     smile
-    gpaste
+    copyq
 
     # Zsh
     zsh

@@ -28,6 +28,7 @@
         bind = SUPER, C, exec, hyprpicker -a -f hex
         bind = SUPER, V, exec, code
         bindr = SUPER, M, exec, pkill smile || smile
+        bind = SUPER, D, exec, copyq toggle
 
         # Windows and Workspace
         bind = SUPER_Control, right, exec, hyprnome

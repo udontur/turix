@@ -9,15 +9,20 @@
   home.file = {
     "/home/udontur/.config/hypr/modules/system.conf" = {
       text=''
+        # System launch
+        exec-once = hyprctl setcursor Bibata-Modern-Ice 25
+        exec-once = systemctl --user start hyprpolkitagent
+        exec-once = copyq
+
         # Launch
         exec-once = hyprpaper
         exec-once = swayosd-server
-        exec-once = zen
         exec-once = swaync
         exec-once = nohup easyeffects --gapplication-service
         exec-once = waybar
-        exec-once = hyprctl setcursor Bibata-Modern-Ice 25
-        exec-once = systemctl --user start hyprpolkitagent
+        
+        # App Launch
+        exec-once = zen
 
         # Environment Variables
         env = XCURSOR_THEME, Bibata-Modern-Ice
