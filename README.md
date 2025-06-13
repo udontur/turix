@@ -58,6 +58,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] Emoji, Text, and Image clipboard
 - [ ] Make hyprland use flake
 - [x] Use a better emoji picker that acutally works
+- [x] Window rule (kitty + others)
 - [ ] Merge the laptop config with host specific config files
 
 ### 🎇 Features that I have no idea how to add

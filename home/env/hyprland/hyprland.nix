@@ -5,7 +5,6 @@
     swayosd
     swaynotificationcenter
     hyprpicker
-    hyprland
     hyprcursor
     # hyprshot my own flake
     hyprnome
