@@ -16,14 +16,15 @@
         
         # Smile emoji picker float
         windowrulev2 = float, title:Smile
-        windowrulev2 = size 1300 800, title:btop
 
-        # Window Rule
+        # Terminal
+        windowrulev2 = opacity 0.2, title:kitty
+        # IDK what are these
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
         windowrulev2 = rounding 16, floating:1
 
-        # Window Decoratins
+        # Dynamic window decoratins
         workspace = w[tv1], gapsout:0, gapsin:0
         workspace = f[1], gapsout:0, gapsin:0
         windowrulev2 = bordersize 0, floating:0, onworkspace:f[1]
@@ -50,8 +51,8 @@
           inactive_opacity = 0.95
           blur {
             enabled = true
-            size = 2
-            passes =1
+            size = 5
+            passes = 3
           }
           shadow{
             enabled = false
