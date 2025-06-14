@@ -36,7 +36,10 @@
 
     # Zsh
     zsh
-    zsh-powerlevel10k
+    # zsh-powerlevel10k
+    
+    # Deps
+    libnotify
 
     # Temporary
     # qdirstat

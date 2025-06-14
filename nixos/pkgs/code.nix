@@ -11,16 +11,16 @@
   # Search for options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
   environment.systemPackages = with pkgs; [
     # Developer
-    inputs.wretch.packages."${system}".default
-    inputs.judgel.packages."${system}".default
+    # inputs.wretch.packages."${system}".default
+    # inputs.judgel.packages."${system}".default
     
     # CPP
     gcc
-    gnumake
+    #gnumake
     #boost186
     #cmake
     #fmt
-    # vcpkg
+    #vcpkg
     #pkg-config
     bazel_7
 
@@ -47,9 +47,8 @@
     # Package managers
     flatpak
 
-    # Others
+    # Temporary
     # slurp
     # grim
-    libnotify
   ];
 }

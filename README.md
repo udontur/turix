@@ -30,7 +30,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 3. The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`
 4. Make sure the `system.stateVersion` matches the NixOS version you installed
 
-## ❌ NON-Reproducable applications
+## ❌ Non-Reproducable applications
 ### 1. ALL zen configuration (hope it will be added to `nixpkgs` soon)
   - Extensions
   - Settings
@@ -46,14 +46,13 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] reb: rebuild script git bug
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
-- [ ] vscode: waybar characters are not rendering in vscode only
-- [ ] hyprshot: hyprshot packages are not includeded by the flake
+- [ ] vscode: waybar character does not render in places other than waybar
+- [x] hyprshot: hyprshot packages are not includeded by the flake
 - [x] reb: Git sync error handling
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
 - [x] Emoji emoji picker not working on vscode
 - [ ] flake: I dont really understand what is going in the `flake.nix`
 - [x] CopyQ: QT dark theme does not apply
-
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
