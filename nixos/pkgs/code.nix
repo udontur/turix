@@ -21,8 +21,8 @@
     #cmake
     #fmt
     # vcpkg
-    pkg-config
-    bazel
+    #pkg-config
+    bazel_7
 
     # Rust
     rustc
