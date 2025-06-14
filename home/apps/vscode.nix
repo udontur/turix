@@ -54,6 +54,7 @@
       jnoortheen.nix-ide
       ms-vscode.cmake-tools
       rust-lang.rust-analyzer
+      BazelBuild.vscode-bazel
     ];
     keybindings = [
       {
