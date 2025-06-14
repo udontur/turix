@@ -10,7 +10,7 @@
     enableUpdateCheck = false;
     userSettings = {
       editor.fontFamily = "Recursive Mono Casual Static";
-      editor.fontLigatures="'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'ss11', 'titl'";
+      editor.fontLigatures = "'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08', 'ss09', 'ss11', 'titl'";
       explorer.confirmDelete = false;
       explorer.confirmPasteNative = false;
       git.autofetch = true;
@@ -40,8 +40,8 @@
       editor.tabSize = 4;
       editor.insertSpaces = true;
       C_Cpp.clang_format_fallbackStyle = "{ BasedOnStyle: Google, IndentWidth: 4, TabWidth: 4}";
-      editor.lineNumbers= "relative";
-      
+      editor.lineNumbers = "relative";
+
     };
     extensions = with pkgs.vscode-extensions; [
       bbenoist.nix
@@ -54,7 +54,7 @@
       jnoortheen.nix-ide
       ms-vscode.cmake-tools
       rust-lang.rust-analyzer
-      BazelBuild.vscode-bazel
+      bazelbuild.vscode-bazel
     ];
     keybindings = [
       {
