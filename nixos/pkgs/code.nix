@@ -50,6 +50,6 @@
     # Others
     # slurp
     # grim
-    # libnotify
+    libnotify
   ];
 }
