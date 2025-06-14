@@ -29,6 +29,8 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 2. Emails and usernames are **TAILORED** 
 3. The configuration will **BREAK** if the user is not ```udontur``` 
 
+Make sure to chagne the state version when installing the new system
+
 ## ❌ NON-Reproducable applications
 ### 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
   - Extensions
@@ -51,12 +53,12 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
 - [x] Emoji emoji picker not working on vscode
 - [ ] flake: I dont really understand what is going in the `flake.nix`
-- [ ] CopyQ: QT dark theme does not apply
+- [x] CopyQ: QT dark theme does not apply
 
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
-- [ ] Emoji, Text, and Image clipboard
+- [x] Emoji, Text, and Image clipboard
 - [ ] Make hyprland use flake (in progress)
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)

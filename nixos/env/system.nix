@@ -17,7 +17,6 @@
   
   # Store optimization on every build
   nix.settings.auto-optimise-store = true;
-  
 
   # User setup
   users.users.udontur = {
@@ -44,12 +43,10 @@
     displayManager.gdm = {
       enable = true;
       wayland = true;
-      # [IMPORTANT] DESKTOP SPECIFIC
       autoLogin={
         enable = true;
         user = "udontur";
       };
-      # END
     };
   };
 
