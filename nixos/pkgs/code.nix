@@ -17,11 +17,12 @@
     # CPP
     gcc
     gnumake
-    boost186
-    cmake
-    fmt
-    vcpkg
+    #boost186
+    #cmake
+    #fmt
+    # vcpkg
     pkg-config
+    bazel
 
     # Rust
     rustc
