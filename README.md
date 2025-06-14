@@ -17,7 +17,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **WM/DE**: Hyprland (Wayland)
 - **Addons**: home-manager, nix-flakes
 - **GPU**: AMD RX 7000s
-- **Since**: 3rd March, 2025
+- **Since**: 3rd March 2025
 
 > [!WARNING]  
 > This is **NOT** a general purpose configuration
@@ -26,13 +26,12 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 ## 🗒️ Note
 1. This is **NOT** a general purpose configuration
-2. Emails and usernames are **TAILORED** 
-3. The configuration will **BREAK** if the user is not ```udontur``` 
-
-Make sure to chagne the state version when installing the new system
+2. Usernames, emails, and hosts are **TAILORED** 
+3. The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`
+4. Make sure the `system.stateVersion` matches the NixOS version you installed
 
 ## ❌ NON-Reproducable applications
-### 1. ALL zen configuration (hope it will be added to ```nixpkgs``` soon)
+### 1. ALL zen configuration (hope it will be added to `nixpkgs` soon)
   - Extensions
   - Settings
   - Essential Tabs, Pinned Tabs, Workspaces
@@ -63,9 +62,10 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)
 - [ ] Merge the laptop config with host specific config files
+- [ ] hyprlock: laptop startup
 
 ### 🎇 Features that I have no idea how to add
-- [ ] Set default applications without crashing home manager (mime apps does crash it)
+- [ ] Set default applications without crashing home manager (mime apps list does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
 
 ## 🤨 Tips and Tricks

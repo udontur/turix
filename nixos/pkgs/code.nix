@@ -24,6 +24,13 @@
     #pkg-config
     bazel_7
 
+    # Umpire
+    # gcc # C++
+    # python314
+    # go
+    # zulu8 # Java
+    # rustc
+
     # Rust
     rustc
     cargo
@@ -37,19 +44,12 @@
     nixpkgs-hammering
     nixpkgs-fmt
 
-    # Umpire
-    gcc # C++
-    python314
-    go
-    zulu8 # Java
-    rustc
-
     # Package managers
     flatpak
 
     # Others
-    slurp
-    grim
-    libnotify
+    # slurp
+    # grim
+    # libnotify
   ];
 }
