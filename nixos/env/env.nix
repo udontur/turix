@@ -13,16 +13,6 @@
     xwayland.enable = true;
   };
 
-  # 1Password CLI
-  programs._1password = { enable = true; };
-
-  # 1Password desktop app
-  programs._1password-gui = {
-    enable = true;
-    # this makes system auth work properly
-    polkitPolicyOwners = [ "udontur" ];
-  };
-
   # Remove default pacakges
   services.xserver.excludePackages = with pkgs; [ 
     xterm 
