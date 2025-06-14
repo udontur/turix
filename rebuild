@@ -6,10 +6,7 @@ trap BLA::stop_loading_animation SIGINT
 sudo git add .
 
 BLA::start_loading_animation "${BLA_passing_dots[@]}"
-    sudo nixos-rebuild switch --flake ~/nixos --impure 
-        &> nixos-switch.log || 
-        (cat nixos-switch.log | grep --color error && 
-        exit 1)
+    sudo nixos-rebuild switch --flake ~/nixos --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
 BLA::stop_loading_animation
 
 notify-send "NixOS finished rebuilding!"
@@ -23,10 +20,7 @@ git commit -m "$currentDate"
 read -p "Back it up? " user_input
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
-    git push origin main 
-        &> git-sync.log || 
-        (git push origin main && 
-        exit 1)
+    git push origin main &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
         echo "Configuration FAILED to back up :c"
         exit 1
