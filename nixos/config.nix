@@ -1,5 +1,3 @@
-# NixOS manual: https://nixos.org/manual/nixos/stable/
-
 {
   inputs,
   config,

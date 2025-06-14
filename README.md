@@ -94,3 +94,7 @@ If it starts outputting weird errors, make sure all used files are tracked by `g
 ```bash
 git add .
 ```
+
+### 5. SSH Key
+1. [Generate](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) an SSH key
+2. [Add](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) the SSH key to GitHub

@@ -7,10 +7,8 @@
 }:
 
 {
-  # Search for packages: https://search.nixos.org/
-  # Search for options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
+  # Desktop apps
   environment.systemPackages = with pkgs; [
-    
     # GUI apps
     kitty
     inputs.zen-browser.packages."${system}".beta
@@ -18,7 +16,6 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
-    obs-studio
 
     # Terminal apps
     neofetch
@@ -34,17 +31,13 @@
     smile
     copyq
 
-    # Zsh
-    zsh
-    # zsh-powerlevel10k
-    
     # Deps
     libnotify
+    zsh
 
     # Temporary
-    # qdirstat
-    gnome-system-monitor
+    # gnome-system-monitor
     # chromium
-    pdfarranger
+    # pdfarranger
   ];
 }
