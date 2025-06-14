@@ -30,7 +30,7 @@
 
     # Utility apps
     git
-    inputs.hyprshot.defaultPackage
+    inputs.hyprshot.packages."${system}".default
     smile
     copyq
 
