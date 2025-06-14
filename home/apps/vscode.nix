@@ -43,19 +43,19 @@
       editor.lineNumbers = "relative";
 
     };
-    extensions = with pkgs.vscode-extensions; [
-      bbenoist.nix
-      ms-vscode.cpptools
-      ritwickdey.liveserver
-      formulahendry.code-runner
-      ms-vscode.makefile-tools
-      pkief.material-icon-theme
-      zhuangtongfa.material-theme
-      jnoortheen.nix-ide
-      ms-vscode.cmake-tools
-      rust-lang.rust-analyzer
-      bazelbuild.vscode-bazel
-    ];
+    # extensions = with pkgs.vscode-extensions; [
+    #   bbenoist.nix
+    #   ms-vscode.cpptools
+    #   ritwickdey.liveserver
+    #   formulahendry.code-runner
+    #   ms-vscode.makefile-tools
+    #   pkief.material-icon-theme
+    #   zhuangtongfa.material-theme
+    #   jnoortheen.nix-ide
+    #   ms-vscode.cmake-tools
+    #   rust-lang.rust-analyzer
+    #   bazelbuild.vscode-bazel
+    # ];
     keybindings = [
       {
         key = "ctrl+shift+w";
