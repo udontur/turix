@@ -6,7 +6,7 @@
     # hyprshot my own flake
     
     hyprnome
-    hyprlandPlugins.hyprscrolling
+    # hyprlandPlugins.hyprscrolling
 
     xdg-desktop-portal-hyprland
     hyprpolkitagent

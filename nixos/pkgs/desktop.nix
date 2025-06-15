@@ -36,6 +36,7 @@
     libnotify
     zsh
 
+    hyprlandPlugins.hyprscrolling
     # Temporary
     # gnome-system-monitor
     # chromium
