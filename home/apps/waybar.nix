@@ -63,10 +63,10 @@
         "clock"
       ];
       modules-right = [
+        "network"
         "cpu"
         "memory"
         "pulseaudio"
-        "network"
       ];
       "hyprland/workspaces" = {
         on-click = "activate";
