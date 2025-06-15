@@ -14,8 +14,7 @@ echo "NixOS finished rebuilding!"
 
 sudo chown -R udontur:777 ./.git
 currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
-git commit -m "$currentDate" 
-    &> git-commit.log
+git commit -m "$currentDate" &> git-commit.log
 
 read -p "Back it up? " user_input
 

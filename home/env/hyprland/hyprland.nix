@@ -2,14 +2,18 @@
 {
   home.packages = with pkgs; [
     hyprpaper
-    swayosd
-    swaynotificationcenter
-    hyprpicker
     hyprcursor
     # hyprshot my own flake
+    
     hyprnome
+    hyprlandPlugins.hyprscrolling
+
     xdg-desktop-portal-hyprland
     hyprpolkitagent
+    
+    hyprpicker
+    swayosd
+    swaynotificationcenter
     brightnessctl
     waybar
     wl-clipboard
