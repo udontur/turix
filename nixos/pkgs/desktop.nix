@@ -17,7 +17,8 @@
     wofi
     easyeffects
     obsidian
-
+    neovim
+    
     # Terminal apps
     neofetch
     btop-rocm
@@ -36,7 +37,7 @@
     libnotify
     zsh
 
-    hyprlandPlugins.hyprscrolling
+    # 
     # Temporary
     # gnome-system-monitor
     # chromium
