@@ -17,7 +17,6 @@
     wofi
     easyeffects
     obsidian
-    libreoffice
 
     # Terminal apps
     neofetch
