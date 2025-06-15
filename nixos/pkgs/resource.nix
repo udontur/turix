@@ -22,6 +22,7 @@
     recursive
     jetbrains-mono
     nerdfix
+    inter
     font-awesome
   ];
 
@@ -32,6 +33,7 @@
     recursive
     jetbrains-mono
     nerdfix
+    inter
     font-awesome
   ];
 }
