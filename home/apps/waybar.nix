@@ -77,7 +77,7 @@
       };
       clock = {
         tooltip = false;
-        format = "{:%H:%M %a %d %b}";
+        format = "{:%I:%M %a %d %b}";
       };
       cpu = {
         format = " {usage}%";

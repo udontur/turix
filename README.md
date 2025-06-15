@@ -83,7 +83,7 @@ Even when Linux and Windows merges, **PLEEEASE DO NOT** put MIME apps list in ho
 ### 3. Clear up the storage
 Nix garbage collector
 ```bash
-nix-collect-garbage --delete-older-than 30d
+nix-collect-garbage --delete-older-than 16d
 ```
 Nix store optimization
 ```bash
