@@ -16,6 +16,8 @@
     # vscode (moved to home manager)
     wofi
     easyeffects
+    obsidian
+    libreoffice
 
     # Terminal apps
     neofetch

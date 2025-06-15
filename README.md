@@ -53,6 +53,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] Emoji emoji picker not working on vscode
 - [ ] flake: I dont really understand what is going in the `flake.nix`
 - [x] CopyQ: QT dark theme does not apply
+- [ ] GTK: ultra large cursor due to fractional scaling
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
