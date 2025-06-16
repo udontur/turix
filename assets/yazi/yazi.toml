@@ -1,0 +1,4 @@
+[opener]
+text = [
+	{ run = 'micro "$@"', block = true },
+]
