@@ -21,11 +21,11 @@ read -p "Back it up? " user_input
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin main &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
-        echo "Configuration FAILED to back up :c"
+        echo "FAILED to back up :c"
         exit 1
     else
-        echo "Configuration backed up :D"
+        echo "Backed up :D"
     fi
 else
-    echo "Configuration NOT backed up :c"
+    echo "NOT backed up :c"
 fi
