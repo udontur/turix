@@ -15,6 +15,7 @@
     
     ./cmd/zsh.nix
     ./cmd/git.nix
+    ./cmd/yazi.nix
 
     ./env/hyprpaper.nix
     ./env/theme.nix
