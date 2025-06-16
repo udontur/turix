@@ -1,4 +1,10 @@
 [opener]
-text = [
-	{ run = 'hx "$@"', block = true },
+play = [
+	{ run = 'hx "$@"', orphan = true},
+]
+edit = [
+	{ run = 'hx "$@"', block = true},
+]
+open = [
+	{ run = 'xdg-open "$@"', desc = "Open" },
 ]
