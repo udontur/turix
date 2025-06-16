@@ -18,6 +18,7 @@
     easyeffects
     obsidian
     neovim
+    helix
     
     # Terminal apps
     neofetch
