@@ -1,4 +1,4 @@
 [opener]
 text = [
-	{ run = 'micro "$@"', block = true },
+	{ run = 'hx "$@"', block = true },
 ]
