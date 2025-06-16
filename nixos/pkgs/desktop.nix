@@ -11,16 +11,18 @@
   environment.systemPackages = with pkgs; [
     # GUI apps
     kitty
+    ghostty
     inputs.zen-browser.packages."${system}".beta
     nautilus
     # vscode (moved to home manager)
     wofi
     easyeffects
     obsidian
-    neovim
-    helix
+    #neovim
+    
     
     # Terminal apps
+    helix
     neofetch
     btop-rocm
     yazi

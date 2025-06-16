@@ -64,6 +64,8 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] Merge the laptop config with host specific config files
 - [ ] hyprlock: laptop startup
 - [ ] hyprscroller
+- [ ] Helix code editor
+- [ ] Terminal base workflow (yazi, helix, kitty, helix built in file manager, etc)
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
