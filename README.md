@@ -46,7 +46,7 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [x] reb: rebuild script git bug
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
-- [ ] vscode: waybar character does not render in places other than waybar
+- [x] ~~vscode: waybar character does not render in places other than waybar~~
 - [x] hyprshot: hyprshot packages are not includeded by the flake
 - [x] reb: Git sync error handling
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
@@ -54,18 +54,21 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 - [ ] flake: I dont really understand what is going in the `flake.nix`
 - [x] CopyQ: QT dark theme does not apply
 - [ ] GTK: ultra large cursor due to fractional scaling
+- [ ] hyprland: Use flake instead of nixpkgs
+- [ ] nixos: Remove "NixOS Manual" and "Manage Printing" default app that appear on wofi
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
 - [x] Emoji, Text, and Image clipboard
-- [ ] Make hyprland use flake (in progress)
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)
-- [ ] Merge the laptop config with host specific config files
-- [ ] hyprlock: laptop startup
-- [ ] hyprscroller
-- [ ] Helix code editor
-- [ ] Terminal base workflow (yazi, helix, kitty, helix built in file manager, etc)
+- [ ] laptop and desktop: Merge the config to one file
+- [ ] laptop: Add hyprlock on startup (and bypass the gdm)
+- [ ] laptop: Remove waybar and bring back btop popup panel
+- [ ] hyprland: Bind capslock to escape key
+- [ ] hyprland: hyprscroller
+- [ ] Complete configuration (and learn): Helix code editor
+- [ ] Terminal base workflow (yazi, helix (with builtin file manager), kitty, and other tools)
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
