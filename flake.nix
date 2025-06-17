@@ -34,7 +34,6 @@
     in
     {
       nixosConfigurations.earth = nixpkgs.lib.nixosSystem {
-
         specialArgs = { inherit inputs; };
         modules = [
           ./nixos/config.nix

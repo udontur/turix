@@ -44,34 +44,15 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 
 ## ✅ To Do List
 ### 🚧 Fixes
-- [x] hyprshot: smooth animation
-- [x] p10k: p10k configuration
-- [x] reb: rebuild script git bug
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
-- [x] ~~vscode: waybar character does not render in places other than waybar~~
-- [x] hyprshot: hyprshot packages are not includeded by the flake
-- [x] reb: Git sync error handling
-- [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
-- [x] Emoji emoji picker not working on vscode
-- [x] flake: I dont really understand what is going in the `flake.nix`
-- [x] CopyQ: QT dark theme does not apply
 - [ ] GTK: ultra large cursor due to fractional scaling
+
 - [ ] hyprland: Use flake instead of nixpkgs
-- [x] nixos: Remove "NixOS Manual" and "Manage Printing" default app that appear on wofi
 
 ### ✨ Features
-- [x] NixOS generation garbage collector
-- [x] Emoji, Text, and Image clipboard
-- [x] Use a better emoji picker that acutally works
-- [x] Window rule (kitty + others)
 - [ ] laptop and desktop: Merge the config to one file
-- [x] laptop: Add hyprlock on startup (and bypass the gdm)
-- [x] laptop: Remove waybar and bring back btop popup panel
-- [x] hyprland: Bind capslock to escape key
 - [ ] hyprland: hyprscroller
-- [x] helix: configure
-- [x] helix: hackatime for hack club
 - [ ] rebuild: Make the rebuild script detect which machine's name to use
 
 ### 🎇 Features that I have no idea how to add
