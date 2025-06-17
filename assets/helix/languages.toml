@@ -1,0 +1,116 @@
+[language-server.wakatime]
+command = "wakatime-ls"
+
+[[language]]
+name = "cpp"
+scope = "source.cpp"
+injection-regex = "cpp"
+file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", "ixx", "txx", "ino", "C", "H", "cu", "cuh", "cppm", "h++", "ii", "inl", { glob = ".hpp.in" }, { glob = ".h.in" }]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+language-servers = [ "clangd", "wakatime" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "rust"
+scope = "source.rust"
+injection-regex = "rs|rust"
+file-types = ["rs"]
+roots = ["Cargo.toml", "Cargo.lock"]
+shebangs = ["rust-script", "cargo"]
+auto-format = true
+comment-tokens = ["//", "///", "//!"]
+block-comment-tokens = [
+  { start = "/*", end = "*/" },
+  { start = "/**", end = "*/" },
+  { start = "/*!", end = "*/" },
+]
+language-servers = [ "rust-analyzer", "wakatime" ]
+indent = { tab-width = 4, unit = "    " }
+persistent-diagnostic-sources = ["rustc", "clippy"]
+
+[[language]]
+name = "nix"
+scope = "source.nix"
+injection-regex = "nix"
+file-types = ["nix"]
+shebangs = []
+comment-token = "#"
+language-servers = [ "nil", "nixd", "wakatime" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "bash"
+scope = "source.bash"
+injection-regex = "(shell|bash|zsh|sh)"
+file-types = [
+"sh",
+"bash",
+"ash",
+"dash",
+"ksh",
+"mksh",
+"zsh",
+"zshenv",
+"zlogin",
+"zlogout",
+"zprofile",
+"zshrc",
+"eclass",
+"ebuild",
+"bazelrc",
+"Renviron",
+"zsh-theme",
+"cshrc",
+"tcshrc",
+"bashrc_Apple_Terminal",
+"zshrc_Apple_Terminal",
+{ glob = "i3/config" },
+{ glob = "sway/config" },
+{ glob = "tmux.conf" },
+{ glob = ".bash_history" },
+{ glob = ".bash_login" },
+{ glob = ".bash_logout" },
+{ glob = ".bash_profile" },
+{ glob = ".bashrc" },
+{ glob = ".profile" },
+{ glob = ".zshenv" },
+{ glob = ".zlogin" },
+{ glob = ".zlogout" },
+{ glob = ".zprofile" },
+{ glob = ".zshrc" },
+{ glob = ".zimrc" },
+{ glob = "APKBUILD" },
+{ glob = ".bash_aliases" },
+{ glob = ".Renviron" },
+{ glob = ".xprofile" },
+{ glob = ".xsession" },
+{ glob = ".xsessionrc" },
+{ glob = ".yashrc" },
+{ glob = ".yash_profile" },
+{ glob = ".hushlogin" },
+]
+shebangs = ["sh", "bash", "dash", "zsh"]
+comment-token = "#"
+language-servers = [ "bash-language-server", "wakatime" ]
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
+name = "starlark"
+scope = "source.starlark"
+injection-regex = "(starlark|bzl|bazel)"
+file-types = ["bzl", "bazel", "star", { glob = "BUILD" }, { glob = "BUILD.*" }, { glob = "Tiltfile" }, { glob = "WORKSPACE" }, { glob = "WORKSPACE.bzlmod" }]
+comment-token = "#"
+indent = { tab-width = 4, unit = "    " }
+language-servers = [ "starpls", "wakatime" ]
+grammar = "python"
+
+[[language]]
+name = "markdown"
+scope = "source.md"
+injection-regex = "md|markdown"
+file-types = ["md", "livemd", "markdown", "mdx", "mkd", "mkdn", "mdwn", "mdown", "markdn", "mdtxt", "mdtext", "workbook", { glob = "PULLREQ_EDITMSG" }]
+roots = [".marksman.toml"]
+language-servers = [ "marksman", "markdown-oxide" ]
+indent = { tab-width = 2, unit = "  " }
+block-comment-tokens = { start = "<!--", end = "-->" }

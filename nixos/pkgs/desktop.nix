@@ -9,7 +9,7 @@
 {
   # Desktop apps
   environment.systemPackages = with pkgs; [
-    # GUI apps
+    # App
     kitty
     inputs.zen-browser.packages."${system}".beta
     nautilus
@@ -17,11 +17,9 @@
     wofi
     easyeffects
     obsidian
-    #neovim
-    
+    helix
     
     # Terminal apps
-    helix
     neofetch
     btop-rocm
     yazi

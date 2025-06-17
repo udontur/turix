@@ -12,6 +12,7 @@
     ./apps/btop.nix
     ./apps/easyeffects.nix
     ./apps/waybar.nix
+    ./apps/helix.nix
     
     ./cmd/zsh.nix
     ./cmd/git.nix

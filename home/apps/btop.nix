@@ -9,8 +9,6 @@
   home.file = {
     "/home/udontur/.config/btop/themes/tommorow-night.theme" = {
       source=../../assets/btop/themes/tommorow-night.theme;
-      enable=true;
-      executable = false;
     };
   };
   programs.btop = {

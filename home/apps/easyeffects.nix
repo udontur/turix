@@ -9,8 +9,6 @@
   home.file = {
     "/home/udontur/.config/easyeffects/output/bass.json" = {
       source=../../assets/easyeffects/bass.json;
-      enable=true;
-      executable = false;
     };
   };
   services.easyeffects = {

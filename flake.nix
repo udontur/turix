@@ -11,6 +11,10 @@
     hyprland.url = "github:hyprwm/Hyprland";
     ossdmk.url = "github:udontur/ossdmk";
     hyprshot.url = "github:udontur/hyprshot";
+    wakatime-ls = {
+      url = "github:mrnossiom/wakatime-ls";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Developer
     # judgel.url = "github:udontur/judgel";
@@ -22,7 +26,6 @@
       self,
       nixpkgs,
       home-manager,
-      hyprland,
       ...
     }@inputs:
     let
