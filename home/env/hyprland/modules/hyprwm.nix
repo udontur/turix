@@ -9,7 +9,6 @@
   home.file = {
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text=''
-        
         # btop float
         windowrulev2 = float, title:btop
         windowrulev2 = size 1300 750, title:btop

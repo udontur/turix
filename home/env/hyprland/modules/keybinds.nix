@@ -26,7 +26,7 @@
         bind = SUPER_Shift, S, exec, hyprshot -m region -z 
         bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
         bind = SUPER, C, exec, hyprpicker -a -f hex
-        bind = SUPER, V, exec, code
+        bind = SUPER, V, exec, kitty yazi
         bindr = SUPER, M, exec, pkill smile || smile
         bind = SUPER, D, exec, copyq hide || copyq show
 
