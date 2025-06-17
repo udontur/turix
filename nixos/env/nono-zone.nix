@@ -20,9 +20,6 @@
   networking.networkmanager.enable = true;
   networking.firewall.enable = true;
 
-  # Printer
-  services.printing.enable = true;
-
   # Time and Language
   time.timeZone = "Asia/Hong_Kong";
   i18n.defaultLocale = "en_HK.UTF-8";
