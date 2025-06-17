@@ -11,7 +11,7 @@
       text=''
         input {
           kb_layout = us
-          kb_options = 
+          kb_options = caps:escape
           follow_mouse = 1
           sensitivity = 0
         }

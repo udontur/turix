@@ -54,7 +54,7 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [x] reb: Git sync error handling
 - [x] powerKey: Disable because your friends shuts down your PC with the press of a button 
 - [x] Emoji emoji picker not working on vscode
-- [ ] flake: I dont really understand what is going in the `flake.nix`
+- [x] flake: I dont really understand what is going in the `flake.nix`
 - [x] CopyQ: QT dark theme does not apply
 - [ ] GTK: ultra large cursor due to fractional scaling
 - [ ] hyprland: Use flake instead of nixpkgs
@@ -66,12 +66,12 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [x] Use a better emoji picker that acutally works
 - [x] Window rule (kitty + others)
 - [ ] laptop and desktop: Merge the config to one file
-- [ ] laptop: Add hyprlock on startup (and bypass the gdm)
-- [ ] laptop: Remove waybar and bring back btop popup panel
-- [ ] hyprland: Bind capslock to escape key
+- [x] laptop: Add hyprlock on startup (and bypass the gdm)
+- [x] laptop: Remove waybar and bring back btop popup panel
+- [x] hyprland: Bind capslock to escape key
 - [ ] hyprland: hyprscroller
-- [ ] helix: learn and configure
-
+- [x] helix: configure
+- [x] helix: hackatime for hack club
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)

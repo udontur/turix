@@ -13,6 +13,7 @@
     # Developer
     # inputs.wretch.packages."${system}".default
     # inputs.judgel.packages."${system}".default
+    inputs.wakatime-ls.packages.${system}.default
     
     # CPP
     gcc
@@ -50,5 +51,6 @@
     # Temporary
     # slurp
     # grim
+
   ];
 }
