@@ -39,6 +39,9 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 ### 2. p10k configuration
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
 
+### 3. Wakatime API
+The API is obviously not reproducable. Make sure to include your own `.wakatime.cfg` to make wakatime work. 
+
 ## ✅ To Do List
 ### 🚧 Fixes
 - [x] hyprshot: smooth animation
