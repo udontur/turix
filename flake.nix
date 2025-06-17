@@ -18,7 +18,7 @@
 
     # Developer
     # judgel.url = "github:udontur/judgel";
-    # wretch.url = "github:thesillyboi/wretch"; #
+    # wretch.url = "github:thesillyboi/wretch"; 
   };
 
   outputs =

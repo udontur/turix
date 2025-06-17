@@ -54,6 +54,8 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [ ] laptop and desktop: Merge the config to one file
 - [ ] hyprland: hyprscroller
 - [ ] rebuild: Make the rebuild script detect which machine's name to use
+- [ ] laptop: Battery indicator script (libnotify)
+- [ ] Make a better ReadMe
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)

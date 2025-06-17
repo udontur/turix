@@ -14,10 +14,6 @@
         [editor.cursor-shape]
         normal = "block"
         insert = "bar"
-
-        [editor.auto-save]
-        after-delay.enable = true
-        after-delay.timeout = 1000
       '';
     };
   };

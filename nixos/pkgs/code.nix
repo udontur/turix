@@ -38,7 +38,7 @@
 
     # Web dev
     bun
-    nodePackages_latest.nodejs
+    #nodePackages_latest.nodejs
 
     # Nix
     nix-init
@@ -46,7 +46,7 @@
     nixpkgs-fmt
 
     # Package managers
-    flatpak
+    #flatpak
 
     # Temporary
     # slurp
