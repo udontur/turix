@@ -58,7 +58,7 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [x] CopyQ: QT dark theme does not apply
 - [ ] GTK: ultra large cursor due to fractional scaling
 - [ ] hyprland: Use flake instead of nixpkgs
-- [ ] nixos: Remove "NixOS Manual" and "Manage Printing" default app that appear on wofi
+- [x] nixos: Remove "NixOS Manual" and "Manage Printing" default app that appear on wofi
 
 ### ✨ Features
 - [x] NixOS generation garbage collector
@@ -72,6 +72,8 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [ ] hyprland: hyprscroller
 - [x] helix: configure
 - [x] helix: hackatime for hack club
+- [ ] rebuild: Make the rebuild script detect which machine's name to use
+
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
