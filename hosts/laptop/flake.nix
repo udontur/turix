@@ -15,10 +15,6 @@
       url = "github:udontur/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-
-    # Developer
-    # judgel.url = "github:udontur/judgel";
-    # wretch.url = "github:thesillyboi/wretch"; 
   };
 
   outputs =
@@ -34,32 +30,17 @@
     in
     {
       nixosConfigurations = {
-        workstation = nixpkgs.lib.nixosSystem {      
-          specialArgs = { inherit inputs; };
-          modules = [
-            ./nixos/workstation.nix
-            home-manager.nixosModules.home-manager
-            {
-              home-manager.useGlobalPkgs = true;
-              home-manager.useUserPackages = true;
-              home-manager.extraSpecialArgs = { inherit inputs; };
-              home-manager.backupFileExtension = "backup";
-              home-manager.users.udontur = import ./home/workstation.nix;
-            }
-          ];
-        };
-
         laptop = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
-            ./nixos/laptop.nix
+            ../../nixos/laptop.nix
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
               home-manager.extraSpecialArgs = { inherit inputs; };
               home-manager.backupFileExtension = "backup";
-              home-manager.users.udontur = import ./home/laptop.nix;
+              home-manager.users.udontur = import ../../home/laptop.nix;
             }
           ];
         };
