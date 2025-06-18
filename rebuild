@@ -5,9 +5,19 @@ trap BLA::stop_loading_animation SIGINT
 
 sudo git add .
 
-BLA::start_loading_animation "${BLA_passing_dots[@]}"
-    sudo nixos-rebuild switch --flake .#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
-BLA::stop_loading_animation
+read -p "Which machine (w or l)? " machine_type
+
+if [[ $machine_type = "l" ]]; then
+    echo "Rebuilding in Laptop mode:"
+    BLA::start_loading_animation "${BLA_passing_dots[@]}"
+        sudo nixos-rebuild switch --flake .#laptop --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+    BLA::stop_loading_animation
+else
+    echo "Rebuilding in Workstation mode:"
+    BLA::start_loading_animation "${BLA_passing_dots[@]}"
+        sudo nixos-rebuild switch --flake .#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
+    BLA::stop_loading_animation
+fi
 
 notify-send "NixOS finished rebuilding!"
 echo "NixOS finished rebuilding!"

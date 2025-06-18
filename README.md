@@ -12,23 +12,21 @@
 
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux x86_64 (AMD Ryzen 5000s)
+- **OS**: Linux x86_64 (AMD Ryzen 5000s and AMD Ryzen 7000s)
 - **Distro**: NixOS Unstable
 - **WM/DE**: Hyprland (Wayland)
 - **Addons**: home-manager, nix-flakes
-- **GPU**: AMD RX 7000s
+- **GPU**: AMD RX 7000s and AMD Intergrated Graphics
 - **Since**: 3rd March 2025
 
 > [!WARNING]  
 > This is **NOT** a general purpose configuration
 
-[nixos-laptop](https://github.com/udontur/nixos-laptop) is the minimal version that is tailored to a laptop. 
-
 ## 🗒️ Note
 1. This is **NOT** a general purpose configuration
 2. Usernames, emails, and hosts are **TAILORED** 
 3. The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`
-4. Make sure the `system.stateVersion` matches the NixOS version you installed
+4. Make sure the `system.stateVersion` and `home.stateVersion` matches the NixOS version you installed
 
 ## ❌ Non-Reproducable applications
 ### 1. ALL zen configuration (hope it will be added to `nixpkgs` soon)
@@ -48,16 +46,12 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] easyeffects: presets does not load declaratively
 - [ ] GTK: ultra large cursor due to fractional scaling
 
-- [x] hyprland: Use flake instead of nixpkgs
-- [ ] fix those warnings from rebuilding the configuration
-
 ### ✨ Features
 - [ ] laptop and desktop: Merge the config to one file
 - [ ] hyprland: hyprscroller
 - [ ] rebuild: Make the rebuild script detect which machine's name to use
 - [ ] laptop: Battery indicator script (libnotify)
 - [ ] Make a better ReadMe
-- [ ] helix: File manager (make it to become a tree view, or use an alternative method)
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
