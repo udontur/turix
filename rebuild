@@ -8,12 +8,12 @@ sudo git add .
 read -p "Which machine (w or l)? " machine_type
 
 if [[ $machine_type = "l" ]]; then
-    echo "Rebuilding in Laptop mode:"
+    echo "Rebuilding in Laptop mode."
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/laptop#laptop --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 else
-    echo "Rebuilding in Workstation mode:"
+    echo "Rebuilding in Workstation mode."
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/workstation#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
@@ -23,8 +23,14 @@ notify-send "NixOS finished rebuilding!"
 echo "NixOS finished rebuilding!"
 
 sudo chown -R udontur:777 ./.git
-currentDate=$(date +"SYS: %Y-%m-%d %H:%M:%S")
-git commit -m "$currentDate" &> git-commit.log
+
+if [[ $machine_type = "l" ]]; then
+    currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
+    git commit -m "$currentDate" &> git-commit.log
+else
+    currentDate=$(date +"WRK: %Y-%m-%d %H:%M:%S")
+    git commit -m "$currentDate" &> git-commit.log
+fi
 
 read -p "Back it up? " user_input
 

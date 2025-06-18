@@ -7,7 +7,7 @@ declare -a BLA_active_loading_animation
 BLA::play_loading_animation_loop() {
   while true ; do
     for frame in "${BLA_active_loading_animation[@]}" ; do
-      printf "\r%s" "NixOS rebuilding${frame}"
+      printf "\r%s" "NixOS is rebuilding${frame}"
       sleep "${BLA_loading_animation_frame_interval}"
     done
   done

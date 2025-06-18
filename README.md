@@ -22,18 +22,14 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 > [!WARNING]  
 > This is **NOT** a general purpose configuration
 
-## 🗒️ Note
-1. This is **NOT** a general purpose configuration
-2. Usernames, emails, and hosts are **TAILORED** 
-3. The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`
-4. Make sure the `system.stateVersion` and `home.stateVersion` matches the NixOS version you installed
-
 ## ❌ Non-Reproducable applications
-### 1. ALL zen configuration (hope it will be added to `nixpkgs` soon)
+### 1. All Zen browser configuration 
   - Extensions
   - Settings
   - Essential Tabs, Pinned Tabs, Workspaces
   - Non-sensitive extension settings
+You can make a manual backup of your Zen profile.
+
 ### 2. p10k configuration
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
 
@@ -47,44 +43,11 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] GTK: ultra large cursor due to fractional scaling
 
 ### ✨ Features
-- [ ] laptop and desktop: Merge the config to one file
+- [x] laptop and desktop: Merge the config to one file
 - [ ] hyprland: hyprscroller
-- [ ] rebuild: Make the rebuild script detect which machine's name to use
+- [x] rebuild: Make the rebuild script detect which machine's name to use
 - [ ] laptop: Battery indicator script (libnotify)
-- [ ] Make a better ReadMe
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
-
-## 🤨 Tips and Tricks
-### 1. Failed to git commit
-IDK why but sometimes the `.git` folder will change permission by itself:
-```bash
-sudo chown -R udontur:777 ./.git
-```
-
-### 2. DO NOT declare MIME apps
-Even when Linux and Windows merges, **PLEEEASE DO NOT** put MIME apps list in home manager, it will break:
-> [!WARNING]  
-> **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
-
-### 3. Clear up the storage
-Nix garbage collector
-```bash
-nix-collect-garbage --delete-older-than 16d
-```
-Nix store optimization
-```bash
-nix-store --optimise
-```
-
-### 4. NixOS build error?
-If it starts outputting weird errors, make sure all used files are tracked by `git`
-```bash
-git add .
-```
-
-### 5. SSH Key
-1. [Generate](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) an SSH key
-2. [Add](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) the SSH key to GitHub
