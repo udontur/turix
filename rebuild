@@ -8,19 +8,19 @@ sudo git add .
 read -p "Which machine (w or l)? " machine_type
 
 if [[ $machine_type = "l" ]]; then
-    printf "\033[1ARebuilding in Laptop mode."
+    printf "\033[1ARebuilding in Laptop mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/laptop#laptop --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 else
-    printf "\033[1ARebuilding in Workstation mode."
+    printf "\033[1ARebuilding in Workstation mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/workstation#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 fi
 
 notify-send "NixOS finished rebuilding!"
-printf "\033[1ANixOS finished rebuilding!"
+printf "\033[1ANixOS finished rebuilding!\n"
 
 sudo chown -R udontur:777 ./.git
 
