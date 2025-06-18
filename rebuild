@@ -8,19 +8,19 @@ sudo git add .
 read -p "Which machine (w or l)? " machine_type
 
 if [[ $machine_type = "l" ]]; then
-    printf "\033[1ARebuilding in Laptop mode.\n"
+    printf "\033[A\033[KRebuilding in Laptop mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/laptop#laptop --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 else
-    printf "\033[1ARebuilding in Workstation mode.\n"
+    printf "\033[A\033[KRebuilding in Workstation mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/workstation#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 fi
 
 notify-send "NixOS finished rebuilding!"
-printf "\033[1A\033[1ANixOS finished rebuilding!\n"
+printf "\033[A\033[K\033[A\033[KNixOS finished rebuilding!\n"
 
 sudo chown -R udontur:777 ./.git
 
@@ -37,11 +37,11 @@ read -p "Back it up? " user_input
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin main &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
-        printf "\033[1\033[1AAFAILED to back up :c"
+        printf "\033[A\033[K\033[A\033[KAFAILED to back up :c"
         exit 1
     else
-        printf "\033[1A\033[1AEnjoy your system! :D"
+        printf "\033[A\033[K\033[A\033[KEnjoy your system! :D"
     fi
 else
-    printf "\033[1ANOT backed up :c"
+    printf "\033[A\033[KNOT backed up :c"
 fi
