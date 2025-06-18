@@ -34,14 +34,16 @@ fi
 
 read -p "Back it up? " user_input
 
+printf "\033[A\033[K\033[A\033[K"
+
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin main &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
-        printf "\033[A\033[K\033[A\033[KAFAILED to back up :c"
+        printf "\033[A\033[KFAILED to back up :c"
         exit 1
     else
-        printf "\033[A\033[K\033[A\033[KEnjoy your system! :D"
+        printf "\033[A\033[KEnjoy your system! :D"
     fi
 else
-    printf "\033[A\033[KNOT backed up :c"
+    printf "NOT backed up :c"
 fi
