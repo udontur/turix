@@ -24,10 +24,13 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 ## ❌ Non-Reproducable applications
 ### 1. All Zen browser configuration 
+This includes:
   - Extensions
+  - Non-sensitive extension settings
   - Settings
   - Essential Tabs, Pinned Tabs, Workspaces
-  - Non-sensitive extension settings
+  - Others
+
 You can make a manual backup of your Zen profile.
 
 ### 2. p10k configuration
