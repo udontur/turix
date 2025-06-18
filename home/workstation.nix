@@ -10,6 +10,10 @@
 
     # Hyprland
     ./hyprland/workstation/hyprland.nix
+    ./hyprland/workstation/modules/hyprwm.nix
+    ./hyprland/workstation/modules/keybinds.nix
+    ./hyprland/workstation/modules/system.nix
+    ./hyprland/workstation/modules/others.nix
   ];
 
   # The forbidden corner
