@@ -50,6 +50,7 @@
         user = "udontur";
       };
     };
+  };
 
   services.logind={
     powerKey="ignore";
