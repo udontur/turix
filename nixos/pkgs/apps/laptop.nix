@@ -23,7 +23,7 @@
 
     # Utility
     git
-    inpuits.hyprshot.pacakges."${system}".default
+    inputs.hyprshot.pacakges."${system}".default
     swayosd
     swaynotificationcenter
 
