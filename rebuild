@@ -20,7 +20,7 @@ else
 fi
 
 notify-send "NixOS finished rebuilding!"
-printf "\033[1ANixOS finished rebuilding!\n"
+printf "\033[1A\033[1ANixOS finished rebuilding!\n"
 
 sudo chown -R udontur:777 ./.git
 
