@@ -1,5 +1,5 @@
 ## Setting up an SSH connection from your computer to GitHub
-### On your Machine
+### 1. On your Machine
 1. Generate the SSH key
 ```sh
 ssh-keygen -t ed25519 -C "h@hadrian.cc"
@@ -18,7 +18,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-### On GitHub
+### 2. On GitHub
 1. Go to `Settings`
 2. In the `Access` section, click `SSH and GPG keys`
 3. Click `New SSH key`

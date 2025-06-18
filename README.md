@@ -43,11 +43,12 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] GTK: ultra large cursor due to fractional scaling
 
 ### ✨ Features
-- [x] laptop and desktop: Merge the config to one file
 - [ ] hyprland: hyprscroller
-- [x] rebuild: Make the rebuild script detect which machine's name to use
 - [ ] laptop: Battery indicator script (libnotify)
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
+
+## 📑 Documentation
+See the [docs directory](docs).
