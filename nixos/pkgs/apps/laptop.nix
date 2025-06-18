@@ -19,7 +19,7 @@
     btop-rocm
     yazi
     gdu
-    inputs.ossdmk."${system}".default
+    inputs.ossdmk.packages."${system}".default
 
     # Utility
     git
