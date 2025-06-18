@@ -40,8 +40,8 @@
   # Dconf
   programs.dconf.enable = true;
 
-  # OpenGL
-  hardware.opengl.enable = true;
+  # Graphics
+  hardware.graphics.enable = true;
 
   # NixOS system configuration
   nixpkgs.config.allowUnfree = true;

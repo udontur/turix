@@ -40,15 +40,16 @@
     };
 
     # GDM
-    displayManager.gdm = {
-      enable = true;
-      wayland = true;
+    displayManager = {
+      gdm = {
+        enable = true;
+        wayland = true;
+      };
       autoLogin={
         enable = true;
         user = "udontur";
       };
     };
-  };
 
   services.logind={
     powerKey="ignore";
