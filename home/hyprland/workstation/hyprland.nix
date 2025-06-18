@@ -12,10 +12,7 @@
     hyprpolkitagent
     
     hyprpicker
-    swayosd
-    swaynotificationcenter
     brightnessctl
-    waybar
     wl-clipboard
   ];
   wayland.windowManager.hyprland = {

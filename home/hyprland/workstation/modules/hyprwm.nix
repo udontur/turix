@@ -44,12 +44,7 @@
           allow_tearing = false
           layout = dwindle
         }
-        
-        dwindle {
-          pseudotile = true
-          preserve_split = true
-        }
-        
+
         decoration {
           rounding = 8
           active_opacity = 1
@@ -63,6 +58,7 @@
             enabled = false
           }
         }
+        
         animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
@@ -74,14 +70,7 @@
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
         
-        misc {
-          force_default_wallpaper = 0     
-          disable_hyprland_logo = true
-          disable_splash_rendering = true
-        }
       '';
-      enable=true;
-      executable = false;
     };
   };
 }

@@ -44,7 +44,7 @@
               home-manager.useUserPackages = true;
               home-manager.extraSpecialArgs = { inherit inputs; };
               home-manager.backupFileExtension = "backup";
-              home-manager.users.udontur = import ./home/home.nix;
+              home-manager.users.udontur = import ./home/workstation.nix;
             }
           ];
         };
@@ -59,7 +59,7 @@
               home-manager.useUserPackages = true;
               home-manager.extraSpecialArgs = { inherit inputs; };
               home-manager.backupFileExtension = "backup";
-              home-manager.users.udontur = import ./home/home.nix;
+              home-manager.users.udontur = import ./home/laptop.nix;
             }
           ];
         };

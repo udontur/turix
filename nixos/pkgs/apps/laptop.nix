@@ -24,20 +24,12 @@
     # Utility
     git
     inpuits.hyprshot.pacakges."${system}".default
-    simle
-    copyq
+    swayosd
+    swaynotificationcenter
 
     # Others
     libnotify
     zsh
-
-    # Utils and Terminal apps
-    git
-    neofetch
-    btop
-    gdu
-    inputs.ossdmk."${system}".default 
-    inputs.hyprshot.packages."${system}".default
 
     # Temporary
     # chromium

@@ -30,6 +30,9 @@
     inputs.hyprshot.packages."${system}".default
     smile
     copyq
+    waybar
+    swayosd
+    swaynotificationcenter
 
     # Others
     libnotify

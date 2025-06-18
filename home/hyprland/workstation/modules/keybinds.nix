@@ -55,8 +55,6 @@
         bind = ,XF86AudioLowerVolume, exec, swayosd-client --output-volume -1 --max-volume 150
         bind = ,XF86AudioMute, exec, swayosd-client --output-volume mute-toggle
       '';
-      enable=true;
-      executable = false;
     };
   };
 }

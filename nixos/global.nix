@@ -11,8 +11,8 @@
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
     
-    #./pkgs/apps.nix
-    #./pkgs/code.nix
+    #./pkgs/apps
+    #./pkgs/code
     ./pkgs/resource.nix
 
     ./env/env.nix
