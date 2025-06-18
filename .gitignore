@@ -2,3 +2,6 @@
 nixos-switch.log
 git-commit.log
 git-sync.log
+
+# Cuz I have 2 machines
+flake.lock
