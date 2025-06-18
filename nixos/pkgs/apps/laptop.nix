@@ -23,7 +23,7 @@
 
     # Utility
     git
-    inputs.hyprshot.pacakges."${system}".default
+    inputs.hyprshot.packages."${system}".default
     swayosd
     swaynotificationcenter
 
