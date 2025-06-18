@@ -12,7 +12,7 @@
     ossdmk.url = "github:udontur/ossdmk";
     hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
-      url = "github:mrnossiom/wakatime-ls";
+      url = "github:udontur/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -33,19 +33,36 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in
     {
-      nixosConfigurations.earth = nixpkgs.lib.nixosSystem {
-        specialArgs = { inherit inputs; };
-        modules = [
-          ./nixos/config.nix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = { inherit inputs; };
-            home-manager.backupFileExtension = "backup";
-            home-manager.users.udontur = import ./home/home.nix;
-          }
-        ];
+      nixosConfigurations = {
+        workstation = nixpkgs.lib.nixosSystem {      
+          specialArgs = { inherit inputs; };
+          modules = [
+            ./nixos/workstation.nix
+            home-manager.nixosModules.home-manager
+            {
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.extraSpecialArgs = { inherit inputs; };
+              home-manager.backupFileExtension = "backup";
+              home-manager.users.udontur = import ./home/home.nix;
+            }
+          ];
+        };
+
+        laptop = nixpkgs.lib.nixosSystem {
+          specialArgs = { inherit inputs; };
+          modules = [
+            ./nixos/laptop.nix
+            home-manager.nixosModules.home-manager
+            {
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.extraSpecialArgs = { inherit inputs; };
+              home-manager.backupFileExtension = "backup";
+              home-manager.users.udontur = import ./home/home.nix;
+            }
+          ];
+        };
       };
     };
 }

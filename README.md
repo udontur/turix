@@ -40,7 +40,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
 
 ### 3. Wakatime API
-The API is obviously not reproducable. Make sure to include your own `.wakatime.cfg` to make wakatime work. 
+The API is obviously not reproducable. Make sure to include your own `~/.wakatime.cfg` to make wakatime work. 
 
 ## ✅ To Do List
 ### 🚧 Fixes
@@ -48,7 +48,8 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [ ] easyeffects: presets does not load declaratively
 - [ ] GTK: ultra large cursor due to fractional scaling
 
-- [ ] hyprland: Use flake instead of nixpkgs
+- [x] hyprland: Use flake instead of nixpkgs
+- [ ] fix those warnings from rebuilding the configuration
 
 ### ✨ Features
 - [ ] laptop and desktop: Merge the config to one file
@@ -56,6 +57,7 @@ The API is obviously not reproducable. Make sure to include your own `.wakatime.
 - [ ] rebuild: Make the rebuild script detect which machine's name to use
 - [ ] laptop: Battery indicator script (libnotify)
 - [ ] Make a better ReadMe
+- [ ] helix: File manager (make it to become a tree view, or use an alternative method)
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)

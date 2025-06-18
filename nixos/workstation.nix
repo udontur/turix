@@ -10,13 +10,9 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
-    
-    ./pkgs/desktop.nix
-    ./pkgs/code.nix
-    ./pkgs/resource.nix
+    ./global.nix
 
-    ./env/env.nix
-    ./env/system.nix
-    ./env/nono-zone.nix
+    ./pkgs/apps/workstation.nix
+    ./pkgs/code/workstation.nix
   ];
 }

@@ -7,19 +7,17 @@
 }:
 
 {
-  # Desktop apps
   environment.systemPackages = with pkgs; [
-    # App
+    # Apps
     kitty
     inputs.zen-browser.packages."${system}".beta
     nautilus
-    # vscode (moved to home manager)
     wofi
     easyeffects
     obsidian
     helix
     
-    # Terminal apps
+    # Terminal 
     neofetch
     btop-rocm
     yazi
@@ -27,17 +25,16 @@
     gdu
     inputs.ossdmk.packages."${system}".default
 
-    # Utility apps
+    # Utility 
     git
     inputs.hyprshot.packages."${system}".default
     smile
     copyq
 
-    # Deps
+    # Others
     libnotify
     zsh
 
-    # 
     # Temporary
     # gnome-system-monitor
     # chromium

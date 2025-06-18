@@ -7,15 +7,12 @@
 }:
 
 {
-  # Search for packages: https://search.nixos.org/
-  # Search for options: https://search.nixos.org/options?channel=24.11&size=50&sort=relevance&type=packages
   environment.systemPackages = with pkgs; [
     # Developer
     # inputs.wretch.packages."${system}".default
     # inputs.judgel.packages."${system}".default
-    inputs.wakatime-ls.packages.${system}.default
     
-    # CPP
+    # C++
     gcc
     #gnumake
     #boost186
@@ -38,19 +35,19 @@
 
     # Web dev
     bun
-    #nodePackages_latest.nodejs
-
+    # nodePackages_latest.nodejs
+    
     # Nix
     nix-init
     nixpkgs-hammering
     nixpkgs-fmt
+    nixfmt-rfc-style
 
-    # Package managers
-    #flatpak
+    # Wakatime
+    wakatime-cli    
+    inputs.wakatime-ls.packages.${system}.default
 
     # Temporary
-    # slurp
-    # grim
 
   ];
 }
