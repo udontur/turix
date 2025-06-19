@@ -15,5 +15,8 @@
     open = [
     	{ run = 'xdg-open "$@"', desc = "Open" },
     ]
+
+    [mgr]
+    show_hidden = true
 '';
 }
