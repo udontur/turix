@@ -14,6 +14,9 @@
         [editor.cursor-shape]
         normal = "block"
         insert = "bar"
+
+        [editor.auto-save]
+        focus-lost = true
       '';
     };
   };
