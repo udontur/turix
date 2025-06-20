@@ -21,26 +21,33 @@
         bind = SUPER_Shift, E, exec, easyeffects
         bind = SUPER, F, exec, zen
         bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
-        bind = SUPER, L, exec, hyprlock
+        bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
+        bind = SUPER, V, exec, kitty yazi
+
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
         bind = SUPER_Shift, S, exec, hyprshot -m region -z 
-        bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
-        bind = SUPER, C, exec, hyprpicker -a -f hex
-        bind = SUPER, V, exec, kitty yazi
         bindr = SUPER, M, exec, pkill smile || smile
         bind = SUPER, D, exec, copyq hide || copyq show
+        bind = SUPER, C, exec, hyprpicker -a -f hex
 
         # Windows and Workspace
-        bind = SUPER_Control, right, exec, hyprnome
-        bind = SUPER_Control, left, exec, hyprnome --previous
-        bind = SUPER_Control_SHIFT, right, exec, hyprnome --move
-        bind = SUPER_Control_SHIFT, left, exec, hyprnome --previous --move
+        bind = SUPER, I, exec, hyprnome 
+        bind = SUPER, O, exec, hyprnome --previous 
+        bind = SUPER_Control, right, exec, hyprnome --move
+        bind = SUPER_Control, left, exec, hyprnome --previous --move
+
         bind = SUPER, left, movefocus, l
         bind = SUPER, right, movefocus, r
         bind = SUPER, up, movefocus, u
         bind = SUPER, down, movefocus, d
+
         bindm = SUPER, mouse:272, movewindow
         bindm = SUPER, mouse:273, resizewindow
+        bind = SUPER_Control_Shift, down, resizewindow, 30 0
+        bind = SUPER_Control_Shift, right, resizewindow, 0 30
+        bind = SUPER_Control_Shift, up, resizewindow, -30 0
+        bind = SUPER_Control_Shift, left, resizewindow, 0 -30
+        
         bind = SUPER_Control, down, swapwindow, l
         bind = SUPER_Control, up, swapwindow, r
         bind = SUPER, J, togglesplit,

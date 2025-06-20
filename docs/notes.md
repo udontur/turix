@@ -6,5 +6,3 @@ Even when Linux and Windows merges, **PPPLLLEEAASSE DO NOT** put MIME apps list 
 > [!WARNING]  
 > **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
 
-### 3. Versions
-Make sure the `system.stateVersion` and `home.stateVersion` matches the NixOS version you installed
