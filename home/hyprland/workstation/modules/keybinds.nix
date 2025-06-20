@@ -31,8 +31,8 @@
         bind = SUPER, C, exec, hyprpicker -a -f hex
 
         # Windows and Workspace
-        bind = SUPER, I, exec, hyprnome 
-        bind = SUPER, O, exec, hyprnome --previous 
+        bind = SUPER, O, exec, hyprnome 
+        bind = SUPER, I, exec, hyprnome --previous 
         bind = SUPER_Control, right, exec, hyprnome --move
         bind = SUPER_Control, left, exec, hyprnome --previous --move
 
@@ -43,10 +43,10 @@
 
         bindm = SUPER, mouse:272, movewindow
         bindm = SUPER, mouse:273, resizewindow
-        bind = SUPER_Control_Shift, down, resizeactive, 30 0
-        bind = SUPER_Control_Shift, right, resizeactive, 0 30
-        bind = SUPER_Control_Shift, up, resizeactive, -30 0
-        bind = SUPER_Control_Shift, left, resizeactive, 0 -30
+        bind = SUPER_Control_Shift, down, resizeactive, 0 50
+        bind = SUPER_Control_Shift, right, resizeactive,  50 0
+        bind = SUPER_Control_Shift, up, resizeactive, 0  -50
+        bind = SUPER_Control_Shift, left, resizeactive,  -50 0
         
         bind = SUPER_Control, down, swapwindow, l
         bind = SUPER_Control, up, swapwindow, r

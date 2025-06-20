@@ -44,10 +44,15 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
 - [ ] GTK: ultra large cursor due to fractional scaling
+- [x] kitty: make the color less dark
+- [ ] yazi: make each file open in the correct application (solves the mime apps list issues)
 
 ### ✨ Features
 - [ ] hyprland: hyprscroller
 - [ ] laptop: Battery indicator script (libnotify)
+- [x] yazi: hidden files and time sorting
+- [x] hyprland: use keyboard to resize windows
+- [ ] hyprland: Add some nice border gradients that match the background
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)
