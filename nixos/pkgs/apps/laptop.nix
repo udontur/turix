@@ -13,7 +13,8 @@
     nautilus
     inputs.zen-browser.packages."${system}".beta
     obsidian
-    
+    helix
+	    
     # Terminal
     neofetch
     btop-rocm

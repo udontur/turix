@@ -8,10 +8,10 @@
 
     # Hyprland
     ./hyprland/laptop/hyprland.nix
-    ./hyprland/workstation/modules/hyprwm.nix
-    ./hyprland/workstation/modules/keybinds.nix
-    ./hyprland/workstation/modules/system.nix
-    ./hyprland/workstation/modules/others.nix
+    ./hyprland/laptop/modules/hyprwm.nix
+    ./hyprland/laptop/modules/keybinds.nix
+    ./hyprland/laptop/modules/system.nix
+    ./hyprland/laptop/modules/others.nix
 
   ];
 

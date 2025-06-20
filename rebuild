@@ -19,7 +19,7 @@ else
     BLA::stop_loading_animation
 fi
 
-notify-send "NixOS finished rebuilding!"
+# notify-send "NixOS finished rebuilding!"
 printf "\033[A\033[K\033[A\033[KNixOS finished rebuilding!\n"
 
 sudo chown -R udontur:777 ./.git
