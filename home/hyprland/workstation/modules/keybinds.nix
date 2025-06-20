@@ -43,10 +43,10 @@
 
         bindm = SUPER, mouse:272, movewindow
         bindm = SUPER, mouse:273, resizewindow
-        bind = SUPER_Control_Shift, down, resizewindow, 30 0
-        bind = SUPER_Control_Shift, right, resizewindow, 0 30
-        bind = SUPER_Control_Shift, up, resizewindow, -30 0
-        bind = SUPER_Control_Shift, left, resizewindow, 0 -30
+        bind = SUPER_Control_Shift, down, resizeactive, 30 0
+        bind = SUPER_Control_Shift, right, resizeactive, 0 30
+        bind = SUPER_Control_Shift, up, resizeactive, -30 0
+        bind = SUPER_Control_Shift, left, resizeactive, 0 -30
         
         bind = SUPER_Control, down, swapwindow, l
         bind = SUPER_Control, up, swapwindow, r
