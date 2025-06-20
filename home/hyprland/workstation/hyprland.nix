@@ -8,7 +8,6 @@
     hyprnome
     # hyprlandPlugins.hyprscrolling
 
-    xdg-desktop-portal-hyprland
     hyprpolkitagent
     
     hyprpicker
