@@ -66,7 +66,7 @@
           animation = layers, 1, 4, bcur, fade
           animation = fade, 1, 4, bcur
           animation = border, 1, 4, default
-          animation = borderangle, 1, 4, bcur, loop
+          animation = borderangle, 1, 1, bcur, loop
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
         
