@@ -38,7 +38,7 @@
           gaps_in = 4
           gaps_out = 0
           border_size = 2
-          col.active_border = rgb(00f260) rgb(0575e6) 45deg
+          col.active_border = rgb(00f260) rgb(0575e6) 
           col.inactive_border = rgb(707070)
           resize_on_border = true
           allow_tearing = false
