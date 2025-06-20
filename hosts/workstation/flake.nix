@@ -4,13 +4,13 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
-      type = "git";
       url = "github:nix-community/home-manager";
-      submodules = true;
       inputs.nixpkgs.follows = "nixpkgs";
     };
     Hyprspace = {
+      type = "git";
       url = "github:KZDKM/Hyprspace";
+      submodules = true;
       inputs.hyprland.follows = "hyprland";
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
