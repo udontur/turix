@@ -52,7 +52,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] laptop: Battery indicator script (libnotify)
 - [x] yazi: hidden files and time sorting
 - [x] hyprland: use keyboard to resize windows
-- [ ] hyprland: Add some nice border gradients that match the background
+- [x] hyprland: Add some nice border gradients that match the background
 
 ### 🎇 Features that I have no idea how to add
 - [ ] Set default applications without crashing home manager (mime apps list does crash it)

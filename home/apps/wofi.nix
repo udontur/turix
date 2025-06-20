@@ -38,7 +38,7 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: #A1E754;
+          border-color: #00f260;
           background-color: transparent;
           background: transparent; 
           color: white;
