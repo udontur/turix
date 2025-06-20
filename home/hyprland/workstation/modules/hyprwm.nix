@@ -62,11 +62,12 @@
         animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
+          beizer = linear, 1, 1, 0, 0
           animation = windows, 1, 4, bcur, popin 80%
           animation = layers, 1, 4, bcur, fade
           animation = fade, 1, 4, bcur
           animation = border, 1, 4, default
-          animation = borderangle, 1, 20, bcur, loop
+          animation = borderangle, 1, 20, linear, loop
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
         
