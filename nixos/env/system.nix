@@ -39,8 +39,6 @@
       variant = "";
     };
 
-  };
-
   # GDM
   displayManager = {
     gdm = {
@@ -52,6 +50,8 @@
       user = "udontur";
     };
   };
+  };
+
   services.logind={
     powerKey="ignore";
     powerKeyLongPress="ignore";
