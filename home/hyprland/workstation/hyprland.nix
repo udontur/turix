@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ inputs, pkgs, config, ... }:
 {
   home.packages = with pkgs; [
     hyprpaper
@@ -23,5 +23,9 @@
       source = ~/.config/hypr/modules/system.conf
       source = ~/.config/hypr/modules/others.conf
     '';
+    plugins = [
+      inputs.Hyprspace.packages.${pkgs.system}.Hyprspace
+    ];
+
   };
 }
