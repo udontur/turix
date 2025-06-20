@@ -4,6 +4,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
+      type = "git";
       url = "github:nix-community/home-manager";
       submodules = true;
       inputs.nixpkgs.follows = "nixpkgs";
