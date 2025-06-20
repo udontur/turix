@@ -6,3 +6,10 @@ Even when Linux and Windows merges, **PPPLLLEEAASSE DO NOT** put MIME apps list 
 > [!WARNING]  
 > **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
 
+### 3. Zen profiles
+When copying zen profiles, copy **EVERYTHING** in the `.zen` directory.
+
+Make sure to change `compatibility.ini` in each fresh migration.
+
+### 4. Fresh NixOS install
+Make sure the boot loader is selected as `NixOS Bootloader` instead of `Linux Bootloader`. 

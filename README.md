@@ -32,6 +32,8 @@ This includes:
   - Others
 
 You can make a manual backup of your Zen profile.
+> [!CAUTION]
+> A Zen profiles contains **EVERYTHING**. This includes **Sensetive Information** like logged in site data. 
 
 ### 2. p10k configuration
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
@@ -44,13 +46,12 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
 - [ ] gtk: ultra large cursor due to fractional scaling
-- [ ] laptop: collision
 
 ### ✨ Features
 - [ ] laptop: Battery indicator script (libnotify)
 
 ### 🎇 Features that I have no idea how to add
-- [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
+- [ ] Make zen configuration declarative (idea: make the zen profile partially declarative)
 
 ## 📑 Documentation
 See the [docs directory](docs).
