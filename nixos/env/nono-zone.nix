@@ -45,7 +45,7 @@
 
   # NixOS system configuration
   nixpkgs.config.allowUnfree = true;
-  # [IMPORTANT] What if I install 25.05 and use nixos unstable?
+  
   system.stateVersion = "24.11";
-  # END
+  
 }

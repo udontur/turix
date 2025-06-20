@@ -48,7 +48,7 @@
           specialArgs = { inherit inputs; };
           modules = [
             hyprland.homeManagerModules.default{
-              wayland.windowManager.hyprland.enable = true;
+              windowManager.hyprland.enable = true;
             }
             ../../nixos/workstation.nix
             home-manager.nixosModules.home-manager
