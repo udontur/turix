@@ -41,6 +41,7 @@
         bind = SUPER, up, movefocus, u
         bind = SUPER, down, movefocus, d
 
+        bind = SUPER, tab, overview:toggle
         bindm = SUPER, mouse:272, movewindow
         bindm = SUPER, mouse:273, resizewindow
         bind = SUPER_Control_Shift, down, resizeactive, 0 50

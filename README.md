@@ -53,7 +53,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] yazi: hidden files and time sorting
 - [x] hyprland: use keyboard to resize windows
 - [x] hyprland: Add some nice border gradients that match the background
-
+- [ ] hyprspace: overview feature
 ### 🎇 Features that I have no idea how to add
 - [x] ~~Set default applications without crashing home manager (mime apps list does crash it)~~
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
