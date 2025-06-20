@@ -42,9 +42,5 @@
     NIXOS_OZONE_WL = "1"; 
   };
 
-  # Bye bye printer app
-  environment.extraSetup = ''
-    rm $out/share/applications/cups.desktop
-  '';
 
 }
