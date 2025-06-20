@@ -24,6 +24,8 @@ printf "\033[A\033[K\033[A\033[KNixOS finished rebuilding!\n"
 
 sudo chown -R udontur:777 ./.git
 
+git add .
+
 if [[ $machine_type = "l" ]]; then
     currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
     git commit -m "$currentDate" &> git-commit.log
