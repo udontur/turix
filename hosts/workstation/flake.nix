@@ -47,9 +47,6 @@
         workstation = nixpkgs.lib.nixosSystem {      
           specialArgs = { inherit inputs; };
           modules = [
-            hyprland.homeManagerModules.default{
-              windowManager.hyprland.enable = true;
-            }
             ../../nixos/workstation.nix
             home-manager.nixosModules.home-manager
             {
