@@ -43,9 +43,9 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
 - [ ] easyeffects: presets does not load declaratively
-- [ ] GTK: ultra large cursor due to fractional scaling
+- [ ] gtk: ultra large cursor due to fractional scaling
 - [x] kitty: make the color less dark
-- [ ] yazi: make each file open in the correct application (solves the mime apps list issues)
+- [x] yazi: make each file open in the correct application (solves the mime apps list issues)
 
 ### ✨ Features
 - [ ] hyprland: hyprscroller
@@ -55,7 +55,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] hyprland: Add some nice border gradients that match the background
 
 ### 🎇 Features that I have no idea how to add
-- [ ] Set default applications without crashing home manager (mime apps list does crash it)
+- [x] ~~Set default applications without crashing home manager (mime apps list does crash it)~~
 - [ ] Make zen declarative (thinking of copying the firefox profiles automatically)
 
 ## 📑 Documentation
