@@ -60,4 +60,8 @@
     hibernateKeyLongPress="ignore";
   };
 
+  # Bye bye printer appAdd commentMore actions
+  environment.extraSetup = ''
+    rm -f $out/share/applications/cups.desktop
+  '';
 }
