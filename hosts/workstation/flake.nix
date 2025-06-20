@@ -21,7 +21,7 @@
     ossdmk.url = "github:udontur/ossdmk";
     hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
-      url = "github:udontur/wakatime-ls";
+      url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
