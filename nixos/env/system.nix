@@ -38,9 +38,10 @@
       layout = "us";
       variant = "";
     };
+  };
 
   # GDM
-  displayManager = {
+  services.displayManager = {
     gdm = {
       enable = true;
       wayland = true;
@@ -50,8 +51,6 @@
       user = "udontur";
     };
   };
-  };
-
   services.logind={
     powerKey="ignore";
     powerKeyLongPress="ignore";
