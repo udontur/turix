@@ -62,7 +62,7 @@
         animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
-          beizer = linear, 1, 1, 0, 0
+          bezier = linear, 1, 1, 0, 0
           animation = windows, 1, 4, bcur, popin 80%
           animation = layers, 1, 4, bcur, fade
           animation = fade, 1, 4, bcur
