@@ -44,10 +44,10 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
+- [ ] laptop: TLP battery optimization specifically for laptop
 
 ### ✨ Features
-- [ ] laptop: Battery indicator script (libnotify)
-
+- [ ] laptop: Battery indicator script (while true, check, libnotify)
 
 ## 📑 Documentation
 See the [docs directory](docs).
