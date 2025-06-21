@@ -589,13 +589,13 @@
       "locked": {
         "lastModified": 1749344834,
         "narHash": "sha256-rNmHn8SgJJ/MLOwN/PoSFeVf4jfL5Qj2yJ+HcfjMZIk=",
-        "owner": "udontur",
+        "owner": "mrnossiom",
         "repo": "wakatime-ls",
         "rev": "b7ffbab1e7a045d1c9c26ad6421b4c06fb583f37",
         "type": "github"
       },
       "original": {
-        "owner": "udontur",
+        "owner": "mrnossiom",
         "repo": "wakatime-ls",
         "type": "github"
       }

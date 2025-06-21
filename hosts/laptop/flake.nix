@@ -10,9 +10,9 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     hyprland.url = "github:hyprwm/Hyprland";
     ossdmk.url = "github:udontur/ossdmk";
-    hyprshot.url = "github:mrnossiom/hyprshot";
+    hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
-      url = "github:udontur/wakatime-ls";
+      url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
