@@ -78,7 +78,7 @@
       net_auto = true;
       net_sync = true;
       net_iface = "";
-      show_battery = true
+      show_battery = true;
       selected_battery = "BAT1";
       show_battery_watts = true;
       log_level = "WARNING";
