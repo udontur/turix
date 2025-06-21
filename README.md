@@ -48,6 +48,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 
 ### ✨ Features
 - [ ] laptop: Battery indicator script (while true, check, libnotify)
+- [ ] wakatime: Add more lsp (css, html, jsx, etc)
 
 ## 📑 Documentation
 See the [docs directory](docs).
