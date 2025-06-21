@@ -49,8 +49,8 @@
         bind = SUPER_Control, up, resizeactive, 0  -50
         bind = SUPER_Control, left, resizeactive,  -50 0
         
-        bind = SUPER_Control, down, swapwindow, l
-        bind = SUPER_Control, up, swapwindow, r
+        bind = SUPER_Control_Shift, down, swapwindow, l
+        bind = SUPER_Control_Shift, right, swapwindow, r
         bind = SUPER, J, togglesplit,
 
         # Function Media
