@@ -18,28 +18,6 @@
   # Store optimization on every build
   nix.settings.auto-optimise-store = true;
 
-  # User setup
-  users.users.udontur = {
-    isNormalUser = true;
-    description = "Hadrian";
-    # Password is set in the gnome graphical interface.
-    extraGroups = [
-      "networkmanager"
-      "wheel"
-    ];
-  };
-
-  networking.hostName = "earth"; # Define your hostname.
-
-  # XServer
-  services.xserver = {
-    enable = true;
-    xkb = {
-      layout = "us";
-      variant = "";
-    };
-  };
-
   # GDM
   services.displayManager = {
     gdm = {
@@ -60,8 +38,4 @@
     hibernateKeyLongPress="ignore";
   };
 
-  # Bye bye printer appAdd commentMore actions
-  environment.extraSetup = ''
-    rm -f $out/share/applications/cups.desktop
-  '';
 }

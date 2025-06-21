@@ -19,6 +19,27 @@
   # Networking
   networking.networkmanager.enable = true;
   networking.firewall.enable = true;
+  networking.hostName = "earth";
+  
+  # User setup
+  users.users.udontur = {
+    isNormalUser = true;
+    description = "Hadrian";
+    # Password is set in the gnome graphical interface.
+    extraGroups = [
+      "networkmanager"
+      "wheel"
+    ];
+  };
+
+  # XServer
+  services.xserver = {
+    enable = true;
+    xkb = {
+      layout = "us";
+      variant = "";
+    };
+  };
 
   # Time and Language
   time.timeZone = "Asia/Hong_Kong";

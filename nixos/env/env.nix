@@ -35,6 +35,11 @@
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
   programs.zsh.promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+
+  # Remove printer app
+  environment.extraSetup = ''
+    rm -f $out/share/applications/cups.desktop
+  '';
   
   # Environment Variables
   environment.sessionVariables = {

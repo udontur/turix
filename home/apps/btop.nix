@@ -78,8 +78,8 @@
       net_auto = true;
       net_sync = true;
       net_iface = "";
-      show_battery = false;
-      selected_battery = "";
+      show_battery = true
+      selected_battery = "BAT1";
       show_battery_watts = true;
       log_level = "WARNING";
       nvml_measure_pcie_speeds = false;
