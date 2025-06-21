@@ -22,7 +22,7 @@
         bindl = ,switch:Lid Switch, exec, hyprlock
         bind = SUPER, L, exec, hyprlock
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
-        bind = SUPER_Shift, S, exec, hyprshot -m -z region
+        bind = SUPER_Shift, S, exec, hyprshot -m region -z
         bind = SUPER, V, exec, kitty yazi
         bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
         bind = SUPER, C, exec, chromium
