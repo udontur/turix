@@ -16,11 +16,11 @@
     gcc
     #gnumake
     #boost186
-    #cmake
+    cmake
     #fmt
     #vcpkg
     #pkg-config
-    bazel_7
+    #bazel_7
 
     # Umpire
     # gcc # C++
