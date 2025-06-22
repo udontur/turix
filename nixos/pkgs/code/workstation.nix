@@ -14,7 +14,7 @@
     
     # C++
     gcc
-    #gnumake
+    gnumake
     #boost186
     cmake
     #fmt
