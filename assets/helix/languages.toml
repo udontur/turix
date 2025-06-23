@@ -11,7 +11,7 @@ file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", 
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "clangd", "wakatime" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 
 [[language]]
 name = "rust"
@@ -39,7 +39,7 @@ file-types = ["nix"]
 shebangs = []
 comment-token = "#"
 language-servers = [ "nil", "nixd", "wakatime" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 
 [[language]]
 name = "bash"
@@ -95,7 +95,7 @@ file-types = [
 shebangs = ["sh", "bash", "dash", "zsh"]
 comment-token = "#"
 language-servers = [ "bash-language-server", "wakatime" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 
 [[language]]
 name = "starlark"
@@ -128,7 +128,7 @@ roots = [ "package.json" ]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 language-servers = [ "typescript-language-server", "wakatime" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 
 [[language]]
 name = "cmake"
@@ -136,6 +136,6 @@ scope = "source.cmake"
 file-types = ["cmake", { glob = "CMakeLists.txt" }]
 comment-token = "#"
 block-comment-tokens = { start = "#[[", end = "]]" }
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 language-servers = ["wakatime", "neocmakelsp", "cmake-language-server"]
 injection-regex = "cmake"
