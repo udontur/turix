@@ -16,6 +16,7 @@
     easyeffects
     obsidian
     helix
+    vscode
     
     # Terminal 
     neofetch
