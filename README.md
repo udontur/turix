@@ -51,6 +51,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] laptop: Battery indicator script (while true, check, libnotify)
 - [ ] wakatime: Add more lsp (css, html, jsx, etc)
 - [ ] hyprfocus: Add flash focus for laptop
+- [ ] laptop: bring back waybar without the workspace
 
 ## 📑 Documentation
 See the [docs directory](docs).
