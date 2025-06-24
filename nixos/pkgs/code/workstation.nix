@@ -25,10 +25,10 @@
     
     # Umpire
     # gcc # C++
-    # python314
-    # go
-    # zulu8 # Java
-    # rustc
+    python314
+    go
+    zulu8 # Java
+    rustc
 
     # Rust
     rustc
