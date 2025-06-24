@@ -370,11 +370,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1749905747,
-        "narHash": "sha256-GhpdB4MICcXnJ/TwxSLBcUDwqUbP/Y53fcqndwjsiOg=",
+        "lastModified": 1750766003,
+        "narHash": "sha256-aK8pnkrT8uMYeOtJ4sBAi0FdWWMpga6X0TvNmyj4yA8=",
         "owner": "udontur",
         "repo": "hyprshot",
-        "rev": "f6c5cc43c41338b0b8a656f826593ce6f80cb741",
+        "rev": "cfe8ac67558bf49713e5492dc0cf79842e8f6c74",
         "type": "github"
       },
       "original": {
