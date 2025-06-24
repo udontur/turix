@@ -46,6 +46,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [x] laptop: TLP battery optimization specifically for laptop
 - [x] btop: Add battery back
+- [ ] Selection: browser selection dropdowns are broken (white text and white background)
 
 ### ✨ Features
 - [ ] laptop: Battery indicator script (while true, check, libnotify)

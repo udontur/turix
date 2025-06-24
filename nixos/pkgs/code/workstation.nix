@@ -21,7 +21,8 @@
     #vcpkg
     #pkg-config
     #bazel_7
-
+    argparse
+    
     # Umpire
     # gcc # C++
     # python314
