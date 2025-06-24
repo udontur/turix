@@ -27,7 +27,7 @@
     # gcc # C++
     python314
     go
-    zulu8 # Java
+    zulu17 # Java
     rustc
 
     # Rust
