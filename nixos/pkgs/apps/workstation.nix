@@ -44,5 +44,6 @@
     # gnome-system-monitor
     # chromium
     # pdfarranger
+    obs-studio
   ];
 }
