@@ -18,6 +18,7 @@
     helix
     vscode
     
+    virtualbox
     # Terminal 
     neofetch
     btop-rocm
