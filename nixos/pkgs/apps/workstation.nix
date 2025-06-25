@@ -17,7 +17,7 @@
     obsidian
     helix
     vscode
-    
+    virtualbox    
     docker
     # Terminal 
     neofetch
