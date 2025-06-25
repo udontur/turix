@@ -17,8 +17,7 @@
     obsidian
     helix
     vscode
-    virtualboxWithExtpack    
-    docker
+    
     # Terminal 
     neofetch
     btop-rocm
