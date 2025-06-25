@@ -45,5 +45,6 @@
     # chromium
     # pdfarranger
     obs-studio
+    shotcut
   ];
 }
