@@ -10,6 +10,7 @@
   environment.systemPackages = with pkgs; [
     # CPP
     gcc
+    clang-tools
     # gnumake
     # boost186
     # cmake

@@ -15,6 +15,7 @@
     # C++
     gcc
     gnumake
+    clang-tools
     #boost186
     cmake
     #fmt
