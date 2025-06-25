@@ -10,7 +10,7 @@ injection-regex = "cpp"
 file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", "ixx", "txx", "ino", "C", "H", "cu", "cuh", "cppm", "h++", "ii", "inl", { glob = ".hpp.in" }, { glob = ".h.in" }]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
-formatter = {command = 'clang-format', args= ["--style=Google"]}
+formatter = {command = 'clang-format', args= ["--style={BasedOnStyle: Google, IndentWidth: 8}"]}
 language-servers = [ "clangd", "wakatime" ]
 indent = { tab-width = 4, unit = "  " }
 
