@@ -30,4 +30,14 @@
       source = ../../assets/helix/sonokai-default.toml;
     };
   };
+  home.file = {
+    "/home/udontur/.config/helix/clang-format.conf" = {
+      text = ''
+        BasedOnStyle: Google
+        IndentWidth: 4
+        ColumnLimit: 500
+        
+      '';
+    }
+  }
 }
