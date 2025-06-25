@@ -483,6 +483,22 @@
     },
     "nixpkgs_4": {
       "locked": {
+        "lastModified": 1750622754,
+        "narHash": "sha256-kMhs+YzV4vPGfuTpD3mwzibWUE6jotw5Al2wczI0Pv8=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c7ab75210cb8cb16ddd8f290755d9558edde7ee1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-25.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_5": {
+      "locked": {
         "lastModified": 1743448293,
         "narHash": "sha256-bmEPmSjJakAp/JojZRrUvNcDX2R5/nuX6bm+seVaGhs=",
         "owner": "nixos",
@@ -546,6 +562,7 @@
         "hyprshot": "hyprshot",
         "nixpkgs": "nixpkgs_2",
         "ossdmk": "ossdmk",
+        "umpire": "umpire",
         "wakatime-ls": "wakatime-ls",
         "zen-browser": "zen-browser"
       }
@@ -598,6 +615,24 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default-linux",
+        "type": "github"
+      }
+    },
+    "umpire": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1750839983,
+        "narHash": "sha256-H/geGu5WcyQ1Nadr5ydRwX3RsXrlB6m6QaB5JBy22gE=",
+        "owner": "udontur",
+        "repo": "umpire",
+        "rev": "e08e8f75c8d7d789110afae99ee059c8be480d6e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "udontur",
+        "repo": "umpire",
         "type": "github"
       }
     },
@@ -667,7 +702,7 @@
     "zen-browser": {
       "inputs": {
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": "nixpkgs_5"
       },
       "locked": {
         "lastModified": 1750152169,

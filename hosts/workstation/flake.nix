@@ -28,6 +28,7 @@
     # Developer
     # judgel.url = "github:udontur/judgel";
     # wretch.url = "github:thesillyboi/wretch"; 
+    umpire.url = "github:udontur/umpire";
   };
 
   outputs =
