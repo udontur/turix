@@ -6,7 +6,7 @@
       background #2c2e34
       foreground #ebebeb
       font_family Recursive Mono Casual Static
-      font_size 12.0
+      font_size 30.0
       confirm_os_window_close 0
     '';
   };
