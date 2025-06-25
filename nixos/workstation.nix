@@ -15,4 +15,5 @@
     ./pkgs/apps/workstation.nix
     ./pkgs/code/workstation.nix
   ];
+  virtualisation.vmware.host.enable = true;
 }
