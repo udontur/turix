@@ -11,7 +11,7 @@ file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", 
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
 formatter = {command = "clang-format", args= ["--style=\"{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 500}\" --ferror-limit=0"]}
-language-servers = [ wakatime" ]
+language-servers = [ "wakatime" ]
 indent = { tab-width = 4, unit = "  " }
 
 [[language]]
