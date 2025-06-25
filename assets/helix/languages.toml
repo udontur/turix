@@ -7,7 +7,6 @@ command = "wakatime-ls"
 name = "cpp"
 scope = "source.cpp"
 injection-regex = "cpp"
-o
 file-types = ["cc", "hh", "c++", "cpp", "hpp", "h", "ipp", "tpp", "cxx", "hxx", "ixx", "txx", "ino", "C", "H", "cu", "cuh", "cppm", "h++", "ii", "inl", { glob = ".hpp.in" }, { glob = ".h.in" }]
 comment-token = "//"
 block-comment-tokens = { start = "/*", end = "*/" }
