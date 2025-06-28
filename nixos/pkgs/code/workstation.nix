@@ -30,7 +30,7 @@
     go
     zulu17 # Java
     rustc
-
+    
     # Rust
     rustc
     cargo
