@@ -15,7 +15,7 @@
                 notify-send "就嚟冇電" "Battery is at 30%, you need to charge it now!"
             elif [[ "$battery_level" -le 20 && "$battery_level" -gt 10]]; then
                 notify-send "Its suffering... 冇電喇" "Battery is at 20%, plug it in right now!"
-            elif [[ "$battery_level" -le 10 ]] the
+            elif [[ "$battery_level" -le 10 ]]; then
                 notify-send "真係冇電喇!!!" "得返10%"
             fi
 
