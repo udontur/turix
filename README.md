@@ -47,12 +47,13 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] laptop: TLP battery optimization specifically for laptop
 - [x] btop: Add battery back
 - [ ] Selection: browser selection dropdowns are broken (white text and white background)
+- [x] laptop: match hyprland workspace bindings
 
 ### ✨ Features
-- [ ] laptop: Battery indicator script (while true, check, libnotify)
+- [x] laptop: Battery indicator script (while true, check, libnotify)
 - [ ] wakatime: Add more lsp (css, html, jsx, etc)
-- [ ] hyprfocus: Add flash focus for laptop
-- [ ] laptop: bring back waybar without the workspace
+- [ ] ~~hyprfocus: Add flash focus for laptop~~
+- [x] laptop: bring back waybar without the workspace
 
 ## 📑 Documentation
 See the [docs directory](docs).

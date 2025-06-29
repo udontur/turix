@@ -99,16 +99,6 @@ language-servers = [ "bash-language-server", "wakatime" ]
 indent = { tab-width = 4, unit = "  " }
 
 [[language]]
-name = "starlark"
-scope = "source.starlark"
-injection-regex = "(starlark|bzl|bazel)"
-file-types = ["bzl", "bazel", "star", { glob = "BUILD" }, { glob = "BUILD.*" }, { glob = "Tiltfile" }, { glob = "WORKSPACE" }, { glob = "WORKSPACE.bzlmod" }]
-comment-token = "#"
-indent = { tab-width = 4, unit = "    " }
-language-servers = [ "starpls", "wakatime" ]
-grammar = "python"
-
-[[language]]
 name = "markdown"
 scope = "source.md"
 injection-regex = "md|markdown"
@@ -132,6 +122,40 @@ language-servers = [ "typescript-language-server", "wakatime" ]
 indent = { tab-width = 4, unit = "  " }
 
 [[language]]
+name = "jsx"
+scope = "source.jsx"
+injection-regex = "jsx"
+language-id = "javascriptreact"
+file-types = ["jsx"]
+roots = [ "package.json", "jsconfig.json" ]
+comment-token = "//"
+block-comment-tokens = { start = "/*", end = "*/" }
+language-servers = [ "typescript-language-server", "wakatime" ]
+indent = { tab-width = 4, unit = "  " }
+grammar = "javascript"
+
+[[language]]
+name = "css"
+scope = "source.css"
+injection-regex = "css"
+file-types = ["css"]
+block-comment-tokens = { start = "/*", end = "*/" }
+language-servers = [ "vscode-css-language-server", "wakatime" ]
+auto-format = true
+indent = { tab-width = 4, unit = "  " }
+
+
+[[language]]
+name = "html"
+scope = "text.html.basic"
+injection-regex = "html"
+file-types = ["html", "htm", "shtml", "xhtml", "xht", "jsp", "asp", "aspx", "jshtm", "volt", "rhtml", "cshtml"]
+block-comment-tokens = { start = "<!--", end = "-->" }
+language-servers = [ "vscode-html-language-server", "superhtml", "wakatime" ]
+auto-format = true
+indent = { tab-width = 2, unit = "  " }
+
+[[language]]
 name = "cmake"
 scope = "source.cmake"
 file-types = ["cmake", { glob = "CMakeLists.txt" }]
@@ -140,3 +164,15 @@ block-comment-tokens = { start = "#[[", end = "]]" }
 indent = { tab-width = 4, unit = "  " }
 language-servers = ["wakatime", "neocmakelsp", "cmake-language-server"]
 injection-regex = "cmake"
+
+[[language]]
+name = "python"
+scope = "source.python"
+injection-regex = "py(thon)?"
+file-types = ["py", "pyi", "py3", "pyw", "ptl", "rpy", "cpy", "ipy", "pyt", { glob = ".python_history" }, { glob = ".pythonstartup" }, { glob = ".pythonrc" }, { glob = "*SConstruct" }, { glob = "*SConscript" }, { glob = "*sconstruct" }]
+shebangs = ["python", "uv"]
+roots = ["pyproject.toml", "setup.py", "poetry.lock", "pyrightconfig.json"]
+comment-token = "#"
+language-servers = ["ty", "ruff", "jedi", "pylsp", "wakatime"]
+# TODO: pyls needs utf-8 offsets
+indent = { tab-width = 4, unit = "    " }
