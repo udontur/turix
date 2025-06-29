@@ -38,6 +38,7 @@
       #cpu,
       #memory,
       #window,
+      #battery,
       #network {
         padding: 0.3rem 0.6rem;
         margin: 0.4rem 0.25rem;
@@ -66,6 +67,7 @@
         "cpu"
         "memory"
         "pulseaudio"
+        "battery"
       ];
       clock = {
         tooltip = false;
@@ -96,6 +98,11 @@
         rotete=0;
         format="󰇚 {bandwidthDownBytes}";
         interval=1;
+      };
+      battery= {
+        format= "{icon} {capacity}%";
+        format-icons= ["" "" "" "" ""];
+        interval=30;
       };
     }];
   };
