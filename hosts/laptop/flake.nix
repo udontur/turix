@@ -15,7 +15,7 @@
       url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    hyprfocus.rul = "github:pyt0xic/hyprfocus";
+    hyprfocus.url = "github:pyt0xic/hyprfocus";
   };
 
   outputs =
