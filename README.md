@@ -1,7 +1,7 @@
 <div align="center">
   <h1 align="center">nixos</h3>
   <p align="center">
-    ❄️ Welcome to my NixOS Linux Configuration! 
+    ❄️ Welcome to my Linux Configuration! 
     <br />
     <br />
     <a href="https://hadrian.cc">I ❤️ my daily driver OS and PC Setup!</a>
