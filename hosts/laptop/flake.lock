@@ -168,15 +168,15 @@
         "nix-filter": "nix-filter"
       },
       "locked": {
-        "lastModified": 1750690887,
-        "narHash": "sha256-psn+Xu1CA68nWGQaRebJGPmq1rRfysH6SGCbWYB6kYc=",
-        "owner": "daxisunder",
+        "lastModified": 1751196577,
+        "narHash": "sha256-SE313zgiInpWSaBElpVw3lpUjBMEYy9zRZ+cTbGpCLM=",
+        "owner": "udontur",
         "repo": "hyprfocus",
-        "rev": "b892a4dae74061a3721d0ad5744d4430cb46b57e",
+        "rev": "75f92a329482454e998dd8b63c2b17faaa76ae2c",
         "type": "github"
       },
       "original": {
-        "owner": "daxisunder",
+        "owner": "udontur",
         "repo": "hyprfocus",
         "type": "github"
       }
