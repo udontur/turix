@@ -5,6 +5,7 @@
     ./global.nix
 
     ./util/hyprlock.nix
+    ./util/waybar/laptop.nix
 
     # Hyprland
     ./hyprland/laptop/hyprland.nix

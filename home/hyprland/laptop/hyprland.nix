@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ inputs, pkgs, config, ... }:
 {
   home.packages = with pkgs; [
     hyprpaper
@@ -16,6 +16,9 @@
   ];
   wayland.windowManager.hyprland = {
     enable = true;
+    plugins = [
+      inputs.Hyprspace.packages.${pkgs.system}.Hyprspace
+    ];
     extraConfig = ''
       source = ~/.config/hypr/modules/keybinds.conf
       source = ~/.config/hypr/modules/hyprwm.conf

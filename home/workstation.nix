@@ -6,7 +6,7 @@
 
     ./apps/wofi.nix
     ./util/easyeffects.nix
-    ./util/waybar.nix
+    ./util/waybar/workstation.nix
 
     # Hyprland
     ./hyprland/workstation/hyprland.nix
