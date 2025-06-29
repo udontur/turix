@@ -19,7 +19,9 @@
         general {
             gaps_in = 0
             gaps_out = 0
-            border_size = 0
+            border_size = 1
+            col.active_border = rgb(00f260)
+            col.inactive_border = rgb(707070)
             resize_on_border = false
             allow_tearing = false
             layout = dwindle

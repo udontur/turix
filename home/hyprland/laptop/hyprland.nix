@@ -13,9 +13,6 @@
   ];
   wayland.windowManager.hyprland = {
     enable = true;
-    plugins = [
-      inputs.hyprfocus.packages.${pkgs.system}.hyprfocus
-    ];
     package = inputs.hyprland.packages.${pkgs.system}.hyprland; 
     extraConfig = ''
       source = ~/.config/hypr/modules/keybinds.conf
