@@ -28,23 +28,25 @@
         bind = SUPER, C, exec, chromium
 
         # Windows and Workspace
-        bind = SUPER, O, exec, hyprnome
-        bind = SUPER, I, exec, hyprnome --previous
+        bind = SUPER, O, exec, hyprnome 
+        bind = SUPER, I, exec, hyprnome --previous 
         bind = SUPER_Control, O, exec, hyprnome --move
         bind = SUPER_Control, I, exec, hyprnome --previous --move
+
         bind = SUPER, left, movefocus, l
         bind = SUPER, right, movefocus, r
         bind = SUPER, up, movefocus, u
         bind = SUPER, down, movefocus, d
+
         bindm = SUPER, mouse:272, movewindow
         bindm = SUPER, mouse:273, resizewindow
-        bind = SUPER_Control_Shift, down, resizeactive, 0 50
-        bind = SUPER_Control_Shift, right, resizeactive,  50 0
-        bind = SUPER_Control_Shift, up, resizeactive, 0  -50
-        bind = SUPER_Control_Shift, left, resizeactive,  -50 0
-
-        bind = SUPER_Control, down, swapwindow, l
-        bind = SUPER_Control, up, swapwindow, r
+        bind = SUPER_Control, down, resizeactive, 0 50
+        bind = SUPER_Control, right, resizeactive,  50 0
+        bind = SUPER_Control, up, resizeactive, 0  -50
+        bind = SUPER_Control, left, resizeactive,  -50 0
+        
+        bind = SUPER_Control_Shift, down, swapwindow, l
+        bind = SUPER_Control_Shift, up, swapwindow, r
         bind = SUPER, J, togglesplit,
 
         # Function Media

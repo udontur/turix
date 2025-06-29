@@ -6,9 +6,6 @@
     # hyprshot my own flake
     hyprlock    
     hyprnome
-
-    xdg-desktop-portal-hyprland
-    hyprpolkitagent
     
     hyprpicker
     brightnessctl
@@ -19,6 +16,7 @@
     plugins = [
       inputs.hyprfocus.packages.${pkgs.system}.hyprfocus
     ];
+    package = inputs.hyprland.packages.${pkgs.system}.hyprland; 
     extraConfig = ''
       source = ~/.config/hypr/modules/keybinds.conf
       source = ~/.config/hypr/modules/hyprwm.conf

@@ -4,10 +4,7 @@
     hyprpaper
     hyprcursor
     # hyprshot my own flake
-    
     hyprnome
-    # hyprlandPlugins.hyprscrolling
-
     hyprpolkitagent
     
     hyprpicker
