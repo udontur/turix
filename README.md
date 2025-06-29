@@ -12,11 +12,12 @@
 
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux x86_64 (AMD Ryzen 5000s and AMD Ryzen 7000s)
+- **OS**: Linux x86_64
 - **Distro**: NixOS Unstable
 - **WM/DE**: Hyprland (Wayland)
-- **Addons**: home-manager, nix-flakes
-- **GPU**: AMD RX 7000s and AMD Intergrated Graphics
+- **Addons**: home-manager, Nix flakes
+- **CPU**: AMD Ryzen 5000s (Workstation) and AMD Ryzen 7000s (Laptop)
+- **GPU**: AMD RX 7000s (Workstation) and AMD Intergrated Graphics (Laptop)
 - **Since**: 3rd March 2025
 
 > [!WARNING]  
@@ -31,7 +32,7 @@ This includes:
   - Essential Tabs, Pinned Tabs, Workspaces
   - Others
 
-You can make a manual and private backup of your Zen profile.
+You can make a manual and **private** backup of your Zen profile.
 > [!CAUTION]
 > A Zen profiles contains **EVERYTHING**. This includes **Sensitive Information** like logged in site data. 
 
@@ -44,10 +45,10 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
-- [ ] selection: browser selection dropdowns are broken (white text and white background)
+- [ ] browser: dropdowns are unreadable in light mode (white text and white background)
 
 ### ✨ Features
-- [ ] bluetooth! A stable one please!
+- [ ] bluetooth (laptop): a stable one + easy to pair
 
 ## 📑 Documentation
 See the [docs directory](docs).
