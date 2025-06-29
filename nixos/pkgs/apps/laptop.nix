@@ -27,7 +27,8 @@
     inputs.hyprshot.packages."${system}".default
     swayosd
     swaynotificationcenter
-
+    acpi
+    
     # Others
     libnotify
     zsh

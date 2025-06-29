@@ -15,10 +15,11 @@
         exec-once = swaync
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = systemctl --user start hyprpolkitagent
-        # exec-once = waybar
+        exec-once = waybar
         exec-once = zen
         exec-once = hyprlock
-    
+        exec-once = /home/udontur/.config/battery/runner.sh    
+
         # Environment Variables
         env = XCURSOR_THEME, Bibata-Modern-Ice
         env = XCURSOR_SIZE, 25

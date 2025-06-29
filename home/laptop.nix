@@ -6,6 +6,7 @@
 
     ./util/hyprlock.nix
     ./util/waybar/laptop.nix
+    ./env/battery.nix
 
     # Hyprland
     ./hyprland/laptop/hyprland.nix
