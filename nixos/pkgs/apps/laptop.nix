@@ -21,6 +21,8 @@
     yazi
     gdu
     inputs.ossdmk.packages."${system}".default
+    inputs.umpire.packages."${system}".default
+
 
     # Utility
     git

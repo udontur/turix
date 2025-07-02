@@ -15,6 +15,7 @@
       url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    umpire.url = "github:udontur/umpire";
   };
 
   outputs =
