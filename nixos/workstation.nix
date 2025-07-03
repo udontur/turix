@@ -15,6 +15,4 @@
     ./pkgs/apps/workstation.nix
     ./pkgs/code/workstation.nix
   ];
-  virtualisation.virtualbox.host.enable = true;
-  users.extraGroups.vboxusers.members = [ "user-with-access-to-virtualbox" ];
 }
