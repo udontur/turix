@@ -46,7 +46,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
 - [ ] browser: dropdowns are unreadable in light mode (white text and white background)
-
+- [ ] waybar: disable workspace button clicking function (no, on-click does not work)
 ### ✨ Features
 - [ ] bluetooth (laptop): a stable one + easy to pair
 
