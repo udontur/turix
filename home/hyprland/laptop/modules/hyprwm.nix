@@ -73,7 +73,7 @@
             pixColor[1] *= 0.7;
 
             // blue
-            pixColor[2] *= 0.5;
+            pixColor[2] *= 0.55;
 
             gl_FragColor = pixColor;
         }
