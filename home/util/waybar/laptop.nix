@@ -58,17 +58,25 @@
       fixed-center= true;
       passthrough = false;
       modules-left = [
-        "network"
+        "hyprland/workspaces"
       ];
       modules-center = [
         "clock"
       ];
       modules-right = [
+        "network"
         "cpu"
         "memory"
         "pulseaudio"
         "battery"
       ];
+      "hyprland/workspaces" = {
+        format = "{id}";
+        all-outputs = true;
+        disable-scroll = false;
+        active-only = false;
+      };
+
       clock = {
         tooltip = false;
         format = "{:%I:%M %a %d %b}";

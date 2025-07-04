@@ -69,7 +69,6 @@
         "pulseaudio"
       ];
       "hyprland/workspaces" = {
-        on-click = "activate";
         format = "{id}";
         all-outputs = true;
         disable-scroll = false;
