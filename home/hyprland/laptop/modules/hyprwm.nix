@@ -30,6 +30,7 @@
             rounding = 0
             active_opacity = 1
             inactive_opacity = 1
+            screen_shader = "/home/udontur/.config/hypr/modules/nightLight.frag"
             blur {
                 enabled = false
             }
@@ -53,6 +54,19 @@
               natural_scroll=true
               scroll_factor=0.15
             }
+        }
+      '';
+    };
+  };
+  home.file = {
+    "/home/udontur/.config/hypr/modules/nightLight.frag" = {
+      text = ''
+        varying vec2 v_texcoord;
+        uniform sampler2D tex;
+        void main() {
+            vec4 pixColor = texture2D(tex, v_texcoord);
+            pixColor[2] *= 0.8;
+            gl_FragColor = pixColor;
         }
       '';
     };
