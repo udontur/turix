@@ -70,7 +70,7 @@
             vec4 pixColor = texture2D(tex, v_texcoord);
 
             // green
-            pixColor[1] *= 0.7;
+            pixColor[1] *= 0.75;
 
             // blue
             pixColor[2] *= 0.55;
