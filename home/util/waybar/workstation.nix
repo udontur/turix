@@ -73,6 +73,7 @@
         all-outputs = true;
         disable-scroll = false;
         active-only = false;
+        move-to-monitor = false;
       };
       clock = {
         tooltip = false;
