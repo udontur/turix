@@ -70,10 +70,10 @@
             vec4 pixColor = texture2D(tex, v_texcoord);
 
             // green
-            pixColor[1] *= 0.855;
+            pixColor[1] *= 0.6;
 
             // blue
-            pixColor[2] *= 0.725;
+            pixColor[2] *= 0.6;
 
             gl_FragColor = pixColor;
         }
