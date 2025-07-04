@@ -49,6 +49,6 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] waybar: disable workspace button clicking function (no, on-click does not work)
 ### ✨ Features
 - [ ] bluetooth (laptop): a stable one + easy to pair
-
+- [ ] night light (laptop): nightlight
 ## 📑 Documentation
 See the [docs directory](docs).
