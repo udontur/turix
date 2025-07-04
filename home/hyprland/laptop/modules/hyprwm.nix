@@ -30,7 +30,7 @@
             rounding = 0
             active_opacity = 1
             inactive_opacity = 1
-            screen_shader = "/home/udontur/.config/hypr/modules/nightLight.frag"
+            screen_shader = /home/udontur/.config/hypr/modules/nightLight.frag
             blur {
                 enabled = false
             }
