@@ -21,16 +21,13 @@
     shellAliases={
       reb="./rebuild";
       youbetter="sudo";
-      mkdir="mkdir -p";
-      gadd="git add .";
-      gcom="git commit -m ";
+      ga="git add .";
+      gc="git commit -m";
       gsync="git push origin main";
-      reb-fix="sudo chown -R udontur:777 .";
+      gpush="git push origin";
       ai-start="ollama serve";
-      # ai-smart="ollama run deepseek-r1:70b"
       ai="ollama run deepseek-r1:14b";
       ai-fast="ollama run deepseek-r1:8b";
-      ai-light="ollama run deepseek-r1:1.5b";
       ai-jailbreak="ollama run dolphin-mistral";
     };
     history.size=10000;
