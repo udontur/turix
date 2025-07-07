@@ -32,8 +32,9 @@
     rustc
 
     # Python
-    pipx
+    python313Packages.pip
     # django
+    # 
     
     # Rust
     rustc
