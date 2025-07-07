@@ -30,6 +30,10 @@
     go
     zulu17 # Java
     rustc
+
+    # Python
+    pipx
+    # django
     
     # Rust
     rustc
