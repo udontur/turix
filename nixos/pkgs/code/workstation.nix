@@ -12,6 +12,7 @@
     # inputs.wretch.packages."${system}".default
     # inputs.judgel.packages."${system}".default
     
+    nodePackages.vercel
     # C++
     gcc
     gnumake
