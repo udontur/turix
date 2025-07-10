@@ -31,14 +31,8 @@
     zulu17 # Java
     rustc
 
-    (python313.withPackages (python-pkgs: with python-pkgs; [
-      django
-      pip
-    ]))
     # Python
-    python313Packages.pip
-    # django
-    # 
+    python313
     
     # Rust
     rustc

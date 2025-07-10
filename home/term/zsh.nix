@@ -29,6 +29,7 @@
       ai="ollama run deepseek-r1:14b";
       ai-fast="ollama run deepseek-r1:8b";
       ai-jailbreak="ollama run dolphin-mistral";
+      cat="bat"
     };
     history.size=10000;
   };
