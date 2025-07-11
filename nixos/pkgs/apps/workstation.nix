@@ -17,6 +17,8 @@
     obsidian
     helix
     vscode
+    obs-studio
+    
     
     # Terminal 
     neofetch
