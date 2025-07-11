@@ -53,6 +53,7 @@
     wakatime-cli    
     inputs.wakatime-ls.packages.${system}.default
 
+    docker
     # Temporary
 
   ];
