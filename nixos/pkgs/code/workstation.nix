@@ -20,6 +20,7 @@
     
     # Python
     python312
+    inputs.fix-python.${system}.packages.default
     
     # Rust
     rustc

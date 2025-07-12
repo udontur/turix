@@ -24,6 +24,7 @@
       url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    fix-python.url = "github:GuillaumeDesforges/fix-python";
 
     # Developer
     # judgel.url = "github:udontur/judgel";
