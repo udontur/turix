@@ -13,7 +13,7 @@
     # inputs.judgel.packages."${system}".default
     
     # C++
-    gcc
+    gcc-unwrapped
     gnumake
     clang-tools
     cmake
