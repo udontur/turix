@@ -26,7 +26,6 @@
     
     # Umpire
     # gcc # C++
-    python314
     go
     zulu17 # Java
     rustc
