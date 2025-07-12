@@ -16,20 +16,8 @@
     gcc
     gnumake
     clang-tools
-    #boost186
     cmake
-    #fmt
-    #vcpkg
-    #pkg-config
-    #bazel_7
-    #argparse
     
-    # Umpire
-    # gcc # C++
-    go
-    zulu17 # Java
-    rustc
-
     # Python
     python312
     
@@ -37,7 +25,7 @@
     rustc
     cargo
 
-    # Web dev
+    # JavaScript
     bun
     # nodePackages_latest.nodejs
     

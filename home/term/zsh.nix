@@ -30,6 +30,7 @@
       ai-fast="ollama run deepseek-r1:8b";
       ai-jailbreak="ollama run dolphin-mistral";
       cat="bat";
+      start-venv="source .venv/bin/activate";
     };
     history.size=10000;
   };
