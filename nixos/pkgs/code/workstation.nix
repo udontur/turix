@@ -12,7 +12,6 @@
     # inputs.wretch.packages."${system}".default
     # inputs.judgel.packages."${system}".default
     
-    nodePackages.vercel
     # C++
     gcc
     gnumake
@@ -33,7 +32,7 @@
     rustc
 
     # Python
-    python313
+    python312
     
     # Rust
     rustc
@@ -53,7 +52,6 @@
     wakatime-cli    
     inputs.wakatime-ls.packages.${system}.default
 
-    docker
     # Temporary
 
   ];
