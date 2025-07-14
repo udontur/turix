@@ -19,7 +19,7 @@
     cmake
     
     # Python
-    python312
+    python311
     inputs.fix-python.packages.${system}.default
     
     # Rust
