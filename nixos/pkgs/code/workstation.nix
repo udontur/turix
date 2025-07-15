@@ -24,6 +24,7 @@
     conda
     python312Packages.conda
     zstd
+    python312Packages.zstd
     
     # Rust
     rustc
