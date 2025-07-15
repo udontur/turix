@@ -21,6 +21,7 @@
     # Python
     python311
     inputs.fix-python.packages.${system}.default
+    conda
     
     # Rust
     rustc
