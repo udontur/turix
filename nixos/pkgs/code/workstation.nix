@@ -11,7 +11,7 @@
     # Developer
     # inputs.wretch.packages."${system}".default
     # inputs.judgel.packages."${system}".default
-    
+    wget    
     # C++
     gcc-unwrapped
     gnumake
