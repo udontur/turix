@@ -19,9 +19,10 @@
     cmake
     
     # Python
-    python311
+    python312
     inputs.fix-python.packages.${system}.default
     conda
+    python312Packages.conda
     
     # Rust
     rustc
