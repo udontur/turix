@@ -23,6 +23,7 @@
     inputs.fix-python.packages.${system}.default
     conda
     python312Packages.conda
+    zstd
     
     # Rust
     rustc
