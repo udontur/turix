@@ -48,12 +48,12 @@
         decoration {
           rounding = 8
           active_opacity = 1
-          inactive_opacity = 0.9
-          blur {
-            enabled = true
-            size = 2
-            passes = 2
-          }
+          # inactive_opacity = 0.9
+          # blur {
+          #   enabled = true
+          #   size = 2
+          #   passes = 2
+          # }
           shadow{
             enabled = false
           }
