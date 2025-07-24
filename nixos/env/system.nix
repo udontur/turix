@@ -15,7 +15,7 @@
   ];
   
   # Garbage Collection NixOS Generations
-  # nix-garbage-collection --delete-older-than 30d
+  # nix-collect-garbage --delete-older-than 30d
   nix.gc = {
     automatic = true;
     dates = "weekly";
