@@ -62,8 +62,8 @@
       mem_graphs = false;
       mem_below_net = false;
       zfs_arc_cached = true;
-      show_swap = false;
-      swap_disk = false;
+      show_swap = true;
+      swap_disk = true;
       show_disks = false;
       only_physical = true;
       use_fstab = true;
