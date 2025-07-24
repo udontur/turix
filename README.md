@@ -47,6 +47,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [x] browser: dropdowns are unreadable in light mode (white text and white background)
 - [ ] waybar: disable workspace button clicking function (no, on-click does not work)
+- [ ] hyprspace: broke after hyprland 50
 
 ### ✨ Features
 - [ ] bluetooth (laptop): a stable one + easy to pair
