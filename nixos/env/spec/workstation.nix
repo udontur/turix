@@ -8,7 +8,7 @@
 {
   # Enable swap
   swapDevices = [{
-    device = "/swapfile"
+    device = "/swapfile";
     size = 32 * 1000;
   }];
 }
