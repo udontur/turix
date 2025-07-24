@@ -39,7 +39,7 @@ read -p "Back it up? " user_input
 printf "\033[A\033[K\033[A\033[K"
 
 if [[ $user_input =~ ^[Yy]$ ]]; then
-    git push origin main &> git-sync.log || (git push origin main && exit 1)
+    git push origin HEAD &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
         printf "\033[A\033[KFAILED to back up :c\n"
         exit 1

@@ -5,7 +5,7 @@
     ./apps/btop.nix
     ./apps/helix.nix
     ./apps/kitty.nix
-    # Workstation: ./apps/wofi.nix
+    ./apps/wofi.nix
 
     ./term/git.nix
     ./term/yazi.nix
