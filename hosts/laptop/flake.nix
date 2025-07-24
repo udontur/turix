@@ -7,15 +7,22 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    hyprland = {
+      url = "github:hyprwm/Hyprland";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    Hyprspace = {
+      url = "github:KZDKM/Hyprspace";
+      inputs.hyprland.follows = "hyprland";
+    };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
-    hyprland.url = "github:hyprwm/Hyprland";
     ossdmk.url = "github:udontur/ossdmk";
+    umpire.url = "github:udontur/umpire";
     hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
       url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    umpire.url = "github:udontur/umpire";
     fix-python.url = "github:GuillaumeDesforges/fix-python";
   };
 

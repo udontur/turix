@@ -7,7 +7,6 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    
     hyprland = {
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -16,9 +15,9 @@
       url = "github:KZDKM/Hyprspace";
       inputs.hyprland.follows = "hyprland";
     };
-    
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     ossdmk.url = "github:udontur/ossdmk";
+    umpire.url = "github:udontur/umpire";
     hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
       url = "github:mrnossiom/wakatime-ls";
@@ -29,7 +28,6 @@
     # Developer
     # judgel.url = "github:udontur/judgel";
     # wretch.url = "github:thesillyboi/wretch"; 
-    umpire.url = "github:udontur/umpire";
   };
 
   outputs =
