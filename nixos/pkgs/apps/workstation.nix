@@ -23,7 +23,6 @@
     neofetch
     btop-rocm
     yazi
-    ollama-rocm
     gdu
     inputs.ossdmk.packages."${system}".default
     inputs.umpire.packages."${system}".default

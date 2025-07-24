@@ -15,6 +15,7 @@
   ];
   
   # Garbage Collection NixOS Generations
+  # nix-garbage-collection --delete-older-than 30d
   nix.gc = {
     automatic = true;
     dates = "weekly";
@@ -22,6 +23,7 @@
   };
   
   # Store optimization on every build
+  # nix-store --optimise
   nix.settings.auto-optimise-store = true;
 
   # GDM
