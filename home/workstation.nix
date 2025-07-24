@@ -4,16 +4,11 @@
   imports = [
     ./global.nix
 
-    ./apps/wofi.nix
     ./util/easyeffects.nix
     ./util/waybar/workstation.nix
 
     # Hyprland
-    ./hyprland/workstation/hyprland.nix
-    ./hyprland/workstation/modules/hyprwm.nix
-    ./hyprland/workstation/modules/keybinds.nix
-    ./hyprland/workstation/modules/system.nix
-    ./hyprland/workstation/modules/others.nix
+    ./hyprland/spec/workstation.nix
   ];
 
   # The forbidden corner

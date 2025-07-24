@@ -14,6 +14,8 @@
     inputs.zen-browser.packages."${system}".beta
     obsidian
     helix
+    wofi
+    vscode
 	    
     # Terminal
     neofetch

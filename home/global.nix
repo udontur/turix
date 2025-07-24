@@ -12,15 +12,20 @@
     ./term/zsh.nix
 
     ./env/theme.nix
+    # Laptop: ./env/battery.nix
 
     ./util/hyprpaper.nix
+    # uni: ./util/waybar/: laptop or workstation
     # Workstation: ./util/easyeffects.nix
     # Laptop: ./util/hyprlock.nix
-    # Workstation: ./util/waybar.nix
 
     # Hyprland
-    # ./hyprland/workstation
-    # ./hyprland/laptop
+    ./hyprland/hyprland.nix
+    ./hyprland/modules/hyprwm.nix
+    ./hyprland/modules/keybinds.nix
+    ./hyprland/modules/system.nix
+    ./hyprland/modules/others.nix
+    # uni: ./hyprland/spec/: laptop or workstation
   ];
 
   # The forbidden corner

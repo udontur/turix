@@ -14,12 +14,10 @@
     swayosd
     swaynotificationcenter
     acpi
-    
-    # Others
+    hyprpicker
     libnotify
     smile
     copyq
     waybar
-
   ];
 }
