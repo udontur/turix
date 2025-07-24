@@ -173,6 +173,6 @@ file-types = ["py", "pyi", "py3", "pyw", "ptl", "rpy", "cpy", "ipy", "pyt", { gl
 shebangs = ["python", "uv"]
 roots = ["pyproject.toml", "setup.py", "poetry.lock", "pyrightconfig.json"]
 comment-token = "#"
-language-servers = ["ty", "ruff", "jedi", "pylsp", "wakatime"]
-# TODO: pyls needs utf-8 offsets
+formatter = {command="black", args=["."]}
+language-servers = ["pylsp", "wakatime"]
 indent = { tab-width = 4, unit = "    " }

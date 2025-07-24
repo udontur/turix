@@ -7,7 +7,13 @@
 }:
 
 {
-
+  # Fix dynamically linked libraries
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    # from nixpkgs
+    
+  ];
+  
   # Garbage Collection NixOS Generations
   nix.gc = {
     automatic = true;
@@ -29,6 +35,8 @@
       user = "udontur";
     };
   };
+
+  # Disable the power button because my friends keeps turning it off lol
   services.logind={
     powerKey="ignore";
     powerKeyLongPress="ignore";

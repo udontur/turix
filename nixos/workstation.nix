@@ -13,6 +13,6 @@
     ./global.nix
 
     ./pkgs/apps/workstation.nix
-    ./pkgs/code/workstation.nix
+    ./env/spec/workstation.nix
   ];
 }

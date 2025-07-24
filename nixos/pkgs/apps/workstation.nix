@@ -18,8 +18,7 @@
     helix
     vscode
     obs-studio
-    
-    
+        
     # Terminal 
     neofetch
     btop-rocm
@@ -29,25 +28,11 @@
     inputs.ossdmk.packages."${system}".default
     inputs.umpire.packages."${system}".default
     bat
-
-    # Utility 
-    git
-    inputs.hyprshot.packages."${system}".default
-    smile
-    copyq
-    waybar
-    swayosd
-    swaynotificationcenter
-
-    # Others
-    libnotify
     zsh
 
     # Temporary
     # gnome-system-monitor
     # chromium
     # pdfarranger
-    #obs-studio
-    #shotcut
   ];
 }

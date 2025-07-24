@@ -13,7 +13,6 @@
     ./global.nix
 
     ./pkgs/apps/laptop.nix
-    ./pkgs/code/laptop.nix
-    ./env/laptop-spec.nix
+    ./env/spec/laptop.nix
   ];
 }

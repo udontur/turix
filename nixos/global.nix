@@ -12,8 +12,9 @@
     inputs.home-manager.nixosModules.home-manager
     
     #./pkgs/apps
-    #./pkgs/code
     ./pkgs/resource.nix
+    ./pkgs/code.nix
+    ./pkgs/utils.nix
 
     ./env/env.nix
     ./env/system.nix

@@ -23,17 +23,6 @@
     inputs.ossdmk.packages."${system}".default
     inputs.umpire.packages."${system}".default
     bat
-
-
-    # Utility
-    git
-    inputs.hyprshot.packages."${system}".default
-    swayosd
-    swaynotificationcenter
-    acpi
-    
-    # Others
-    libnotify
     zsh
 
     # Temporary

@@ -16,6 +16,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     umpire.url = "github:udontur/umpire";
+    fix-python.url = "github:GuillaumeDesforges/fix-python";
   };
 
   outputs =
