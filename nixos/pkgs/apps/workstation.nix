@@ -31,7 +31,7 @@
     zsh
 
     # Temporary
-    # gnome-system-monitor
+    gnome-system-monitor
     # chromium
     # pdfarranger
   ];
