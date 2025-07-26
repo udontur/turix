@@ -28,6 +28,7 @@
     inputs.umpire.packages."${system}".default
     bat
     zsh
+    inputs.osc.packages."${system}".default
 
     # Temporary
     gnome-system-monitor

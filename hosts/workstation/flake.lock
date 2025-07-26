@@ -533,6 +533,22 @@
     },
     "nixpkgs_5": {
       "locked": {
+        "lastModified": 1745391562,
+        "narHash": "sha256-sPwcCYuiEopaafePqlG826tBhctuJsLx/mhKKM5Fmjo=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "8a2f738d9d1f1d986b5a4cd2fd2061a7127237d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
         "lastModified": 1750622754,
         "narHash": "sha256-kMhs+YzV4vPGfuTpD3mwzibWUE6jotw5Al2wczI0Pv8=",
         "owner": "nixos",
@@ -547,7 +563,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_6": {
+    "nixpkgs_7": {
       "locked": {
         "lastModified": 1752480373,
         "narHash": "sha256-JHQbm+OcGp32wAsXTE/FLYGNpb+4GLi5oTvCxwSoBOA=",
@@ -563,9 +579,27 @@
         "type": "github"
       }
     },
-    "ossdmk": {
+    "osc": {
       "inputs": {
         "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1745636004,
+        "narHash": "sha256-3Nl6ntuvuUdhjYo9AwbTDNccxXAN0CDStylgDtn3ltE=",
+        "owner": "udontur",
+        "repo": "ossdmk",
+        "rev": "59f5a839e164144f694e93f2a06be29f3c6054a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "udontur",
+        "repo": "ossdmk",
+        "type": "github"
+      }
+    },
+    "ossdmk": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5"
       },
       "locked": {
         "lastModified": 1745636004,
@@ -612,6 +646,7 @@
         "hyprland": "hyprland",
         "hyprshot": "hyprshot",
         "nixpkgs": "nixpkgs_3",
+        "osc": "osc",
         "ossdmk": "ossdmk",
         "umpire": "umpire",
         "wakatime-ls": "wakatime-ls",
@@ -686,7 +721,7 @@
     },
     "umpire": {
       "inputs": {
-        "nixpkgs": "nixpkgs_5"
+        "nixpkgs": "nixpkgs_6"
       },
       "locked": {
         "lastModified": 1750839983,
@@ -768,7 +803,7 @@
     "zen-browser": {
       "inputs": {
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_6"
+        "nixpkgs": "nixpkgs_7"
       },
       "locked": {
         "lastModified": 1753332000,

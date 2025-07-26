@@ -17,6 +17,7 @@
     };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     ossdmk.url = "github:udontur/ossdmk";
+    osc.url="github:udontur/ossdmk";
     umpire.url = "github:udontur/umpire";
     hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
