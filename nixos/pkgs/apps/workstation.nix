@@ -31,7 +31,7 @@
 
     # Temporary
     gnome-system-monitor
-    # chromium
+    chromium
     # pdfarranger
   ];
 }
