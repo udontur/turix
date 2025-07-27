@@ -584,11 +584,11 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1753598388,
-        "narHash": "sha256-X9O7nQflfxCzOmEd5F5TF20E1uhlX7zg66EwESscg6w=",
+        "lastModified": 1753599478,
+        "narHash": "sha256-UEii8G/YCyDuTPWyVR/yTug58hTEKfZiYBgfliqHKTg=",
         "owner": "udontur",
         "repo": "osc",
-        "rev": "8a2c054816b1a99ebfdc6ffc3590c2d2e9c2aa11",
+        "rev": "41e0bebadec8c69703adc5492acd6ce61366725a",
         "type": "github"
       },
       "original": {
