@@ -517,11 +517,11 @@
     },
     "nixpkgs_4": {
       "locked": {
-        "lastModified": 1745391562,
-        "narHash": "sha256-sPwcCYuiEopaafePqlG826tBhctuJsLx/mhKKM5Fmjo=",
+        "lastModified": 1753429684,
+        "narHash": "sha256-9h7+4/53cSfQ/uA3pSvCaBepmZaz/dLlLVJnbQ+SJjk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "8a2f738d9d1f1d986b5a4cd2fd2061a7127237d7",
+        "rev": "7fd36ee82c0275fb545775cc5e4d30542899511d",
         "type": "github"
       },
       "original": {
@@ -584,16 +584,16 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1745636004,
-        "narHash": "sha256-3Nl6ntuvuUdhjYo9AwbTDNccxXAN0CDStylgDtn3ltE=",
+        "lastModified": 1753522462,
+        "narHash": "sha256-7if2YCBS4u551Q0EwZCeg37xrrac+Fiyy21R+AzVSNw=",
         "owner": "udontur",
-        "repo": "ossdmk",
-        "rev": "59f5a839e164144f694e93f2a06be29f3c6054a1",
+        "repo": "osc",
+        "rev": "32ad89a1e81f7d653f51c9ed123d71ae722903d4",
         "type": "github"
       },
       "original": {
         "owner": "udontur",
-        "repo": "ossdmk",
+        "repo": "osc",
         "type": "github"
       }
     },
