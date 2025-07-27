@@ -14,7 +14,7 @@
     # inputs.umpire.packages.${system}.default
     
     # CPP
-    gcc-unwrapped
+    gcc
     clang-tools
     gnumake
     cmake
