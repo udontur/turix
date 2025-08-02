@@ -28,6 +28,7 @@
     inputs.umpire.packages."${system}".default
     bat
     zsh
+    flatpak
     inputs.osc.packages."${system}".default
 
     # Temporary
