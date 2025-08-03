@@ -18,6 +18,7 @@
     helix
     vscode
     obs-studio
+    docker
         
     # Terminal 
     neofetch
