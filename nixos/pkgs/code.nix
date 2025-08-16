@@ -33,7 +33,7 @@
     # Web dev
     bun
     nodePackages_latest.nodejs
-    pnpm
+    hexo-cli
     
     # Nix
     nix-init
