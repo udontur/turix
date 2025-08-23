@@ -52,6 +52,8 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ### ✨ Features
 - [ ] bluetooth (laptop): a stable one + easy to pair
 - [x] night light (laptop): nightlight
+- [ ] browser: Enable folders (wait for 1.15b on Nix)
+- [ ] helix: when have tree file structure
 
 ## 📑 Documentation
 See the [docs directory](docs).
