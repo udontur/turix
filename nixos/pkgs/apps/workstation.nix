@@ -34,6 +34,8 @@
     # Temporary
     gnome-system-monitor
     chromium
+    brave
+    gnome-disk-utility
     # firefox
     # pdfarranger
   ];
