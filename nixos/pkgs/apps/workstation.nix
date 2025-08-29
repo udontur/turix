@@ -35,8 +35,6 @@
     # gnome-system-monitor
     # chromium
     brave
-    # gnome-disk-utility
-    gparted
     # pdfarranger
   ];
 }
