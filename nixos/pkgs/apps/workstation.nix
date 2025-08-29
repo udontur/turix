@@ -32,11 +32,11 @@
     inputs.osc.packages."${system}".default
 
     # Temporary
-    gnome-system-monitor
-    chromium
+    # gnome-system-monitor
+    # chromium
     brave
-    gnome-disk-utility
-    # firefox
+    # gnome-disk-utility
+    gparted
     # pdfarranger
   ];
 }
