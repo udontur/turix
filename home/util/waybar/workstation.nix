@@ -42,11 +42,8 @@
         padding: 0.3rem 0.6rem;
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
-        border-color: rgba(60, 60, 60, 0.7);   
-        border-width: 2px;
-        border: solid;
         color: #a9a9a9;
-        background-color: rgba(34, 34, 34, 0.7);
+        background-color: transparent;
       }
     '';
     settings = [{
