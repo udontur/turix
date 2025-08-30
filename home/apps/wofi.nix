@@ -39,7 +39,7 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: #ffffff !important;
+          border-color: #f2f2f2 !important;
           background-color: transparent;
           background: transparent; 
           color: white;
@@ -53,7 +53,7 @@
           margin: 5px;
           min-height: 35px;
           border-width: 2px;
-          border-color: transparent;
+          border-color: #ffffff !important;
           background-color: transparent;
           background: transparent; 
           color: white;
