@@ -51,6 +51,7 @@
           border-width: 2px;
           background-color: transparent;
           background: transparent; 
+          border-color: #d9d9d9;
           color: white;
           border-style: solid;
       }
@@ -59,7 +60,7 @@
           outline-color: transparent; 
           border-radius: 10px;
           border-width: 2px;
-          border-color: #ff0000;
+          border-color: #d9d9d9;
       }
     '';
   };
