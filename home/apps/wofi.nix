@@ -39,7 +39,7 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: #f2f2f2 !important;
+          border-color: #d9d9d9 !important;
           background-color: transparent;
           background: transparent; 
           color: white;
