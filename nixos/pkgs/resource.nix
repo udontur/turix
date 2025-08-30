@@ -24,6 +24,7 @@
     nerdfix
     inter
     font-awesome
+    whatsapp-emoji-font
   ];
 
   # Font

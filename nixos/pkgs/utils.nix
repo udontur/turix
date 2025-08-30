@@ -16,8 +16,10 @@
     acpi
     hyprpicker
     libnotify
-    smile
+    # smile
+    emote
     copyq
     waybar
+
   ];
 }

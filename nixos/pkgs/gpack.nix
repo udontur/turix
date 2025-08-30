@@ -13,9 +13,9 @@
     inputs.zen-browser.packages."${system}".twilight
     nautilus
     wofi
-    rofi-wayland
     obsidian
     helix
+    gnome-calculator
         
     # Terminal 
     neofetch
