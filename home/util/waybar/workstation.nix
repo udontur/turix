@@ -35,7 +35,6 @@
         background-color: transparent;
       }
 
-      #clock,
       #pulseaudio,
       #cpu,
       #memory,
@@ -49,6 +48,10 @@
       }
 
       #clock {
+        padding: 0.3rem 0.6rem;
+        margin: 0.4rem 0.25rem;
+        border-radius: 6px;
+        background-color: transparent;
         color: #061D2B;
       }
     '';
