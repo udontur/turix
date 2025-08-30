@@ -9,9 +9,13 @@
 {
   environment.systemPackages = with pkgs; [
     # Temporary
+    
+    # Tools
+    # docker
 
     # Developer
     # inputs.umpire.packages.${system}.default
+    # inputs.osc.packages.${system}.default
     
     # CPP
     gcc
@@ -44,6 +48,5 @@
     # Wakatime
     wakatime-cli
     inputs.wakatime-ls.packages.${system}.default
-
   ];
 }

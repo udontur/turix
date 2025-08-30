@@ -8,26 +8,12 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # Apps
-    kitty
-    nautilus
-    inputs.zen-browser.packages."${system}".beta
-    obsidian
-    helix
-    wofi
-    vscode
-	    
-    # Terminal
-    neofetch
-    btop-rocm
-    yazi
-    gdu
-    inputs.ossdmk.packages."${system}".default
-    inputs.umpire.packages."${system}".default
-    bat
-    zsh
+    pdfarranger
 
     # Temporary
-    # chromium
+    # gnome-system-monitor
+    # brave
+    # vscode
+    # obs-studio
   ];
 }
