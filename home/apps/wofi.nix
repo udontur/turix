@@ -35,7 +35,7 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: #d9d9d9 !important;
+          border-color: #d9d9d9;
           background-color: transparent;
           background: transparent; 
           color: white;
@@ -59,7 +59,7 @@
           outline-color: transparent; 
           border-radius: 10px;
           border-width: 2px;
-          border-color: #ff0000 !important;
+          border-color: #ff0000;
       }
     '';
   };
