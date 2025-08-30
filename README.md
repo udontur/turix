@@ -49,9 +49,10 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] waybar: ~disable workspace button clicking function (no, on-click does not work)~ bruh i give up
 - [ ] hyprspace: broke after hyprland 50
 - [ ] emoji picker is so slow!
+- [ ] default apps is a complete mess
+- [ ] bluetooth (laptop): a stable one + easy to pair
 
 ### ✨ Features
-- [ ] bluetooth (laptop): a stable one + easy to pair
 - [x] night light (laptop): nightlight
 - [x] browser: Enable folders (wait for 1.15b on Nix)
 - [ ] helix: when have tree file structure
