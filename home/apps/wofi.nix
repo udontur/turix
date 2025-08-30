@@ -54,6 +54,7 @@
           border-color: #d9d9d9;
           color: white;
           border-style: solid;
+          border-radius: 10px;
       }
 
       #input:focus{
