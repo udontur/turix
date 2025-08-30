@@ -20,7 +20,7 @@
     font = {
       name="Inter";
       package=pkgs.inter;
-    }
+    };
     theme = {
       name = "Tokyonight-Dark-B";
       package = pkgs.tokyo-night-gtk;
