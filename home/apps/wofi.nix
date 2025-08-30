@@ -23,7 +23,7 @@
       }
 
       #outer-box{
-          color: rgba(133, 133, 133, 1);
+          // color: rgba(133, 133, 133, 1);
       }
 
       #img{
