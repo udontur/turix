@@ -16,6 +16,7 @@
     obsidian
     helix
     gnome-calculator
+    loupe
         
     # Terminal 
     neofetch
