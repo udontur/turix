@@ -16,7 +16,7 @@
       #window{
           font-size: 15px;
           font-family: "Recursive Sans Casual Static";
-          background-color: rgb(0, 0, 0, 0.5);
+          background-color: transparent;
           min-width: 20px !important;
           width: 30px !important; 
           max-width: 20px !important; 
@@ -38,7 +38,7 @@
       #entry:selected{
           border-width: 2px;
           border-radius: 10px;
-          border-color: #636363;
+          border-color: #ffffff !important;
           background-color: transparent;
           background: transparent; 
           color: white;
@@ -63,7 +63,7 @@
           outline-color: transparent; 
           border-radius: 10px;
           border-width: 2px;
-          border-color: #636363;
+          border-color: #fffff !important;
       }
     '';
   };
