@@ -45,7 +45,7 @@
         color: #ffffff;
         background: linear-gradient(90deg,rgba(0, 242, 96, 1) 0%, rgba(5, 117, 230, 1) 100%);
         padding: 0.3rem 0.6rem;
-        margin: 0rem 0.3rem;
+        margin: 0.3rem 0;
       }
     '';
     settings = [{
