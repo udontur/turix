@@ -22,7 +22,6 @@
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        pointer-events: none;
         background-color: transparent;
       }
 
@@ -30,11 +29,11 @@
         padding: 0.3rem 0.6rem;
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
-        pointer-events: none;
         color: #a9a9a9;
         background-color: transparent;
       }
 
+      #clock,
       #pulseaudio,
       #cpu,
       #memory,
@@ -45,14 +44,6 @@
         border-radius: 6px;
         color: #a9a9a9;
         background-color: transparent;
-      }
-
-      #clock {
-        padding: 0.3rem 0.6rem;
-        margin: 0.4rem 0.25rem;
-        border-radius: 6px;
-        background-color: transparent;
-        color: #061D2B;
       }
     '';
     settings = [{
@@ -80,8 +71,6 @@
         format = "{id}";
         all-outputs = true;
         disable-scroll = false;
-        active-only = false;
-        move-to-monitor = false;
       };
       clock = {
         tooltip = false;
