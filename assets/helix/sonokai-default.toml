@@ -54,7 +54,7 @@
 "ui.cursorline.primary" = { bg = "bg1" }
 "ui.cursorline.secondary" = { bg = "bg1" }
 "ui.selection" = { bg = "bg4" }
-"ui.linenr" = "grey"
+"ui.linenr" = "light-yellow"
 "ui.linenr.selected" = "fg"
 "ui.statusline" = { fg = "fg", bg = "bg3" }
 "ui.statusline.inactive" = { fg = "grey", bg = "bg1" }

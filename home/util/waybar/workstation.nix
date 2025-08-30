@@ -15,12 +15,7 @@
         transition-property: background-color;
         transition-duration: 0.5s;
         background-color: transparent;
-        border: solid;
-        border-color: #707070;
-        border-width: 2px;
-        background-color: rgba(34, 34, 34, 0.6);
         margin: 0.4rem 0.25rem;
-        padding: 0.3rem 0.6rem;
       }
 
       #workspaces button {
@@ -43,6 +38,7 @@
         border-radius: 6px;
         color: #a9a9a9;
         background-color: transparent;
+        padding: 0.3rem 0.6rem;
       }
     '';
     settings = [{
