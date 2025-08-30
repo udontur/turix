@@ -45,7 +45,7 @@
 "diff.delta" = "orange"
 "diff.minus" = "red"
 
-"ui.background" = { bg = "bg0" }
+"ui.background" = { bg = "white" }
 "ui.background.separator" = "grey"
 "ui.cursor" = { fg = "bg0", bg = "fg" }
 "ui.cursor.match" = { fg = "orange", bg = "diff_yellow" }
