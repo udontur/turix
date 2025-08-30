@@ -72,7 +72,7 @@
       "hyprland/workspaces" = {
         format = "{id}";
         all-outputs = true;
-        on-click = "activate";
+        on-click = "none";
         disable-scroll = false;
       };
       clock = {
