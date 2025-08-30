@@ -43,6 +43,7 @@
 
         # bind = SUPER, tab, overview:toggle
         bindm = SUPER, mouse:272, movewindow
+        bindc = SUPER, mouse:272, togglefloating
         bindm = SUPER, mouse:273, resizewindow
         bind = SUPER_Control, down, resizeactive, 0 50
         bind = SUPER_Control, right, resizeactive,  50 0
