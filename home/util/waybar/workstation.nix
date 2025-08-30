@@ -22,15 +22,17 @@
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color: rgba(34, 34, 34, 0.7);
+        pointer-events: none;
+        background-color: transparent;
       }
 
       #workspaces button.active {
         padding: 0.3rem 0.6rem;
         margin: 0.4rem 0.25rem;
         border-radius: 6px;
+        pointer-events: none;
         color: #a9a9a9;
-        background-color:rgba(60, 60, 60, 0.7);
+        background-color: transparent;
       }
 
       #clock,
@@ -44,6 +46,10 @@
         border-radius: 6px;
         color: #a9a9a9;
         background-color: transparent;
+      }
+
+      #clock {
+        color: #061D2B;
       }
     '';
     settings = [{
