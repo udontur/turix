@@ -15,8 +15,8 @@
     style = ''
       #window{
           font-size: 15px;
-          font-family: "Recursive Linear Casual Static";
-          background-color: transparent;
+          font-family: "Recursive Sans Casual Static";
+          background-color: rgb(0, 0, 0, 0.5);
           min-width: 20px !important;
           width: 30px !important; 
           max-width: 20px !important; 

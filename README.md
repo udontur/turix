@@ -47,8 +47,8 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [x] browser: dropdowns are unreadable in light mode (white text and white background)
 - [ ] waybar: ~disable workspace button clicking function (no, on-click does not work)~ bruh i give up
-- [ ] hyprspace: broke after hyprland 50
-- [ ] emoji picker is so slow!
+- [ ] hyprspace: extremely laggy and broken :c
+- [x] emoji picker is so slow!
 - [ ] default apps is a complete mess
 - [ ] bluetooth (laptop): a stable one + easy to pair
 
