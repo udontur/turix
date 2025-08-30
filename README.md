@@ -45,19 +45,12 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
-- [x] browser: dropdowns are unreadable in light mode (white text and white background)
-- [ ] waybar: ~disable workspace button clicking function (no, on-click does not work)~ bruh i give up
 - [ ] hyprspace: extremely laggy and broken :c
-- [ ] emoji picker is so slow!
 - [ ] default apps is a complete mess
 - [ ] bluetooth (laptop): a stable one + easy to pair
 
 ### ✨ Features
-- [x] night light (laptop): nightlight
-- [x] browser: Enable folders (wait for 1.15b on Nix)
 - [ ] helix: when have tree file structure
-- [x] waybar: make it look nicer
-- [x] add some tools for usibility
 - [ ] zen: record css changes and about:config changes
 
 ## 📑 Documentation
