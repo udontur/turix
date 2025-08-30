@@ -15,6 +15,7 @@
     ./pkgs/resource.nix
     ./pkgs/code.nix
     ./pkgs/utils.nix
+    ./pkgs/gpack.nix
 
     ./env/env.nix
     ./env/system.nix
