@@ -27,7 +27,7 @@
             sensitivity=-0.2
         }
         gestures{
-          workspace_swipe=false
+          workspace=false
         }
         input {
             touchpad{

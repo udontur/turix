@@ -11,12 +11,11 @@
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    Hyprspace = {
-      url = "github:KZDKM/Hyprspace";
-      inputs.hyprland.follows = "hyprland";
-    };
+    # Hyprspace = {
+    #   url = "github:KZDKM/Hyprspace";
+    #   inputs.hyprland.follows = "hyprland";
+    # };
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
-    # ossdmk.url = "github:udontur/ossdmk";
     osc.url="github:udontur/osc";
     umpire.url = "github:udontur/umpire";
     hyprshot.url = "github:udontur/hyprshot";

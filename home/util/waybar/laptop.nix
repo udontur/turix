@@ -15,38 +15,39 @@
         transition-property: background-color;
         transition-duration: 0.5s;
         background-color: transparent;
+        margin: 0.4rem 0.25rem;
       }
 
       #workspaces button {
-        padding: 0.3rem 0.6rem;
-        margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color: rgba(34, 34, 34, 0.7);
       }
 
       #workspaces button.active {
-        padding: 0.3rem 0.6rem;
-        margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color:rgba(60, 60, 60, 0.7);
+        background-color: transparent;
       }
 
-      #clock,
       #pulseaudio,
       #cpu,
       #memory,
       #window,
       #battery,
       #network {
-        padding: 0.3rem 0.6rem;
-        margin: 0.4rem 0.25rem;
         border-radius: 6px;
         color: #a9a9a9;
-        background-color: rgba(34, 34, 34, 0.7);
+        background-color: transparent;
+        padding: 0.3rem 0.6rem;
       }
 
+      #clock {
+        border-radius: 6px;
+        color: #ffffff;
+        background: linear-gradient(90deg,rgba(0, 242, 96, 1) 0%, rgba(5, 117, 230, 1) 100%);
+        padding: 0.3rem 0.6rem;
+        margin: 0.3rem 0;
+      }
     '';
     settings = [{
       layer = "bottom";
