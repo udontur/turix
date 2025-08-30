@@ -54,6 +54,8 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] night light (laptop): nightlight
 - [ ] browser: Enable folders (wait for 1.15b on Nix)
 - [ ] helix: when have tree file structure
+- [ ] Rofi: Rice like Wofi, calc, replace clipboard, emoji picker
+- [ ] Make waybar look nicer
 
 ## 📑 Documentation
 See the [docs directory](docs).

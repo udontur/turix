@@ -14,4 +14,7 @@
     device = "/swapfile";
     size = 48 * 1000;
   }];
+
+  # OS Prober
+  boot.loader.grub.useOSProber = true;
 }
