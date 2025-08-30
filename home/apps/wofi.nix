@@ -32,6 +32,7 @@
       }
 
       #entry{
+          color: white;
           transition-duration: 0.3s;
       }
 
@@ -63,7 +64,7 @@
           outline-color: transparent; 
           border-radius: 10px;
           border-width: 2px;
-          border-color: #fffff !important;
+          border-color: #ffffff !important;
       }
     '';
   };
