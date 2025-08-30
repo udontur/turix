@@ -70,6 +70,7 @@
       "hyprland/workspaces" = {
         format = "{id}";
         all-outputs = true;
+        on-click = "activate";
         disable-scroll = false;
       };
       clock = {
@@ -89,9 +90,8 @@
         format = "{icon} {volume}%";
         format-muted = "  muted";
         format-icons = {
-          headphone = "";
           default = [
-            " "
+            " "
             " "
             " "
           ];
