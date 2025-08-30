@@ -44,8 +44,8 @@
         border-radius: 6px;
         color: #ffffff;
         background: linear-gradient(90deg,rgba(0, 242, 96, 1) 0%, rgba(5, 117, 230, 1) 100%);
-        padding: 0.3rem 0.6rem;
-        margin: 0.1rem 0.1rem;
+        padding: 0.3rem 0.4rem;
+        margin: 0.3rem 0.3rem;
       }
     '';
     settings = [{
