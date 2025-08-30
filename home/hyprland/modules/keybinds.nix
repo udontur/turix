@@ -41,9 +41,9 @@
         bind = SUPER, up, movefocus, u
         bind = SUPER, down, movefocus, d
 
-        # bind = SUPER, tab, overview:toggle
+        bind = SUPER, tab, overview:toggle
         bindm = SUPER, mouse:272, movewindow
-        bindc = SUPER, mouse:272, togglefloating
+        bindc = SUPER, mouse:273, togglefloating
         bindm = SUPER, mouse:273, resizewindow
         bind = SUPER_Control, down, resizeactive, 0 50
         bind = SUPER_Control, right, resizeactive,  50 0
