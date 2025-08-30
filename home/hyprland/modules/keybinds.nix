@@ -26,7 +26,7 @@
 
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
         bind = SUPER_Shift, S, exec, hyprshot -m region -z 
-        bindr = SUPER, M, exec, pkill emote || emote
+        bind = SUPER, M, exec, emote
         bindr = SUPER, D, exec, copyq hide || copyq show
         bind = SUPER, C, exec, hyprpicker -a -f hex
 

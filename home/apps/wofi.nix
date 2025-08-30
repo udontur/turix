@@ -22,10 +22,6 @@
           max-width: 20px !important; 
       }
 
-      #outer-box{
-          // color: rgba(133, 133, 133, 1);
-      }
-
       #img{
           margin-right: 10px;
           margin-left: 10px;
