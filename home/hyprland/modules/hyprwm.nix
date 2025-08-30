@@ -20,9 +20,6 @@
         windowrulev2 = float, class:com.github.hluk.copyq
         windowrulev2 = size 500 300, class:com.github.hluk.copyq
 
-        # Terminal
-        # windowrulev2 = opacity 0.7 override 0.7 override 0.7 override 0.7, class:kitty
-        
         # IDK what are these
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0

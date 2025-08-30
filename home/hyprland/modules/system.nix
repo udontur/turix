@@ -12,10 +12,11 @@
         # System launch
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = systemctl --user start hyprpolkitagent
-        exec-once = copyq
 
         # Launch
         exec-once = hyprpaper
+        exec-once = emote
+        exec-once = copyq
         exec-once = swayosd-server
         exec-once = swaync
         exec-once = nohup easyeffects --gapplication-service
