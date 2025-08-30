@@ -70,7 +70,7 @@
         "pulseaudio"
       ];
       "hyprland/workspaces" = {
-        format = "{}";
+        format = "{asdasdadasdasdasdasdasdsadasdasdasdasdasdsa}";
         all-outputs = true;
         on-click = "none";
         disable-scroll = false;
