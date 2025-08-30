@@ -46,7 +46,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
 - [x] browser: dropdowns are unreadable in light mode (white text and white background)
-- [ ] waybar: disable workspace button clicking function (no, on-click does not work)
+- [ ] waybar: ~disable workspace button clicking function (no, on-click does not work)~ bruh i give up
 - [ ] hyprspace: broke after hyprland 50
 
 ### ✨ Features
@@ -55,7 +55,8 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] browser: Enable folders (wait for 1.15b on Nix)
 - [ ] helix: when have tree file structure
 - [ ] rofi: rice like Wofi, calc, emoji picker
-- [ ] waybar: make it look nicer
+- [x] waybar: make it look nicer
+- [ ] zen: record css changes and about:config changes
 
 ## 📑 Documentation
 See the [docs directory](docs).

@@ -6,6 +6,7 @@
     ./apps/helix.nix
     ./apps/kitty.nix
     ./apps/wofi.nix
+    ./apps/rofi.nix
 
     ./term/git.nix
     ./term/yazi.nix
