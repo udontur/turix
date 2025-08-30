@@ -43,7 +43,7 @@
       #clock {
         border-radius: 6px;
         color: #ffffff;
-        background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+        background: linear-gradient(90deg,rgba(0, 242, 96, 1) 0%, rgba(5, 117, 230, 1) 100%);
         padding: 0.3rem 0.6rem;
       }
     '';
