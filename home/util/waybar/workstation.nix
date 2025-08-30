@@ -29,7 +29,6 @@
         background-color: transparent;
       }
 
-      #clock,
       #pulseaudio,
       #cpu,
       #memory,
@@ -37,6 +36,13 @@
       #network {
         border-radius: 6px;
         color: #a9a9a9;
+        background-color: transparent;
+        padding: 0.3rem 0.6rem;
+      }
+
+      #clock {
+        border-radius: 6px;
+        color: #ffffff;
         background-color: transparent;
         padding: 0.3rem 0.6rem;
       }
