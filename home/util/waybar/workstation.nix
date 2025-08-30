@@ -70,10 +70,9 @@
         "pulseaudio"
       ];
       "hyprland/workspaces" = {
-        format = "{asdasdadasdasdasdasdasdsadasdasdasdasdasdsa}";
+        format = "{id}";
         all-outputs = true;
-        on-click = "none";
-        disable-scroll = false;
+        disable-scroll = true;
       };
       clock = {
         tooltip = false;
