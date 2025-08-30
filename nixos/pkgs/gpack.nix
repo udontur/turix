@@ -13,7 +13,7 @@
     inputs.zen-browser.packages."${system}".twilight
     nautilus
     wofi
-    rofi
+    rofi-wayland
     obsidian
     helix
         
