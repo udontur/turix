@@ -17,6 +17,10 @@
       name = "Bibata-Modern-Ice";
       size = 25;
     };
+    font = {
+      name="Inter";
+      package=pkgs.inter;
+    }
     theme = {
       name = "Tokyonight-Dark-B";
       package = pkgs.tokyo-night-gtk;
