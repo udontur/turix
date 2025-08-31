@@ -24,17 +24,21 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 > This is **NOT** a general purpose configuration
 
 ## ❌ Non-Reproducable applications
-### 1. All Zen browser configuration 
-This includes:
+### 1. Zen browser configuration 
+Firefox Sync is enabled, so you can sync:
   - Extensions
   - Non-sensitive extension settings
-  - Settings
-  - Essential Tabs, Pinned Tabs, Workspaces
-  - Others
+  - Zen settings
+  - Workspaces and containers
 
-You can make a manual and **private** backup of your Zen profile.
-> [!CAUTION]
-> A Zen profiles contains **EVERYTHING**. This includes **Sensitive Information** like logged in site data. 
+You cannot sync:
+  - Any sensitive data
+  - about:config
+  - Tabs, Essentials, and pinned tabs
+  - Any other stuff that is not mentioned
+
+> [!WARNING]
+> **DO NOT** copy your Zen profile as it contains everything, including sensetive data.
 
 ### 2. p10k configuration
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
@@ -51,7 +55,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 
 ### ✨ Features
 - [ ] helix: when have tree file structure
-- [ ] zen: record css changes and about:config changes
+- [x] zen: record css changes and about:config changes
 
 ## 📑 Documentation
 See the [docs directory](docs).
