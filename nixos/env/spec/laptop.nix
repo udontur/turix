@@ -7,7 +7,7 @@
 }:
 {
   # Battery Saver
-  services.tlp.enable = true;
+  # services.tlp.enable = true;
 
   # Enable swap
   swapDevices = [{
@@ -16,5 +16,5 @@
   }];
 
   # OS Prober
-  boot.loader.grub.useOSProber = true;
+  # boot.loader.grub.useOSProber = true;
 }
