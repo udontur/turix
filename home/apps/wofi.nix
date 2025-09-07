@@ -28,6 +28,7 @@
       }
 
       #text {
+          color: red !important;
           text-shadow: 2px 2px 4px black !important;
       }
       #entry{
