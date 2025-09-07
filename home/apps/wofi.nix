@@ -20,7 +20,6 @@
           min-width: 20px !important;
           width: 30px !important; 
           max-width: 20px !important; 
-          text-shadow: 2px 2px 4px black !important;
       }
 
       #img{
@@ -31,6 +30,8 @@
       #entry{
           color: white;
           transition-duration: 0.3s;
+          text-shadow: 2px 2px 4px black !important;
+
       }
 
       #entry:selected{
