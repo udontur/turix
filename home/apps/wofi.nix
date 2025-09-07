@@ -27,8 +27,11 @@
           margin-left: 10px;
       }
 
+      #text {
+          text-shadow: 2px 2px 4px black !important;
+      }
       #entry{
-          color: red;
+          color: white;
           transition-duration: 0.3s;
           text-shadow: 2px 2px 4px black !important;
 
