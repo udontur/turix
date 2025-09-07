@@ -28,7 +28,7 @@
       }
 
       #entry{
-          color: white;
+          color: red;
           transition-duration: 0.3s;
           text-shadow: 2px 2px 4px black !important;
 
