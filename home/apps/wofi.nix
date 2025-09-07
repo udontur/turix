@@ -20,6 +20,7 @@
           min-width: 20px !important;
           width: 30px !important; 
           max-width: 20px !important; 
+          text-shadow: 2px 2px 4px black !important;
       }
 
       #img{
