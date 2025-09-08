@@ -16,6 +16,6 @@
     brave
     # vscode
     # obs-studio
-    # pdfarranger
+    pdfarranger
   ];
 }
