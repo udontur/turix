@@ -27,9 +27,15 @@
           margin-left: 10px;
       }
 
+      #text {
+          color: red !important;
+          text-shadow: 2px 2px 4px black !important;
+      }
       #entry{
           color: white;
           transition-duration: 0.3s;
+          text-shadow: 2px 2px 4px black !important;
+
       }
 
       #entry:selected{
@@ -43,6 +49,7 @@
           margin-left: 5px;
           margin-right: 5px;
           margin-bottom: 5px;
+          text-shadow: 2px 2px 4px black !important;
       }
 
       #input{
@@ -55,6 +62,7 @@
           color: white;
           border-style: solid;
           border-radius: 10px;
+          text-shadow: 2px 2px 4px black !important;
       }
 
       #input:focus{
@@ -62,6 +70,7 @@
           border-radius: 10px;
           border-width: 2px;
           border-color: #d9d9d9;
+          text-shadow: 2px 2px 4px black !important;
       }
     '';
   };

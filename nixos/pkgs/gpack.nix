@@ -10,7 +10,7 @@
   environment.systemPackages = with pkgs; [
     # Apps
     kitty
-    inputs.zen-browser.packages."${system}".twilight
+    inputs.zen-browser.packages."${system}".beta
     nautilus
     wofi
     obsidian

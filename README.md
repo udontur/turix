@@ -56,6 +56,9 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ### ✨ Features
 - [ ] helix: when have tree file structure
 - [x] zen: record css changes and about:config changes
+- [x] zen: folders
+- [ ] wofi: add text shadown
+- [ ] CUPS: try printing at home using CUPS
 
 ## 📑 Documentation
 See the [docs directory](docs).
