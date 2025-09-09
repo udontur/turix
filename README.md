@@ -49,16 +49,19 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
+- [ ] btop: idk why the decimals are replaced as ","
 - [ ] hyprspace: extremely laggy and broken :c
 - [ ] default apps is a complete mess
 - [ ] bluetooth (laptop): a stable one + easy to pair
+- [ ] nautilus: light mode when open nautilus in downloads open
 
 ### ✨ Features
-- [ ] helix: when have tree file structure
+- [ ] helix: waiting for tree file structure
 - [x] zen: record css changes and about:config changes
 - [x] zen: folders
 - [ ] wofi: add text shadown
 - [ ] CUPS: try printing at home using CUPS
+- [ ] nh: check it out
 
 ## 📑 Documentation
 See the [docs directory](docs).
