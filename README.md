@@ -59,6 +59,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] zen: folders
 - [ ] wofi: add text shadown
 - [ ] CUPS: try printing at home using CUPS
+- [ ] rebuild script based on branch name
 
 ## 📑 Documentation
 See the [docs directory](docs).

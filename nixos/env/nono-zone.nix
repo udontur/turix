@@ -12,6 +12,9 @@
     enable = true;
     efiSupport = true;
     device = "nodev";
+    extraEntries = ''
+      GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+    '';
   };
   boot.loader.efi.canTouchEfiVariables = true;
 
