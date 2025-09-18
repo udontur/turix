@@ -9,12 +9,13 @@
 {
   environment.systemPackages = with pkgs; [
     easyeffects
+
     
     # Temporary
     # gnome-system-monitor
     # chromium
     brave
-    # vscode
+    vscode
     # obs-studio
     pdfarranger
   ];
