@@ -20,7 +20,6 @@ elif [[ $branch_name = "workstation" ]]; then
         sudo nixos-rebuild switch --flake ./hosts/workstation#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
 else
-    echo "$branch_name"
     printf "Error: You cannot build in the main branch!\n"
     exit 1
 fi

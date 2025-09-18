@@ -14,7 +14,7 @@
     ./env/theme.nix
     # Laptop: ./env/battery.nix
 
-    ./util/hyprpaper.nix
+    ./util/hyprpaper/hyprpaper.nix
     # uni: ./util/waybar/: laptop or workstation
     # Workstation: ./util/easyeffects.nix
     # Laptop: ./util/hyprlock.nix

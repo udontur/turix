@@ -10,7 +10,7 @@
   };
   home.file={
     "/home/udontur/.config/hypr/wallpaper.jpg"={
-      source=../../assets/hyprpaper/wallpaper.jpg;
+      source=./wallpaper.jpg;
     };
   };
 }
