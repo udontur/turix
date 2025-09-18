@@ -5,18 +5,24 @@ trap BLA::stop_loading_animation SIGINT
 
 sudo git add .
 
-read -p "Which machine (w or l)? " machine_type
+# read -p "Which machine (w or l)? " machine_type
 
-if [[ $machine_type = "l" ]]; then
+branch_name=$(git branch --show-current)
+
+if [[ $branch_name = "laptop" ]]; then
     printf "\033[A\033[KRebuilding in Laptop mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/laptop#laptop --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
-else
+elif [[ $branch_name = "workstation" ]]; then
     printf "\033[A\033[KRebuilding in Workstation mode.\n"
     BLA::start_loading_animation "${BLA_passing_dots[@]}"
         sudo nixos-rebuild switch --flake ./hosts/workstation#workstation --impure &> nixos-switch.log || (cat nixos-switch.log | grep --color error && exit 1)
     BLA::stop_loading_animation
+else
+    echo "$branch_name"
+    printf "Error: You cannot build in the main branch!\n"
+    exit 1
 fi
 
 notify-send "NixOS finished rebuilding!"
@@ -26,7 +32,7 @@ sudo chown -R udontur:777 ./.git
 
 git add .
 
-if [[ $machine_type = "l" ]]; then
+if [[ $branch_name = "laptop" ]]; then
     currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
     git commit -m "$currentDate" &> git-commit.log
 else
@@ -41,7 +47,7 @@ printf "\033[A\033[K\033[A\033[K"
 if [[ $user_input =~ ^[Yy]$ ]]; then
     git push origin HEAD &> git-sync.log || (git push origin main && exit 1)
     if [ $? -ne 0 ]; then
-        printf "\033[A\033[KFAILED to back up :c\n"
+        printf "\033[A\033[KError: Failed to back up :c\n"
         exit 1
     else
         printf "\033[A\033[KEnjoy your system! :D\n"
