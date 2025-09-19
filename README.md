@@ -57,6 +57,7 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] wofi: add text shadown
 - [ ] CUPS: try printing at home using CUPS
 - [ ] nh: check it out
+- [x] reb: rebuild base on branch name
 - [ ] vscode: Use partial Helix in vscode
 - [ ] vscode: Rice vscode (no declerative, state what you changed)
 
