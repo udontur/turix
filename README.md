@@ -20,7 +20,6 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **GPU**: AMD RX 7000s (Workstation) and AMD Intergrated Graphics (Laptop)
 - **Since**: 3rd March 2025
 
-> [!WARNING]  
 > This is **NOT** a general purpose configuration
 
 ## ❌ Non-Reproducable applications
@@ -61,7 +60,11 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [x] zen: folders
 - [ ] wofi: add text shadown
 - [ ] CUPS: try printing at home using CUPS
+<<<<<<< HEAD
 - [ ] nh: check it out
+=======
+- [ ] rebuild script based on branch name
+>>>>>>> laptop
 
 ## 📑 Documentation
 See the [docs directory](docs).
