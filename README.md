@@ -29,7 +29,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 
 ## ❌ Not everything is reproducable!
 ### 1. Zen browser
-Please copy your Zen browser profiles in the `.zen`.
+Please copy your Zen browser profiles in the `.zen`. Make sure to clear the `storage/default` directory or it will feel sluggish
 
 > [!WARNING]
 > A Zen profile as it contains everything, including sensetive data. **DO NOT** share it publicly. 
@@ -45,21 +45,22 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 - [ ] btop: GPU does not work
 - [ ] btop (laptop): idk why the decimals are replaced as ","
 - [ ] hyprspace: extremely laggy and broken :c
-- [ ] Default apps is a complete mess
+- [ ] mime: default apps are a complete mess
 - [ ] bluetooth: a stable one + easy to pair
 - [ ] nautilus: light mode when open nautilus in downloads open
-- [ ] vscode: Caps lock escape mapping not working
+- [ ] IMPORTANT: fractional scaling feels sluggish (laptop and desktop)
 
 ### ✨ Features
-- [ ] ~helix: waiting for tree file structure~
+- [ ] helix: waiting for tree file structure
 - [x] zen: record css changes and about:config changes
 - [x] zen: folders
 - [ ] wofi: add text shadown
 - [ ] CUPS: try printing at home using CUPS
 - [ ] nh: check it out
 - [x] reb: rebuild base on branch name
-- [ ] vscode: Use partial Helix in vscode
-- [ ] vscode: Rice vscode (no declerative, state what you changed)
+- [ ] chores: clean restructure the configuration
+- [ ] apps & utils: add useful stuff like conversion apps and yt-dlp
+- [ ] theme: more unified looking
 
 ## 📑 Documentation
 See the [docs directory](docs).
