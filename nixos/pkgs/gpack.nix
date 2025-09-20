@@ -21,11 +21,12 @@
     vscode
     obs-studio
     stirling-pdf
-    gnome-decoder
-    apostrophe
+    # gnome-decoder
+    cobang
     dialect
     eyedropper
-    gnome-graphs
+    # gnome-graphs
+    # labplot
     hieroglyphic
     impression
     wordbook
