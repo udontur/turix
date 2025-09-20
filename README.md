@@ -14,53 +14,18 @@
 
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux 6.12 x86_64
+- **OS/Kernal**: Linux 6.12 x86_64
 - **Distro**: NixOS Unstable
 - **WM/DE**: Hyprland (Wayland)
 - **CPU**
-  - Workstation: AMD Ryzen 8945HS (Mini PC laptop chip)
-  - Workstation (legacy): AMD Ryzen 5600X
+  - Workstation: AMD Ryzen 8945HS (Mini PC)
   - Laptop: AMD Ryzen 7530U
+  - Workstation (legacy): AMD Ryzen 5600X
 - **GPU**
   - Workstation: AMD Radeon 780M
-  - Workstation (legacy): AMD Radeon RX 7600
   - Laptop: AMD Radeon Vega 6
-- **Since**: 3rd March 2025
+  - Workstation (legacy): AMD Radeon RX 7600
+- **Since**: 3rd March, 2025
 
-## ❌ Not everything is reproducable!
-### 1. Zen browser
-Please copy your Zen browser profiles in the `.zen`. Make sure to clear the `storage/default` directory or it will feel sluggish
-
-> [!WARNING]
-> A Zen profile as it contains everything, including sensetive data. **DO NOT** share it publicly. 
-
-### 2. p10k configuration
-p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
-    
-### 3. Wakatime API
-The API is obviously not reproducable. Make sure to include your own `~/.wakatime.cfg` to make wakatime work. 
-
-## ✅ To Do List
-### 🚧 Fixes
-- [ ] btop: GPU does not work
-- [ ] btop (laptop): idk why the decimals are replaced as ","
-- [ ] hyprspace: extremely laggy and broken :c
-- [ ] mime: default apps are a complete mess
-- [ ] bluetooth: a stable one + easy to pair
-- [ ] nautilus: light mode when open nautilus in downloads open
-- [ ] IMPORTANT: fractional scaling feels sluggish (laptop and desktop)
-
-### ✨ Features
-- [ ] helix: waiting for tree file structure
-- [x] zen: record css changes and about:config changes
-- [x] zen: folders
-- [ ] wofi: add text shadown
-- [ ] CUPS: try printing at home using CUPS
-- [ ] nh: check it out
-- [x] reb: rebuild base on branch name
-- [ ] chores: clean restructure the configuration
-- [ ] apps & utils: add useful stuff like conversion apps and yt-dlp
-- [ ] theme: more unified looking
-
-## 📑 Documentation
-See the [docs directory](docs).
+## 📑 Want to learn more about the project?
+See the [docs directory](docs) for more information.
