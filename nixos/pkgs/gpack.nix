@@ -20,16 +20,11 @@
     pdfarranger
     vscode
     obs-studio
-    stirling-pdf
-    # gnome-decoder
+    # stirling-pdf
     cobang
     dialect
     eyedropper
-    # gnome-graphs
-    # labplot
-    # kdenlive
-    avidemux
-    openshot-qt
+    gnome-graphs
     hieroglyphic
     impression
     wordbook
