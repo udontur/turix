@@ -12,14 +12,20 @@
 
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS**: Linux x86_64
+- **OS/Kernal**: Linux 6.12 x86_64
 - **Distro**: NixOS Unstable
 - **WM/DE**: Hyprland (Wayland)
-- **Addons**: home-manager, Nix flakes
-- **CPU**: AMD Ryzen 5000s (Workstation) and AMD Ryzen 7000s (Laptop)
-- **GPU**: AMD RX 7000s (Workstation) and AMD Intergrated Graphics (Laptop)
-- **Since**: 3rd March 2025
+- **CPU**
+  - Workstation: AMD Ryzen 8945HS (Mini PC)
+  - Laptop: AMD Ryzen 7530U
+  - Workstation (legacy): AMD Ryzen 5600X
+- **GPU**
+  - Workstation: AMD Radeon 780M
+  - Laptop: AMD Radeon Vega 6
+  - Workstation (legacy): AMD Radeon RX 7600
+- **Since**: 3rd March, 2025
 
+<<<<<<< HEAD
 > This is **NOT** a general purpose configuration
 
 ## ❌ Non-Reproducable applications
@@ -68,3 +74,9 @@ The API is obviously not reproducable. Make sure to include your own `~/.wakatim
 
 ## 📑 Documentation
 See the [docs directory](docs).
+=======
+> It's always evolving. Always. 
+
+## 📑 Want to learn more?
+See the [docs directory](docs) for more information.
+>>>>>>> workstation

@@ -19,6 +19,8 @@
         device{
           name=rapoo-rapoo-composite-device
           sensitivity=-0.7
+          name=keychron--keychron-link--keyboard-1
+          sensitivity=-0.7
           name=razer-razer-viper
           sensitivity=-0.7
           # Touchpad in spec

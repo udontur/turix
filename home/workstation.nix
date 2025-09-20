@@ -4,8 +4,8 @@
   imports = [
     ./global.nix
 
-    ./util/easyeffects.nix
-    ./util/waybar/workstation.nix
+    ./apps/easyeffects/easyeffects.nix
+    ./apps/waybar/workstation.nix
 
     # Hyprland
     ./hyprland/spec/workstation.nix

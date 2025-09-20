@@ -22,12 +22,12 @@
   };
   home.file = {
     "/home/udontur/.config/helix/languages.toml" = {
-      source = ../../assets/helix/languages.toml;
+      source = ./languages.toml;
     };
   };
   home.file = {
     "/home/udontur/.config/helix/themes/sonokai-default.toml" = {
-      source = ../../assets/helix/sonokai-default.toml;
+      source = ./sonokai-default.toml;
     };
   };
   home.file = {

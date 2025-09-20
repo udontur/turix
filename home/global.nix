@@ -2,22 +2,20 @@
 
 {
   imports = [
-    ./apps/btop.nix
-    ./apps/helix.nix
+    ./apps/helix/helix.nix
     ./apps/kitty.nix
     ./apps/wofi.nix
+    # uni: ./apps/waybar/: laptop or workstation
+    # Workstation: ./apps/easyeffects.nix
 
+    ./term/btop/btop.nix
     ./term/git.nix
     ./term/yazi.nix
     ./term/zsh.nix
 
     ./env/theme.nix
-    # Laptop: ./env/battery.nix
-
-    ./util/hyprpaper.nix
-    # uni: ./util/waybar/: laptop or workstation
-    # Workstation: ./util/easyeffects.nix
-    # Laptop: ./util/hyprlock.nix
+    ./env/hyprpaper/hyprpaper.nix
+    # Laptop: ./env/hyprlock.nix
 
     # Hyprland
     ./hyprland/hyprland.nix

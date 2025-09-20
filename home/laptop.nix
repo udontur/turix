@@ -4,9 +4,8 @@
   imports = [
     ./global.nix
 
-    ./util/hyprlock.nix
-    ./util/waybar/laptop.nix
-    ./env/battery.nix
+    ./env/hyprlock.nix
+    ./apps/waybar/laptop.nix
 
     # Hyprland
     ./hyprland/spec/laptop.nix
