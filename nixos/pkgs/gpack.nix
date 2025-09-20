@@ -30,6 +30,8 @@
     hieroglyphic
     impression
     wordbook
+    texstudio
+    texmaker
         
     # Terminal 
     neofetch
