@@ -28,6 +28,7 @@
     # gnome-graphs
     # labplot
     # kdenlive
+    avidemux
     openshot-qt
     hieroglyphic
     impression
