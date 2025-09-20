@@ -5,7 +5,7 @@
 - [ ] hyprspace: extremely laggy and broken :c
 - [ ] mime: default apps are a complete mess
 - [ ] bluetooth: a stable one + easy to pair
-- [ ] nautilus: light mode when open nautilus in downloads open
+- [ ] GTK: not all GTK apps are in dark mode
 - [ ] IMPORTANT: fractional scaling feels sluggish (laptop and desktop)
 
 ### ✨ Features

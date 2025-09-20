@@ -26,7 +26,7 @@
     dialect
     eyedropper
     # gnome-graphs
-    # labplot
+    labplot
     hieroglyphic
     impression
     wordbook
