@@ -12,6 +12,7 @@
     
     # Tools
     docker
+    gnome-font-viewer
 
     # Developer
     # inputs.umpire.packages.${system}.default

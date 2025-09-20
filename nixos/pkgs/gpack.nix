@@ -21,6 +21,14 @@
     vscode
     obs-studio
     stirling-pdf
+    gnome-decoder
+    apostrophe
+    dialect
+    eyedropper
+    gnome-graphs
+    hieroglyphic
+    impression
+    wordbook
         
     # Terminal 
     neofetch
