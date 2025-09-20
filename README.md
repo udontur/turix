@@ -10,6 +10,7 @@
   </p>
 </div>
 
+
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
 - **OS/Kernal**: Linux 6.12 x86_64
@@ -25,58 +26,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
   - Workstation (legacy): AMD Radeon RX 7600
 - **Since**: 3rd March, 2025
 
-<<<<<<< HEAD
-> This is **NOT** a general purpose configuration
-
-## ❌ Non-Reproducable applications
-### 1. Zen browser configuration 
-Firefox Sync is enabled, so you can sync:
-  - Extensions
-  - Non-sensitive extension settings
-  - Zen settings
-  - Workspaces and containers
-
-You cannot sync:
-  - Any sensitive data
-  - about:config
-  - Tabs, Essentials, and pinned tabs
-  - Any other stuff that is not mentioned
-
-> [!WARNING]
-> **DO NOT** copy your Zen profile as it contains everything, including sensetive data.
-
-### 2. p10k configuration
-p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
-
-### 3. Wakatime API
-The API is obviously not reproducable. Make sure to include your own `~/.wakatime.cfg` to make wakatime work. 
-
-## ✅ To Do List
-### 🚧 Fixes
-- [ ] btop: GPU does not work
-- [ ] btop: idk why the decimals are replaced as ","
-- [ ] hyprspace: extremely laggy and broken :c
-- [ ] default apps is a complete mess
-- [ ] bluetooth (laptop): a stable one + easy to pair
-- [ ] nautilus: light mode when open nautilus in downloads open
-
-### ✨ Features
-- [ ] helix: waiting for tree file structure
-- [x] zen: record css changes and about:config changes
-- [x] zen: folders
-- [ ] wofi: add text shadown
-- [ ] CUPS: try printing at home using CUPS
-<<<<<<< HEAD
-- [ ] nh: check it out
-=======
-- [ ] rebuild script based on branch name
->>>>>>> laptop
-
-## 📑 Documentation
-See the [docs directory](docs).
-=======
 > It's always evolving. Always. 
 
 ## 📑 Want to learn more?
 See the [docs directory](docs) for more information.
->>>>>>> workstation
