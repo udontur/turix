@@ -8,7 +8,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    pdfarranger
 
     # Temporary
     # gnome-system-monitor

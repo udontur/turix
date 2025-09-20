@@ -11,7 +11,7 @@
     # Temporary
     
     # Tools
-    # docker
+    docker
 
     # Developer
     # inputs.umpire.packages.${system}.default

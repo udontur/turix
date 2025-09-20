@@ -17,6 +17,10 @@
     helix
     gnome-calculator
     loupe
+    pdfarranger
+    vscode
+    obs-studio
+    stirling-pdf
         
     # Terminal 
     neofetch

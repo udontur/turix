@@ -10,7 +10,6 @@
   </p>
 </div>
 
-> It's always evolving. Always. 
 
 ## ⭐ About
 This repository contains all the dotfiles that reproduce my daily driver OS!
@@ -27,5 +26,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
   - Workstation (legacy): AMD Radeon RX 7600
 - **Since**: 3rd March, 2025
 
-## 📑 Want to learn more about the project?
+> It's always evolving. Always. 
+
+## 📑 Want to learn more?
 See the [docs directory](docs) for more information.
