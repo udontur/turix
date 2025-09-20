@@ -27,7 +27,8 @@
     eyedropper
     # gnome-graphs
     # labplot
-    kdenlive
+    # kdenlive
+    openshot-qt
     hieroglyphic
     impression
     wordbook
