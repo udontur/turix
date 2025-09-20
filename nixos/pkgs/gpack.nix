@@ -26,7 +26,8 @@
     dialect
     eyedropper
     # gnome-graphs
-    labplot
+    # labplot
+    kdenlive
     hieroglyphic
     impression
     wordbook
