@@ -31,6 +31,9 @@
         windowrulev2 = bordersize 0, floating:0, onworkspace:f[1]
         windowrulev2 = rounding 0, floating:0, onworkspace:f[1]
 
+        # Hyprshot is broken
+        layerrule = noanim, selection
+
         general {
           gaps_in = 4
           gaps_out = 0
