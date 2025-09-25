@@ -7,6 +7,7 @@
 - [ ] bluetooth: a stable one + easy to pair
 - [ ] GTK: not all GTK apps are in dark mode
 - [ ] IMPORTANT: fractional scaling feels sluggish (laptop and desktop)
+- [ ] hyprshot: change tool or reduce latency
 
 ### ✨ Features
 - [ ] helix: waiting for tree file structure

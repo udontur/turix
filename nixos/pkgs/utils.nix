@@ -20,5 +20,6 @@
     copyq
     waybar
     yt-dlp
+    hyprshot
   ];
 }
