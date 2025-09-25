@@ -17,7 +17,7 @@ This repository contains all the dotfiles that reproduce my daily driver OS!
 - **Distro**: NixOS Unstable
 - **WM/DE**: Hyprland (Wayland)
 - **CPU**
-  - Workstation: AMD Ryzen 9 8945HS 
+  - Workstation: AMD Ryzen 9 Pro 8945HSs 
   - Laptop: AMD Ryzen 5 7530U
   - Workstation (legacy): AMD Ryzen 5 5600X
 - **GPU**
