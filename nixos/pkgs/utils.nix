@@ -20,5 +20,6 @@
     waybar
     yt-dlp
     hyprshot
+    rclone
   ];
 }
