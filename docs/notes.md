@@ -11,6 +11,9 @@ p10k is not declared by home manager because of it's large file size. New p10k s
 ### 3. Wakatime API
 The API is obviously not reproducable. Make sure to include your own `~/.wakatime.cfg` to make wakatime work. 
 
+### 4. RClone
+The RClone setup is obviously not reproducible. Follow the docs to setup your own.
+
 ## ⚠️ Warnings
 ### 1. username@host
 The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`

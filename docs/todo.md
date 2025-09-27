@@ -6,7 +6,7 @@
 - [ ] mime: default apps are a complete mess
 - [ ] bluetooth: a stable one + easy to pair
 - [ ] GTK: not all GTK apps are in dark mode
-- [ ] IMPORTANT: fractional scaling feels sluggish (laptop and desktop)
+- [ ] IMPORTANT: fractional scaling feels sluggish
 - [x] hyprshot: change tool or reduce latency
 
 ### ✨ Features
@@ -20,3 +20,4 @@
 - [x] chores: clean restructure the configuration
 - [x] apps & utils: add useful stuff like conversion apps and yt-dlp
 - [ ] theme: more unified looking
+- [ ] rclone: laptop
