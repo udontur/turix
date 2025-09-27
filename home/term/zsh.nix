@@ -26,8 +26,8 @@
       gsync="git push origin main";
       gpush="git push origin";
       cat="bat";
-      rpush="rclone sync Notes gdrive:Notes";
-      rpull="rclone sync gdrive:Notes Notes";
+      rpush="rclone sync ~/Notes gdrive:Notes";
+      rpull="rclone sync gdrive:Notes ~/Notes";
       start-venv="source .venv/bin/activate";
     };
     history.size=10000;
