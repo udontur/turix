@@ -10,7 +10,6 @@
   environment.systemPackages = with pkgs; [
     # Utility
     git
-    inputs.hyprshot.packages."${system}".default
     swayosd
     swaynotificationcenter
     acpi
@@ -20,5 +19,7 @@
     copyq
     waybar
     yt-dlp
+    hyprshot
+    rclone
   ];
 }

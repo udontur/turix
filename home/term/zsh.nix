@@ -25,11 +25,9 @@
       gc="git commit -m";
       gsync="git push origin main";
       gpush="git push origin";
-      ai-start="ollama serve";
-      ai="ollama run deepseek-r1:14b";
-      ai-fast="ollama run deepseek-r1:8b";
-      ai-jailbreak="ollama run dolphin-mistral";
       cat="bat";
+      rpush="rclone sync ~/Notes gdrive:Notes";
+      rpull="rclone sync gdrive:Notes ~/Notes";
       start-venv="source .venv/bin/activate";
     };
     history.size=10000;

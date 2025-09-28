@@ -18,7 +18,6 @@
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     osc.url="github:udontur/osc";
     umpire.url = "github:udontur/umpire";
-    hyprshot.url = "github:udontur/hyprshot";
     wakatime-ls = {
       url = "github:mrnossiom/wakatime-ls";
       inputs.nixpkgs.follows = "nixpkgs";
