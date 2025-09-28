@@ -7,6 +7,11 @@
 }:
 
 {
+
+  # Bluetooth
+  hardware.bluetooth.enable = true;
+  services.bluetui.enable = true;
+  
   # Fix dynamically linked libraries
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
