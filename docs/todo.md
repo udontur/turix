@@ -25,4 +25,4 @@
   - [ ] App launcher
   - [ ] Clipboard manager
   - [ ] Emoji
-- [ ] nautilus: transparent
+- [x] nautilus: transparent
