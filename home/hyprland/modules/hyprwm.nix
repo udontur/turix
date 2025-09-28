@@ -9,6 +9,9 @@
   home.file = {
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text=''
+        # Nautilus transparent
+        windowrulev2 = opacity 0.7, title:nautilus
+
         # btop float
         windowrulev2 = float, title:btop
         windowrulev2 = size 1300 750, title:btop
