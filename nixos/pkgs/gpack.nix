@@ -24,8 +24,6 @@
     hieroglyphic
     impression
     texstudio
-    bluez
-    blueman
         
     # Terminal 
     neofetch
@@ -36,6 +34,7 @@
     bat
     zsh
     inputs.osc.packages."${system}".default
+    bluetui
   ];
 }
 

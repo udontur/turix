@@ -14,6 +14,7 @@
     swaynotificationcenter
     acpi
     hyprpicker
+    bluez
     libnotify
     emote
     copyq
