@@ -19,16 +19,13 @@
     loupe
     pdfarranger
     vscode
-    obs-studio
     # stirling-pdf
     cobang
-    dialect
-    eyedropper
-    gnome-graphs
     hieroglyphic
     impression
-    wordbook
     texstudio
+    bluez
+    blueman
         
     # Terminal 
     neofetch

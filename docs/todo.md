@@ -24,8 +24,5 @@
 - [ ] menu: Switch to a rofi like menu
   - [ ] App launcher
   - [ ] Clipboard manager
-  - [ ] Wifi manager
-  - [ ] Bluetooth manager
   - [ ] Emoji
-  - [ ] Calculator
 - [ ] nautilus: transparent
