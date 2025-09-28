@@ -10,7 +10,7 @@
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text=''
         # Nautilus transparent
-        windowrulev2 = opacity 0.7, class:org.gnome.Nautilus
+        windowrulev2 = opacity 0.8, class:org.gnome.Nautilus
 
         # btop float
         windowrulev2 = float, title:btop
