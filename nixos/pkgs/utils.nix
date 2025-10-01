@@ -8,6 +8,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    ffmpeg
     # Utility
     git
     swayosd

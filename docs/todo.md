@@ -26,3 +26,4 @@
   - [ ] Clipboard manager
   - [ ] Emoji
 - [x] nautilus: transparent
+- [ ] Replace some defected apps with new ones
