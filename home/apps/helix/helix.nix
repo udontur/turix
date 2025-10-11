@@ -26,11 +26,6 @@
     };
   };
   home.file = {
-    "/home/udontur/.config/helix/themes/themeFile.toml" = {
-      source = ./themeFile.toml;
-    };
-  };
-  home.file = {
     "/home/udontur/.config/helix/clang-format.conf" = {
       text = ''
         BasedOnStyle: Google
