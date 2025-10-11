@@ -26,7 +26,7 @@
     };
   };
   home.file = {
-    "/home/udontur/.config/helix/theme/snazzy-edit.toml" = {
+    "/home/udontur/.config/helix/themes/snazzy-edit.toml" = {
       source = ./snazzy-edit.toml;
     };
   };
