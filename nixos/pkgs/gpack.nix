@@ -19,8 +19,6 @@
     loupe
     pdfarranger
     vscode
-    # stirling-pdf
-    cobang
     hieroglyphic
     impression
     texstudio

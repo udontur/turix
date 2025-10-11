@@ -4,7 +4,7 @@
   home.file = {
     "/home/udontur/.config/helix/config.toml" = {
       text = ''
-        theme = "sonokai-default"
+        theme = "themeFile"
 
         [editor]
         mouse = false
@@ -26,8 +26,8 @@
     };
   };
   home.file = {
-    "/home/udontur/.config/helix/themes/sonokai-default.toml" = {
-      source = ./sonokai-default.toml;
+    "/home/udontur/.config/helix/themes/themeFile.toml" = {
+      source = ./themeFile.toml;
     };
   };
   home.file = {
