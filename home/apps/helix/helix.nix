@@ -4,7 +4,7 @@
   home.file = {
     "/home/udontur/.config/helix/config.toml" = {
       text = ''
-        theme = "themeFile"
+        theme = "themeFile.toml"
 
         [editor]
         mouse = false
