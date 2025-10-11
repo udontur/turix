@@ -4,7 +4,7 @@
   home.file = {
     "/home/udontur/.config/helix/config.toml" = {
       text = ''
-        theme = "themeFile.toml"
+        theme = "snazzy-edit"
 
         [editor]
         mouse = false
@@ -26,8 +26,8 @@
     };
   };
   home.file = {
-    "/home/udontur/.config/helix/themeFile.toml" = {
-      source = ./themeFile.toml;
+    "/home/udontur/.config/helix/snazzy-edit.toml" = {
+      source = ./snazzy-edit.toml;
     };
   };
 
