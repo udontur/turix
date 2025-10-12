@@ -15,3 +15,4 @@
   - [ ] Clipboard manager
   - [ ] Emoji
 - [ ] helix: waiting for tree file structure
+- [ ] Nix: checkout github:Mic92/nix-update
