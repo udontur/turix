@@ -16,7 +16,6 @@
     hyprpicker
     bluez
     libnotify
-    nix-update
     emote
     copyq
     waybar
