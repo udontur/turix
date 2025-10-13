@@ -15,6 +15,7 @@
     size = 48 * 1000;
   }];
 
-  # OS Prober
-  # boot.loader.grub.useOSProber = true;
+  # Nix Helper, flake location
+  programs.nh.flake = "/home/udontur/nixos/hosts/workstation";
+
 }

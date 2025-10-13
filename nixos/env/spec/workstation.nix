@@ -11,4 +11,8 @@
     device = "/swapfile";
     size = 32 * 1000;
   }];
+
+  # Nix Helper, flake location
+  programs.nh.flake = "/home/udontur/nixos/hosts/workstation";
+
 }

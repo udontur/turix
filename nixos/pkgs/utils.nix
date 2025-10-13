@@ -9,7 +9,6 @@
 {
   environment.systemPackages = with pkgs; [
     ffmpeg
-    # Utility
     git
     swayosd
     swaynotificationcenter
@@ -17,6 +16,7 @@
     hyprpicker
     bluez
     libnotify
+    nix-update
     emote
     copyq
     waybar

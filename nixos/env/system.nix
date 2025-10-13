@@ -10,18 +10,18 @@
 
   # Bluetooth
   hardware.bluetooth = {
-  enable = true;
-  powerOnBoot = true;
-  settings = {
-    General = {
-      Experimental = true;
-      FastConnectable = true;
-    };
-    Policy = {
-      AutoEnable = true;
+    enable = true;
+    powerOnBoot = true;
+    settings = {
+      General = {
+        Experimental = true;
+        FastConnectable = true;
+      };
+      Policy = {
+        AutoEnable = true;
+      };
     };
   };
-};
   
   # Fix dynamically linked libraries
   programs.nix-ld.enable = true;
@@ -29,15 +29,16 @@
     # from nixpkgs
     
   ];
-  
-  # Garbage Collection NixOS Generations
-  # nix-collect-garbage --delete-older-than 30d
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-    options = "--delete-older-than 30d";
+
+  # Nix Helper
+  programs.nh.enable = true;
+
+  # Garbage collector
+  programs.nh = {
+    clean.enable = true;
+    clean.extraArgs = "--keep 3";
   };
-  
+
   # Store optimization on every build
   # nix-store --optimise
   nix.settings.auto-optimise-store = true;
