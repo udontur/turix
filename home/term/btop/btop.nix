@@ -6,9 +6,9 @@
   ...
 }:
 {
-  home.packages = with pkgs; {
+  home.packages = with pkgs; [
     rocmPackages.rocm-smi
-  };
+  ];
   home.file = {
     "/home/udontur/.config/btop/themes/tommorow-night.theme" = {
       source=./tommorow-night.theme;
