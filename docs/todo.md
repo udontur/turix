@@ -11,8 +11,8 @@
   - [ ] App launcher
   - [ ] Clipboard manager
   - [ ] Emoji
-- [ ] Nix: checkout gh:nix-community/nh
-- [ ] Nix: checkout gh:Mic92/nix-update
+- [x] Nix: checkout gh:nix-community/nh
+- [x] Nix: checkout gh:Mic92/nix-update
 - [ ] Nix: checkout gh:nix-community/stylix
 
 ### 😭 Out of my reach
