@@ -30,7 +30,7 @@
       graph_symbol_mem = "default";
       graph_symbol_net = "default";
       graph_symbol_proc = "default";
-      shown_boxes = "cpu proc mem net gpu0"; # gpu does not work!!!
+      shown_boxes = "cpu proc mem net gpu"; # gpu does not work!!!
       update_ms = 500;
       proc_sorting = "cpu lazy";
       proc_reversed = false;
@@ -87,7 +87,7 @@
       log_level = "WARNING";
       nvml_measure_pcie_speeds = false;
       gpu_mirror_graph = true;
-      custom_gpu_name0 = "gpu0";
+      custom_gpu_name0 = "";
       custom_gpu_name1 = "";
       custom_gpu_name2 = "";
       custom_gpu_name3 = "";
