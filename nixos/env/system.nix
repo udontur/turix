@@ -40,7 +40,7 @@
   };
 
   # Disable the power button because my friends keeps turning it off lol
-  services.logind={
+  services.logind.settings.Login={
     powerKey="ignore";
     powerKeyLongPress="ignore";
     suspendKey="ignore";

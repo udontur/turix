@@ -7,15 +7,14 @@
 
 ### ✨ Features
 - [ ] Add my Linux journey to documentation
-- [ ] CUPS: try printing at home using CUPS
 - [ ] stylix: uniform theming
 - [ ] menu: Switch to a rofi like menu
   - [ ] App launcher
   - [ ] Clipboard manager
   - [ ] Emoji
-- [ ] Restructure the `nixos` folder
 
 ### 😭 Out of my reach
 - [ ] helix: Tree file structure viewer
 - [ ] rclone: full support for proton
 - [ ] wayland: fractional scaling is sluggish
+- [ ] CUPS: try printing at home using CUPS
