@@ -16,6 +16,6 @@
   }];
 
   # Nix Helper, flake location
-  programs.nh.flake = "/home/udontur/nixos/hosts/workstation";
+  programs.nh.flake = "/home/udontur/turix/hosts/laptop";
 
 }
