@@ -7,6 +7,17 @@
 }:
 
 {
+  # Enable Nix Flakes
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ];
+
+  # Enable home-manager
+  environment.systemPackages = with pkgs; [
+    home-manager
+  ];
+
   # Bootloader
   boot.loader.grub = {
     enable = true;
@@ -65,7 +76,6 @@
 
   # NixOS system configuration
   nixpkgs.config.allowUnfree = true;
-  
   system.stateVersion = "24.11";
   
 }

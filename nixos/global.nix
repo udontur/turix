@@ -17,7 +17,7 @@
     ./pkgs/utils.nix
     ./pkgs/apps.nix
 
-    ./env/env.nix
+    ./env/pkgs.nix
     ./env/system.nix
     ./env/nono-zone.nix
   ];

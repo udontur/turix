@@ -7,6 +7,13 @@
 }:
 
 {
+  # Fix dynamically linked libraries
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    # from nixpkgs
+    
+  ];
+
   # Hyprland
   programs.hyprland = {
     enable = true;
@@ -20,32 +27,23 @@
     xterm 
   ];
 
-  # Enable Nix Flakes
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
-
-  # Enable home-manager
-  environment.systemPackages = with pkgs; [
-    home-manager
-  ];
+  # Nix Helper
+  programs.nh.enable = true;
 
   # ZSH
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
   programs.zsh.promptInit = "source ${pkgs.zsh-powerlevel10k}/share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
 
+  # Bluetooth deps
+  environment.systemPackages = with pkgs; [
+    bluetui
+    bluez
+  ];
+
   # Remove printer app
   environment.extraSetup = ''
     rm -f $out/share/applications/cups.desktop
   '';
-  
-  # Environment Variables
-  environment.sessionVariables = {
-    WLR_NO_HARDWARE_CURSORS = "1";
-    NIXOS_OZONE_WL = "1"; 
-  };
-
-
+   
 }

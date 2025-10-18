@@ -7,7 +7,6 @@
 }:
 
 {
-
   # Bluetooth
   hardware.bluetooth = {
     enable = true;
@@ -17,35 +16,15 @@
         Experimental = true;
         FastConnectable = true;
       };
-      Policy = {
-        AutoEnable = true;
-      };
+      Policy.AutoEnable = true;
     };
   };
-  environment.systemPackages = with pkgs; [
-    bluetui
-    bluez
-  ];
 
-  
-  # Fix dynamically linked libraries
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    # from nixpkgs
-    
-  ];
-
-  # Nix Helper
-  programs.nh.enable = true;
-
-  # Garbage collector
+  # Storage cleaner
   programs.nh = {
     clean.enable = true;
     clean.extraArgs = "--keep 3";
   };
-
-  # Store optimization on every build
-  # nix-store --optimise
   nix.settings.auto-optimise-store = true;
 
   # GDM
@@ -68,6 +47,12 @@
     suspendKeyLongPress="ignore";
     hibernateKey="ignore";
     hibernateKeyLongPress="ignore";
+  };
+
+  # Environment Variables
+  environment.sessionVariables = {
+    WLR_NO_HARDWARE_CURSORS = "1";
+    NIXOS_OZONE_WL = "1"; 
   };
 
 }
