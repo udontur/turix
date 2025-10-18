@@ -8,31 +8,32 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # Apps
+    # Core apps
     kitty
     inputs.zen-browser.packages."${system}".beta
     nautilus
-    wofi
     obsidian
-    helix
-    gnome-calculator
-    loupe
-    pdfarranger
+
+    # Apps
     vscode
+    gnome-calculator
+    pdfarranger
+    kdePackages.kdenlive
     hieroglyphic
-    impression
     texstudio
+    gnome-font-viewer
+    obs-studio
+    brave
+    loupe
         
-    # Terminal 
+    # Terminal apps 
     neofetch
+    helix
     btop-rocm
     yazi
     gdu
     inputs.umpire.packages."${system}".default
-    bat
-    zsh
     inputs.osc.packages."${system}".default
-    bluetui
   ];
 }
 

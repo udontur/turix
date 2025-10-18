@@ -22,6 +22,11 @@
       };
     };
   };
+  environment.systemPackages = with pkgs; [
+    bluetui
+    bluez
+  ];
+
   
   # Fix dynamically linked libraries
   programs.nix-ld.enable = true;

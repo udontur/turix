@@ -7,8 +7,8 @@
 }:
 
 {
-  # Resource
   environment.systemPackages = with pkgs; [
+    # Resource
     bibata-cursors
     adwaita-icon-theme
     gnome-themes-extra
@@ -28,8 +28,8 @@
     whatsapp-emoji-font
   ];
 
-  # Font
   fonts.packages = with pkgs; [
+    # Font
     noto-fonts
     noto-fonts-cjk-sans
     recursive

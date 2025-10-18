@@ -8,6 +8,7 @@
 {
   home.packages = with pkgs; [
     rocmPackages.rocm-smi
+    acpi
   ];
   home.file = {
     "/home/udontur/.config/btop/themes/tommorow-night.theme" = {

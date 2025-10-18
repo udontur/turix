@@ -8,7 +8,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-
     # Temporary
     # gnome-system-monitor
     # brave

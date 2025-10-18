@@ -11,11 +11,11 @@
     /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
     
-    #./pkgs/apps
+    #./pkgs/spec
     ./pkgs/resource.nix
     ./pkgs/code.nix
     ./pkgs/utils.nix
-    ./pkgs/gpack.nix
+    ./pkgs/apps.nix
 
     ./env/env.nix
     ./env/system.nix

@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
 
-# source assets/bla/bla.sh
-# trap BLA::stop_loading_animation SIGINT
-
 git add .
 
 branch_name=$(git branch --show-current)
 printf $branch_name
 
+# -Q --no-build-output is broken
 nh os switch --hostname $branch_name --diff auto --impure
 
 notify-send "NixOS finished rebuilding!"

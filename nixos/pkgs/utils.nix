@@ -8,19 +8,23 @@
 
 {
   environment.systemPackages = with pkgs; [
-    ffmpeg
-    git
-    swayosd
-    swaynotificationcenter
-    acpi
-    hyprpicker
-    bluez
-    libnotify
+    # Utility apps
+    easyeffects
     emote
     copyq
+    swayosd
+    swaynotificationcenter
+    hyprpicker
     waybar
+    wofi
+
+    # Utility
     yt-dlp
+    git
     hyprshot
     rclone
+    ffmpeg
+    bat
+    docker
   ];
 }

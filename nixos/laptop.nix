@@ -12,7 +12,8 @@
     inputs.home-manager.nixosModules.home-manager
     ./global.nix
 
-    ./pkgs/apps/laptop.nix
+    # Specs (Laptop)
+    ./pkgs/spec/laptop.nix
     ./env/spec/laptop.nix
   ];
 }

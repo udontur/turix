@@ -6,14 +6,7 @@
 - [ ] nh: suppress build output not working
 
 ### ✨ Features
-- [x] Change GH tagline
-- [x] Rename to turix
-- [x] Make a logo banner for GitHub
-- [ ] Redo the readme with personality
-- [ ] Readme add the docs directory
-- [ ] Rewrite documentation
 - [ ] Add my Linux journey to documentation
-
 - [ ] CUPS: try printing at home using CUPS
 - [ ] stylix: uniform theming
 - [ ] menu: Switch to a rofi like menu

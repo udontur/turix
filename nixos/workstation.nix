@@ -12,7 +12,8 @@
     inputs.home-manager.nixosModules.home-manager
     ./global.nix
 
-    ./pkgs/apps/workstation.nix
+    # Specs (Workstation)
+    ./pkgs/spec/workstation.nix
     ./env/spec/workstation.nix
   ];
 }

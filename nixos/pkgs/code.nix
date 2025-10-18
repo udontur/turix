@@ -10,10 +10,6 @@
   environment.systemPackages = with pkgs; [
     # Temporary
     
-    # Tools
-    docker
-    gnome-font-viewer
-
     # Developer
     # inputs.umpire.packages.${system}.default
     # inputs.osc.packages.${system}.default

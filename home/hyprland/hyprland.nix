@@ -3,11 +3,11 @@
   home.packages = with pkgs; [
     hyprpaper
     hyprcursor
-    # hyprshot my own flake
     hyprnome
     hyprpolkitagent
     brightnessctl
     wl-clipboard
+    libnotify
   ];
   wayland.windowManager.hyprland = {
     enable = true;
