@@ -9,18 +9,6 @@
     <br />
     <a href="https://hadrian.cc">Made with passion by Hadrian</a>
     ·
-    <a href="https://hadrian.cc">Evolving since March 2025</a>
+    <a href="docs/README.md">Don't click me</a>
   </p>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-## 👀 You will probably find these interesting
-System information: [docs/sys-info.md](docs/sys-info.md)
