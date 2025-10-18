@@ -6,36 +6,21 @@
 git add .
 
 branch_name=$(git branch --show-current)
+printf $branch_name
 
-if [[ $branch_name = "laptop" ]]; then
-    printf "Rebuilding in Laptop mode!\n"
-    # BLA::start_loading_animation "${BLA_passing_dots[@]}"
-        nh os switch --impure --hostname laptop
-    # BLA::stop_loading_animation
-elif [[ $branch_name = "workstation" ]]; then
-    printf "Rebuilding in Workstation mode!\n"
-    # BLA::start_loading_animation "${BLA_passing_dots[@]}"
-        nh os switch --impure --hostname workstation
-    # BLA::stop_loading_animation
-else
-    printf "Error: You cannot build in the main branch!\n"
-    exit 1
-fi
+nh os switch --hostname $branch_name --diff auto --impure
 
-# notify-send "NixOS finished rebuilding!"
-# printf "\033[A\033[K\033[A\033[KNixOS finished rebuilding!\n"
-
-sudo chown -R udontur:777 ./.git
-
-git add .
+notify-send "NixOS finished rebuilding!"
 
 if [[ $branch_name = "laptop" ]]; then
     currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
-    git commit -m "$currentDate" &> git-commit.log
 else
     currentDate=$(date +"WRK: %Y-%m-%d %H:%M:%S")
-    git commit -m "$currentDate" &> git-commit.log
 fi
+
+sudo chown -R udontur:777 ./.git
+git add .
+git commit -m "$currentDate" &> git-commit.log
 
 read -p "Back it up? " user_input
 
