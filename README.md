@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets/img/banner.webp" alt="Baanner image">
-  <h1 align="center">turix</h3>
+  <a href="https://hadrian.cc">
+    <img src="assets/img/banner.webp" alt="Baanner image">
+  </a>
   <p align="center">
     ❄️ My beloved Linux configuration! 
     <br />
