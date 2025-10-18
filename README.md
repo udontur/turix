@@ -1,32 +1,15 @@
 <div align="center">
-  <h1 align="center">nixos</h3>
+  <img src="assets/img/banner.webp" alt="Baanner image">
+  <h1 align="center">turix</h3>
   <p align="center">
-    ❄️ Welcome to my Linux Configuration! 
+    ❄️ My beloved Linux configuration! 
     <br />
     <br />
-    <a href="https://hadrian.cc">I ❤️ my daily driver OS and PC Setup!</a>
-    ·
     <a href="https://hadrian.cc">Made with passion by Hadrian</a>
+    ·
+    <a href="https://hadrian.cc">Evolving since March 2025</a>
   </p>
 </div>
 
-
-## ⭐ About
-This repository contains all the dotfiles that reproduce my daily driver OS!
-- **OS/Kernal**: Linux 6.12 x86_64
-- **Distro**: NixOS Unstable
-- **WM/DE**: Hyprland (Wayland)
-- **CPU**
-  - Workstation: AMD Ryzen 9 Pro 8945HSs 
-  - Laptop: AMD Ryzen 5 7530U
-  - Workstation (legacy): AMD Ryzen 5 5600X
-- **GPU**
-  - Workstation: AMD Radeon 780M
-  - Laptop: AMD Radeon Vega 6
-  - Workstation (legacy): AMD Radeon RX 7600
-- **Since**: 3rd March, 2025
-
-> It's always evolving. Always. 
-
-## 📑 Want to learn more?
-See the [docs directory](docs) for more information.
+## 👀 You will probably find these interesting
+System information: [docs/sys-info.md](docs/sys-info.md)

@@ -9,10 +9,13 @@ Please copy your Zen browser profiles in the `.zen`. Make sure to clear the `sto
 p10k is not declared by home manager because of it's large file size. New p10k setup will be prompt by the p10k configurator.
     
 ### 3. Wakatime API
-The API is obviously not reproducable. Make sure to include your own `~/.wakatime.cfg` to make wakatime work. 
+Include your own `~/.wakatime.cfg` to make wakatime work (or hakatime). 
 
 ### 4. RClone
-The RClone setup is obviously not reproducible. Follow the docs to setup your own.
+Follow [RClone Guide](../nixing/rclone.md) to setup RClone for Google Drive.
+
+### 5. SSH
+Follow [SSH Guide](../nixing/ssh.md) to setup SSH for GitHub
 
 ## ⚠️ Warnings
 ### 1. username@host
@@ -23,5 +26,3 @@ Even when Linux and Windows merges, **PPPLLLEEAASSE DO NOT** put MIME apps list 
 > [!WARNING]  
 > **PLEASE DO NOT PUT MIME APPS LIST IN HOME MANAGER**
 
-### 3. Fresh NixOS install
-Make sure the boot loader is selected as `NixOS Bootloader` instead of `Linux Bootloader`. 
