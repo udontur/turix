@@ -27,6 +27,7 @@
     inputs.fix-python.packages.${system}.default
     python312Packages.python-lsp-server                                 
     python312Packages.black
+    ruff
 
     # Rust
     rustc
