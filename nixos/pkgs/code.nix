@@ -23,6 +23,7 @@
     
     # Python
     python312
+    uv
     inputs.fix-python.packages.${system}.default
     python312Packages.python-lsp-server                                 
     python312Packages.black
