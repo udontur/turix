@@ -11,7 +11,7 @@
     # Utility apps
     easyeffects
     emote
-    copyq
+    # copyq
     swayosd
     swaynotificationcenter
     hyprpicker
