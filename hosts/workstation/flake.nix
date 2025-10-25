@@ -23,6 +23,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     fix-python.url = "github:GuillaumeDesforges/fix-python";
+    gittype.url = "github:unhappychoice/gittype";
 
     # Developer
     # judgel.url = "github:udontur/judgel";

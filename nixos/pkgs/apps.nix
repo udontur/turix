@@ -32,6 +32,7 @@
     btop-rocm
     yazi
     gdu
+    inputs.gittype.packages."${system}".default
     inputs.umpire.packages."${system}".default
     inputs.osc.packages."${system}".default
   ];
