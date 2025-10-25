@@ -8,7 +8,7 @@
             "floor-active": false,
             "harmonics": 8.5,
             "input-gain": -4.5,
-            "output-gain": 0.3,
+            "output-gain": -0.8,
             "scope": 180.0
         },
         "blocklist": [
