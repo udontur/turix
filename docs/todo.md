@@ -8,10 +8,14 @@
 ### ✨ Features
 - [ ] Add my Linux journey to documentation
 - [ ] stylix: uniform theming
-- [ ] menu: Switch to a rofi like menu
+- [ ] menu: Switch to a rofi / raycast like menu
   - [ ] App launcher
   - [ ] Clipboard manager
   - [ ] Emoji
+- [ ] obsidian: sync better
+- [ ] Put textbook pdfs on local
+- [ ] assets: expand assets folder and clonable on proton
+- [ ] Diversify apps:
 
 ### 😭 Out of my reach
 - [ ] helix: Tree file structure viewer

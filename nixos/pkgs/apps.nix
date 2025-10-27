@@ -21,6 +21,7 @@
     kdePackages.kdenlive
     hieroglyphic
     texstudio
+    papers
     gnome-font-viewer
     obs-studio
     brave
