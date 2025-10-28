@@ -19,6 +19,7 @@
     gnome-calculator
     pdfarranger
     kdePackages.kdenlive
+    papers
     hieroglyphic
     texstudio
     gnome-font-viewer
