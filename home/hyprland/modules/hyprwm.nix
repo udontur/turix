@@ -12,6 +12,9 @@
         # Nautilus transparent
         windowrulev2 = opacity 0.8, class:org.gnome.Nautilus
 
+        # VSCode transparent
+        windowrulev2 = opacity 0.9, class:code
+
         # btop float
         windowrulev2 = float, title:btop
         windowrulev2 = size 1300 750, title:btop

@@ -25,7 +25,6 @@
     nerdfix
     inter
     font-awesome
-    whatsapp-emoji-font
   ];
 
   fonts.packages = with pkgs; [
