@@ -20,8 +20,8 @@
 - [x] Put textbook pdfs on local
 - [ ] assets: expand assets folder
 - [ ] Diversify apps: Slack, leetcode, etc
-- [ ] vscode: vim + vscode
-- [ ] vscode: declerative and stable
+- [ ] vscode: vim + vscod
+- [ ] vscode: rice + sync to account
 - [ ] vscode(vim): migrate helix keybinds to vim
 - [ ] A lot of very smooth animations!
 - [ ] niri: switch to niri

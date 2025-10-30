@@ -14,6 +14,9 @@
     
   ];
 
+  # For VSCode sign in and sync
+  services.gnome.gnome-keyring.enable = true;
+  
   # Hyprland
   programs.hyprland = {
     enable = true;
