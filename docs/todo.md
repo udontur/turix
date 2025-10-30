@@ -20,9 +20,9 @@
 - [x] Put textbook pdfs on local
 - [ ] assets: expand assets folder
 - [ ] Diversify apps: Slack, leetcode, etc
-- [ ] vscode: vim + vscod
-- [ ] vscode: rice + sync to account
-- [ ] vscode(vim): migrate helix keybinds to vim
+- [x] vscode: vim + vscod
+- [x] vscode: rice + sync to account
+- [x] vscode(vim): migrate helix keybinds to vim
 - [ ] A lot of very smooth animations!
 - [ ] niri: switch to niri
   - [ ] quickshell: switch from waybar, this as inspiration jutraim/niri-caelestia-shell 

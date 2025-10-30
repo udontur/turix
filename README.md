@@ -12,11 +12,3 @@
     <a href="docs/README.md">Don't click me</a>
   </p>
 </div>
-
-`gg` Go to First line
-`G` Go to Last line
-`:NUM` Go to NUM line
-`$` Go to end of line
-
-`0` Go to start of line
-

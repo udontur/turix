@@ -21,8 +21,7 @@
         bind = SUPER, F, exec, zen
         bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
         bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
-        bind = SUPER, V, exec, kitty yazi
-        bind = SUPER_Shift, V, exec, code
+        bind = SUPER, V, exec, code
 
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
         bind = SUPER_Shift, S, exec, hyprshot -m region -z 
@@ -67,7 +66,7 @@
         bind = ,XF86AudioLowerVolume, exec, swayosd-client --output-volume -1 --max-volume 150
         bind = ,XF86AudioMute, exec, swayosd-client --output-volume mute-toggle
         bind = ,XF86MonBrightnessUp, exec, swayosd-client --brightness +1
-        bind = ,XF86MonBrightnessDown, exec, swayosd-client --brightness -1        
+        bind = ,XF86MonBrightnessDown, exec, swayosd-client --brightness -1
       '';
     };
   };
