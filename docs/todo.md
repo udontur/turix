@@ -36,3 +36,4 @@
     - Assets, Books 
 - [ ] wayland: fractional scaling is sluggish
 - [ ] CUPS: try printing at home using CUPS
+- [ ] vscode: remove the top 3 buttons (- O X)
