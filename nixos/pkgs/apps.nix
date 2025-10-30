@@ -21,6 +21,7 @@
     kdePackages.kdenlive
     hieroglyphic
     texstudio
+    papers
     gnome-font-viewer
     obs-studio
     brave
@@ -32,6 +33,7 @@
     btop-rocm
     yazi
     gdu
+    inputs.gittype.packages."${system}".default
     inputs.umpire.packages."${system}".default
     inputs.osc.packages."${system}".default
   ];

@@ -8,7 +8,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-    kicad
+    # kicad
 
     # Temporary
     # gnome-system-monitor
