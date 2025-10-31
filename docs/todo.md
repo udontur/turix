@@ -1,39 +1,32 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] btop: GPU does not work
-- [ ] GTK: not all GTK apps are in dark mode
 - [ ] nh: suppress build output not working
 
 ### ✨ Features
-- [ ] Add my Linux journey to documentation
 - [ ] stylix: uniform theming
-- [ ] menu: Switch to a rofi / raycast like menu
-  - [ ] Anyrun?
+- [ ] menu: Anyrun (raycast like, good looking)
   - [ ] App launcher
-  - [ ] Clipboard manager
   - [ ] Emoji & Symbols
   - [ ] Calculator
   - [ ] File search
-  - [ ] Web search
-  - [ ] Dictionary & Translate
-- [x] obsidian: sync better
-- [x] Put textbook pdfs on local
-- [ ] assets: expand assets folder
 - [ ] Diversify apps: Slack, leetcode, etc
-- [x] vscode: vim + vscod
-- [x] vscode: rice + sync to account
-- [x] vscode(vim): migrate helix keybinds to vim
+- [ ] notification: make every notif website work when I turn on the computer
+- [ ] vscode: remove the top 3 buttons (- O X)
 - [ ] A lot of very smooth animations!
+
+### Future Features
+- [ ] Add my Linux journey to documentation
 - [ ] niri: switch to niri
   - [ ] quickshell: switch from waybar, this as inspiration jutraim/niri-caelestia-shell 
-  - [ ] quicksheel: AvengeMedia/DankMaterialShell 
+  - [ ] quickshell: AvengeMedia/DankMaterialShell 
+  - [ ] quickshell: clipboard, bluetooth, wifi, notification list, calender
   - [ ] app switcher: isaksamsten/niriswitcher 
   - [ ] sticky window: probeldev/niri-float-sticky 
   - [ ] persistant window: gvolpegvolpe/nfsm 
+- [ ] assets: expand assets folder
 
 ### 😭 Out of my reach
 - [ ] rclone: full support for proton
-    - Assets, Books 
 - [ ] wayland: fractional scaling is sluggish
 - [ ] CUPS: try printing at home using CUPS
-- [ ] vscode: remove the top 3 buttons (- O X)
