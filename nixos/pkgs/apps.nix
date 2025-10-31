@@ -12,10 +12,10 @@
     kitty
     inputs.zen-browser.packages."${system}".beta
     nautilus
+    vscode
     obsidian
 
     # Apps
-    vscode
     gnome-calculator
     pdfarranger
     kdePackages.kdenlive

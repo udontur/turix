@@ -25,8 +25,6 @@
     python312
     uv
     inputs.fix-python.packages.${system}.default
-    python312Packages.python-lsp-server                                 
-    python312Packages.black
     ruff
 
     # Rust
@@ -43,9 +41,5 @@
     nixpkgs-hammering
     nixpkgs-fmt
     nixfmt-rfc-style
-
-    # Wakatime
-    wakatime-cli
-    inputs.wakatime-ls.packages.${system}.default
   ];
 }
