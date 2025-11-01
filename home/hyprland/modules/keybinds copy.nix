@@ -14,39 +14,20 @@
         bind = SUPER, Delete, exec, reboot
         bind = SUPER_Control, D, exec, shutdown now
 
-        bind = SUPER, M, exec, dms ipc call processlist toggle
-        bind = SUPER, N, exec, dms ipc call notifications toggle
-        bind = SUPER, comma, exec, dms ipc call settings toggle
-        bind = SUPER, P, exec, dms ipc call notepad toggle
-        bind = SUPER, X, exec, dms ipc call powermenu toggle
-        bind = SUPER, Y, exec, dms ipc call dankdash wallpaper
-        bind = SUPER, C, exec, dms ipc call control-center toggle
-
-        bind = SUPER, L, exec, dms ipc call lock lock
-        bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
-
-        # Audio controls (function keys)
-        bindl = , XF86AudioRaiseVolume, exec, dms ipc call audio increment 1
-        bindl = , XF86AudioLowerVolume, exec, dms ipc call audio decrement 1
-        bindl = , XF86AudioMute, exec, dms ipc call audio mute
-        bindl = , XF86AudioMicMute, exec, dms ipc call audio micmute
-        bindl = , XF86MonBrightnessUp, exec, dms ipc call brightness increment 1 ""
-        bindl = , XF86MonBrightnessDown, exec, dms ipc call brightness decrement 1 ""
-
         # Apps
         bind = SUPER, Q, exec, kitty
         bind = SUPER, E, exec, nautilus
         bind = SUPER_Shift, E, exec, easyeffects
         bind = SUPER, F, exec, zen
-        bindr = SUPER, SUPER_L, exec, dms ipc call spotlight toggle
+        bindr = SUPER, SUPER_L, exec, pkill wofi || wofi -a --normal-window --show drun --allow-images
         bindr = SUPER, B, exec, pkill btop || kitty --title btop -e btop
         bind = SUPER, V, exec, code
 
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
         bind = SUPER_Shift, S, exec, hyprshot -m region -z 
-        # bind = SUPER, M, exec, emote
-        bindr = SUPER, D, exec, dms ipc call clipboard toggle
-        # bind = SUPER, C, exec, hyprpicker -a -f hex
+        bind = SUPER, M, exec, emote
+        bindr = SUPER, D, exec, copyq hide || copyq show
+        bind = SUPER, C, exec, hyprpicker -a -f hex
 
         # Windows and Workspace
         bind = SUPER, O, exec, hyprnome 
@@ -59,6 +40,7 @@
         bind = SUPER, up, movefocus, u
         bind = SUPER, down, movefocus, d
 
+        # bind = SUPER, tab, overview:toggle
         bindm = SUPER, mouse:272, movewindow
         bindc = SUPER, mouse:273, togglefloating
         bindm = SUPER, mouse:273, resizewindow
@@ -70,6 +52,21 @@
         bind = SUPER_Control_Shift, down, swapwindow, l
         bind = SUPER_Control_Shift, up, swapwindow, r
         bind = SUPER, J, togglesplit,
+  
+        # Function Media
+        bindel = ,XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+
+        bindel = ,XF86AudioLowerVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-
+        bindel = ,XF86AudioMute, exec, wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
+        bindel = ,XF86AudioMicMute, exec, wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
+        bindel = ,XF86MonBrightnessUp, exec, brightnessctl s 1%+
+        bindel = ,XF86MonBrightnessDown, exec, brightnessctl s 1%-
+      
+        # SwayOSD
+        bind = ,XF86AudioRaiseVolume, exec, swayosd-client --output-volume +1 --max-volume 150
+        bind = ,XF86AudioLowerVolume, exec, swayosd-client --output-volume -1 --max-volume 150
+        bind = ,XF86AudioMute, exec, swayosd-client --output-volume mute-toggle
+        bind = ,XF86MonBrightnessUp, exec, swayosd-client --brightness +1
+        bind = ,XF86MonBrightnessDown, exec, swayosd-client --brightness -1
       '';
     };
   };

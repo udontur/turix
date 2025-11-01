@@ -13,6 +13,8 @@
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = systemctl --user start hyprpolkitagent
 
+        exec-once = bash -c "wl-paste --watch cliphist store &"
+        exec-once = dms run
         # Launch
         exec-once = hyprpaper
         exec-once = emote
