@@ -20,7 +20,7 @@
       source = ~/.config/hypr/modules/hyprwm.conf
       source = ~/.config/hypr/modules/system.conf
       source = ~/.config/hypr/modules/others.conf
-      # source = ~/.config/hypr/modules/spec.conf
+      source = ~/.config/hypr/modules/spec.conf
     '';
   };
 }
