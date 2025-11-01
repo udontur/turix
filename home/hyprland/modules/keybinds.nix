@@ -14,8 +14,7 @@
 
         bind = SUPER, B, exec, dms ipc call processlist toggle
         bind = SUPER, Delete, exec, dms ipc call powermenu toggle
-
-        bind = SUPER, L, exec, dms ipc call lock lock
+        bind = SUPER, L, exec, hyprlock
         bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
 
         # Audio controls (function keys)
