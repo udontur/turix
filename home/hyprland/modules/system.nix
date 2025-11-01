@@ -16,13 +16,13 @@
         exec-once = bash -c "wl-paste --watch cliphist store &"
         exec-once = dms run
         # Launch
-        exec-once = hyprpaper
-        exec-once = emote
-        exec-once = copyq
-        exec-once = swayosd-server
-        exec-once = swaync
+        # exec-once = hyprpaper
+        # exec-once = emote
+        # exec-once = copyq
+        # exec-once = swayosd-server
+        # exec-once = swaync
         exec-once = nohup easyeffects --gapplication-service
-        exec-once = waybar
+        # exec-once = waybar
         
         # App Launch
         exec-once = zen

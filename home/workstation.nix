@@ -5,7 +5,7 @@
     ./global.nix
 
     ./apps/easyeffects/easyeffects.nix
-    ./apps/waybar/workstation.nix
+    # ./apps/waybar/workstation.nix
 
     # Hyprland
     ./hyprland/spec/workstation.nix

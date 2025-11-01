@@ -4,7 +4,7 @@
   imports = [
     ./apps/helix/helix.nix
     ./apps/kitty.nix
-    ./apps/wofi.nix
+    # ./apps/wofi.nix
     ./apps/anyrun.nix
     # uni: ./apps/waybar/: laptop or workstation
     # Workstation: ./apps/easyeffects.nix
