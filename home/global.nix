@@ -9,6 +9,7 @@
     # uni: ./apps/waybar/: laptop or workstation
     # Workstation: ./apps/easyeffects.nix
 
+    ./env/hyprlock.nix
     ./term/btop/btop.nix
     ./term/git.nix
     ./term/yazi.nix

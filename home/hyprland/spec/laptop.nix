@@ -12,7 +12,6 @@
       text=''
         # Laptop lock switch     
         bindl = ,switch:Lid Switch, exec, hyprlock
-        bind = SUPER, L, exec, hyprlock
         exec-once = hyprlock
 
         # Laptop battery
