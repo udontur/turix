@@ -13,6 +13,7 @@
     inputs.zen-browser.packages."${system}".beta
     nautilus
     obsidian
+    anyrun
 
     # Apps
     vscode

@@ -14,6 +14,8 @@
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
 - [ ] A lot of very smooth animations!
+- [ ] nixify: kun-codes/Koncertro make a flake to build (can make a PR)
+- [ ] ghostty: change terminal
 
 ### Future Features
 - [ ] Add my Linux journey to documentation
