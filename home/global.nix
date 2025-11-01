@@ -25,6 +25,8 @@
     ./hyprland/modules/system.nix
     ./hyprland/modules/others.nix
     # uni: ./hyprland/spec/: laptop or workstation
+
+    inputs.dankMaterialShell.homeModules.dankMaterialShell.default
   ];
 
   # The forbidden corner
@@ -32,10 +34,6 @@
   home.stateVersion = "24.11";
   home.username = "udontur";
   home.homeDirectory = "/home/udontur";
-
-  imports = [
-    inputs.dankMaterialShell.homeModules.dankMaterialShell.default
-  ];
 
   programs.dankMaterialShell.enable = true;
 }
