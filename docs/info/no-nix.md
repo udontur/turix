@@ -17,6 +17,9 @@ Follow [RClone Guide](../nixing/rclone.md) to setup RClone for Google Drive.
 ### 5. SSH
 Follow [SSH Guide](../nixing/ssh.md) to setup SSH for GitHub
 
+### 6. Quickshell
+Since the quickshell settings always change, it will not be declarative, it will be backed up periodically
+
 ## ⚠️ Warnings
 ### 1. username@host
 The configuration will **BREAK** if the user is not `udontur` and the host is not `earth`

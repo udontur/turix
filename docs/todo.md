@@ -6,10 +6,7 @@
 - [ ] Diversify apps: Slack, leetcode, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] quickshell: Full rice (functionality, looks, and uniform themes)
-- [ ] quickshell: Declerative after finish
 - [ ] turix: clean
-- [ ] assets: expand assets folder
 - [ ] quickshell: laptop
 
 ### Future Features
