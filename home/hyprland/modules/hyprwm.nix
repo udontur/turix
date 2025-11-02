@@ -33,7 +33,7 @@
           gaps_in = 4
           gaps_out = 0
           border_size = 2
-          col.active_border = rgb(00f260) rgb(0575e6) 
+          col.active_border = rgb(8ccff0)
           col.inactive_border = rgb(707070)
           resize_on_border = true
           allow_tearing = false
@@ -44,7 +44,6 @@
           rounding = 8
           active_opacity = 1
           inactive_opacity = 0.9
-          # Shaders in spec
           blur {
             enabled = true
             size = 2
@@ -58,12 +57,11 @@
         animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
-          bezier = linear, 1, 1, 0, 0
           animation = windows, 1, 4, bcur, popin 80%
           animation = layers, 1, 4, bcur, fade
           animation = fade, 1, 4, bcur
-          animation = border, 1, 4, default
-          animation = borderangle, 1, 50, linear, loop
+          animation = border, 0
+          animation = borderangle, 0
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
         
