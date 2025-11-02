@@ -1,13 +1,13 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
+- [ ] quickshell: battery display
 
 ### ✨ Features
 - [ ] Diversify apps: Slack, leetcode, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
 - [ ] turix: clean
-- [ ] quickshell: laptop
 
 ### Future Features
 - [ ] Add my Linux journey to documentation

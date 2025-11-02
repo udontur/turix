@@ -3,8 +3,8 @@
     "enabled": true
   },
   "powerUsagePlugin": {
-    "enabled": false,
-    "selectedPopout": "processList"
+    "enabled": true,
+    "selectedPopout": "battery"
   },
   "calculator": {
     "enabled": true,
