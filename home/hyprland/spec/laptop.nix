@@ -14,9 +14,6 @@
         bindl = ,switch:Lid Switch, exec, hyprlock
         exec-once = hyprlock
 
-        # Laptop battery
-        exec-once = /home/udontur/.config/battery/runner.sh    
-
         # Monitor
         monitor=eDP-1, 1920x1200@60, 0x0, 1
 

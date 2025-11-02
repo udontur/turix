@@ -4,15 +4,16 @@
 - [ ] nh: suppress build output not working
 
 ### ✨ Features
-- [ ] stylix: uniform theming
 - [ ] Diversify apps: Slack, leetcode, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] A lot of very smooth animations!
-- [ ] nixify: kun-codes/Koncertro make a flake to build (can make a PR)
+- [x] A lot of very smooth animations!
 - [ ] ghostty: change terminal
-- [ ] quickshell: Rice is decleratively
-- [ ] quickshell: Remove the black background
+- [ ] quickshell: Full rice (functionality, looks, and uniform themes)
+- [ ] stylix: uniform theming
+- [ ] quickshell: Declerative after finish
+- [x] quickshell: Remove the black background
+- [ ] turix: condense the folder structure
 
 ### Future Features
 - [ ] Add my Linux journey to documentation

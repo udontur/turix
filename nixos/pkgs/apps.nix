@@ -13,7 +13,6 @@
     inputs.zen-browser.packages."${system}".beta
     nautilus
     obsidian
-    anyrun
 
     # Apps
     vscode
@@ -22,14 +21,13 @@
     kdePackages.kdenlive
     papers
     hieroglyphic
-    texstudio
     papers
     gnome-font-viewer
     obs-studio
     brave
     loupe
-        
-    # Terminal apps 
+
+    # Terminal apps
     neofetch
     helix
     btop-rocm

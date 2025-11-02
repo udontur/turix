@@ -15,17 +15,6 @@
         # VSCode transparent
         windowrulev2 = opacity 0.9, class:code
 
-        # btop float
-        windowrulev2 = float, title:btop
-        windowrulev2 = size 1300 750, title:btop
-        
-        # Smile emoji picker float
-        windowrulev2 = float, title:Smile
-
-        # CopyQ float
-        windowrulev2 = float, class:com.github.hluk.copyq
-        windowrulev2 = size 500 300, class:com.github.hluk.copyq
-
         # IDK what are these
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0

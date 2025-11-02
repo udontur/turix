@@ -10,15 +10,7 @@
   environment.systemPackages = with pkgs; [
     # Utility apps
     easyeffects
-    emote
-    # copyq
-    swayosd
-    swaynotificationcenter
     hyprpicker
-    waybar
-    wofi
-
-    # Utility
     yt-dlp
     git
     hyprshot

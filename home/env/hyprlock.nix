@@ -4,14 +4,14 @@
 		enable=true;
 		extraConfig=''
 			background {
-        monitor =
-        path = ~/udontur/image/black.png
-        blur_passes = 2
-        contrast = 0.8916
-        brightness = 0.8172
-        vibrancy = 0.1696
-        vibrancy_darkness = 0.0
-    	}
+				monitor =
+				path = ~/udontur/image/black.png
+				blur_passes = 2
+				contrast = 0.8916
+				brightness = 0.8172
+				vibrancy = 0.1696
+				vibrancy_darkness = 0.0
+			}
 
 			general {
 			    no_fade_in = false
@@ -31,7 +31,7 @@
 			    inner_color = rgba(100, 100, 100, 0.9)
 			    font_color = rgb(200, 200, 200)
 			    fade_on_empty = false
-			    font_family = JetBrains Mono
+			    font_family = Inter
 			    placeholder_text = <i><span foreground="##ffffff99"></span></i>
 			    hide_input = false
 			    position = 0, 0

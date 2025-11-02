@@ -4,8 +4,6 @@
   imports = [
     ./global.nix
 
-    # ./apps/waybar/laptop.nix
-
     # Hyprland
     ./hyprland/spec/laptop.nix
 
