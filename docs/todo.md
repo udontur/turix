@@ -3,11 +3,12 @@
 - [ ] nh: suppress build output not working
 
 ### ✨ Features
-- [ ] Diversify apps: Slack, leetcode, etc
+- [ ] Diversify apps: Slack, leetcode, spotify, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] turix: clean
+- [ ] turix: hyper clean
 - [ ] quickshell: laptop
+- [ ] quickshell: make sure everything works
 
 ### Future Features
 - [ ] Add my Linux journey to documentation
