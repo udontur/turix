@@ -16,6 +16,7 @@
 
         # Monitor
         monitor=eDP-1, 1920x1200@60, 0x0, 1
+        monitor=HDMI-A-I, 3840x2160@60, 0x0, 2
 
         # Trackpad
         device{
