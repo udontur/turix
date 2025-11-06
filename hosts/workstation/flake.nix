@@ -24,18 +24,18 @@
     # Quickshell
     dgop = {
       url = "github:AvengeMedia/dgop";
-        inputs.nixpkgs.follows = "nixpkgs";
-      };
-      dms-cli = {
-        url = "github:AvengeMedia/danklinux";
-        inputs.nixpkgs.follows = "nixpkgs";
-      };
-      dankMaterialShell = {
-        url = "github:AvengeMedia/DankMaterialShell";
-        inputs.nixpkgs.follows = "nixpkgs";
-        inputs.dgop.follows = "dgop";
-        inputs.dms-cli.follows = "dms-cli";
-      };
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    dms-cli = {
+      url = "github:AvengeMedia/danklinux";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    dankMaterialShell = {
+      url = "github:AvengeMedia/DankMaterialShell";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.dgop.follows = "dgop";
+      inputs.dms-cli.follows = "dms-cli";
+    };
     # Developer
     # judgel.url = "github:udontur/judgel";
     # wretch.url = "github:thesillyboi/wretch"; 

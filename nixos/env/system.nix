@@ -49,6 +49,9 @@
     hibernateKeyLongPress="ignore";
   };
 
+  # Battery and Power
+  services.upower.enable = true;
+
   # Environment Variables
   environment.sessionVariables = {
     WLR_NO_HARDWARE_CURSORS = "1";

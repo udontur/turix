@@ -1,22 +1,24 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
+- [x] quickshell: battery display
 
 ### ✨ Features
-- [ ] Diversify apps: Slack, leetcode, spotify, etc
+- [ ] Diversify apps (make it PWA): Slack, leetcode, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] turix: hypr clean
-- [ ] quickshell: laptop
-- [ ] quickshell: Battery not working
-- [ ] turix: clean the flake
+- [ ] turix: clean
+- [ ] laptop: battery alerts
+- [ ] screenshot: better screenshot utility
+- [ ] laptop: revert the monitor displays
+- [ ] turix: rice two flakes
 
 ### Future Features
 - [ ] Add my Linux journey to documentation
 - [ ] niri: switch to niri
-  - [ ] app switcher: isaksamsten/niriswitcher 
-  - [ ] sticky window: probeldev/niri-float-sticky 
-  - [ ] persistant window: gvolpegvolpe/nfsm 
+  - [ ] app switcher: isaksamsten/niriswitcher
+  - [ ] sticky window: probeldev/niri-float-sticky
+  - [ ] persistant window: gvolpegvolpe/nfsm
 
 ### 😭 Out of my reach
 - [ ] rclone: full support for proton
