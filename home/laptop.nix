@@ -6,7 +6,6 @@
 
     # Hyprland
     ./hyprland/spec/laptop.nix
-
   ];
 
   # The forbidden corner

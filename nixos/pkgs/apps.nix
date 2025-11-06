@@ -10,7 +10,7 @@
   environment.systemPackages = with pkgs; [
     # Core apps
     kitty
-    inputs.zen-browser.packages."${system}".beta
+    inputs.zen-browser.package."${system}".beta
     nautilus
     obsidian
 

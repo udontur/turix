@@ -4,7 +4,7 @@
   </a>
   <h1></h1>
   <p align="center">
-    ❄️ My beloved Linux configuration! 🐢 
+    ❄️ My beloved Linux configuration! 🐢
     <br />
     <br />
     <a href="https://hadrian.cc">Made with passion by Hadrian</a>

@@ -6,9 +6,9 @@
 - [ ] Diversify apps: Slack, leetcode, spotify, etc
 - [ ] notification: make every notif website work when I turn on the computer
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] turix: hyper clean
+- [ ] turix: hypr clean
 - [ ] quickshell: laptop
-- [ ] quickshell: make sure everything works
+- [ ] quickshell: Battery not working
 
 ### Future Features
 - [ ] Add my Linux journey to documentation
