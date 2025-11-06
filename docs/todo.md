@@ -1,14 +1,12 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
-- [x] quickshell: battery display
+- [ ] notion: Notion enhanced has bugs (white screen)
 
 ### ✨ Features
-- [ ] Diversify apps (make it PWA): Slack, leetcode, etc
-- [ ] notification: make every notif website work when I turn on the computer
+- [ ] leetcode: Make LeetCode a PWA
 - [ ] vscode: remove the top 3 buttons (- O X)
 - [ ] turix: clean
-- [ ] laptop: battery alerts
 - [ ] screenshot: better screenshot utility
 - [ ] laptop: revert the monitor displays
 
