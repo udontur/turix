@@ -9,6 +9,8 @@
   # Battery Saver
   services.tlp.enable = true;
 
+  # Battery
+
   # Enable swap
   swapDevices = [{
     device = "/swapfile";
