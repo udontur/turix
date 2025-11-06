@@ -19,6 +19,7 @@
     bat
     docker
     upower
+    asar
     tree
   ];
 }
