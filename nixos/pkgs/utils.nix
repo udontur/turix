@@ -19,5 +19,6 @@
     bat
     docker
     upower
+    tree
   ];
 }
