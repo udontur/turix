@@ -9,6 +9,7 @@
 - [ ] turix: hypr clean
 - [ ] quickshell: laptop
 - [ ] quickshell: Battery not working
+- [ ] turix: clean the flake
 
 ### Future Features
 - [ ] Add my Linux journey to documentation

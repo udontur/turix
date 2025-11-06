@@ -1,6 +1,6 @@
 # VSCode
 ## Sync
-Sign in using GitHub, but the OS keyring does not work yet
+Sign in using GitHub
 
 ## Cheat sheet
 `g` Go to somewhere
