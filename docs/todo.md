@@ -11,7 +11,6 @@
 - [ ] laptop: battery alerts
 - [ ] screenshot: better screenshot utility
 - [ ] laptop: revert the monitor displays
-- [ ] turix: rice two flakes
 
 ### Future Features
 - [ ] Add my Linux journey to documentation

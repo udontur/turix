@@ -22,9 +22,15 @@
     papers
     hieroglyphic
     papers
+    slack
+    notion-app
+    github-desktop
+    proton-pass
+    protonvpn-gui
     gnome-font-viewer
     obs-studio
     brave
+    vesktop
     loupe
 
     # Terminal apps
@@ -32,6 +38,7 @@
     helix
     btop-rocm
     yazi
+    gh
     gdu
     inputs.gittype.packages."${system}".default
     inputs.umpire.packages."${system}".default
