@@ -23,7 +23,7 @@
     hieroglyphic
     papers
     slack
-    notion-app
+    notion-app-enhanced
     github-desktop
     proton-pass
     protonvpn-gui
