@@ -23,7 +23,7 @@
     };
     theme = {
       name = "Tokyonight-Dark-B";
-      package = pkgs.tokyo-night-gtk;
+      package = pkgs.tokyonight-gtk-theme;
     };
     gtk3.extraConfig = {
       Settings = ''
