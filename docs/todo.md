@@ -2,16 +2,16 @@
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
 - [ ] notion: Notion enhanced has bugs (white screen)
+- [ ] btop&quickshell: GPU support (rocm)
 
 ### ✨ Features
 - [ ] leetcode: Make LeetCode a PWA
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] turix: clean
 - [ ] screenshot: better screenshot utility
 - [ ] laptop: revert the monitor displays
+- [ ] Add my Linux journey to documentation
 
 ### Future Features
-- [ ] Add my Linux journey to documentation
 - [ ] niri: switch to niri
   - [ ] app switcher: isaksamsten/niriswitcher
   - [ ] sticky window: probeldev/niri-float-sticky
