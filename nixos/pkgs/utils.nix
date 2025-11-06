@@ -18,5 +18,6 @@
     ffmpeg
     bat
     docker
+    upower
   ];
 }
