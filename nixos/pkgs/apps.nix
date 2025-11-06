@@ -24,9 +24,9 @@
     papers
     slack
     notion-app-enhanced
-    github-desktop
     proton-pass
     protonvpn-gui
+    todoist-electron
     gnome-font-viewer
     obs-studio
     brave
