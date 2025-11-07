@@ -35,6 +35,7 @@
     bun
     nodePackages_latest.nodejs
     hexo-cli
+    electron
 
     # Nix
     nix-init
