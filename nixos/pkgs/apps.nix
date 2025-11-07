@@ -29,6 +29,7 @@
     todoist-electron
     gnome-font-viewer
     obs-studio
+    aisleriot
     brave
     vesktop
     loupe
