@@ -9,24 +9,22 @@
 {
   environment.systemPackages = with pkgs; [
     # Temporary
-    
+
     # Developer
     # inputs.umpire.packages.${system}.default
     # inputs.osc.packages.${system}.default
-    
+
     # CPP
     gcc
     clang-tools
     gnumake
     cmake
     fmt
-    
+
     # Python
     python312
     uv
     inputs.fix-python.packages.${system}.default
-    python312Packages.python-lsp-server                                 
-    python312Packages.black
     ruff
 
     # Rust
@@ -37,15 +35,11 @@
     bun
     nodePackages_latest.nodejs
     hexo-cli
-    
+
     # Nix
     nix-init
     nixpkgs-hammering
     nixpkgs-fmt
     nixfmt-rfc-style
-
-    # Wakatime
-    wakatime-cli
-    inputs.wakatime-ls.packages.${system}.default
   ];
 }

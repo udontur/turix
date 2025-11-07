@@ -21,3 +21,6 @@
 - **Linuxing since**: Augest, 2024
 - **Linux version**: v5
 
+Arch KDE -> Arch Gnome -> Arch Hyprland -> NixOS Hyprland
+Fedora Gnome, Mint Cinnamon
+

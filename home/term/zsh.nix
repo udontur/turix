@@ -13,10 +13,10 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     initContent = "source ~/.p10k.zsh";
-    plugins = [{                                                                                   
-      name = "powerlevel10k";                                                           
-      src = pkgs.zsh-powerlevel10k;                                                     
-      file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";                         
+    plugins = [{
+      name = "powerlevel10k";
+      src = pkgs.zsh-powerlevel10k;
+      file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
     }];
     shellAliases={
       reb="./rebuild";
@@ -26,8 +26,6 @@
       gsync="git push origin main";
       gpush="git push origin";
       cat="bat";
-      rpush="rclone sync ~/Notes gdrive:Notes";
-      rpull="rclone sync gdrive:Notes ~/Notes";
       start-venv="source .venv/bin/activate";
     };
     history.size=10000;

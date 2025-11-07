@@ -1,22 +1,11 @@
 # VSCode
 ## Sync
-Sign in using GitHub, but the OS keyring does not work yet
+Sign in using GitHub
 
 ## Cheat sheet
-- `gg` Go to First line
-- `G` Go to Last line
-- `:NUM` Go to NUM line
-- `$` Go to end of line
-- `0` Go to start of line
-- `dd` Delete the entire line
-- `yy` Yank the entire line
-- `v` Select (character base)
-- `V` Select (line base)
-- `Ctrl + v` Select (parallel)
-- `zo` Open a function fold
-- `zc` Close a function fold
-- `gcc` Comment current line
-- `{SELECT}gc` Comment selected lines
-- `%` Move to the matching brackes
-- `x` Delete current character
-- `a` Insert after current character
+`g` Go to somewhere
+`gl` Go to the end of line
+`gh` Go to the start of line
+`A` Insert at the end of line
+`I` Insert at the start of line
+`mm` Highlight and Go to bracket

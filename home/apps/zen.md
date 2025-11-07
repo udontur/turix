@@ -6,4 +6,3 @@ layers.acceleration.force-enabled = true
 widget.wayland.fractional-scale.enabled = true
 gfx.webrender.all = true
 
-

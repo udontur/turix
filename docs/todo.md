@@ -1,20 +1,21 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
-- [ ] quickshell: battery display
+- [ ] notion: Notion enhanced has bugs (white screen)
+- [ ] btop&quickshell: GPU support (rocm)
 
 ### ✨ Features
-- [ ] Diversify apps: Slack, leetcode, etc
-- [ ] notification: make every notif website work when I turn on the computer
+- [ ] leetcode: Make LeetCode a PWA
 - [ ] vscode: remove the top 3 buttons (- O X)
-- [ ] turix: clean
+- [ ] screenshot: better screenshot utility
+- [ ] laptop: revert the monitor displays
+- [ ] Add my Linux journey to documentation
 
 ### Future Features
-- [ ] Add my Linux journey to documentation
 - [ ] niri: switch to niri
-  - [ ] app switcher: isaksamsten/niriswitcher 
-  - [ ] sticky window: probeldev/niri-float-sticky 
-  - [ ] persistant window: gvolpegvolpe/nfsm 
+  - [ ] app switcher: isaksamsten/niriswitcher
+  - [ ] sticky window: probeldev/niri-float-sticky
+  - [ ] persistant window: gvolpegvolpe/nfsm
 
 ### 😭 Out of my reach
 - [ ] rclone: full support for proton
