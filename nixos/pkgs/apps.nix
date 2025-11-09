@@ -27,6 +27,7 @@
     proton-pass
     protonvpn-gui
     todoist-electron
+    figma-linux
     gnome-font-viewer
     obs-studio
     aisleriot
