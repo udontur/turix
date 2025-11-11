@@ -7,9 +7,7 @@
 }:
 {
   # Battery Saver
-  services.tlp.enable = true;
-
-  # Battery
+  # services.tlp.enable = true;
 
   # Enable swap
   swapDevices = [{
