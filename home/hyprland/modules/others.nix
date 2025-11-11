@@ -14,14 +14,13 @@
           kb_options = caps:escape
           follow_mouse = 1
           sensitivity = 0
+          accel_profile=flat
           # Touchpad in spec
         }
         device{
           name=rapoo-rapoo-composite-device
           sensitivity=-0.7
           name=keychron--keychron-link--keyboard-1
-          sensitivity=-0.7
-          name=razer-razer-viper
           sensitivity=-0.7
           # Touchpad in spec
         }
