@@ -30,6 +30,8 @@
     # Rust
     rustc
     cargo
+    rustup
+    rustfmt
 
     # Web dev
     bun
