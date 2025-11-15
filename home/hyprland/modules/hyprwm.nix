@@ -19,13 +19,12 @@
         windowrulev2 = suppressevent maximize, class:.*
         windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
 
-
         # Hyprshot is broken
         layerrule = noanim, selection
 
         general {
           gaps_in = 4
-          gaps_out = 0
+          gaps_out = 4
           border_size = 2
           col.active_border = rgb(8ccff0)
           col.inactive_border = rgb(707070)
