@@ -24,7 +24,7 @@
 
         general {
           gaps_in = 4
-          gaps_out = 4, 8, 8, 8
+          gaps_out = 2, 8, 8, 8
           border_size = 2
           col.active_border = rgb(8ccff0)
           col.inactive_border = rgb(707070)
