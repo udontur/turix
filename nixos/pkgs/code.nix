@@ -21,6 +21,9 @@
     cmake
     fmt
 
+    # GTK
+    glade
+
     # Python
     python312
     uv
