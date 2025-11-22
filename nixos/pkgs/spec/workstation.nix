@@ -14,4 +14,5 @@
     # gnome-system-monitor
     # impression
   ];
+  virtualisation.vmware.host.enable = true;
 }
