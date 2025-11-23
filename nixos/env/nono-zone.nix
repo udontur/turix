@@ -23,6 +23,7 @@
     enable = true;
     efiSupport = true;
     device = "nodev";
+    theme="${pkgs.sleek-grub-theme}/Sleek theme-dark";
   };
   boot.loader.efi.canTouchEfiVariables = true;
 
