@@ -21,10 +21,19 @@
   };
 
   # Grub theme
-  boot.loader.grub.theme=(pkgs.sleek-grub-theme.override {
-    withBanner = "Grub Bootloader";
-    withStyle = "dark";
-  });
+  boot.loader.grub = {
+    theme=(pkgs.sleek-grub-theme.override {
+      withBanner = "Grub Bootloader";
+      withStyle = "dark";
+    });
+    extraConfig = ''
+      if keystatus --shift ; then
+        set timeout=-1
+      else
+        set timeout=0
+      fi
+    '';
+  };
 
   # Storage cleaner
   programs.nh = {
