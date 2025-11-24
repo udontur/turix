@@ -33,6 +33,20 @@
     xterm
   ];
 
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    openFirewall = true;
+  };
+
+  services.printing = {
+    enable = true;
+    drivers = with pkgs; [
+      cups-filters
+      cups-browsed
+    ];
+  };
+
   # Nix Helper
   programs.nh.enable = true;
 
@@ -48,7 +62,7 @@
   ];
 
   # Remove printer app
-  environment.extraSetup = ''
-    rm -f $out/share/applications/cups.desktop
-  '';
+  # environment.extraSetup = ''
+    # rm -f $out/share/applications/cups.desktop
+  # '';
 }
