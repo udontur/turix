@@ -11,8 +11,8 @@
     # Temporary
 
     # Developer
-    # inputs.umpire.packages.${system}.default
-    # inputs.osc.packages.${system}.default
+    # inputs.umpire.packages.${stdenv.hostPlatform.system}.default
+    # inputs.osc.packages.${stdenv.hostPlatform.system}.default
 
     # CPP
     gcc
@@ -27,7 +27,7 @@
     # Python
     python312
     uv
-    inputs.fix-python.packages.${system}.default
+    inputs.fix-python.packages.${stdenv.hostPlatform.system}.default
     ruff
 
     # Rust
