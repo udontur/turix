@@ -26,6 +26,7 @@
       withBanner = "Grub Bootloader";
       withStyle = "dark";
     });
+    # Timeout (Hold shift to pause)
     extraConfig = ''
       if keystatus --shift ; then
         set timeout=-1

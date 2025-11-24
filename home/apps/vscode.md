@@ -9,3 +9,4 @@ Sign in using GitHub
 `A` Insert at the end of line
 `I` Insert at the start of line
 `mm` Highlight and Go to bracket
+Use `HJKL` as arrow key

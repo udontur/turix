@@ -11,12 +11,15 @@
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
     # from nixpkgs
-    
+
   ];
+
+  # Virtual Machine
+  virtualisation.vmware.host.enable = true;
 
   # For VSCode sign in and sync
   services.gnome.gnome-keyring.enable = true;
-  
+
   # Hyprland
   programs.hyprland = {
     enable = true;
@@ -26,8 +29,8 @@
   };
 
   # Remove default pacakges
-  services.xserver.excludePackages = with pkgs; [ 
-    xterm 
+  services.xserver.excludePackages = with pkgs; [
+    xterm
   ];
 
   # Nix Helper
@@ -48,5 +51,4 @@
   environment.extraSetup = ''
     rm -f $out/share/applications/cups.desktop
   '';
-   
 }

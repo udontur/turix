@@ -23,7 +23,6 @@
     enable = true;
     efiSupport = true;
     device = "nodev";
-    
   };
   boot.loader.efi.canTouchEfiVariables = true;
 
@@ -31,7 +30,7 @@
   networking.networkmanager.enable = true;
   networking.firewall.enable = true;
   networking.hostName = "earth";
-  
+
   # User setup
   users.users.udontur = {
     isNormalUser = true;
