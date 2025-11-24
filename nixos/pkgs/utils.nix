@@ -15,6 +15,7 @@
     git
     hyprshot
     rclone
+    nmap
     ffmpeg
     bat
     docker

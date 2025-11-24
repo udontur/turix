@@ -21,6 +21,9 @@
     cmake
     fmt
 
+    # GTK
+    glade
+
     # Python
     python312
     uv
@@ -30,6 +33,8 @@
     # Rust
     rustc
     cargo
+    rustup
+    rustfmt
 
     # Web dev
     bun
