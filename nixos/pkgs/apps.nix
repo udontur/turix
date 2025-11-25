@@ -20,6 +20,7 @@
     pdfarranger
     kdePackages.kdenlive
     papers
+    foliate
     hieroglyphic
     papers
     slack
