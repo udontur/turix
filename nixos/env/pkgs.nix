@@ -14,6 +14,9 @@
 
   ];
 
+  # Formatter
+  programs.nixfmt.enable = true;
+
   # Virtual Machine
   virtualisation.vmware.host.enable = true;
 
