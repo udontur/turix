@@ -9,7 +9,7 @@
   # Laptop
   home.file = {
     "/home/udontur/.config/hypr/modules/spec.conf" = {
-      text=''
+      text = ''
         # Laptop lock switch     
         bindl = ,switch:Lid Switch, exec, hyprlock
         exec-once = hyprlock

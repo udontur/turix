@@ -18,8 +18,8 @@
       size = 25;
     };
     font = {
-      name="Inter";
-      package=pkgs.inter;
+      name = "Inter";
+      package = pkgs.inter;
     };
     theme = {
       name = "Tokyonight-Dark-B";

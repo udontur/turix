@@ -48,4 +48,3 @@
     inputs.osc.packages."${system}".default
   ];
 }
-

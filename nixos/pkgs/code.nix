@@ -46,6 +46,7 @@
     nix-init
     nixpkgs-hammering
     nixpkgs-fmt
+    nixfmt-tree
     nixfmt-rfc-style
   ];
 }

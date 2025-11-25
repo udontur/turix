@@ -14,9 +14,6 @@
 
   ];
 
-  # Formatter
-  programs.nixfmt.enable = true;
-
   # Virtual Machine
   virtualisation.vmware.host.enable = true;
 
@@ -27,7 +24,8 @@
   programs.hyprland = {
     enable = true;
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
-    portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+    portalPackage =
+      inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
     xwayland.enable = true;
   };
 
@@ -66,6 +64,6 @@
 
   # Remove printer app
   # environment.extraSetup = ''
-    # rm -f $out/share/applications/cups.desktop
+  # rm -f $out/share/applications/cups.desktop
   # '';
 }
