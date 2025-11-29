@@ -25,4 +25,3 @@
 ### 😭 Out of my reach
 - [ ] rclone: full support for proton
 - [ ] wayland: fractional scaling is sluggish
-- [ ] notion: Notion enhanced workaround script aint working

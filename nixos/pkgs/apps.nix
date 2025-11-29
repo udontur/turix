@@ -24,7 +24,6 @@
     hieroglyphic
     papers
     slack
-    notion-app-enhanced
     clickup
     proton-pass
     protonvpn-gui
