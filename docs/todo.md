@@ -1,20 +1,18 @@
 ## ✅ To Do List
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
-- [ ] notion: Notion enhanced has bugs (white screen)
+- [x] notion: Notion enhanced has bugs (white screen)
 - [ ] btop&quickshell: GPU support (rocm)
 - [ ] nh: make it notify me when I need to active config
 - [ ] vscode: remove the top 3 buttons (- O X)
 
 ### ✨ Features
 - [ ] docs: add my Linux journey to documentation
-- [ ] hypr: change switch workspace keybinds
 - [ ] obsidian: add shortcut
-- [ ] obsidian: move notion stuff to obsidian
 - [ ] obsidian: harness the power of obsidian
 - [x] bootloader: change to a nice bootloader theme
-- [ ] vmware: get virtual machines working
-- [ ] money: record my donations, etfs, income, and expense using an app
+- [x] vmware: get virtual machines working
+- [x] money: record my donations, etfs, income, and expense using an app
 
 ### Future Features
 - [ ] niri: switch to niri

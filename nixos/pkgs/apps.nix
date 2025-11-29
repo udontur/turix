@@ -24,14 +24,13 @@
     hieroglyphic
     papers
     slack
-    notion-app-enhanced
+    notion-app
     proton-pass
     protonvpn-gui
     todoist-electron
     figma-linux
     gnome-font-viewer
     obs-studio
-    aisleriot
     brave
     vesktop
     loupe
