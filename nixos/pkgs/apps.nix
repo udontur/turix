@@ -24,7 +24,7 @@
     hieroglyphic
     papers
     slack
-    notion-app
+    notion-app-enhanced
     proton-pass
     protonvpn-gui
     todoist-electron
