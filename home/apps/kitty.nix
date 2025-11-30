@@ -10,6 +10,7 @@
       background_opacity 0.7
       background_blue 22
       confirm_os_window_close 0
+      window_padding_width 8
     '';
   };
 }

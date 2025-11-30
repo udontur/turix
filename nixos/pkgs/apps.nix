@@ -36,7 +36,7 @@
     loupe
 
     # Terminal apps
-    neofetch
+    fastfetch
     helix
     btop-rocm
     yazi
