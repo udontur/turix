@@ -28,6 +28,7 @@
       gsync = "git push origin main";
       gpush = "git push origin";
       cat = "bat";
+      ff = "fastfetch";
       start-venv = "source .venv/bin/activate";
     };
     history.size = 10000;
