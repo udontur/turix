@@ -47,7 +47,7 @@
     }@inputs:
     let
       system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${stdenv.hostPlatform.system};
+      pkgs = nixpkgs.legacyPackages.${system};
     in
     {
       nixosConfigurations = {

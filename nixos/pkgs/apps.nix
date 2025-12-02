@@ -10,7 +10,7 @@
   environment.systemPackages = with pkgs; [
     # Core apps
     kitty
-    inputs.zen-browser.packages."${stdenv.hostPlatform.system}".beta
+    inputs.zen-browser.packages."${system}".beta
     nautilus
     obsidian
 
@@ -41,9 +41,9 @@
     yazi
     gh
     gdu
-    inputs.gittype.packages."${stdenv.hostPlatform.system}".default
-    inputs.umpire.packages."${stdenv.hostPlatform.system}".default
-    inputs.osc.packages."${stdenv.hostPlatform.system}".default
+    inputs.gittype.packages."${system}".default
+    inputs.umpire.packages."${system}".default
+    inputs.osc.packages."${system}".default
   ];
 }
 
