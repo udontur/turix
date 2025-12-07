@@ -24,8 +24,8 @@
     hieroglyphic
     papers
     slack
-    clickup
     proton-pass
+    gnome-disk-utility
     protonvpn-gui
     todoist-electron
     figma-linux
