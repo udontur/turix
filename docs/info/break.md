@@ -16,3 +16,7 @@ Rebuild
 ```
 nixos-install --root /mnt
 ```
+Reinstall bootloader
+```
+sudo nixos-rebuild switch --flake ./hosts/$branch_name#$branch_name --install-bootloader
+```
