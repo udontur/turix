@@ -8,7 +8,7 @@
 
 {
   imports = [
-    ../hosts/laptop/hardware-configuration.nix
+    ../hosts/workstation/hardware-configuration.nix
     ./global.nix
 
     # Specs (Workstation)
