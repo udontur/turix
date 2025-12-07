@@ -7,7 +7,8 @@ printf $branch_name
 
 # -Q --no-build-output is broken
 # nh os switch --hostname $branch_name
-sudo nixos-rebuild switch --flake --install-bootloader ./hosts/$branch_name#$branch_name
+# sudo nixos-rebuild switch --flake --install-bootloader ./hosts/$branch_name#$branch_name
+sudo nixos-rebuild --install-bootloader boot
 
 notify-send "NixOS finished rebuilding!"
 
