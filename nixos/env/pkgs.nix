@@ -22,8 +22,7 @@
   };
 
 
-  # Virtual Machine
-  virtualisation.vmware.host.enable = true;
+
 
   # For VSCode sign in and sync
   services.gnome.gnome-keyring.enable = true;

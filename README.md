@@ -2,7 +2,7 @@
   <a href="https://hadrian.cc">
     <img src="assets/img/banner.webp" alt="Banner image">
   </a>
-  <h1></h1>
+  <h1>TURIX</h1>
   <p align="center">
     ❄️ My beloved Linux configuration! 🐢
     <br />

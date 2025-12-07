@@ -25,8 +25,8 @@
       youbetter = "sudo";
       ga = "git add .";
       gc = "git commit -m";
-      gsync = "git push origin main";
-      gpush = "git push origin";
+      gsync = "git push origin -u main";
+      gpush = "git push origin -u";
       cat = "bat";
       ff = "fastfetch";
       start-venv = "source .venv/bin/activate";
