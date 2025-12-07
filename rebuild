@@ -7,7 +7,7 @@ printf $branch_name
 
 # -Q --no-build-output is broken
 # nh os switch --hostname $branch_name --diff auto --impure
-sudo nixos-rebuild switch --flake ./hosts/$branch_name/flake.nix#$branc_name
+sudo nixos-rebuild switch --flake ./hosts/$branch_name#$branc_name
 
 notify-send "NixOS finished rebuilding!"
 
