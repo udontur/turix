@@ -25,6 +25,7 @@
     papers
     slack
     proton-pass
+    gnome-disk-utility
     protonvpn-gui
     todoist-electron
     figma-linux
