@@ -6,8 +6,8 @@ branch_name=$(git branch --show-current)
 printf $branch_name
 
 # -Q --no-build-output is broken
-# nh os switch --hostname $branch_name
-sudo nixos-rebuild switch --flake ./hosts/$branch_name#$branch_name --install-bootloader 
+nh os switch --hostname $branch_name
+# sudo nixos-rebuild switch --flake ./hosts/$branch_name#$branch_name --install-bootloader 
 
 notify-send "NixOS finished rebuilding!"
 
