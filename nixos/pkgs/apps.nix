@@ -24,7 +24,6 @@
     hieroglyphic
     papers
     slack
-    clickup
     proton-pass
     protonvpn-gui
     todoist-electron
