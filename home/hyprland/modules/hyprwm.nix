@@ -8,7 +8,7 @@
 {
   home.file = {
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
-      text=''
+      text = ''
         # Nautilus transparent
         windowrulev2 = opacity 0.8, class:org.gnome.Nautilus
 
@@ -46,7 +46,7 @@
             enabled = false
           }
         }
-        
+
         animations {
           enabled = yes
           bezier = bcur, 0.76, 0, 0.24, 1
@@ -57,7 +57,7 @@
           animation = borderangle, 0
           animation = workspaces, 1, 6, bcur, slidefade 20%
         }
-        
+
       '';
     };
   };

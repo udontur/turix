@@ -5,7 +5,7 @@
   "runUserMatugenTemplates": false,
   "matugenTargetMonitor": "",
   "dankBarTransparency": 0,
-  "dankBarWidgetTransparency": 0.4,
+  "dankBarWidgetTransparency": 0,
   "popupTransparency": 0.85,
   "dockTransparency": 1,
   "widgetBackgroundColor": "sc",
@@ -102,10 +102,6 @@
   "mediaSize": 0,
   "dankBarLeftWidgets": [
     {
-      "id": "launcherButton",
-      "enabled": true
-    },
-    {
       "id": "workspaceSwitcher",
       "enabled": true
     },
@@ -159,7 +155,7 @@
   "useAutoLocation": false,
   "weatherEnabled": false,
   "networkPreference": "ethernet",
-  "vpnLastConnected": "bc8d0b20-8db0-4890-baba-207848911859",
+  "vpnLastConnected": "18de3861-f3ad-41f7-8db6-5f72aacf1cbc",
   "iconTheme": "System Default",
   "launcherLogoMode": "os",
   "launcherLogoCustomPath": "",
@@ -215,7 +211,7 @@
   "dankBarSpacing": 0,
   "dankBarBottomGap": 0,
   "dankBarInnerPadding": 4,
-  "dankBarPosition": 0,
+  "dankBarPosition": 1,
   "dankBarSquareCorners": false,
   "dankBarNoBackground": false,
   "dankBarGothCornersEnabled": false,

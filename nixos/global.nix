@@ -8,9 +8,8 @@
 
 {
   imports = [
-    /etc/nixos/hardware-configuration.nix
     inputs.home-manager.nixosModules.home-manager
-    
+
     #./pkgs/spec
     ./pkgs/resource.nix
     ./pkgs/code.nix

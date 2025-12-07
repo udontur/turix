@@ -14,6 +14,14 @@
 
   ];
 
+  programs.steam = {
+    enable = true;
+    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+    localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
+  };
+
+
   # Virtual Machine
   virtualisation.vmware.host.enable = true;
 
@@ -23,8 +31,9 @@
   # Hyprland
   programs.hyprland = {
     enable = true;
-    package = inputs.hyprland.packages.${pkgs.system}.hyprland;
-    portalPackage = inputs.hyprland.packages.${pkgs.system}.xdg-desktop-portal-hyprland;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
+    portalPackage =
+      inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
     xwayland.enable = true;
   };
 
@@ -32,6 +41,20 @@
   services.xserver.excludePackages = with pkgs; [
     xterm
   ];
+
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    openFirewall = true;
+  };
+
+  services.printing = {
+    enable = true;
+    drivers = with pkgs; [
+      cups-filters
+      cups-browsed
+    ];
+  };
 
   # Nix Helper
   programs.nh.enable = true;
@@ -48,7 +71,7 @@
   ];
 
   # Remove printer app
-  environment.extraSetup = ''
-    rm -f $out/share/applications/cups.desktop
-  '';
+  # environment.extraSetup = ''
+  # rm -f $out/share/applications/cups.desktop
+  # '';
 }

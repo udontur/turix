@@ -13,21 +13,24 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     initContent = "source ~/.p10k.zsh";
-    plugins = [{
-      name = "powerlevel10k";
-      src = pkgs.zsh-powerlevel10k;
-      file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-    }];
-    shellAliases={
-      reb="./rebuild";
-      youbetter="sudo";
-      ga="git add .";
-      gc="git commit -m";
-      gsync="git push origin main";
-      gpush="git push origin";
-      cat="bat";
-      start-venv="source .venv/bin/activate";
+    plugins = [
+      {
+        name = "powerlevel10k";
+        src = pkgs.zsh-powerlevel10k;
+        file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+      }
+    ];
+    shellAliases = {
+      reb = "./rebuild";
+      youbetter = "sudo";
+      ga = "git add .";
+      gc = "git commit -m";
+      gsync = "git push origin main";
+      gpush = "git push origin";
+      cat = "bat";
+      ff = "fastfetch";
+      start-venv = "source .venv/bin/activate";
     };
-    history.size=10000;
+    history.size = 10000;
   };
 }

@@ -9,7 +9,7 @@
   # Workstation
   home.file = {
     "/home/udontur/.config/hypr/modules/spec.conf" = {
-      text=''
+      text = ''
         # Launch
         exec-once = nohup easyeffects --gapplication-service
 

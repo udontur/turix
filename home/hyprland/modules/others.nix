@@ -8,7 +8,7 @@
 {
   home.file = {
     "/home/udontur/.config/hypr/modules/others.conf" = {
-      text=''
+      text = ''
         input {
           kb_layout = us
           kb_options = caps:escape

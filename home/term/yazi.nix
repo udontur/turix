@@ -4,7 +4,7 @@
   programs.yazi = {
     enable = true;
   };
-  xdg.configFile."yazi/yazi.toml".text=''
+  xdg.configFile."yazi/yazi.toml".text = ''
     [opener]
     play = [
     	{ run = 'zen "$@"', orphan = true},
@@ -18,5 +18,5 @@
 
     [mgr]
     show_hidden = true
-'';
+  '';
 }

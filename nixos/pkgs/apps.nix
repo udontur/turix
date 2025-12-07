@@ -20,10 +20,11 @@
     pdfarranger
     kdePackages.kdenlive
     papers
+    foliate
     hieroglyphic
     papers
     slack
-    notion-app-enhanced
+    clickup
     proton-pass
     protonvpn-gui
     todoist-electron
@@ -35,7 +36,7 @@
     loupe
 
     # Terminal apps
-    neofetch
+    fastfetch
     helix
     btop-rocm
     yazi
@@ -46,4 +47,3 @@
     inputs.osc.packages."${system}".default
   ];
 }
-

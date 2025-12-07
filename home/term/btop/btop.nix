@@ -12,7 +12,7 @@
   ];
   home.file = {
     "/home/udontur/.config/btop/themes/tommorow-night.theme" = {
-      source=./tommorow-night.theme;
+      source = ./tommorow-night.theme;
     };
   };
   programs.btop = {

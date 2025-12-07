@@ -8,8 +8,7 @@
 
 {
   imports = [
-    /etc/nixos/hardware-configuration.nix
-    inputs.home-manager.nixosModules.home-manager
+    ../hosts/workstation/hardware-configuration.nix
     ./global.nix
 
     # Specs (Workstation)

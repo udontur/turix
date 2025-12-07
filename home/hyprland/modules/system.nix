@@ -8,7 +8,7 @@
 {
   home.file = {
     "/home/udontur/.config/hypr/modules/system.conf" = {
-      text=''
+      text = ''
         # System launch
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = systemctl --user start hyprpolkitagent
