@@ -27,7 +27,6 @@
     # Python
     python312
     uv
-    inputs.fix-python.packages.${system}.default
     ruff
 
     # Rust
