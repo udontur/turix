@@ -30,7 +30,6 @@
     obs-studio
     brave
     vesktop
-    gnome-system-monitor
     loupe
 
     # Terminal apps

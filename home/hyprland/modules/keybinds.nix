@@ -11,7 +11,6 @@
       text = ''
         # System
         bind = SUPER, W, killactive,
-        # bind = SUPER, B, exec, dms ipc call processlist toggle
         bind = SUPER, Delete, exec, dms ipc call powermenu toggle
         bind = SUPER, L, exec, hyprlock
         bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
@@ -31,6 +30,7 @@
         bind = SUPER, E, exec, nautilus
         bind = SUPER, F, exec, zen
         bind = SUPER, V, exec, code
+        bind = SUPER, B, exec, kitty btop
 
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
         bind = SUPER_Shift, S, exec, hyprshot -m region -z
