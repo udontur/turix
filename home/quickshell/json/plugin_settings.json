@@ -47,7 +47,7 @@
     "defaultEngine": "brave"
   },
   "dankBatteryAlerts": {
-    "enabled": true,
+    "enabled": false,
     "warningThreshold": 40,
     "criticalThreshold": 20
   },

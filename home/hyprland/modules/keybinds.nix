@@ -29,17 +29,16 @@
         # Apps
         bind = SUPER, Q, exec, kitty
         bind = SUPER, E, exec, nautilus
-        bind = SUPER_Shift, E, exec, easyeffects
         bind = SUPER, F, exec, zen
         bind = SUPER, V, exec, code
 
         bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
-        bind = SUPER_Shift, S, exec, hyprshot -m region -z 
+        bind = SUPER_Shift, S, exec, hyprshot -m region -z
         bind = SUPER, C, exec, hyprpicker -a -f hex
 
         # Windows and Workspace
-        bind = SUPER, O, exec, hyprnome 
-        bind = SUPER, I, exec, hyprnome --previous 
+        bind = SUPER, O, exec, hyprnome
+        bind = SUPER, I, exec, hyprnome --previous
         bind = SUPER_Control, O, exec, hyprnome --move
         bind = SUPER_Control, I, exec, hyprnome --previous --move
 

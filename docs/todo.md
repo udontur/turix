@@ -2,13 +2,13 @@
 ### 🚧 Fixes
 - [ ] nh: suppress build output not working
 - [ ] btop&quickshell: GPU support (rocm)
-- [ ] nh: make it notify me when I need to active config
-- [ ] vscode: remove the top 3 buttons (- O X)
 
 ### ✨ Features
 - [ ] docs: add my Linux journey to documentation
-- [ ] obsidian: add shortcut
-- [ ] obsidian: harness the power of obsidian
+- [ ] vscode: remove the top 3 buttons (- O X)
+add zen todos
+add gnome application list
+add stuff to declare and not declare
 
 ### Future Features
 - [ ] niri: switch to niri
@@ -25,3 +25,4 @@
 ### 😭 Out of my reach
 - [ ] rclone: full support for proton
 - [ ] wayland: fractional scaling is sluggish
+- [ ] nh: make it notify me when I need to active config
