@@ -24,15 +24,13 @@
     hieroglyphic
     papers
     slack
-    proton-pass
-    gnome-disk-utility
     protonvpn-gui
-    todoist-electron
     figma-linux
     gnome-font-viewer
     obs-studio
     brave
     vesktop
+    gnome-system-monitor
     loupe
 
     # Terminal apps
@@ -40,9 +38,7 @@
     helix
     btop-rocm
     yazi
-    gh
     gdu
-    inputs.gittype.packages."${system}".default
     inputs.umpire.packages."${system}".default
     inputs.osc.packages."${system}".default
   ];

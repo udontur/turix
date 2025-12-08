@@ -11,7 +11,7 @@
       text = ''
         # System
         bind = SUPER, W, killactive,
-        bind = SUPER, B, exec, dms ipc call processlist toggle
+        # bind = SUPER, B, exec, dms ipc call processlist toggle
         bind = SUPER, Delete, exec, dms ipc call powermenu toggle
         bind = SUPER, L, exec, hyprlock
         bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
