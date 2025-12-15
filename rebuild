@@ -2,8 +2,13 @@
 
 git add .
 
-printf "Workstation (y/n)? "
-read machine_type
+printf "y for laptop: "
+read verdict
+if [[ $verdict = "y" ]];then
+    machine_type="laptop"
+else
+    machine_type="workstation"
+fi
 printf $machine_type
 
 # -Q --no-build-output is broken
@@ -22,18 +27,18 @@ sudo chown -R udontur:777 ./.git
 git add .
 git commit -m "$currentDate" &> git-commit.log
 
-read -p "Back it up? " user_input
+# read -p "Back it up? " user_input
 
-printf "\033[A\033[K\033[A\033[K"
+# printf "\033[A\033[K\033[A\033[K"
 
-if [[ $user_input =~ ^[Yy]$ ]]; then
-    git push origin HEAD &> git-sync.log || (git push origin main && exit 1)
-    if [ $? -ne 0 ]; then
-        printf "\033[A\033[KError: Failed to back up :c\n"
-        exit 1
-    else
-        printf "\033[A\033[KEnjoy your system! :D\n"
-    fi
-else
-    printf "NOT backed up :c\n"
+# if [[ $user_input =~ ^[Yy]$ ]]; then
+#     git push origin HEAD &> git-sync.log || (git push origin main && exit 1)
+#     if [ $? -ne 0 ]; then
+#         printf "\033[A\033[KError: Failed to back up :c\n"
+#         exit 1
+#     else
+#         printf "\033[A\033[KEnjoy your system! :D\n"
+#     fi
+# else
+#     printf "NOT backed up :c\n"
 
