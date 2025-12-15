@@ -9,7 +9,7 @@
   imports = [
     ./apps/helix/helix.nix
     ./apps/kitty.nix
-    ./apps/easyeffects.nix
+    ./apps/easyeffects/easyeffects.nix
     ./quickshell/dms.nix
 
     ./term/btop/btop.nix
