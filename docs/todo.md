@@ -6,9 +6,7 @@
 ### ✨ Features
 - [ ] docs: add my Linux journey to documentation
 - [ ] vscode: remove the top 3 buttons (- O X)
-add zen todos
-add gnome application list
-add stuff to declare and not declare
+- [ ] rclone: full support for proton (coming soon for proton)
 
 ### Future Features
 - [ ] niri: switch to niri
@@ -20,9 +18,7 @@ add stuff to declare and not declare
   - Keybinds (some match hyprland, some don't)
   - There is a lot of hyprland stuff need to change to niri
   - Adapt
-- [ ] leetcode: Make LeetCode a PWA
+- [ ] nh: make it notify me when I need to active config
 
 ### 😭 Out of my reach
-- [ ] rclone: full support for proton
 - [ ] wayland: fractional scaling is sluggish
-- [ ] nh: make it notify me when I need to active config
