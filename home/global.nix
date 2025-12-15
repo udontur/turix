@@ -9,7 +9,8 @@
   imports = [
     ./apps/helix/helix.nix
     ./apps/kitty.nix
-    # Workstation: ./apps/easyeffects.nix
+    ./apps/easyeffects/easyeffects.nix
+    ./quickshell/dms.nix
 
     ./term/btop/btop.nix
     ./term/git.nix
