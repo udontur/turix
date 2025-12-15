@@ -2,16 +2,17 @@
 
 git add .
 
-branch_name=$(git branch --show-current)
-printf $branch_name
+printf "Workstation (y/n)? "
+read machine_type
+printf $machine_type
 
 # -Q --no-build-output is broken
-nh os switch --hostname $branch_name
-# sudo nixos-rebuild switch --flake ./hosts/$branch_name#$branch_name --install-bootloader 
+nh os switch --hostname $machine_type
+# sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader 
 
 notify-send "NixOS finished rebuilding!"
 
-if [[ $branch_name = "laptop" ]]; then
+if [[ $machine_type = "laptop" ]]; then
     currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
 else
     currentDate=$(date +"WRK: %Y-%m-%d %H:%M:%S")
@@ -35,4 +36,4 @@ if [[ $user_input =~ ^[Yy]$ ]]; then
     fi
 else
     printf "NOT backed up :c\n"
-fi
+
