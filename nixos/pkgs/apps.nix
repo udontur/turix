@@ -32,6 +32,11 @@
     vesktop
     loupe
 
+    spotifyd
+    spotify-qt
+    spotify-player
+    spotify
+
     # Terminal apps
     fastfetch
     helix
