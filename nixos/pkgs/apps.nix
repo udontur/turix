@@ -28,7 +28,7 @@
     figma-linux
     gnome-font-viewer
     obs-studio
-    ungoogled-chromium
+    chromium
     vesktop
     loupe
 
