@@ -13,6 +13,7 @@
     # Temporary
     # gnome-system-monitor
     # impression
+    steam
   ];
 
   # Virtual Machine
