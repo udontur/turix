@@ -11,12 +11,13 @@
     # Core apps
     kitty
     inputs.zen-browser.packages."${system}".beta
-    inputs.leetcode.packages."${system}".default
     nautilus
     obsidian
 
     # Apps
     vscode
+    inputs.leetcode.packages."${system}".default
+    inputs.figma.packages."${system}".default
     gnome-calculator
     pdfarranger
     kdePackages.kdenlive
@@ -26,7 +27,6 @@
     papers
     slack
     protonvpn-gui
-    figma-linux
     gnome-font-viewer
     obs-studio
     chromium

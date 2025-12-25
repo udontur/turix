@@ -18,6 +18,7 @@
     osc.url = "github:udontur/osc";
     umpire.url = "github:udontur/umpire";
     leetcode.url = "github:udontur/leetcode-desktop";
+    figma.url="github:udontur/figma-desktop";
 
     # Quickshell
     dgop = {
