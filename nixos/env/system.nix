@@ -41,6 +41,7 @@
         AutoEnable = true;
       };
   };
+  };
 
   # Grub theme
   boot.loader.grub = {
