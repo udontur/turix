@@ -421,11 +421,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1766649480,
-        "narHash": "sha256-Nd1q7xWpINhIIXZMOPOYDCG+V/cVQNVfy57yGCIpHUc=",
+        "lastModified": 1766652155,
+        "narHash": "sha256-TcWluoFaXYNtx1x9CVXJd4YnPIlgsnBOvFikwf2ZS9g=",
         "owner": "udontur",
         "repo": "leetcode-desktop",
-        "rev": "4a88d29b3cfdaee0c2f6177753e6d553e7d21083",
+        "rev": "901594277451819afbc27b41339e1e9ed75ef0c9",
         "type": "github"
       },
       "original": {
