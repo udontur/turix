@@ -18,7 +18,6 @@
     vscode
     inputs.leetcode.packages."${system}".default
     inputs.figma.packages."${system}".default
-    inputs.hadrian.packages."${system}".default
     gnome-calculator
     pdfarranger
     kdePackages.kdenlive
@@ -28,6 +27,7 @@
     papers
     slack
     protonvpn-gui
+    godot
     gnome-font-viewer
     obs-studio
     chromium
