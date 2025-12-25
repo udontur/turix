@@ -11,6 +11,7 @@
     # Core apps
     kitty
     inputs.zen-browser.packages."${system}".beta
+    inputs.leetcode.packages."${system}".default
     nautilus
     obsidian
 

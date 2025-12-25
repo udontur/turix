@@ -416,7 +416,41 @@
         "type": "github"
       }
     },
+    "leetcode": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1766634146,
+        "narHash": "sha256-3BEwcRR+WyVZI0XethCXIQyMpsMmzTVWfeX6tbVU+8Y=",
+        "owner": "udontur",
+        "repo": "leetcode-desktop",
+        "rev": "c185d6d839ec705c9d440017d586d25a49e84252",
+        "type": "github"
+      },
+      "original": {
+        "owner": "udontur",
+        "repo": "leetcode-desktop",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
+      "locked": {
+        "lastModified": 1766399428,
+        "narHash": "sha256-vS6LSOMDOB3s+L6tqw9IGujxnmUAZQnEG+Vi640LayI=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "a6c3a6141ec1b367c58ead3f7f846c772a25f4e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-25.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
       "locked": {
         "lastModified": 1762111121,
         "narHash": "sha256-4vhDuZ7OZaZmKKrnDpxLZZpGIJvAeMtK6FKLJYUtAdw=",
@@ -432,7 +466,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_2": {
+    "nixpkgs_3": {
       "locked": {
         "lastModified": 1753429684,
         "narHash": "sha256-9h7+4/53cSfQ/uA3pSvCaBepmZaz/dLlLVJnbQ+SJjk=",
@@ -448,7 +482,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_3": {
+    "nixpkgs_4": {
       "locked": {
         "lastModified": 1750741721,
         "narHash": "sha256-Z0djmTa1YmnGMfE9jEe05oO4zggjDmxOGKwt844bUhE=",
@@ -464,7 +498,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_4": {
+    "nixpkgs_5": {
       "locked": {
         "lastModified": 1762977756,
         "narHash": "sha256-4PqRErxfe+2toFJFgcRKZ0UI9NSIOJa+7RXVtBhy4KE=",
@@ -482,7 +516,7 @@
     },
     "osc": {
       "inputs": {
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_3"
       },
       "locked": {
         "lastModified": 1762232671,
@@ -527,7 +561,8 @@
         "dgop": "dgop",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
-        "nixpkgs": "nixpkgs",
+        "leetcode": "leetcode",
+        "nixpkgs": "nixpkgs_2",
         "osc": "osc",
         "umpire": "umpire",
         "zen-browser": "zen-browser"
@@ -550,7 +585,7 @@
     },
     "umpire": {
       "inputs": {
-        "nixpkgs": "nixpkgs_3"
+        "nixpkgs": "nixpkgs_4"
       },
       "locked": {
         "lastModified": 1760178534,
@@ -610,7 +645,7 @@
     "zen-browser": {
       "inputs": {
         "home-manager": "home-manager_2",
-        "nixpkgs": "nixpkgs_4"
+        "nixpkgs": "nixpkgs_5"
       },
       "locked": {
         "lastModified": 1765084755,
