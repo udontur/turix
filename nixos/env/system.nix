@@ -7,7 +7,6 @@
 }:
 
 {
-
   # This is to fix frequent Bluetooth audio dropouts.
   boot.extraModprobeConfig = ''
     # Keep Bluetooth coexistence disabled for better BT audio stability
