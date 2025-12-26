@@ -16,6 +16,8 @@
 
     # Apps
     vscode
+    inputs.leetcode.packages."${system}".default
+    inputs.figma.packages."${system}".default
     gnome-calculator
     pdfarranger
     kdePackages.kdenlive
@@ -25,7 +27,7 @@
     papers
     slack
     protonvpn-gui
-    figma-linux
+    godot
     gnome-font-viewer
     obs-studio
     chromium

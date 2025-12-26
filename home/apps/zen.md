@@ -7,7 +7,7 @@ layers.gpu-process.enabled = true
 layers.gpu-process.allow-software = true
 widget.wayland.fractional-scale.enabled = true
 gfx.webrender.all = true
-
+browser.tabs.dragDrop.pinInteractionCue.delayMS = 2000 
 `home` or `gg` Top of the page
 `end` or `G` Bottom of the page
 `j` down
@@ -28,5 +28,4 @@ map t createTab
 map ge Vomnibar.activateEditUrlInNewTab
 unmap X
 unmap x
-```
-
+``` 
