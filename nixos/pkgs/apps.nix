@@ -28,6 +28,7 @@
     slack
     protonvpn-gui
     godot
+    impression
     gnome-font-viewer
     obs-studio
     chromium
