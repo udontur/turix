@@ -8,7 +8,6 @@
   home.packages = with pkgs; [
     hyprcursor
     hyprnome
-    hyprpolkitagent
     brightnessctl
     wl-clipboard
     libnotify

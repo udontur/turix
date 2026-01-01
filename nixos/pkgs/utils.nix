@@ -13,7 +13,6 @@
     hyprpicker
     yt-dlp
     git
-    hyprshot
     rclone
     nmap
     ffmpeg

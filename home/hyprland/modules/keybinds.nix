@@ -32,8 +32,7 @@
         bind = SUPER, V, exec, code
         bind = SUPER, B, exec, kitty btop
 
-        bind = SUPER, S, exec, hyprshot -m region -z --clipboard-only
-        bind = SUPER_Shift, S, exec, hyprshot -m region -z
+        bind = SUPER, S, exec, dms screenshot
         bind = SUPER, C, exec, hyprpicker -a -f hex
 
         # Windows and Workspace
