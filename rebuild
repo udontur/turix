@@ -25,4 +25,4 @@ fi
 
 sudo chown -R udontur:777 ./.git
 git add .
-git commit -m "$currentDate" &> git-commit.log
+git commit -m "$currentDate"

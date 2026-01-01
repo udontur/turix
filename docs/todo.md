@@ -22,3 +22,14 @@
 
 ### 😭 Out of my reach
 - [ ] wayland: fractional scaling is sluggish
+
+vscode not trasparent
+rice zen
+dms use the new versions
+move the hardware comnfig and flake lock
+fix gtk theme
+do not make dms delcerative
+format nix fmt
+remove gdm and start hyprland directly and autologin
+harness entire DMS
+rebuild with entire flake workstation

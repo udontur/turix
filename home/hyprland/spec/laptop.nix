@@ -10,16 +10,15 @@
   home.file = {
     "/home/udontur/.config/hypr/modules/spec.conf" = {
       text = ''
-        # Laptop lock switch     
+        # Laptop lock switch
         bindl = ,switch:Lid Switch, exec, hyprlock
-        exec-once = hyprlock
 
         # Monitor
-        monitor=eDP-1, 1920x1200@60, 0x0, 1
+        monitor=eDP-1, 3072x1920@165, 0x0, 1.5
 
         # Trackpad
         device{
-            name=syna0680:00-06cb:ce44-touchpad
+            name=gxtp7867:00-27c6:0f90-touchpad
             sensitivity=-0.2
         }
         gestures{

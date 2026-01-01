@@ -12,6 +12,10 @@
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    dms = {
+      url = "github:AvengeMedia/DankMaterialShell/stable";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Apps
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
@@ -19,17 +23,6 @@
     umpire.url = "github:udontur/umpire";
     leetcode.url = "github:udontur/leetcode-desktop";
     figma.url="github:udontur/figma-desktop";
-
-    # Quickshell
-    dgop = {
-      url = "github:AvengeMedia/dgop";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    dankMaterialShell = {
-      url = "github:AvengeMedia/DankMaterialShell";
-      inputs.nixpkgs.follows = "nixpkgs";
-      inputs.dgop.follows = "dgop";
-    };
   };
 
   outputs =
