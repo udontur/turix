@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-git add .
+git add . &> /dev/null
+treefmt &> /dev/null
 
 printf "y for laptop: "
 read verdict
+
 if [[ $verdict = "y" ]];then
     machine_type="laptop"
 else
@@ -11,18 +13,17 @@ else
 fi
 # printf $machine_type
 
-# -Q --no-build-output is broken
-nh os switch --hostname $machine_type
-# sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader 
-
-notify-send "NixOS finished rebuilding!"
+sudo chown -R udontur:777 ./.git > /dev/null
 
 if [[ $machine_type = "laptop" ]]; then
     currentDate=$(date +"LAP: %Y-%m-%d %H:%M:%S")
 else
     currentDate=$(date +"WRK: %Y-%m-%d %H:%M:%S")
 fi
+git commit -m "$currentDate" > /dev/null
 
-sudo chown -R udontur:777 ./.git
-git add .
-git commit -m "$currentDate"
+# -Q --no-build-output is broken
+nh os switch --hostname $machine_type
+# sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader 
+
+notify-send "NixOS finished rebuilding!"

@@ -58,9 +58,4 @@
     bluetui
     bluez
   ];
-
-  # Remove printer app
-  # environment.extraSetup = ''
-  # rm -f $out/share/applications/cups.desktop
-  # '';
 }

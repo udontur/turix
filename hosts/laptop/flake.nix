@@ -8,12 +8,14 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    # Env
     hyprland = {
       url = "github:hyprwm/Hyprland";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     dms = {
-      url = "github:AvengeMedia/DankMaterialShell/stable";
+      url = "github:AvengeMedia/DankMaterialShell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
@@ -22,7 +24,7 @@
     osc.url = "github:udontur/osc";
     umpire.url = "github:udontur/umpire";
     leetcode.url = "github:udontur/leetcode-desktop";
-    figma.url="github:udontur/figma-desktop";
+    figma.url = "github:udontur/figma-desktop";
   };
 
   outputs =

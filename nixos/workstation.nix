@@ -12,7 +12,6 @@
     ./global.nix
 
     # Specs (Workstation)
-    ./pkgs/spec/workstation.nix
     ./env/spec/workstation.nix
   ];
 }

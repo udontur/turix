@@ -12,7 +12,6 @@
     ./global.nix
 
     # Specs (Laptop)
-    ./pkgs/spec/laptop.nix
     ./env/spec/laptop.nix
   ];
 }

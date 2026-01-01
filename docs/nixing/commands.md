@@ -13,3 +13,7 @@ nh clean all
 nix-store --optimise
 ```
 
+## Formatting
+```bash
+treefmt
+```

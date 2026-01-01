@@ -33,3 +33,4 @@ format nix fmt
 remove gdm and start hyprland directly and autologin
 harness entire DMS
 rebuild with entire flake workstation
+migrate to Zed editor
