@@ -26,8 +26,7 @@
   };
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Kernel version
-  boot.kernelPackages = pkgs.linuxPackages_6_17;
+
 
   # Networking
   networking.networkmanager.enable = true;
