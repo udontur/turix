@@ -19,7 +19,6 @@
     inputs.leetcode.packages."${system}".default
     inputs.figma.packages."${system}".default
     gnome-calculator
-    pdfarranger
     kdePackages.kdenlive
     papers
     foliate
