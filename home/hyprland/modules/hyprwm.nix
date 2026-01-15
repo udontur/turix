@@ -10,14 +10,10 @@
     "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text = ''
         # Nautilus transparent
-        windowrulev2 = opacity 0.8, class:org.gnome.Nautilus
+        windowrule = opacity 0.8, match:class org.gnome.Nautilus
 
         # VSCode transparent
-        windowrulev2 = opacity 0.9, class:code
-
-        # IDK what are these
-        windowrulev2 = suppressevent maximize, class:.*
-        windowrulev2 = nofocus,class:^$,title:^$,xwayland:1,floating:1,fullscreen:0,pinned:0
+        windowrule = opacity 0.9, match:class code
 
         general {
           gaps_in = 4

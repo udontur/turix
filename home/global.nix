@@ -10,7 +10,6 @@
     ./apps/helix/helix.nix
     ./apps/kitty.nix
     ./apps/easyeffects/easyeffects.nix
-    ./quickshell/dms.nix
 
     ./term/btop/btop.nix
     ./term/git.nix
@@ -28,7 +27,5 @@
     ./hyprland/modules/system.nix
     ./hyprland/modules/others.nix
     # uni: ./hyprland/spec/: laptop or workstation
-
-    inputs.dms.homeModules.dankMaterialShell.default
   ];
 }

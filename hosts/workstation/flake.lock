@@ -54,6 +54,26 @@
         "type": "github"
       }
     },
+    "dms-plugin-registry": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1768418297,
+        "narHash": "sha256-5LlH8V3MiHhUMXzWtF2QEPtbetb7YujCfwqYuoGjVWE=",
+        "owner": "AvengeMedia",
+        "repo": "dms-plugin-registry",
+        "rev": "ffa833c380816bc4394e11b1198359130ecc8a77",
+        "type": "github"
+      },
+      "original": {
+        "owner": "AvengeMedia",
+        "repo": "dms-plugin-registry",
+        "type": "github"
+      }
+    },
     "figma": {
       "inputs": {
         "nixpkgs": "nixpkgs"
@@ -652,6 +672,7 @@
     "root": {
       "inputs": {
         "dms": "dms",
+        "dms-plugin-registry": "dms-plugin-registry",
         "figma": "figma",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
