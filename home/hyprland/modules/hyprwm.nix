@@ -13,7 +13,7 @@
         windowrule = opacity 0.8, match:class org.gnome.Nautilus
 
         # VSCode transparent
-        windowrule = opacity 0.9, mathc:class code
+        windowrule = opacity 0.9, match:class code
 
         general {
           gaps_in = 4

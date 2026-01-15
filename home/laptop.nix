@@ -13,5 +13,5 @@
   home.stateVersion = "24.11";
   home.username = "udontur";
   home.homeDirectory = "/home/udontur";
-  programs.dankMaterialShell.enable = true;
+  programs.dank-material-shell.enable = true;
 }

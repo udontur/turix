@@ -1,5 +1,5 @@
 { pkgs, config, ... }:
 
 {
-  programs.dankMaterialShell.enable = true;
+  programs.dank-material-shell.enable = true;
 }
