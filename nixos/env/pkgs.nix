@@ -14,6 +14,9 @@
 
   ];
 
+  # Dank Material Shell
+  programs.dms-shell.enable = true;
+
   # For VSCode sign in and sync
   services.gnome.gnome-keyring.enable = true;
 

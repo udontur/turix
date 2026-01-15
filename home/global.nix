@@ -28,7 +28,5 @@
     ./hyprland/modules/system.nix
     ./hyprland/modules/others.nix
     # uni: ./hyprland/spec/: laptop or workstation
-
-    inputs.dms.homeModules.dank-material-shell.default
   ];
 }
