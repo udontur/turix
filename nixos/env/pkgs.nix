@@ -22,7 +22,7 @@
     package = inputs.dms.packages.${pkgs.stdenv.hostPlatform.system}.default;
     plugins = {
       emojiLauncher.enable = true;
-      calculatorr.enable = true;
+      calculator.enable = true;
       dankPomodoroTimer.enable = true;
       powerUsagePlugin.enable = true;
     };
