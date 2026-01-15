@@ -1,57 +1,18 @@
 {
+  "powerUsagePlugin": {
+    "enabled": true
+  },
+  "nixMonitor": {
+    "enabled": true
+  },
   "emojiLauncher": {
     "enabled": true
   },
-  "powerUsagePlugin": {
-    "enabled": false,
-    "selectedPopout": "processList"
+  "dankPomodoroTimer": {
+    "enabled": true
   },
   "calculator": {
     "enabled": true,
     "trigger": "="
-  },
-  "webSearch": {
-    "enabled": true,
-    "searchEngines": [
-      {
-        "id": "nixpkgs",
-        "name": "Nix Packages",
-        "icon": "nixpkgs",
-        "url": "https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=%s",
-        "keywords": [
-          "nixpkgs",
-          "nixpkg",
-          "nixpk"
-        ]
-      },
-      {
-        "id": "nix",
-        "name": "Nix Search",
-        "icon": "nix",
-        "url": "https://mynixos.com/search?q=%s",
-        "keywords": [
-          "nix"
-        ]
-      },
-      {
-        "id": "startpage",
-        "name": "StartPage",
-        "icon": "startpage",
-        "url": "https://www.startpage.com/do/dsearch?q=%s",
-        "keywords": [
-          "startpage",
-          "sp"
-        ]
-      }
-    ],
-    "defaultEngine": "brave"
-  },
-  "dankBatteryAlerts": {
-    "enabled": false,
-    "warningThreshold": 40,
-    "criticalThreshold": 20
-  },
-  "dankPomodoroTimer": {
-    "enabled": true
   }
 }
