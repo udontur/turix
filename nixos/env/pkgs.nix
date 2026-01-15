@@ -15,7 +15,10 @@
   ];
 
   # Dank Material Shell
-  programs.dms-shell.enable = true;
+  programs.dms-shell = {
+    enable = true;
+    package = inputs.dms.packages.${pkgs.stdenv.hostPlatform.system}.default;
+  }
 
   # For VSCode sign in and sync
   services.gnome.gnome-keyring.enable = true;
