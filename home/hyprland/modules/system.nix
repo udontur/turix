@@ -12,7 +12,7 @@
         # System launch
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = bash -c "wl-paste --watch cliphist store &"
-        exec-once = nohup easyeffects
+        exec-once = nohup easyeffects --gapplication-service
 
         # App Launch
         exec-once = zen
