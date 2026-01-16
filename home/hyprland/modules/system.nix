@@ -10,7 +10,6 @@
     "/home/udontur/.config/hypr/modules/system.conf" = {
       text = ''
         # System launch
-        exec-once = dms run
         exec-once = hyprctl setcursor Bibata-Modern-Ice 25
         exec-once = bash -c "wl-paste --watch cliphist store &"
         exec-once = nohup easyeffects
