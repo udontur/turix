@@ -23,7 +23,7 @@ fi
 git commit -m "$currentDate" > /dev/null
 
 # -Q --no-build-output is broken
-nh os switch --hostname $machine_type --verbose
-# sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader 
+# nh os switch --hostname $machine_type --verbose
+sudo nixos-rebuild switch --flake ./hosts/$machine_type#$machine_type --install-bootloader 
 
 notify-send "NixOS finished rebuilding!"
