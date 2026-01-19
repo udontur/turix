@@ -11,7 +11,7 @@
     brightnessctl
     wl-clipboard
     libnotify
-    xdg-desktop-portal
+    xdg-desktop-portal-wlr
   ];
   wayland.windowManager.hyprland = {
     enable = true;

@@ -28,6 +28,7 @@
         # Apps
         bind = SUPER, Q, exec, kitty
         bind = SUPER, E, exec, nautilus
+        bind = SUPER_Shift, E, exec, easyeffects
         bind = SUPER, F, exec, zen
         bind = SUPER, V, exec, code
         bind = SUPER, B, exec, kitty btop
