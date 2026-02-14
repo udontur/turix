@@ -33,6 +33,7 @@
     chromium
     vesktop
     loupe
+    
 
     # Terminal apps
     fastfetch

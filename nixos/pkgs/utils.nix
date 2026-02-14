@@ -21,5 +21,6 @@
     upower
     asar
     tree
+    inputs.fix-python.packages."${system}".default
   ];
 }
