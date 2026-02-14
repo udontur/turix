@@ -29,7 +29,7 @@
     umpire.url = "github:udontur/umpire";
     leetcode.url = "github:udontur/leetcode-desktop";
     figma.url = "github:udontur/figma-desktop";
-    fix-python = "github:GuillaumeDesforges/fix-python";
+    fix-python.url = "github:GuillaumeDesforges/fix-python";
   };
 
   outputs =
