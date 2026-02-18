@@ -34,6 +34,7 @@
     vesktop
     loupe
     unetbootin
+    bootiso
 
     # Terminal apps
     fastfetch
