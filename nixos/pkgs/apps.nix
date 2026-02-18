@@ -33,6 +33,7 @@
     chromium
     vesktop
     loupe
+    unetbootin
 
     # Terminal apps
     fastfetch
