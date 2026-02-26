@@ -23,17 +23,14 @@
     papers
     foliate
     hieroglyphic
-    papers
     slack
     protonvpn-gui
     godot
-    impression
-    gnome-font-viewer
     obs-studio
     chromium
     vesktop
     loupe
-    unetbootin
+    opencode
     bootiso
 
     # Terminal apps
