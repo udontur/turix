@@ -20,7 +20,7 @@
     inputs.figma.packages."${system}".default
     gnome-calculator
     papers
-    openshot-qt
+    shotcut
     foliate
     hieroglyphic
     slack
