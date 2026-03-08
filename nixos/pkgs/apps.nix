@@ -19,19 +19,17 @@
     inputs.leetcode.packages."${system}".default
     inputs.figma.packages."${system}".default
     gnome-calculator
-    kdePackages.kdenlive
     papers
+    openshot-qt
     foliate
     hieroglyphic
     slack
     protonvpn-gui
-    godot
     obs-studio
-    chromium
+    vivaldi
     vesktop
     loupe
     opencode
-    bootiso
 
     # Terminal apps
     fastfetch
