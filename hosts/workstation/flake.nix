@@ -57,7 +57,6 @@
           modules = [
             ../../nixos/workstation.nix
             home-manager.nixosModules.home-manager
-            vicinae.homeManagerModules.default
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
@@ -65,6 +64,7 @@
               home-manager.backupFileExtension = "backup";
               home-manager.users.udontur = import ../../home/workstation.nix;
             }
+            vicinae.homeManagerModules.default
           ];
         };
       };
