@@ -1,4 +1,5 @@
-
+{pkg, config, vicinae, ...}:
+{
   services.vicinae = {
     enable = true;
     systemd = {
@@ -41,3 +42,4 @@
       # Extension names can be found in the link below, it's just the folder names
     ];
   };
+}
