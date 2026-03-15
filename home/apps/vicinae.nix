@@ -1,4 +1,10 @@
-{pkg, config, vicinae, ...}:
+{
+  pkg,
+  config,
+  vicinae,
+  inputs,
+  ...
+}:
 {
   services.vicinae = {
     enable = true;
