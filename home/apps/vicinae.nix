@@ -1,5 +1,5 @@
 {
-  pkg,
+  pkgs,
   config,
   vicinae,
   inputs,
