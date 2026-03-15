@@ -28,7 +28,7 @@
       font = {
         normal = {
           size = 12;
-          family = "Maple Nerd Font";
+          family = "Inter";
         };
       };
       theme = {
@@ -42,7 +42,7 @@
         };
       };
       launcher_window = {
-        opacity = 0.98;
+        opacity = 0.8;
       };
     };
     extensions = with inputs.vicinae-extensions.packages.${pkgs.stdenv.hostPlatform.system}; [
