@@ -20,7 +20,6 @@
     inputs.figma.packages."${system}".default
     gnome-calculator
     papers
-    vicinae
     foliate
     hieroglyphic
     slack

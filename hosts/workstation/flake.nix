@@ -30,6 +30,7 @@
     leetcode.url = "github:udontur/leetcode-desktop";
     figma.url = "github:udontur/figma-desktop";
     fix-python.url = "github:GuillaumeDesforges/fix-python";
+    vicinae.url = "github:vicinaehq/vicinae";
   };
 
   outputs =
@@ -50,6 +51,7 @@
           specialArgs = { inherit inputs; };
           modules = [
             ../../nixos/workstation.nix
+            vicinae.homeManagerModules.default
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;

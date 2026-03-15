@@ -10,6 +10,7 @@
     ./apps/helix/helix.nix
     ./apps/kitty.nix
     ./apps/easyeffects/easyeffects.nix
+    ./apps/vicinae.nix
 
     ./term/btop/btop.nix
     ./term/git.nix
