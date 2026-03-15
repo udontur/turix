@@ -20,17 +20,17 @@
 
         # Trackpad
         device{
-            name=gxtp7867:00-27c6:0f90-touchpad
-            sensitivity=-0.2
+          name=gxtp7867:00-27c6:0f90-touchpad
+          sensitivity=-0.2
         }
         gestures{
           workspace=false
         }
         input {
-            touchpad{
-              natural_scroll=true
-              scroll_factor=0.15
-            }
+          touchpad{
+            natural_scroll=true
+            scroll_factor=0.15
+          }
         }
       '';
     };

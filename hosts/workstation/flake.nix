@@ -68,8 +68,9 @@
         };
       };
       homeConfigurations."..." = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages."<system>"; # e.g. x86_64-linux
-        modules = [ vicinae.homeManagerModules.default ];
+        modules = [
+          vicinae.homeManagerModules.default
+        ];
       };
     };
 }
