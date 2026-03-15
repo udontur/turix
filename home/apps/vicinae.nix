@@ -7,7 +7,9 @@
   ...
 }:
 {
-    imports = [ inputs.vicinae.homeManagerModules.default ];
+  imports = [
+    inputs.vicinae.homeManagerModules.default
+  ];
   services.vicinae = {
     enable = true;
     systemd = {
@@ -44,9 +46,12 @@
       };
     };
     extensions = with inputs.vicinae-extensions.packages.${pkgs.stdenv.hostPlatform.system}; [
-      bluetooth
+      # bluetooth # it's broken
       nix
       power-profile
+      color-converter
+      fuzzy-files
+      html-symbol-finder
       # Extension names can be found in the link below, it's just the folder names
     ];
   };
