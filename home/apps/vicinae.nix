@@ -1,7 +1,8 @@
 {
   pkgs,
   config,
-  # vicinae,
+  vicinae,
+  vicinae-extensions,
   inputs,
   ...
 }:
