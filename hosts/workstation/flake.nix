@@ -31,7 +31,7 @@
     figma.url = "github:udontur/figma-desktop";
     fix-python.url = "github:GuillaumeDesforges/fix-python";
     vicinae.url = "github:vicinaehq/vicinae";
-    inputs.vicinae-extensions = {
+    vicinae-extensions = {
       url = "github:vicinaehq/extensions";
       inputs.nixpkgs.follows = "nixpkgs";
     };
