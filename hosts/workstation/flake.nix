@@ -56,8 +56,8 @@
           specialArgs = { inherit inputs; };
           modules = [
             ../../nixos/workstation.nix
-            vicinae.homeManagerModules.default
             home-manager.nixosModules.home-manager
+            vicinae.homeManagerModules.default
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
