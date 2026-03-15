@@ -22,6 +22,11 @@
       url = "github:AvengeMedia/dms-plugin-registry";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    vicinae.url = "github:vicinaehq/vicinae";
+    vicinae-extensions = {
+      url = "github:vicinaehq/extensions";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Apps
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
@@ -30,11 +35,6 @@
     leetcode.url = "github:udontur/leetcode-desktop";
     figma.url = "github:udontur/figma-desktop";
     fix-python.url = "github:GuillaumeDesforges/fix-python";
-    vicinae.url = "github:vicinaehq/vicinae";
-    vicinae-extensions = {
-      url = "github:vicinaehq/extensions";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
   };
 
   outputs =
@@ -64,9 +64,12 @@
               home-manager.backupFileExtension = "backup";
               home-manager.users.udontur = import ../../home/workstation.nix;
             }
-            vicinae.homeManagerModules.default
           ];
         };
+      };
+      homeConfigurations."..." = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages."<system>"; # e.g. x86_64-linux
+        modules = [ vicinae.homeManagerModules.default ];
       };
     };
 }
