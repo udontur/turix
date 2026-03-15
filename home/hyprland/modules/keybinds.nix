@@ -14,7 +14,7 @@
         bind = SUPER, Delete, exec, dms ipc call powermenu toggle
         bind = SUPER, L, exec, hyprlock
         bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
-        bindr = SUPER, SUPER_L, exec, dms ipc call spotlight toggle
+        bindr = SUPER, SUPER_L, exec, vicinae
         bindr = SUPER, D, exec, dms ipc call clipboard toggle
 
         # Media controls
