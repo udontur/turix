@@ -15,7 +15,7 @@
         exec-once = nohup easyeffects --gapplication-service
 
         # App Launch
-        exec-once = zen
+        exec-once = zen-beta
 
         # Environment Variables
         env = XCURSOR_THEME, Bibata-Modern-Ice
