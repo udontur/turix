@@ -39,6 +39,7 @@
       nixpkgs,
       home-manager,
       hyprland,
+      vicinae,
       ...
     }@inputs:
     let
