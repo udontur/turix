@@ -19,10 +19,6 @@
     clang-tools
     gnumake
     cmake
-    fmt
-
-    # GTK
-    glade
 
     # Python
     python312
@@ -37,9 +33,6 @@
 
     # Web dev
     bun
-    nodePackages_latest.nodejs
-    hexo-cli
-    electron
 
     # Nix
     nix-init

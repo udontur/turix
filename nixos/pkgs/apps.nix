@@ -15,7 +15,8 @@
     obsidian
 
     # Apps
-    vscode
+    vscode # legacy soon
+    zed-editor
     inputs.leetcode.packages."${system}".default
     inputs.figma.packages."${system}".default
     gnome-calculator
