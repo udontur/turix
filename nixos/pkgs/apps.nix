@@ -29,7 +29,6 @@
     vivaldi
     vesktop
     loupe
-    opencode
 
     # Terminal apps
     fastfetch
@@ -40,12 +39,4 @@
     inputs.umpire.packages."${system}".default
     inputs.osc.packages."${system}".default
   ];
-  programs.steam = {
-    enable = true;
-    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  };
-
-  # This thing is broken again!!!
-  # virtualisation.vmware.host.enable = true;
 }

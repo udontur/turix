@@ -8,31 +8,9 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # Temporary
-
-    # Developer
-    # inputs.umpire.packages.${system}.default
-    # inputs.osc.packages.${system}.default
-
-    # CPP
+    # Competitive Programming
     gcc
-    clang-tools
-    gnumake
-    cmake
-
-    # Python
     python312
-    uv
-    ruff
-
-    # Rust
-    rustc
-    cargo
-    rustup
-    rustfmt
-
-    # Web dev
-    bun
 
     # Nix
     nix-init
