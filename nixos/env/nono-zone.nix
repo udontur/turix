@@ -25,14 +25,14 @@
     device = "nodev";
     useOSProber = true;
     extraEntries = ''
-      menuentry "Fedora (Manual)" --class fedora --class os {
+      menuentry "Fedora Workstation" --class fedora --class os {
         insmod part_gpt
         insmod btrfs
         insmod search_fs_uuid
-        
+
         # Replace with your Fedora Partition UUID from 'lsblk -f'
-        search --no-floppy --fs-uuid --set=root YOUR-FEDORA-UUID
-        
+        search --no-floppy --fs-uuid --set=root cf3dcfe0-5385-4844-8c8a-e197a1652f58
+
         # This points to the EFI stub on the ESP (EFI System Partition)
         # GRUB usually finds the Fedora shim which then handles the Btrfs kernel loading
         chainloader /EFI/fedora/shimx64.efi
