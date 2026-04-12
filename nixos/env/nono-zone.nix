@@ -31,7 +31,7 @@
         insmod search_fs_uuid
 
         # Replace with your Fedora Partition UUID from 'lsblk -f'
-        search --no-floppy --fs-uuid --set=root cf3dcfe0-5385-4844-8c8a-e197a1652f58
+        # search --no-floppy --fs-uuid --set=root cf3dcfe0-5385-4844-8c8a-e197a1652f58
 
         # This points to the EFI stub on the ESP (EFI System Partition)
         # GRUB usually finds the Fedora shim which then handles the Btrfs kernel loading
