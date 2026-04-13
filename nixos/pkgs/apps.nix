@@ -10,21 +10,21 @@
   environment.systemPackages = with pkgs; [
     # Core apps
     kitty
-    inputs.zen-browser.packages."${system}".beta
+    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.beta
     nautilus
     obsidian
 
     # Apps
     vscode # legacy soon
     zed-editor
-    inputs.leetcode.packages."${system}".default
-    inputs.figma.packages."${system}".default
+    inputs.leetcode.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.figma.packages.${pkgs.stdenv.hostPlatform.system}.default
     gnome-calculator
     papers
     foliate
     hieroglyphic
     slack
-    protonvpn-gui
+    proton-vpn
     obs-studio
     vivaldi
     vesktop
@@ -36,7 +36,7 @@
     btop-rocm
     yazi
     gdu
-    inputs.umpire.packages."${system}".default
-    inputs.osc.packages."${system}".default
+    inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.osc.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 }
