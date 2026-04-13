@@ -58,7 +58,7 @@
 
         bind = SUPER_Control_Shift, down, swapwindow, l
         bind = SUPER_Control_Shift, up, swapwindow, r
-        bind = SUPER, J, togglesplit,
+        bind = SUPER, J, layoutmsg, togglesplit
       '';
     };
   };

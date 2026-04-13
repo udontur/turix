@@ -10,25 +10,25 @@
   environment.systemPackages = with pkgs; [
     # Core apps
     kitty
-    inputs.zen-browser.packages."${system}".beta
+    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.beta
     nautilus
     obsidian
 
     # Apps
-    vscode
-    inputs.leetcode.packages."${system}".default
-    inputs.figma.packages."${system}".default
+    vscode # legacy soon
+    zed-editor
+    inputs.leetcode.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.figma.packages.${pkgs.stdenv.hostPlatform.system}.default
     gnome-calculator
     papers
     foliate
     hieroglyphic
     slack
-    protonvpn-gui
+    proton-vpn
     obs-studio
     vivaldi
     vesktop
     loupe
-    opencode
 
     # Terminal apps
     fastfetch
@@ -36,15 +36,7 @@
     btop-rocm
     yazi
     gdu
-    inputs.umpire.packages."${system}".default
-    inputs.osc.packages."${system}".default
+    inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.osc.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
-  programs.steam = {
-    enable = true;
-    remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
-    dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
-  };
-
-  # This thing is broken again!!!
-  # virtualisation.vmware.host.enable = true;
 }

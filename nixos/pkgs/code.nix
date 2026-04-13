@@ -8,44 +8,15 @@
 
 {
   environment.systemPackages = with pkgs; [
-    # Temporary
-
-    # Developer
-    # inputs.umpire.packages.${system}.default
-    # inputs.osc.packages.${system}.default
-
-    # CPP
+    # Competitive Programming
     gcc
-    clang-tools
-    gnumake
-    cmake
-    fmt
-
-    # GTK
-    glade
-
-    # Python
-    python312
-    uv
-    ruff
-
-    # Rust
-    rustc
-    cargo
-    rustup
-    rustfmt
-
-    # Web dev
-    bun
-    nodePackages_latest.nodejs
-    hexo-cli
-    electron
+    python314
 
     # Nix
     nix-init
     nixpkgs-hammering
     nixpkgs-fmt
+    nixfmt
     nixfmt-tree
-    nixfmt-rfc-style
   ];
 }

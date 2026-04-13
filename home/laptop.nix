@@ -10,7 +10,7 @@
 
   # The forbidden corner
   programs.home-manager.enable = true;
-  home.stateVersion = "24.11";
+  home.stateVersion = "26.05";
   home.username = "udontur";
   home.homeDirectory = "/home/udontur";
 }
