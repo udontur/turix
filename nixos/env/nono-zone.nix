@@ -14,7 +14,7 @@
       "nix-command"
       "flakes"
     ];
-  }
+  };
 
   # Enable home-manager
   environment.systemPackages = with pkgs; [

@@ -3,7 +3,8 @@
 
   inputs = {
     # System
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";nix = {
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nix = {
       url = "github:NixOS/nix/2.34.5";
       inputs.nixpkgs.follows = "nixpkgs";
     };
