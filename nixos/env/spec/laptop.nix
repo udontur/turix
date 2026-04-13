@@ -10,5 +10,5 @@
   programs.nh.flake = "/home/udontur/turix/hosts/laptop";
 
   # Kernel version
-  boot.kernelPackages = pkgs.linuxPackages_6_17;
+  boot.kernelPackages = pkgs.linuxPackages_6_19;
 }
