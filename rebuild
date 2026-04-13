@@ -3,7 +3,7 @@
 git add . &> /dev/null
 treefmt &> /dev/null
 
-printf "y for laptop: "
+printf "Using a laptop? "
 read verdict
 
 if [[ $verdict = "y" ]];then
