@@ -9,7 +9,7 @@
 {
   # Nix
   nix = {
-    package = inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default;
+    package = inputs.nix.packages.${pkgs.stdenv.hostPlatform.system}.default;
     settings.experimental-features = [
       "nix-command"
       "flakes"
