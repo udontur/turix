@@ -7,11 +7,14 @@
 }:
 
 {
-  # Enable Nix Flakes
-  nix.settings.experimental-features = [
-    "nix-command"
-    "flakes"
-  ];
+  # Nix
+  nix = {
+    package = inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default;
+    settings.experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
+  }
 
   # Enable home-manager
   environment.systemPackages = with pkgs; [
