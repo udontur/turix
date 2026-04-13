@@ -10,7 +10,7 @@
   environment.systemPackages = with pkgs; [
     # Competitive Programming
     gcc
-    python312
+    python314
 
     # Nix
     nix-init
