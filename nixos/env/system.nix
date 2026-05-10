@@ -59,14 +59,14 @@
   };
 
   # Grub theme
-  boot.loader.grub = {
-    theme = (
-      pkgs.sleek-grub-theme.override {
-        withBanner = "Grub Bootloader";
-        withStyle = "dark";
-      }
-    );
-  };
+  # boot.loader.grub = {
+  #   theme = (
+  #     pkgs.sleek-grub-theme.override {
+  #       withBanner = "Grub Bootloader";
+  #       withStyle = "dark";
+  #     }
+  #   );
+  # };
 
   # Storage cleaner
   programs.nh = {
