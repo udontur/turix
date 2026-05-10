@@ -10,15 +10,15 @@
     rocmPackages.rocm-smi
     acpi
   ];
-  home.file = {
-    "/home/udontur/.config/btop/themes/tommorow-night.theme" = {
-      source = ./tommorow-night.theme;
-    };
-  };
+  # home.file = {
+  #   "/home/udontur/.config/btop/themes/tommorow-night.theme" = {
+  #     source = ./tommorow-night.theme;
+  #   };
+  # };
   programs.btop = {
     enable = true;
     settings = {
-      color_theme = "tommorow-night";
+      # color_theme = "tommorow-night";
       theme_background = true;
       truecolor = true;
       force_tty = false;
