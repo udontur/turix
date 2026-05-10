@@ -41,7 +41,7 @@
         name = "Noto Color Emoji";
       };
     };
-  }
+  };
 
   hardware.bluetooth = {
     enable = true;
