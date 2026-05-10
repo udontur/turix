@@ -17,8 +17,6 @@
     # Apps
     vscode # legacy soon
     zed-editor
-    inputs.leetcode.packages.${pkgs.stdenv.hostPlatform.system}.default
-    inputs.figma.packages.${pkgs.stdenv.hostPlatform.system}.default
     gnome-calculator
     papers
     foliate
