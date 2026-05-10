@@ -31,13 +31,15 @@
       url = "github:vicinaehq/extensions";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    stylix = {
+      url = "github:nix-community/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Apps
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
     osc.url = "github:udontur/osc";
     umpire.url = "github:udontur/umpire";
-    leetcode.url = "github:udontur/leetcode-desktop";
-    figma.url = "github:udontur/figma-desktop";
     fix-python.url = "github:GuillaumeDesforges/fix-python";
   };
 
@@ -48,6 +50,7 @@
       home-manager,
       hyprland,
       vicinae,
+      stylix,
       ...
     }@inputs:
     let
@@ -68,6 +71,7 @@
               home-manager.backupFileExtension = "backup";
               home-manager.users.udontur = import ../../home/workstation.nix;
             }
+            stylix.nixosModules.stylix
           ];
         };
       };

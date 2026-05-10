@@ -17,6 +17,32 @@
     options iwlmvm power_scheme=1
   '';
 
+  stylix = {
+    enable=true;
+    base16Scheme="${pkgs.base16-schemes}/base16/ayu-dark";
+    fonts = {
+      serif = {
+        package = pkgs.inter;
+        name = "Inter";
+      };
+
+      sansSerif = {
+        package = pkgs.inter;
+        name = "Inter";
+      };
+
+      monospace = {
+        package = pkgs.jetbrains-mono;
+        name = "JetBrains Mono";
+      };
+
+      emoji = {
+        package = pkgs.noto-fonts-color-emoji;
+        name = "Noto Color Emoji";
+      };
+    };
+  }
+
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
