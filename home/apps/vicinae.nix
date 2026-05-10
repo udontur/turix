@@ -41,9 +41,9 @@
           icon_theme = "default";
         };
       };
-      launcher_window = {
-        opacity = 0.8;
-      };
+      # launcher_window = {
+      #   opacity = 0.8;
+      # };
     };
     extensions = with inputs.vicinae-extensions.packages.${pkgs.stdenv.hostPlatform.system}; [
       # bluetooth # it's broken
