@@ -15,7 +15,6 @@
     obsidian
 
     # Apps
-    vscode # legacy soon
     zed-editor
     gnome-calculator
     papers
@@ -23,8 +22,9 @@
     hieroglyphic
     slack
     proton-vpn
+    inputs.helium.packages.${system}.default
     obs-studio
-    vivaldi
+    zoom
     vesktop
     loupe
 
