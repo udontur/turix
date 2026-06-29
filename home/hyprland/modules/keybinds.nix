@@ -30,8 +30,9 @@
         bind = SUPER, E, exec, nautilus
         bind = SUPER_Shift, E, exec, easyeffects
         bind = SUPER, F, exec, zen-beta
-        bind = SUPER, V, exec, code
+        bind = SUPER, V, exec, zeditor
         bind = SUPER, B, exec, kitty btop
+        bind = SUPER, Z, exec, zoom
 
         bind = SUPER, S, exec, dms screenshot
         bind = SUPER, C, exec, hyprpicker -a -f hex

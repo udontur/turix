@@ -34,7 +34,7 @@
     btop-rocm
     yazi
     gdu
-    inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
-    inputs.osc.packages.${pkgs.stdenv.hostPlatform.system}.default
+    # inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
+    # inputs.osc.packages.${pkgs.stdenv.hostPlatform.system}.default
   ];
 }
