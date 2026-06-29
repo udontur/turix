@@ -122,26 +122,6 @@
         "type": "github"
       }
     },
-    "dms-plugin-registry": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1782731592,
-        "narHash": "sha256-uacAMwt/zLSMtkYdgUTCGV32CfesqqwHazyfVZOBwO0=",
-        "owner": "AvengeMedia",
-        "repo": "dms-plugin-registry",
-        "rev": "bd8370e54d219903e7dd93eeac6263ac5055a22d",
-        "type": "github"
-      },
-      "original": {
-        "owner": "AvengeMedia",
-        "repo": "dms-plugin-registry",
-        "type": "github"
-      }
-    },
     "firefox-gnome-theme": {
       "flake": false,
       "locked": {
@@ -890,7 +870,6 @@
     "root": {
       "inputs": {
         "dms": "dms",
-        "dms-plugin-registry": "dms-plugin-registry",
         "helium": "helium",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
