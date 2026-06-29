@@ -24,7 +24,7 @@
     proton-vpn
     inputs.helium.packages.${system}.default
     obs-studio
-    zoom
+    zoom-us
     vesktop
     loupe
 
