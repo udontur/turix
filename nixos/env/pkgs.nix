@@ -14,7 +14,7 @@
 
   ];
 
-  imports = [ inputs.dms-plugin-registry.modules.default ];
+  imports = [ inputs.dms.nixosModules.dank-material-shell ];
 
   # Dank Material Shell
   programs.dms-shell = {
