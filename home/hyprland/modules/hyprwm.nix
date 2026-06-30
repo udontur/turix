@@ -7,55 +7,50 @@
 }:
 {
   home.file = {
-    "/home/udontur/.config/hypr/modules/hyprwm.lua" = {
+    "/home/udontur/.config/hypr/modules/hyprwm.conf" = {
       text = ''
-        -- Nautilus transparent
-        hl.window_rule({ match = { class = "org.gnome.Nautilus" }, opacity = "0.8" })
+        # Nautilus transparent
+        windowrule = opacity 0.8, match:class org.gnome.Nautilus
 
-        -- VSCode transparent
-        hl.window_rule({ match = { class = "code" }, opacity = "0.9" })
+        # VSCode transparent
+        windowrule = opacity 0.9, match:class code
 
-        hl.config({
-          general = {
-            gaps_in  = 4,
-            gaps_out = { top = 0, right = 8, bottom = 8, left = 8 },
-            border_size = 2,
-            col = {
-              active_border   = "rgb(8ccff0)",
-              inactive_border = "rgb(707070)",
-            },
-            resize_on_border = true,
-            allow_tearing    = false,
-            layout = "dwindle",
-          },
+        general {
+          gaps_in = 4
+          gaps_out = 0, 8, 8, 8
+          border_size = 2
+          col.active_border = rgb(8ccff0)
+          col.inactive_border = rgb(707070)
+          resize_on_border = true
+          allow_tearing = false
+          layout = dwindle
+        }
 
-          decoration = {
-            rounding = 8,
-            active_opacity   = 1.0,
-            inactive_opacity = 0.9,
-            blur = {
-              enabled = true,
-              size    = 2,
-              passes  = 2,
-            },
-            shadow = {
-              enabled = false,
-            },
-          },
+        decoration {
+          rounding = 8
+          active_opacity = 1
+          inactive_opacity = 0.9
+          blur {
+            enabled = true
+            size = 2
+            passes = 2
+          }
+          shadow{
+            enabled = false
+          }
+        }
 
-          animations = {
-            enabled = true,
-          },
-        })
+        animations {
+          enabled = yes
+          bezier = bcur, 0.76, 0, 0.24, 1
+          animation = windows, 1, 4, bcur, popin 80%
+          animation = layers, 1, 4, bcur, fade
+          animation = fade, 1, 4, bcur
+          animation = border, 0
+          animation = borderangle, 0
+          animation = workspaces, 1, 6, bcur, slidefade 20%
+        }
 
-        hl.curve("bcur", { type = "bezier", points = { { 0.76, 0 }, { 0.24, 1 } } })
-
-        hl.animation({ leaf = "windows",    enabled = true,  speed = 4, bezier = "bcur", style = "popin 80%" })
-        hl.animation({ leaf = "layers",     enabled = true,  speed = 4, bezier = "bcur", style = "fade" })
-        hl.animation({ leaf = "fade",       enabled = true,  speed = 4, bezier = "bcur" })
-        hl.animation({ leaf = "border",     enabled = false })
-        hl.animation({ leaf = "borderangle", enabled = false })
-        hl.animation({ leaf = "workspaces", enabled = true,  speed = 6, bezier = "bcur", style = "slidefade 20%" })
       '';
     };
   };

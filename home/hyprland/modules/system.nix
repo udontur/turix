@@ -7,24 +7,24 @@
 }:
 {
   home.file = {
-    "/home/udontur/.config/hypr/modules/system.lua" = {
+    "/home/udontur/.config/hypr/modules/system.conf" = {
       text = ''
-        -- System launch + App launch
-        hl.on("hyprland.start", function()
-          hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 25")
-          hl.exec_cmd("wl-paste --watch cliphist store &")
-          hl.exec_cmd("nohup easyeffects --gapplication-service")
-          hl.exec_cmd("zen-beta")
-        end)
+        # System launch
+        exec-once = hyprctl setcursor Bibata-Modern-Ice 25
+        exec-once = bash -c "wl-paste --watch cliphist store &"
+        exec-once = nohup easyeffects --gapplication-service
 
-        -- Environment Variables
-        hl.env("XCURSOR_THEME", "Bibata-Modern-Ice")
-        hl.env("XCURSOR_SIZE", "25")
-        hl.env("HYPRCURSOR_THEME", "Bibata-Modern-Ice")
-        hl.env("HYPRCURSOR_SIZE", "25")
-        hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
-        hl.env("QT_QPA_PLATFORM", "wayland")
-        hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+        # App Launch
+        exec-once = zen-beta
+
+        # Environment Variables
+        env = XCURSOR_THEME, Bibata-Modern-Ice
+        env = XCURSOR_SIZE, 25
+        env = HYPRCURSOR_THEME, Bibata-Modern-Ice
+        env = HYPRCURSOR_SIZE, 25
+        env = ELECTRON_OZONE_PLATFORM_HINT , auto
+        env = QT_QPA_PLATFORM,wayland
+        env = QT_QPA_PLATFORMTHEME,qt5ct
       '';
     };
   };

@@ -8,40 +8,30 @@
 {
   # Laptop
   home.file = {
-    "/home/udontur/.config/hypr/modules/spec.lua" = {
+    "/home/udontur/.config/hypr/modules/spec.conf" = {
       text = ''
-        hl.on("hyprland.start", function()
-          hl.exec_cmd("hyprlock")
-        end)
+        exec = hyprlock
 
-        -- Laptop lock switch
-        hl.bind("switch:Lid Switch", hl.dsp.exec_cmd("hyprlock"), { locked = true })
+        # Laptop lock switch
+        bindl = ,switch:Lid Switch, exec, hyprlock
 
-        -- Monitor
-        hl.monitor({
-          output   = "eDP-1",
-          mode     = "3072x1920@165",
-          position = "0x0",
-          scale    = 1.5,
-        })
+        # Monitor
+        monitor=eDP-1, 3072x1920@165, 0x0, 1.5
 
-        -- Trackpad
-        hl.device({
-          name        = "gxtp7867:00-27c6:0f90-touchpad",
-          sensitivity = -0.2,
-        })
-
-        -- Workspace swipe gesture intentionally left unconfigured (gestures are
-        -- opt-in in 0.55; not registering one is equivalent to gestures.workspace = false)
-
-        hl.config({
-          input = {
-            touchpad = {
-              natural_scroll = true,
-              scroll_factor  = 0.15,
-            },
-          },
-        })
+        # Trackpad
+        device{
+          name=gxtp7867:00-27c6:0f90-touchpad
+          sensitivity=-0.2
+        }
+        gestures{
+          workspace=false
+        }
+        input {
+          touchpad{
+            natural_scroll=true
+            scroll_factor=0.15
+          }
+        }
       '';
     };
   };
