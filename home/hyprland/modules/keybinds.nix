@@ -7,59 +7,59 @@
 }:
 {
   home.file = {
-    "/home/udontur/.config/hypr/modules/keybinds.conf" = {
+    "/home/udontur/.config/hypr/modules/keybinds.lua" = {
       text = ''
-        # System
-        bind = SUPER, W, killactive,
-        bind = SUPER, Delete, exec, dms ipc call powermenu toggle
-        bind = SUPER, L, exec, hyprlock
-        bind = SUPER, TAB, exec, dms ipc call hypr toggleOverview
-        bindr = SUPER, SUPER_L, exec, vicinae toggle
-        bindr = SUPER, D, exec, dms ipc call clipboard toggle
+        -- System
+        hl.bind("SUPER + W", hl.dsp.window.close())
+        hl.bind("SUPER + Delete", hl.dsp.exec_cmd("dms ipc call powermenu toggle"))
+        hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
+        hl.bind("SUPER + TAB", hl.dsp.exec_cmd("dms ipc call hypr toggleOverview"))
+        hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"), { release = true })
+        hl.bind("SUPER + D", hl.dsp.exec_cmd("dms ipc call clipboard toggle"), { release = true })
 
-        # Media controls
-        bindl = , XF86AudioRaiseVolume, exec, dms ipc call audio increment 1
-        bindl = , XF86AudioLowerVolume, exec, dms ipc call audio decrement 1
-        bindl = , XF86AudioMute, exec, dms ipc call audio mute
-        bindl = , XF86AudioMicMute, exec, dms ipc call audio micmute
-        bindl = , XF86MonBrightnessUp, exec, dms ipc call brightness increment 1 ""
-        bindl = , XF86MonBrightnessDown, exec, dms ipc call brightness decrement 1 ""
+        -- Media controls
+        hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("dms ipc call audio increment 1"), { locked = true })
+        hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("dms ipc call audio decrement 1"), { locked = true })
+        hl.bind("XF86AudioMute", hl.dsp.exec_cmd("dms ipc call audio mute"), { locked = true })
+        hl.bind("XF86AudioMicMute", hl.dsp.exec_cmd("dms ipc call audio micmute"), { locked = true })
+        hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd('dms ipc call brightness increment 1 ""'), { locked = true })
+        hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd('dms ipc call brightness decrement 1 ""'), { locked = true })
 
-        # Apps
-        bind = SUPER, Q, exec, kitty
-        bind = SUPER, E, exec, nautilus
-        bind = SUPER_Shift, E, exec, easyeffects
-        bind = SUPER, F, exec, zen-beta
-        bind = SUPER, V, exec, zeditor
-        bind = SUPER, B, exec, kitty btop
-        bind = SUPER, Z, exec, zoom
+        -- Apps
+        hl.bind("SUPER + Q", hl.dsp.exec_cmd("kitty"))
+        hl.bind("SUPER + E", hl.dsp.exec_cmd("nautilus"))
+        hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("easyeffects"))
+        hl.bind("SUPER + F", hl.dsp.exec_cmd("zen-beta"))
+        hl.bind("SUPER + V", hl.dsp.exec_cmd("zeditor"))
+        hl.bind("SUPER + B", hl.dsp.exec_cmd("kitty btop"))
+        hl.bind("SUPER + Z", hl.dsp.exec_cmd("zoom"))
 
-        bind = SUPER, S, exec, dms screenshot
-        bind = SUPER, C, exec, hyprpicker -a -f hex
+        hl.bind("SUPER + S", hl.dsp.exec_cmd("dms screenshot"))
+        hl.bind("SUPER + C", hl.dsp.exec_cmd("hyprpicker -a -f hex"))
 
-        # Windows and Workspace
-        bind = SUPER, O, exec, hyprnome
-        bind = SUPER, I, exec, hyprnome --previous
-        bind = SUPER_Control, O, exec, hyprnome --move
-        bind = SUPER_Control, I, exec, hyprnome --previous --move
+        -- Windows and Workspace
+        hl.bind("SUPER + O", hl.dsp.exec_cmd("hyprnome"))
+        hl.bind("SUPER + I", hl.dsp.exec_cmd("hyprnome --previous"))
+        hl.bind("SUPER + CTRL + O", hl.dsp.exec_cmd("hyprnome --move"))
+        hl.bind("SUPER + CTRL + I", hl.dsp.exec_cmd("hyprnome --previous --move"))
 
-        bind = SUPER, left, movefocus, l
-        bind = SUPER, right, movefocus, r
-        bind = SUPER, up, movefocus, u
-        bind = SUPER, down, movefocus, d
+        hl.bind("SUPER + left", hl.dsp.focus({ direction = "l" }))
+        hl.bind("SUPER + right", hl.dsp.focus({ direction = "r" }))
+        hl.bind("SUPER + up", hl.dsp.focus({ direction = "u" }))
+        hl.bind("SUPER + down", hl.dsp.focus({ direction = "d" }))
 
-        bindm = SUPER, mouse:272, movewindow
-        bindc = SUPER, mouse:273, togglefloating
-        bindm = SUPER, mouse:273, resizewindow
+        hl.bind("SUPER + mouse:272", hl.dsp.window.drag(), { mouse = true })
+        hl.bind("SUPER + mouse:273", hl.dsp.window.float({ action = "toggle" }), { click = true })
+        hl.bind("SUPER + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
-        bind = SUPER_Control, down, resizeactive, 0 50
-        bind = SUPER_Control, right, resizeactive,  50 0
-        bind = SUPER_Control, up, resizeactive, 0  -50
-        bind = SUPER_Control, left, resizeactive,  -50 0
+        hl.bind("SUPER + CTRL + down", hl.dsp.window.resize({ x = 0, y = 50, relative = true }))
+        hl.bind("SUPER + CTRL + right", hl.dsp.window.resize({ x = 50, y = 0, relative = true }))
+        hl.bind("SUPER + CTRL + up", hl.dsp.window.resize({ x = 0, y = -50, relative = true }))
+        hl.bind("SUPER + CTRL + left", hl.dsp.window.resize({ x = -50, y = 0, relative = true }))
 
-        bind = SUPER_Control_Shift, down, swapwindow, l
-        bind = SUPER_Control_Shift, up, swapwindow, r
-        bind = SUPER, J, layoutmsg, togglesplit
+        hl.bind("SUPER + CTRL + SHIFT + down", hl.dsp.window.swap({ direction = "l" }))
+        hl.bind("SUPER + CTRL + SHIFT + up", hl.dsp.window.swap({ direction = "r" }))
+        hl.bind("SUPER + J", hl.dsp.layout("togglesplit"))
       '';
     };
   };
