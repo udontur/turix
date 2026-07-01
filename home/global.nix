@@ -23,10 +23,5 @@
 
     # Hyprland
     ./hyprland/hyprland.nix
-    ./hyprland/modules/hyprwm.nix
-    ./hyprland/modules/keybinds.nix
-    ./hyprland/modules/system.nix
-    ./hyprland/modules/others.nix
-    # uni: ./hyprland/spec/: laptop or workstation
   ];
 }

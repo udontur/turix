@@ -3,9 +3,6 @@
 {
   imports = [
     ./global.nix
-
-    # Hyprland
-    ./hyprland/spec/workstation.nix
   ];
 
   # The forbidden corner
