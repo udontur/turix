@@ -33,6 +33,12 @@
     };
   };
 
+  environment.loginShellInit = ''
+    if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
+      exec start-hyprland
+    fi
+  '';
+
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
@@ -77,7 +83,7 @@
     # };
   };
 
-  services.getty.autologinUser="udontur";
+  services.getty.autologinUser = "udontur";
 
   # Disable the power button because my friends keeps turning it off lol
   services.logind.settings.Login = {
