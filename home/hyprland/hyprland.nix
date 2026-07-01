@@ -98,7 +98,7 @@
       -- Window rules
       hl.window_rule({ match = { class = "org.gnome.Nautilus" }, opacity = "0.8" })
       hl.window_rule({ match = { class = "dev.zed.Zed" }, opacity = "0.9" })
-      hl.window_rule({ match = { class = "vicinae" }, opacity = "0.9" })
+      hl.window_rule({ match = { class = "^vicinae$" }, opacity = "0.9" })
 
       -- Per-device input
       hl.device({ name = "rapoo-rapoo-composite-device", sensitivity = -0.7 })
