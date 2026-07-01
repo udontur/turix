@@ -77,7 +77,6 @@
           force_zero_scaling = true,
         },
         dwindle = {
-          pseudotile = true,
           preserve_split = true,
         },
         misc = {
