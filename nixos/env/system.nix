@@ -23,8 +23,18 @@
   # Stylix
   stylix = {
     enable = true;
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/ayu-dark.yaml";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/adwaita.yaml";
+    polarity = "dark";
+    targets.gtk.enable = true;
     fonts = {
+      sansSerif = {
+        package = pkgs.inter;
+        name = "Inter";
+      };
+      serif = {
+        package = pkgs.inter;
+        name = "Inter";
+      };
       monospace = {
         package = pkgs.jetbrains-mono;
         name = "JetBrains Mono";
