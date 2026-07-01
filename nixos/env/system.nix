@@ -23,7 +23,7 @@
   # Stylix
   stylix = {
     enable = true;
-    base16Scheme = "${pkgs.base16-schemes}/share/themes/adwaita.yaml";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/onedark.yaml";
     polarity = "dark";
     targets.gtk.enable = true;
     fonts = {
