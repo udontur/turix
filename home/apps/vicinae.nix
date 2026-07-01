@@ -7,10 +7,17 @@
   ...
 }:
 {
+  #  `services.vicinae.systemd.environment' `programs.vicinae.systemd.environment'.
+  #  `services.vicinae.systemd.autoStart' `programs.vicinae.systemd.autoStart'.
+  #  `services.vicinae.systemd.enable' `programs.vicinae.systemd.enable'.
+  #  `services.vicinae.settings' `programs.vicinae.settings'.
+  #  `services.vicinae.themes' `programs.vicinae.themes'.
+  #  `services.vicinae.extensions' `programs.vicinae.extensions'.
+  #  `services.vicinae.enable' `programs.vicinae.enable'.
   imports = [
     inputs.vicinae.homeManagerModules.default
   ];
-  services.vicinae = {
+  program.vicinae = {
     enable = true;
     systemd = {
       enable = true;
@@ -31,19 +38,6 @@
           family = "Inter";
         };
       };
-      # theme = {
-      #   light = {
-      #     name = "vicinae-light";
-      #     icon_theme = "default";
-      #   };
-      #   dark = {
-      #     name = "vicinae-dark";
-      #     icon_theme = "default";
-      #   };
-      # };
-      # launcher_window = {
-      #   opacity = 0.8;
-      # };
     };
     extensions = with inputs.vicinae-extensions.packages.${pkgs.stdenv.hostPlatform.system}; [
       # bluetooth # it's broken
