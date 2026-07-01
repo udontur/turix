@@ -62,11 +62,11 @@
 
   # XServer
   services.xserver = {
-    enable = true;
-    xkb = {
-      layout = "us";
-      variant = "";
-    };
+    enable = false;
+    # xkb = {
+    #   layout = "us";
+    #   variant = "";
+    # };
   };
 
   # Time and Language

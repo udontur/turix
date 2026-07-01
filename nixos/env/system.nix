@@ -68,14 +68,16 @@
   # GDM
   services.displayManager = {
     gdm = {
-      enable = true;
+      enable = false;
       # wayland = true;
     };
-    autoLogin = {
-      enable = true;
-      user = "udontur";
-    };
+    # autoLogin = {
+    #   enable = true;
+    #   user = "udontur";
+    # };
   };
+
+  services.getty.autologinUser="udontur";
 
   # Disable the power button because my friends keeps turning it off lol
   services.logind.settings.Login = {
