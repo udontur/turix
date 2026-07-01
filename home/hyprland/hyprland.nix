@@ -110,7 +110,7 @@
       hl.bind("SUPER + L", hl.dsp.exec_cmd("hyprlock"))
       hl.bind("SUPER + TAB", hl.dsp.exec_cmd("dms ipc call hypr toggleOverview"))
       hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd("vicinae toggle"), { release = true })
-      hl.bind("SUPER + D", hl.dsp.exec_cmd("dms ipc call clipboard toggle"), { release = true })
+      hl.bind("SUPER + D", hl.dsp.exec_cmd("dms ipc call clipboard toggle"))
 
       -- Keybinds: media controls
       hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("dms ipc call audio increment 1"), { locked = true })
