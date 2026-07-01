@@ -5,7 +5,7 @@ nix flake update <NAME>
 
 ### Garbage collection
 ```bash
-nh clean all
+nh clean all --keep 3
 ```
 
 ## Nix store optimization

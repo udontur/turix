@@ -4,56 +4,17 @@
   # Remove default close button
   dconf.settings."org/gnome/desktop/wm/preferences".button-layout = "";
 
-  # make system darkmode
-  # dconf.settings = {
-  #   "org/gnome/desktop/interface" = {
-  #     color-scheme = "prefer-dark";
-  #   };
-  # };
-
   gtk = {
     enable = true;
     cursorTheme = {
       name = "Bibata-Modern-Ice";
       size = 25;
     };
-    # font = {
-    #   name = "Inter";
-    #   package = pkgs.inter;
-    # };
-    # theme = {
-    #   name = "Adwaita-dark";
-    #   package = pkgs.gnome-themes-extra;
-    # };
-    # gtk3.extraConfig = {
-    #   Settings = ''
-    #     gtk-application-prefer-dark-theme=1
-    #   '';
-    # };
-    # gtk4.extraConfig = {
-    #   Settings = ''
-    #     gtk-application-prefer-dark-theme=1
-    #     gtk-cursor-theme-name = "Bibata Modern Ice"
-    #   '';
-    # };
     gtk4.extraConfig = {
       Settings = ''
         gtk-cursor-theme-name = "Bibata Modern Ice"
       '';
     };
   };
-
-  # qt = {
-  #   enable = true;
-  #   style.name = "adwaita-dark";
-  # };
-  # xdg.configFile = {
-  #   "gtk-4.0/assets".source =
-  #     "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/assets";
-  #   "gtk-4.0/gtk.css".source =
-  #     "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk.css";
-  #   "gtk-4.0/gtk-dark.css".source =
-  #     "${config.gtk.theme.package}/share/themes/${config.gtk.theme.name}/gtk-4.0/gtk-dark.css";
-  # };
 
 }

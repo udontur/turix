@@ -47,13 +47,7 @@
   };
 
   # XServer
-  services.xserver = {
-    enable = false;
-    # xkb = {
-    #   layout = "us";
-    #   variant = "";
-    # };
-  };
+  services.xserver.enable = false;
 
   # Time and Language
   time.timeZone = "Asia/Hong_Kong";
