@@ -17,7 +17,7 @@
     # Apps
     obsidian
     proton-vpn
-    inputs.helium.packages.${system}.default
+    inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
     obs-studio
     zoom-us
     slack

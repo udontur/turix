@@ -7,13 +7,6 @@
   ...
 }:
 {
-  #  `services.vicinae.systemd.environment' `programs.vicinae.systemd.environment'.
-  #  `services.vicinae.systemd.autoStart' `programs.vicinae.systemd.autoStart'.
-  #  `services.vicinae.systemd.enable' `programs.vicinae.systemd.enable'.
-  #  `services.vicinae.settings' `programs.vicinae.settings'.
-  #  `services.vicinae.themes' `programs.vicinae.themes'.
-  #  `services.vicinae.extensions' `programs.vicinae.extensions'.
-  #  `services.vicinae.enable' `programs.vicinae.enable'.
   imports = [
     inputs.vicinae.homeManagerModules.default
   ];

@@ -20,7 +20,7 @@
   # session hook (hyprland-session.target) is added automatically.
   wayland.windowManager.hyprland = {
     enable = true;
-    package = inputs.hyprland.packages.${pkgs.system}.hyprland;
+    package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
     configType = "lua";
     extraConfig = ''
       -- Monitors
