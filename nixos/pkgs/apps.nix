@@ -12,21 +12,18 @@
     kitty
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.beta
     nautilus
-    obsidian
+    zed-editor
 
     # Apps
-    zed-editor
-    gnome-calculator
-    papers
-    foliate
-    hieroglyphic
-    slack
+    obsidian
     proton-vpn
     inputs.helium.packages.${system}.default
     obs-studio
     zoom-us
+    slack
     vesktop
-    loupe
+    easyeffects
+    resources
 
     # Terminal apps
     fastfetch
@@ -34,7 +31,25 @@
     btop-rocm
     yazi
     gdu
-    # inputs.umpire.packages.${pkgs.stdenv.hostPlatform.system}.default
-    # inputs.osc.packages.${pkgs.stdenv.hostPlatform.system}.default
+    bootiso # sudo bootiso -d /dev/sda Zorin-OS-18-Core-64-bit-r3.iso
+    ffmpeg
+
+    # Utility
+    hyprpicker
+    yt-dlp
+    git
+    bat
+    upower
+    loupe
+    papers
+    tree
+    fd
+
+    # Nix
+    nix-init
+    nixpkgs-hammering
+    nixpkgs-fmt
+    nixfmt
+    nixfmt-tree
   ];
 }

@@ -15,7 +15,6 @@
     gtk2
     gtk3
     gtk4
-    texliveFull
     pkgs.sleek-grub-theme
 
     # Also need to put the fonts here

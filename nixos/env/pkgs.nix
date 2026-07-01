@@ -14,9 +14,8 @@
 
   ];
 
-  imports = [ inputs.dms.nixosModules.dank-material-shell ];
-
   # Dank Material Shell
+  imports = [ inputs.dms.nixosModules.dank-material-shell ];
   programs.dms-shell = {
     enable = true;
     package = inputs.dms.packages.${pkgs.stdenv.hostPlatform.system}.default;
@@ -45,6 +44,7 @@
     openFirewall = true;
   };
 
+  # CUPS Printer
   services.printing = {
     enable = true;
     drivers = with pkgs; [
@@ -55,6 +55,7 @@
 
   # Nix Helper
   programs.nh.enable = true;
+  programs.nh.flake = "/home/udontur/turix";
 
   # ZSH
   programs.zsh.enable = true;

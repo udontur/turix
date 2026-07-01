@@ -97,7 +97,7 @@
 
       -- Window rules
       hl.window_rule({ match = { class = "org.gnome.Nautilus" }, opacity = "0.8" })
-      hl.window_rule({ match = { class = "code" }, opacity = "0.9" })
+      hl.window_rule({ match = { class = "dev.zed.Zed" }, opacity = "0.9" })
 
       -- Per-device input
       hl.device({ name = "rapoo-rapoo-composite-device", sensitivity = -0.7 })
@@ -122,11 +122,9 @@
       -- Keybinds: apps
       hl.bind("SUPER + Q", hl.dsp.exec_cmd("kitty"))
       hl.bind("SUPER + E", hl.dsp.exec_cmd("nautilus"))
-      hl.bind("SUPER + SHIFT + E", hl.dsp.exec_cmd("easyeffects"))
       hl.bind("SUPER + F", hl.dsp.exec_cmd("zen-beta"))
       hl.bind("SUPER + V", hl.dsp.exec_cmd("zeditor"))
       hl.bind("SUPER + B", hl.dsp.exec_cmd("kitty btop"))
-      hl.bind("SUPER + Z", hl.dsp.exec_cmd("zoom"))
       hl.bind("SUPER + S", hl.dsp.exec_cmd("dms screenshot"))
       hl.bind("SUPER + C", hl.dsp.exec_cmd("hyprpicker -a -f hex"))
 
@@ -158,7 +156,6 @@
       hl.on("hyprland.start", function()
         hl.exec_cmd("hyprctl setcursor Bibata-Modern-Ice 25")
         hl.exec_cmd("bash -c \"wl-paste --watch cliphist store &\"")
-        hl.exec_cmd("nohup easyeffects --gapplication-service")
         hl.exec_cmd("zen-beta")
       end)
     '';

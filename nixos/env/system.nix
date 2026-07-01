@@ -7,6 +7,9 @@
 }:
 
 {
+  # Linux kernel version
+  boot.kernelPackages = pkgs.linuxPackages_6_18;
+
   # Fix bluetooth instability
   boot.extraModprobeConfig = ''
     options iwlwifi bt_coex_active=0
@@ -17,6 +20,7 @@
     options iwlmvm power_scheme=1
   '';
 
+  # Stylix
   stylix = {
     enable = true;
     base16Scheme = "${pkgs.base16-schemes}/share/themes/ayu-dark.yaml";
@@ -33,12 +37,15 @@
     };
   };
 
+  # Auto login and Startup
+  services.getty.autologinUser = "udontur";
   environment.loginShellInit = ''
     if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
       exec start-hyprland
     fi
   '';
 
+  # Fix bluetooth
   hardware.bluetooth = {
     enable = true;
     powerOnBoot = true;
@@ -54,36 +61,12 @@
     };
   };
 
-  # Grub theme
-  # boot.loader.grub = {
-  #   theme = (
-  #     pkgs.sleek-grub-theme.override {
-  #       withBanner = "Grub Bootloader";
-  #       withStyle = "dark";
-  #     }
-  #   );
-  # };
-
   # Storage cleaner
   programs.nh = {
     clean.enable = true;
     clean.extraArgs = "--keep 3";
   };
   nix.settings.auto-optimise-store = true;
-
-  # GDM
-  services.displayManager = {
-    gdm = {
-      enable = false;
-      # wayland = true;
-    };
-    # autoLogin = {
-    #   enable = true;
-    #   user = "udontur";
-    # };
-  };
-
-  services.getty.autologinUser = "udontur";
 
   # Disable the power button because my friends keeps turning it off lol
   services.logind.settings.Login = {

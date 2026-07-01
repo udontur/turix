@@ -12,6 +12,10 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    helium = {
+      url = "github:schembriaiden/helium-browser-nix-flake";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
 
     # Env
     hyprland = {
@@ -22,23 +26,18 @@
       url = "github:AvengeMedia/DankMaterialShell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    dms-plugin-registry = {
-      url = "github:AvengeMedia/dms-plugin-registry";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    vicinae.url = "github:vicinaehq/vicinae";
-    vicinae-extensions = {
-      url = "github:vicinaehq/extensions";
+    stylix = {
+      url = "github:nix-community/stylix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
     # Apps
     zen-browser.url = "github:0xc000022070/zen-browser-flake";
-    # osc.url = "github:udontur/osc";
-    # umpire.url = "github:udontur/umpire";
-    # leetcode.url = "github:udontur/leetcode-desktop";
-    # figma.url = "github:udontur/figma-desktop";
-    # fix-python.url = "github:GuillaumeDesforges/fix-python";
+    vicinae.url = "github:vicinaehq/vicinae";
+    vicinae-extensions = {
+      url = "github:vicinaehq/extensions";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -47,6 +46,8 @@
       nixpkgs,
       home-manager,
       hyprland,
+      vicinae,
+      stylix,
       ...
     }@inputs:
     let
@@ -55,20 +56,26 @@
     in
     {
       nixosConfigurations = {
-        laptop = nixpkgs.lib.nixosSystem {
+        workstation = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
-            ../../nixos/laptop.nix
+            ./nixos/main.nix
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
               home-manager.extraSpecialArgs = { inherit inputs; };
               home-manager.backupFileExtension = "backup";
-              home-manager.users.udontur = import ../../home/laptop.nix;
+              home-manager.users.udontur = import ./home/main.nix;
             }
+            stylix.nixosModules.stylix
           ];
         };
+      };
+      homeConfigurations."..." = home-manager.lib.homeManagerConfiguration {
+        modules = [
+          vicinae.homeManagerModules.default
+        ];
       };
     };
 }
