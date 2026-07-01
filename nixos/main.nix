@@ -11,10 +11,7 @@
     inputs.home-manager.nixosModules.home-manager
     ../hardware-configuration.nix
 
-    #./pkgs/spec
     ./pkgs/resource.nix
-    ./pkgs/code.nix
-    ./pkgs/utils.nix
     ./pkgs/apps.nix
 
     ./env/pkgs.nix
