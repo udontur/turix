@@ -56,7 +56,7 @@
     in
     {
       nixosConfigurations = {
-        workstation = nixpkgs.lib.nixosSystem {
+        main = nixpkgs.lib.nixosSystem {
           specialArgs = { inherit inputs; };
           modules = [
             ./nixos/main.nix
