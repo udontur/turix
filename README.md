@@ -1,2 +1,2 @@
-# ❄️ Turix 🐢
-My NixOS dotfiles.
+# ❄️ Turix
+My NixOS dotfiles
